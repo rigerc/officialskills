@@ -1,0 +1,2752 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-23T16:53:15Z",
+    "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
+    "total_skills": 168,
+    "total_publishers": 1,
+    "total_categories": 7,
+    "total_official": 0,
+    "total_community": 168
+  },
+  "publishers": [
+    {
+      "name": "Community",
+      "type": "community",
+      "skills_count": 168,
+      "skills": [
+        {
+          "section": "Marketing",
+          "skills_count": 14,
+          "skills": [
+            {
+              "id": "AgriciDaniel/claude-seo",
+              "name": "claude-seo",
+              "url": "https://github.com/AgriciDaniel/claude-seo",
+              "description": "Universal SEO skill for comprehensive website analysis and optimization",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "blader/humanizer",
+              "name": "humanizer",
+              "url": "https://github.com/blader/humanizer",
+              "description": "Remove signs of AI-generated writing from text, making it sound more natural and human",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "BrianRWagner/ai-marketing-skills",
+              "name": "ai-marketing-skills",
+              "url": "https://github.com/BrianRWagner/ai-marketing-skills",
+              "description": "17 marketing frameworks for cold outreach, homepage audit, social cards, and more",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "CosmoBlk/email-marketing-bible",
+              "name": "email-marketing-bible",
+              "url": "https://github.com/CosmoBlk/email-marketing-bible",
+              "description": "55K-word email marketing guide as an AI skill",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "degausai/wonda",
+              "name": "wonda",
+              "url": "https://github.com/degausai/wonda",
+              "description": "AI content creation: images, video, music, audio, editing, publishing",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "Eronred/aso-skills",
+              "name": "aso-skills",
+              "url": "https://github.com/Eronred/aso-skills",
+              "description": "30+ App Store Optimization skills for keyword research, metadata optimization, competitor analysis, creative optimization, and mobile growth strategies via Appeeky API",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "gitroomhq/postiz-agent",
+              "name": "postiz-agent",
+              "url": "https://github.com/gitroomhq/postiz-agent",
+              "description": "Schedule social media posts across 28+ platforms programmatically",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "MohamedAbdallah-14/unslop",
+              "name": "unslop",
+              "url": "https://github.com/MohamedAbdallah-14/unslop",
+              "description": "Removes named AI writing tells (tricolons, em-dash pileups, hedging stacks, sycophancy openers, stock vocab like \"delve\"/\"crucial\"). Split lint/rewrite modes for auditing your own text without auto-rewriting. Five intensity levels, MIT",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "SHADOWPR0/beautiful_prose",
+              "name": "beautiful_prose",
+              "url": "https://github.com/SHADOWPR0/beautiful_prose",
+              "description": "Hard-edged writing style contract for timeless, forceful English prose without AI tics",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "smixs/creative-director-skill",
+              "name": "creative-director-skill",
+              "url": "https://github.com/smixs/creative-director-skill",
+              "description": "AI creative director with recursive self-assessment: 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD/HumanKind, 5-phase process from brief to presentation",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "voidborne-d/humanize-chinese",
+              "name": "humanize-chinese",
+              "url": "https://github.com/voidborne-d/humanize-chinese",
+              "description": "Detect and rewrite AI-generated Chinese text; rule-ensemble scoring, 7 style transforms, academic AIGC reduction",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "wshuyi/x-article-publisher-skill",
+              "name": "x-article-publisher-skill",
+              "url": "https://github.com/wshuyi/x-article-publisher-skill",
+              "description": "Publish articles to X/Twitter",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "Xquik-dev/tweetclaw",
+              "name": "tweetclaw",
+              "url": "https://github.com/Xquik-dev/tweetclaw",
+              "description": "Post tweets, replies, DMs; search, monitor, run giveaways",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "Xquik-dev/x-twitter-scraper",
+              "name": "x-twitter-scraper",
+              "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+              "description": "Tweet search, profile tweets, follower export, media, posting, replies, MCP",
+              "publisher": "Community",
+              "section": "Marketing"
+            }
+          ]
+        },
+        {
+          "section": "Specialized Domains",
+          "skills_count": 29,
+          "skills": [
+            {
+              "id": "aklofas/kicad-happy",
+              "name": "kicad-happy",
+              "url": "https://github.com/aklofas/kicad-happy",
+              "description": "AI-powered KiCad electronics design review and analysis",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "BehiSecc/vibesec",
+              "name": "vibesec",
+              "url": "https://github.com/BehiSecc/VibeSec-Skill",
+              "description": "Helps write secure code by preventing common vulnerabilities including IDOR, XSS, SQL injection, SSRF, and weak authentication, approaching code from a bug hunter's perspective",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "bitwize-music-studio/claude-ai-music-skills",
+              "name": "claude-ai-music-skills",
+              "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+              "description": "Full-lifecycle AI music album production",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "frmoretto/clarity-gate",
+              "name": "clarity-gate",
+              "url": "https://github.com/frmoretto/clarity-gate",
+              "description": "Epistemic quality verification for RAG systems",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "helius-labs/helius-skills",
+              "name": "helius-skills",
+              "url": "https://github.com/helius-labs/core-ai/tree/main/helius-skills",
+              "description": "Ship Solana apps end-to-end; transaction sending, asset queries, real-time streaming, token swaps, prediction markets, browser wallets, and deep research into protocol internals all powered by Helius APIs, DFlow trading, and Phantom wallet integrations",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+              "name": "honeydew-ai-coding-agents-plugins",
+              "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
+              "description": "11 skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery: model exploration, entity/relation/attribute/metric/context/domain creation, validation, query, filtering, and workspace branching",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "huifer/Claude-Ally-Health",
+              "name": "Claude-Ally-Health",
+              "url": "https://github.com/huifer/Claude-Ally-Health",
+              "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "jeffersonwarrior/claudisms",
+              "name": "claudisms",
+              "url": "https://github.com/jeffersonwarrior/claudisms",
+              "description": "SMS messaging integration",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "K-Dense-AI/claude-scientific-skills",
+              "name": "claude-scientific-skills",
+              "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+              "description": "Scientific research and analysis skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "komal-SkyNET/claude-skill-homeassistant",
+              "name": "claude-skill-homeassistant",
+              "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+              "description": "Supercharge and manage Home Assistant workflows",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "lawvable/awesome-legal-skills",
+              "name": "awesome-legal-skills",
+              "url": "https://github.com/lawvable/awesome-legal-skills",
+              "description": "Curated agent skills for automating legal workflows",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "materials-simulation-skills",
+              "name": "materials-simulation-skills",
+              "url": "https://github.com/HeshamFS/materials-simulation-skills",
+              "description": "Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, mesh generation, simulation validation, parameter optimization, and post-processing",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "meodai/skill.color-expert",
+              "name": "skill.color-expert",
+              "url": "https://github.com/meodai/skill.color-expert",
+              "description": "Color science expert skill with 286K words of reference material covering OKLCH/OKLAB, palette generation, accessibility/contrast, color naming, pigment mixing, and historical color theory",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "more-io/apple-bridges",
+              "name": "apple-bridges",
+              "url": "https://github.com/more-io/claude-apple-bridges",
+              "description": "Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "NotMyself/claude-win11-speckit-update-skill",
+              "name": "claude-win11-speckit-update-skill",
+              "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
+              "description": "Windows 11 system management",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "obra/defense-in-depth",
+              "name": "defense-in-depth",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
+              "description": "Multi-layered security approaches",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Orchestra-Research/AI-research-SKILLs",
+              "name": "AI-research-SKILLs",
+              "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
+              "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "peas/genealogy-research",
+              "name": "genealogy-research",
+              "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
+              "description": "Genealogy research agent with OCR, FamilySearch, YAML data, and human-in-the-loop",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "prompt-security/clawsec",
+              "name": "clawsec",
+              "url": "https://github.com/prompt-security/clawsec",
+              "description": "Security skill suite with drift detection, automated audits, and skill integrity verification",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "raintree-technology/apple-hig-skills",
+              "name": "apple-hig-skills",
+              "url": "https://github.com/raintree-technology/apple-hig-skills",
+              "description": "Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "sanjay3290/imagen",
+              "name": "imagen",
+              "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
+              "description": "Generate images using Google Gemini's API",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "SHADOWPR0/security-bluebook-builder",
+              "name": "security-bluebook-builder",
+              "url": "https://github.com/SHADOWPR0/security-bluebook-builder",
+              "description": "Build security Blue Books for sensitive apps",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "takechanman1228/claude-ecom",
+              "name": "claude-ecom",
+              "url": "https://github.com/takechanman1228/claude-ecom",
+              "description": "Ecommerce CSV to business review with KPI decomposition",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "talkstream/ru-text",
+              "name": "ru-text",
+              "url": "https://github.com/talkstream/ru-text",
+              "description": "Russian text quality: ~1,040 rules for typography, info-style, editorial, UX writing, business correspondence. Cross-platform: Claude Code, Codex CLI, Gemini CLI, Cursor.",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "transloadit/skills",
+              "name": "skills",
+              "url": "https://github.com/transloadit/skills/tree/main/skills",
+              "description": "Transloadit skill collection (6)",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "video-db/skills",
+              "name": "skills",
+              "url": "https://github.com/video-db/skills",
+              "description": "Realtime and batch video workflows: capture screen/audio, ingest URLs/YouTube/RTSP, transcribe, index, search, generate subtitles, edit timelines, and stream HLS output",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
+              "name": "Auto-claude-code-research-in-sleep",
+              "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+              "description": "Autonomous ML research with cross-model review loops and GPU deployment",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "zechenzhangAGI/AI-research-SKILLs",
+              "name": "AI-research-SKILLs",
+              "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
+              "description": "77 AI research skills for model training, inference, and MLOps",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "zw008/VMware-AIops",
+              "name": "VMware-AIops",
+              "url": "https://github.com/zw008/VMware-AIops",
+              "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            }
+          ]
+        },
+        {
+          "section": "Development and Testing",
+          "skills_count": 74,
+          "skills": [
+            {
+              "id": "alinaqi/claude-bootstrap",
+              "name": "claude-bootstrap",
+              "url": "https://github.com/alinaqi/claude-bootstrap",
+              "description": "Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI tool orchestration (gh, vercel, supabase)",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "antonbabenko/terraform-skill",
+              "name": "terraform-skill",
+              "url": "https://github.com/antonbabenko/terraform-skill",
+              "description": "Terraform and OpenTofu patterns: testing, modules, state, CI/CD.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "AvdLee/swiftui-expert-skill",
+              "name": "swiftui-expert-skill",
+              "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
+              "description": "Modern SwiftUI best practices and iOS 26+ Liquid Glass adoption",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "CloudAI-X/threejs-skills",
+              "name": "threejs-skills",
+              "url": "https://github.com/CloudAI-X/threejs-skills",
+              "description": "Three.js skills for creating 3D elements and interactive experiences",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "coderabbitai/skills",
+              "name": "skills",
+              "url": "https://github.com/coderabbitai/skills",
+              "description": "Code review and PR autofix workflows for coding agents",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "conorluddy/ios-simulator-skill",
+              "name": "ios-simulator-skill",
+              "url": "https://github.com/conorluddy/ios-simulator-skill",
+              "description": "Control iOS Simulator",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "efremidze/swift-patterns-skill",
+              "name": "swift-patterns-skill",
+              "url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
+              "description": "Modern Swift/SwiftUI best practices",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "ehmo/platform-design-skills",
+              "name": "platform-design-skills",
+              "url": "https://github.com/ehmo/platform-design-skills",
+              "description": "300+ design rules from Apple HIG, Material Design 3, and WCAG 2.2 for cross-platform apps",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "ethos-link/rails-conventions",
+              "name": "rails-conventions",
+              "url": "https://github.com/ethos-link/rails-conventions",
+              "description": "Rails 8 conventions for consistent production code changes",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "foryourhealth111-pixel/Vibe-Skills",
+              "name": "Vibe-Skills",
+              "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+              "description": "A skills governed plug-and-play harness for staged, test-driven skill orchestration",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "fvadicamo/dev-agent-skills",
+              "name": "dev-agent-skills",
+              "url": "https://github.com/fvadicamo/dev-agent-skills",
+              "description": "Git and GitHub workflow skills for commits, PRs, and code reviews",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hamelsmu/build-review-interface",
+              "name": "build-review-interface",
+              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/build-review-interface",
+              "description": "Build annotation interfaces for reviewing LLM traces",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hamelsmu/error-analysis",
+              "name": "error-analysis",
+              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/error-analysis",
+              "description": "Systematically identify failure modes in LLM pipelines",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hamelsmu/eval-audit",
+              "name": "eval-audit",
+              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/eval-audit",
+              "description": "Audit LLM eval pipelines and surface problems",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hamelsmu/evaluate-rag",
+              "name": "evaluate-rag",
+              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
+              "description": "Evaluate RAG retrieval and generation quality",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hamelsmu/generate-synthetic-data",
+              "name": "generate-synthetic-data",
+              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
+              "description": "Create diverse synthetic test inputs for LLM evals",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hamelsmu/validate-evaluator",
+              "name": "validate-evaluator",
+              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
+              "description": "Calibrate LLM judges against human labels",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hamelsmu/write-judge-prompt",
+              "name": "write-judge-prompt",
+              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/write-judge-prompt",
+              "description": "Design LLM-as-Judge evaluators for subjective criteria",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hqhq1025/skill-optimizer",
+              "name": "skill-optimizer",
+              "url": "https://github.com/hqhq1025/skill-optimizer",
+              "description": "Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static analysis. Works with Claude Code, Codex, and any Agent Skills-compatible agent",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "ibelick/ui-skills",
+              "name": "ui-skills",
+              "url": "https://github.com/ibelick/ui-skills",
+              "description": "Opinionated, evolving constraints to guide agents when building interfaces",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Joannis/claude-skills",
+              "name": "claude-skills",
+              "url": "https://github.com/Joannis/claude-skills",
+              "description": "Swift Server development guidance with linting tool for best practices",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "jthack/ffuf-claude-skill",
+              "name": "ffuf-claude-skill",
+              "url": "https://github.com/jthack/ffuf_claude_skill",
+              "description": "Web fuzzing with ffuf",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Kevin7Qi/codex-collab",
+              "name": "codex-collab",
+              "url": "https://github.com/Kevin7Qi/codex-collab",
+              "description": "Collaborate with Codex from Claude Code",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "lackeyjb/playwright-skill",
+              "name": "playwright-skill",
+              "url": "https://github.com/lackeyjb/playwright-skill",
+              "description": "Browser automation with Playwright",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "LambdaTest/agent-skills",
+              "name": "agent-skills",
+              "url": "https://github.com/LambdaTest/agent-skills",
+              "description": "TestMu AI (Formerly LambdaTest) Skills is a curated collection of Agent Skills that teach AI coding assistants how to write production-grade test automation.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Leonxlnx/taste-skill",
+              "name": "taste-skill",
+              "url": "https://github.com/Leonxlnx/taste-skill",
+              "description": "High-agency frontend skill that gives AI good taste with tunable design variance, motion intensity, and visual density to stop generic UI slop",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Lum1104/understand-anything",
+              "name": "understand-anything",
+              "url": "https://github.com/Lum1104/Understand-Anything",
+              "description": "Interactive codebase knowledge graphs via multi-agent LLM analysis",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "massimodeluisa/recursive-decomposition-skill",
+              "name": "recursive-decomposition-skill",
+              "url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
+              "description": "Handle long-context tasks (100+ files, 50k+ tokens) through recursive decomposition strategies based on RLM research",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "mattpocock/skills",
+              "name": "skills",
+              "url": "https://github.com/mattpocock/skills",
+              "description": "17 dev workflow skills: PRD writing, TDD, codebase architecture, git guardrails, issue triage, refactoring plans, and more",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "mcollina/skills",
+              "name": "skills",
+              "url": "https://github.com/mcollina/skills/tree/main/skills",
+              "description": "11 skills by Matteo Collina: Node.js, Fastify, TypeScript, OAuth, Git/GitHub, ESLint neostandard, documentation (Diataxis), Node.js core internals, skill optimizer, and more",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "metalbear-co/skills",
+              "name": "skills",
+              "url": "https://github.com/metalbear-co/skills",
+              "description": "Skills that let agents code and test against your Kubernetes cluster using mirrord",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "mukul975/Anthropic-Cybersecurity-Skills",
+              "name": "Anthropic-Cybersecurity-Skills",
+              "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+              "description": "753 cybersecurity skills across 38 domains: cloud security, pentesting, red teaming, DFIR, malware analysis, threat intel, and more (MITRE ATT&CK mapped)",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "muthuishere/hand-drawn-diagrams",
+              "name": "hand-drawn-diagrams",
+              "url": "https://github.com/muthuishere/hand-drawn-diagrams",
+              "description": "Generate hand-drawn Excalidraw diagrams from a prompt — animated SVG, hosted edit link, and PNG export. Works with Claude Code, Codex, Gemini CLI, and any agent supporting standard skill paths",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NeoLabHQ/code-review",
+              "name": "code-review",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/code-review",
+              "description": "Comprehensive PR code review using specialized agents: bug-hunter, security-auditor, code-quality-reviewer, contracts-reviewer, historical-context-reviewer, test-coverage-reviewer",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NeoLabHQ/ddd",
+              "name": "ddd",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd",
+              "description": "Domain-driven development skills that also include Clean Architecture, SOLID principles, and design patterns.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NeoLabHQ/kaizen",
+              "name": "kaizen",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen",
+              "description": "Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NeoLabHQ/reflexion",
+              "name": "reflexion",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/reflexion",
+              "description": "Self-refinement loop that forces the LLM to reflect on previous output and correct itself.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NeoLabHQ/sadd",
+              "name": "sadd",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd",
+              "description": "Dispatches independent subagents for individual tasks with code review checkpoints between iterations for rapid, controlled development.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NeoLabHQ/sdd",
+              "name": "sdd",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sdd",
+              "description": "Spec-driven development workflow that transforms prompts into production-ready implementations through structured planning, architecture design, and LLM-as-a-Judge based quality gates.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "nextlevelbuilder/ui-ux-pro-max-skill",
+              "name": "ui-ux-pro-max-skill",
+              "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+              "description": "UI/UX design patterns and best practices",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NoizAI/skills",
+              "name": "skills",
+              "url": "https://github.com/NoizAI/skills",
+              "description": "Human-like TTS workflows with local/cloud APIs and app delivery",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/commands",
+              "name": "commands",
+              "url": "https://github.com/obra/superpowers/tree/main/skills/commands",
+              "description": "Create and manage command structures",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/condition-based-waiting",
+              "name": "condition-based-waiting",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/condition-based-waiting/SKILL.md",
+              "description": "Manage conditional pauses or delays",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/finishing-a-development-branch",
+              "name": "finishing-a-development-branch",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md",
+              "description": "Complete Git code branches",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/receiving-code-review",
+              "name": "receiving-code-review",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md",
+              "description": "Process and incorporate code feedback",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/requesting-code-review",
+              "name": "requesting-code-review",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md",
+              "description": "Initiate code review processes",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/root-cause-tracing",
+              "name": "root-cause-tracing",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/root-cause-tracing/SKILL.md",
+              "description": "Investigate and identify fundamental problems",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/subagent-driven-development",
+              "name": "subagent-driven-development",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
+              "description": "Development using multiple sub-agents",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/systematic-debugging",
+              "name": "systematic-debugging",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md",
+              "description": "Methodical problem-solving in code",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/test-driven-development",
+              "name": "test-driven-development",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
+              "description": "Write tests before implementing code",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/testing-anti-patterns",
+              "name": "testing-anti-patterns",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/testing-anti-patterns/SKILL.md",
+              "description": "Identify ineffective testing practices",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/testing-skills-with-subagents",
+              "name": "testing-skills-with-subagents",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/testing-skills-with-subagents/SKILL.md",
+              "description": "Collaborative testing approaches",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/using-git-worktrees",
+              "name": "using-git-worktrees",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md",
+              "description": "Manage multiple Git working trees",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/verification-before-completion",
+              "name": "verification-before-completion",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md",
+              "description": "Validate work before finalizing",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "obra/writing-skills",
+              "name": "writing-skills",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md",
+              "description": "Develop and document capabilities",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "omkamal/pypict-skill",
+              "name": "pypict-skill",
+              "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
+              "description": "Pairwise test generation",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "rameerez/claude-code-startup-skills",
+              "name": "claude-code-startup-skills",
+              "url": "https://github.com/rameerez/claude-code-startup-skills",
+              "description": "Skills for building and running software startups, apps, and SaaS",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "ramzesenok/iOS-Accessibility-Audit-Skill",
+              "name": "iOS-Accessibility-Audit-Skill",
+              "url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
+              "description": "Audit iOS App against Accessibility norms",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "robzolkos/skill-rails-upgrade",
+              "name": "skill-rails-upgrade",
+              "url": "https://github.com/robzolkos/skill-rails-upgrade",
+              "description": "Analyze Rails apps and provide upgrade assessments",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Rootly-AI-Labs/rootly-incident-responder",
+              "name": "rootly-incident-responder",
+              "url": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server/blob/main/examples/skills/rootly-incident-responder.md",
+              "description": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "rudrankriyam/app-store-connect-cli-skills",
+              "name": "app-store-connect-cli-skills",
+              "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
+              "description": "Automate App Store deployments and management using ASC CLI",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "sanjay3290/deep-research",
+              "name": "deep-research",
+              "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
+              "description": "Autonomous multi-step research using Gemini Deep Research Agent",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "sanjay3290/postgres",
+              "name": "postgres",
+              "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
+              "description": "Execute safe read-only SQL queries against PostgreSQL databases",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "scarletkc/vexor",
+              "name": "vexor",
+              "url": "https://github.com/scarletkc/vexor",
+              "description": "Vector-powered CLI for semantic file search with a Claude/Codex skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Shpigford/screenshots",
+              "name": "screenshots",
+              "url": "https://github.com/Shpigford/skills/tree/main/screenshots",
+              "description": "Generate marketing screenshots with Playwright",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "ShunsukeHayashi/agent-skill-bus",
+              "name": "agent-skill-bus",
+              "url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
+              "description": "Self-improving task orchestration for AI agent systems",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Skill_Seekers",
+              "name": "Skill_Seekers",
+              "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+              "description": "Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "testdino-hq/playwright-skill",
+              "name": "playwright-skill",
+              "url": "https://github.com/testdino-hq/playwright-skill",
+              "description": "70+ production-tested Playwright automation testing patterns: E2E, POM, CI/CD, migrations, CLI",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "truongduy2611/app-store-preflight-skills",
+              "name": "app-store-preflight-skills",
+              "url": "https://github.com/truongduy2611/app-store-preflight-skills",
+              "description": "Scan iOS/macOS projects to catch common mistakes that lead to App Store rejection before submission",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "uucz/moyu",
+              "name": "moyu",
+              "url": "https://github.com/uucz/moyu",
+              "description": "Anti-over-engineering skill with 5 variants and 10 platforms",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "wrsmith108/varlock-claude-skill",
+              "name": "varlock-claude-skill",
+              "url": "https://github.com/wrsmith108/varlock-claude-skill",
+              "description": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "ZhangHanDong/makepad-skills",
+              "name": "makepad-skills",
+              "url": "https://github.com/ZhangHanDong/makepad-skills",
+              "description": "Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "zscole/model-hierarchy-skill",
+              "name": "model-hierarchy-skill",
+              "url": "https://github.com/zscole/model-hierarchy-skill",
+              "description": "Cost-optimized model routing based on task complexity",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "zxkane/aws-skills",
+              "name": "aws-skills",
+              "url": "https://github.com/zxkane/aws-skills",
+              "description": "AWS development with infrastructure automation and cloud architecture patterns",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            }
+          ]
+        },
+        {
+          "section": "Context Engineering",
+          "skills_count": 11,
+          "skills": [
+            {
+              "id": "awrshift/claude-memory-kit",
+              "name": "claude-memory-kit",
+              "url": "https://github.com/awrshift/claude-memory-kit",
+              "description": "Persistent memory with hooks, wiki, and daily synthesis for multi-project workflows",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "k-kolomeitsev/data-structure-protocol",
+              "name": "data-structure-protocol",
+              "url": "https://github.com/k-kolomeitsev/data-structure-protocol",
+              "description": "Graph-based long-term memory skill for AI (LLM) coding agents — faster context, fewer tokens, safer refactors",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/context-compression",
+              "name": "context-compression",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression",
+              "description": "Design and evaluate compression strategies for long-running sessions",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/context-degradation",
+              "name": "context-degradation",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation",
+              "description": "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/context-fundamentals",
+              "name": "context-fundamentals",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals",
+              "description": "Understand what context is, why it matters, and the anatomy of context in agent systems",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/context-optimization",
+              "name": "context-optimization",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-optimization",
+              "description": "Apply compaction, masking, and caching strategies",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/evaluation",
+              "name": "evaluation",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation",
+              "description": "Build evaluation frameworks for agent systems",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/memory-systems",
+              "name": "memory-systems",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems",
+              "description": "Design short-term, long-term, and graph-based memory architectures",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/multi-agent-patterns",
+              "name": "multi-agent-patterns",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns",
+              "description": "Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "muratcankoylan/tool-design",
+              "name": "tool-design",
+              "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design",
+              "description": "Build tools that agents can use effectively, including architectural reduction patterns",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "NeoLabHQ/prompt-engineering",
+              "name": "prompt-engineering",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
+              "description": "Widely used prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles.",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            }
+          ]
+        },
+        {
+          "section": "Productivity and Collaboration",
+          "skills_count": 32,
+          "skills": [
+            {
+              "id": "Charlie85270/Dorothy",
+              "name": "Dorothy",
+              "url": "https://github.com/Charlie85270/Dorothy",
+              "description": "Orchestrate multiple AI CLI agents with automations and MCP servers",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "deusyu/translate-book",
+              "name": "translate-book",
+              "url": "https://github.com/deusyu/translate-book",
+              "description": "Translate books (PDF/DOCX/EPUB) via parallel sub-agents with resume",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Digidai/product-manager-skills",
+              "name": "product-manager-skills",
+              "url": "https://github.com/Digidai/product-manager-skills",
+              "description": "Senior PM agent with 30+ frameworks and SaaS metrics",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "EveryInc/charlie-cfo-skill",
+              "name": "charlie-cfo-skill",
+              "url": "https://github.com/EveryInc/charlie-cfo-skill",
+              "description": "Bootstrapped CFO financial management inspired by Charlie Munger",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "gokapso/automate-whatsapp",
+              "name": "automate-whatsapp",
+              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp",
+              "description": "Build WhatsApp automations with workflows and agents",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "gokapso/integrate-whatsapp",
+              "name": "integrate-whatsapp",
+              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp",
+              "description": "Connect WhatsApp, set up webhooks, and send messages",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "gokapso/observe-whatsapp",
+              "name": "observe-whatsapp",
+              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp",
+              "description": "Debug WhatsApp delivery issues and run health checks",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "hanfang/claude-memory-skill",
+              "name": "claude-memory-skill",
+              "url": "https://github.com/hanfang/claude-memory-skill",
+              "description": "Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "kreuzberg-dev/kreuzberg",
+              "name": "kreuzberg",
+              "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
+              "description": "Extract text, tables, and metadata from 62+ document formats",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "mvanhorn/last30days-skill",
+              "name": "last30days-skill",
+              "url": "https://github.com/mvanhorn/last30days-skill",
+              "description": "Research any topic across Reddit, X, YouTube, HN, Polymarket, and the web, ranked by upvotes, likes, and real money instead of editors",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "NeoLabHQ/write-concisely",
+              "name": "write-concisely",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
+              "description": "Applies the famous *The Elements of Style* book principles to make documentation and writing clearer and more professional by eliminating wordiness and improving structure.",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "notiondevs/Notion Skills for Claude",
+              "name": "Notion Skills for Claude",
+              "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
+              "description": "Skills for working with Notion",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/brainstorming",
+              "name": "brainstorming",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
+              "description": "Generate and explore ideas",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/dispatching-parallel-agents",
+              "name": "dispatching-parallel-agents",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
+              "description": "Coordinate multiple simultaneous agents",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/executing-plans",
+              "name": "executing-plans",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
+              "description": "Implement and run strategic plans",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/sharing-skills",
+              "name": "sharing-skills",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/sharing-skills/SKILL.md",
+              "description": "Distribute and communicate capabilities",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/superpowers-lab",
+              "name": "superpowers-lab",
+              "url": "https://github.com/obra/superpowers-lab",
+              "description": "Lab environment for Claude superpowers",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/using-superpowers",
+              "name": "using-superpowers",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
+              "description": "Leverage core platform capabilities",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/writing-plans",
+              "name": "writing-plans",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
+              "description": "Create strategic documentation",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "ognjengt/founder-skills",
+              "name": "founder-skills",
+              "url": "https://github.com/ognjengt/founder-skills",
+              "description": "Claude skills for founders with packaged startup workflows",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "op7418/NanoBanana-PPT-Skills",
+              "name": "NanoBanana-PPT-Skills",
+              "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
+              "description": "AI-powered PPT generation with document analysis and styled images",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "op7418/Youtube-clipper-skill",
+              "name": "Youtube-clipper-skill",
+              "url": "https://github.com/op7418/Youtube-clipper-skill",
+              "description": "YouTube clip generation and editing with automated workflows",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "openaccountants/openaccountants",
+              "name": "openaccountants",
+              "url": "https://github.com/openaccountants/openaccountants",
+              "description": "371 tax classification skills across 134 countries",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Paramchoudhary/ResumeSkills",
+              "name": "ResumeSkills",
+              "url": "https://github.com/Paramchoudhary/ResumeSkills",
+              "description": "20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "PleasePrompto/notebooklm-skill",
+              "name": "notebooklm-skill",
+              "url": "https://github.com/PleasePrompto/notebooklm-skill",
+              "description": "Interact with NotebookLM for document-based conversations",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "PSPDFKit-labs/nutrient-agent-skill",
+              "name": "nutrient-agent-skill",
+              "url": "https://github.com/PSPDFKit-labs/nutrient-agent-skill",
+              "description": "Document processing with Nutrient DWS API: convert (PDF/DOCX/XLSX/PPTX/HTML/images), extract text/tables, OCR (20+ languages), redact PII (pattern + AI), watermark, digital signatures, form filling. [MCP server](https://www.npmjs.com/package/@nutrient-sdk/dws-mcp-server) also available.",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "ReScienceLab/opc-skills",
+              "name": "opc-skills",
+              "url": "https://github.com/ReScienceLab/opc-skills",
+              "description": "Agent skills for solopreneurs with SEO, geo, and LLM tools",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "RoundTable02/tutor-skills",
+              "name": "tutor-skills",
+              "url": "https://github.com/RoundTable02/tutor-skills",
+              "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "SeanZoR/claude-speed-reader",
+              "name": "claude-speed-reader",
+              "url": "https://github.com/SeanZoR/claude-speed-reader",
+              "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Shpigford/readme",
+              "name": "readme",
+              "url": "https://github.com/Shpigford/skills/tree/main/readme",
+              "description": "Generate comprehensive project documentation",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "wrsmith108/linear-claude-skill",
+              "name": "linear-claude-skill",
+              "url": "https://github.com/wrsmith108/linear-claude-skill",
+              "description": "Manage Linear issues, projects, and teams",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "zarazhangrui/frontend-slides",
+              "name": "frontend-slides",
+              "url": "https://github.com/zarazhangrui/frontend-slides",
+              "description": "Generate animation-rich HTML presentations with visual style previews",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            }
+          ]
+        },
+        {
+          "section": "n8n Automation",
+          "skills_count": 7,
+          "skills": [
+            {
+              "id": "czlonkowski/n8n-code-javascript",
+              "name": "n8n-code-javascript",
+              "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-javascript",
+              "description": "JavaScript in n8n Code nodes with data access patterns",
+              "publisher": "Community",
+              "section": "n8n Automation"
+            },
+            {
+              "id": "czlonkowski/n8n-code-python",
+              "name": "n8n-code-python",
+              "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-python",
+              "description": "Python coding in n8n Code nodes with limitations",
+              "publisher": "Community",
+              "section": "n8n Automation"
+            },
+            {
+              "id": "czlonkowski/n8n-expression-syntax",
+              "name": "n8n-expression-syntax",
+              "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-expression-syntax",
+              "description": "n8n expression syntax with {{}} and $json/$node variables",
+              "publisher": "Community",
+              "section": "n8n Automation"
+            },
+            {
+              "id": "czlonkowski/n8n-mcp-tools-expert",
+              "name": "n8n-mcp-tools-expert",
+              "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-mcp-tools-expert",
+              "description": "MCP tools guide with tool selection and node formats",
+              "publisher": "Community",
+              "section": "n8n Automation"
+            },
+            {
+              "id": "czlonkowski/n8n-node-configuration",
+              "name": "n8n-node-configuration",
+              "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-node-configuration",
+              "description": "Node configuration with dependency rules and AI connections",
+              "publisher": "Community",
+              "section": "n8n Automation"
+            },
+            {
+              "id": "czlonkowski/n8n-validation-expert",
+              "name": "n8n-validation-expert",
+              "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-validation-expert",
+              "description": "Fix n8n validation errors with error catalog",
+              "publisher": "Community",
+              "section": "n8n Automation"
+            },
+            {
+              "id": "czlonkowski/n8n-workflow-patterns",
+              "name": "n8n-workflow-patterns",
+              "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-workflow-patterns",
+              "description": "Workflow patterns for webhook, HTTP, database, and AI tasks",
+              "publisher": "Community",
+              "section": "n8n Automation"
+            }
+          ]
+        },
+        {
+          "section": "Vector Databases",
+          "skills_count": 1,
+          "skills": [
+            {
+              "id": "qdrant/skills",
+              "name": "skills",
+              "url": "https://github.com/qdrant/skills",
+              "description": "Agent skills for Qdrant vector search, covering scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, and Java",
+              "publisher": "Community",
+              "section": "Vector Databases"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "AgriciDaniel/claude-seo",
+      "name": "claude-seo",
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "description": "Universal SEO skill for comprehensive website analysis and optimization",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "aklofas/kicad-happy",
+      "name": "kicad-happy",
+      "url": "https://github.com/aklofas/kicad-happy",
+      "description": "AI-powered KiCad electronics design review and analysis",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "alinaqi/claude-bootstrap",
+      "name": "claude-bootstrap",
+      "url": "https://github.com/alinaqi/claude-bootstrap",
+      "description": "Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI tool orchestration (gh, vercel, supabase)",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "antonbabenko/terraform-skill",
+      "name": "terraform-skill",
+      "url": "https://github.com/antonbabenko/terraform-skill",
+      "description": "Terraform and OpenTofu patterns: testing, modules, state, CI/CD.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "AvdLee/swiftui-expert-skill",
+      "name": "swiftui-expert-skill",
+      "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
+      "description": "Modern SwiftUI best practices and iOS 26+ Liquid Glass adoption",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "awrshift/claude-memory-kit",
+      "name": "claude-memory-kit",
+      "url": "https://github.com/awrshift/claude-memory-kit",
+      "description": "Persistent memory with hooks, wiki, and daily synthesis for multi-project workflows",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "BehiSecc/vibesec",
+      "name": "vibesec",
+      "url": "https://github.com/BehiSecc/VibeSec-Skill",
+      "description": "Helps write secure code by preventing common vulnerabilities including IDOR, XSS, SQL injection, SSRF, and weak authentication, approaching code from a bug hunter's perspective",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "bitwize-music-studio/claude-ai-music-skills",
+      "name": "claude-ai-music-skills",
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+      "description": "Full-lifecycle AI music album production",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "blader/humanizer",
+      "name": "humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Remove signs of AI-generated writing from text, making it sound more natural and human",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "BrianRWagner/ai-marketing-skills",
+      "name": "ai-marketing-skills",
+      "url": "https://github.com/BrianRWagner/ai-marketing-skills",
+      "description": "17 marketing frameworks for cold outreach, homepage audit, social cards, and more",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "Charlie85270/Dorothy",
+      "name": "Dorothy",
+      "url": "https://github.com/Charlie85270/Dorothy",
+      "description": "Orchestrate multiple AI CLI agents with automations and MCP servers",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "CloudAI-X/threejs-skills",
+      "name": "threejs-skills",
+      "url": "https://github.com/CloudAI-X/threejs-skills",
+      "description": "Three.js skills for creating 3D elements and interactive experiences",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "coderabbitai/skills",
+      "name": "skills",
+      "url": "https://github.com/coderabbitai/skills",
+      "description": "Code review and PR autofix workflows for coding agents",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "conorluddy/ios-simulator-skill",
+      "name": "ios-simulator-skill",
+      "url": "https://github.com/conorluddy/ios-simulator-skill",
+      "description": "Control iOS Simulator",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "CosmoBlk/email-marketing-bible",
+      "name": "email-marketing-bible",
+      "url": "https://github.com/CosmoBlk/email-marketing-bible",
+      "description": "55K-word email marketing guide as an AI skill",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "czlonkowski/n8n-code-javascript",
+      "name": "n8n-code-javascript",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-javascript",
+      "description": "JavaScript in n8n Code nodes with data access patterns",
+      "publisher": "Community",
+      "section": "n8n Automation"
+    },
+    {
+      "id": "czlonkowski/n8n-code-python",
+      "name": "n8n-code-python",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-python",
+      "description": "Python coding in n8n Code nodes with limitations",
+      "publisher": "Community",
+      "section": "n8n Automation"
+    },
+    {
+      "id": "czlonkowski/n8n-expression-syntax",
+      "name": "n8n-expression-syntax",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-expression-syntax",
+      "description": "n8n expression syntax with {{}} and $json/$node variables",
+      "publisher": "Community",
+      "section": "n8n Automation"
+    },
+    {
+      "id": "czlonkowski/n8n-mcp-tools-expert",
+      "name": "n8n-mcp-tools-expert",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-mcp-tools-expert",
+      "description": "MCP tools guide with tool selection and node formats",
+      "publisher": "Community",
+      "section": "n8n Automation"
+    },
+    {
+      "id": "czlonkowski/n8n-node-configuration",
+      "name": "n8n-node-configuration",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-node-configuration",
+      "description": "Node configuration with dependency rules and AI connections",
+      "publisher": "Community",
+      "section": "n8n Automation"
+    },
+    {
+      "id": "czlonkowski/n8n-validation-expert",
+      "name": "n8n-validation-expert",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-validation-expert",
+      "description": "Fix n8n validation errors with error catalog",
+      "publisher": "Community",
+      "section": "n8n Automation"
+    },
+    {
+      "id": "czlonkowski/n8n-workflow-patterns",
+      "name": "n8n-workflow-patterns",
+      "url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-workflow-patterns",
+      "description": "Workflow patterns for webhook, HTTP, database, and AI tasks",
+      "publisher": "Community",
+      "section": "n8n Automation"
+    },
+    {
+      "id": "degausai/wonda",
+      "name": "wonda",
+      "url": "https://github.com/degausai/wonda",
+      "description": "AI content creation: images, video, music, audio, editing, publishing",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "deusyu/translate-book",
+      "name": "translate-book",
+      "url": "https://github.com/deusyu/translate-book",
+      "description": "Translate books (PDF/DOCX/EPUB) via parallel sub-agents with resume",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "Digidai/product-manager-skills",
+      "name": "product-manager-skills",
+      "url": "https://github.com/Digidai/product-manager-skills",
+      "description": "Senior PM agent with 30+ frameworks and SaaS metrics",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "efremidze/swift-patterns-skill",
+      "name": "swift-patterns-skill",
+      "url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
+      "description": "Modern Swift/SwiftUI best practices",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "ehmo/platform-design-skills",
+      "name": "platform-design-skills",
+      "url": "https://github.com/ehmo/platform-design-skills",
+      "description": "300+ design rules from Apple HIG, Material Design 3, and WCAG 2.2 for cross-platform apps",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "Eronred/aso-skills",
+      "name": "aso-skills",
+      "url": "https://github.com/Eronred/aso-skills",
+      "description": "30+ App Store Optimization skills for keyword research, metadata optimization, competitor analysis, creative optimization, and mobile growth strategies via Appeeky API",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "ethos-link/rails-conventions",
+      "name": "rails-conventions",
+      "url": "https://github.com/ethos-link/rails-conventions",
+      "description": "Rails 8 conventions for consistent production code changes",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "EveryInc/charlie-cfo-skill",
+      "name": "charlie-cfo-skill",
+      "url": "https://github.com/EveryInc/charlie-cfo-skill",
+      "description": "Bootstrapped CFO financial management inspired by Charlie Munger",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "foryourhealth111-pixel/Vibe-Skills",
+      "name": "Vibe-Skills",
+      "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+      "description": "A skills governed plug-and-play harness for staged, test-driven skill orchestration",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "frmoretto/clarity-gate",
+      "name": "clarity-gate",
+      "url": "https://github.com/frmoretto/clarity-gate",
+      "description": "Epistemic quality verification for RAG systems",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "fvadicamo/dev-agent-skills",
+      "name": "dev-agent-skills",
+      "url": "https://github.com/fvadicamo/dev-agent-skills",
+      "description": "Git and GitHub workflow skills for commits, PRs, and code reviews",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "gitroomhq/postiz-agent",
+      "name": "postiz-agent",
+      "url": "https://github.com/gitroomhq/postiz-agent",
+      "description": "Schedule social media posts across 28+ platforms programmatically",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "gokapso/automate-whatsapp",
+      "name": "automate-whatsapp",
+      "url": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp",
+      "description": "Build WhatsApp automations with workflows and agents",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "gokapso/integrate-whatsapp",
+      "name": "integrate-whatsapp",
+      "url": "https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp",
+      "description": "Connect WhatsApp, set up webhooks, and send messages",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "gokapso/observe-whatsapp",
+      "name": "observe-whatsapp",
+      "url": "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp",
+      "description": "Debug WhatsApp delivery issues and run health checks",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "hamelsmu/build-review-interface",
+      "name": "build-review-interface",
+      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/build-review-interface",
+      "description": "Build annotation interfaces for reviewing LLM traces",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "hamelsmu/error-analysis",
+      "name": "error-analysis",
+      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/error-analysis",
+      "description": "Systematically identify failure modes in LLM pipelines",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "hamelsmu/eval-audit",
+      "name": "eval-audit",
+      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/eval-audit",
+      "description": "Audit LLM eval pipelines and surface problems",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "hamelsmu/evaluate-rag",
+      "name": "evaluate-rag",
+      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
+      "description": "Evaluate RAG retrieval and generation quality",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "hamelsmu/generate-synthetic-data",
+      "name": "generate-synthetic-data",
+      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
+      "description": "Create diverse synthetic test inputs for LLM evals",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "hamelsmu/validate-evaluator",
+      "name": "validate-evaluator",
+      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
+      "description": "Calibrate LLM judges against human labels",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "hamelsmu/write-judge-prompt",
+      "name": "write-judge-prompt",
+      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/write-judge-prompt",
+      "description": "Design LLM-as-Judge evaluators for subjective criteria",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "hanfang/claude-memory-skill",
+      "name": "claude-memory-skill",
+      "url": "https://github.com/hanfang/claude-memory-skill",
+      "description": "Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "helius-labs/helius-skills",
+      "name": "helius-skills",
+      "url": "https://github.com/helius-labs/core-ai/tree/main/helius-skills",
+      "description": "Ship Solana apps end-to-end; transaction sending, asset queries, real-time streaming, token swaps, prediction markets, browser wallets, and deep research into protocol internals all powered by Helius APIs, DFlow trading, and Phantom wallet integrations",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+      "name": "honeydew-ai-coding-agents-plugins",
+      "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
+      "description": "11 skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery: model exploration, entity/relation/attribute/metric/context/domain creation, validation, query, filtering, and workspace branching",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "hqhq1025/skill-optimizer",
+      "name": "skill-optimizer",
+      "url": "https://github.com/hqhq1025/skill-optimizer",
+      "description": "Diagnose and optimize Agent Skills (SKILL.md) with real session data and research-backed static analysis. Works with Claude Code, Codex, and any Agent Skills-compatible agent",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "huifer/Claude-Ally-Health",
+      "name": "Claude-Ally-Health",
+      "url": "https://github.com/huifer/Claude-Ally-Health",
+      "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "ibelick/ui-skills",
+      "name": "ui-skills",
+      "url": "https://github.com/ibelick/ui-skills",
+      "description": "Opinionated, evolving constraints to guide agents when building interfaces",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "jeffersonwarrior/claudisms",
+      "name": "claudisms",
+      "url": "https://github.com/jeffersonwarrior/claudisms",
+      "description": "SMS messaging integration",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "Joannis/claude-skills",
+      "name": "claude-skills",
+      "url": "https://github.com/Joannis/claude-skills",
+      "description": "Swift Server development guidance with linting tool for best practices",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "jthack/ffuf-claude-skill",
+      "name": "ffuf-claude-skill",
+      "url": "https://github.com/jthack/ffuf_claude_skill",
+      "description": "Web fuzzing with ffuf",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "K-Dense-AI/claude-scientific-skills",
+      "name": "claude-scientific-skills",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "description": "Scientific research and analysis skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "k-kolomeitsev/data-structure-protocol",
+      "name": "data-structure-protocol",
+      "url": "https://github.com/k-kolomeitsev/data-structure-protocol",
+      "description": "Graph-based long-term memory skill for AI (LLM) coding agents — faster context, fewer tokens, safer refactors",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "Kevin7Qi/codex-collab",
+      "name": "codex-collab",
+      "url": "https://github.com/Kevin7Qi/codex-collab",
+      "description": "Collaborate with Codex from Claude Code",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "komal-SkyNET/claude-skill-homeassistant",
+      "name": "claude-skill-homeassistant",
+      "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+      "description": "Supercharge and manage Home Assistant workflows",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "kreuzberg-dev/kreuzberg",
+      "name": "kreuzberg",
+      "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
+      "description": "Extract text, tables, and metadata from 62+ document formats",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "lackeyjb/playwright-skill",
+      "name": "playwright-skill",
+      "url": "https://github.com/lackeyjb/playwright-skill",
+      "description": "Browser automation with Playwright",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "LambdaTest/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/LambdaTest/agent-skills",
+      "description": "TestMu AI (Formerly LambdaTest) Skills is a curated collection of Agent Skills that teach AI coding assistants how to write production-grade test automation.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "lawvable/awesome-legal-skills",
+      "name": "awesome-legal-skills",
+      "url": "https://github.com/lawvable/awesome-legal-skills",
+      "description": "Curated agent skills for automating legal workflows",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "Leonxlnx/taste-skill",
+      "name": "taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "High-agency frontend skill that gives AI good taste with tunable design variance, motion intensity, and visual density to stop generic UI slop",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "Lum1104/understand-anything",
+      "name": "understand-anything",
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Interactive codebase knowledge graphs via multi-agent LLM analysis",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "massimodeluisa/recursive-decomposition-skill",
+      "name": "recursive-decomposition-skill",
+      "url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
+      "description": "Handle long-context tasks (100+ files, 50k+ tokens) through recursive decomposition strategies based on RLM research",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "materials-simulation-skills",
+      "name": "materials-simulation-skills",
+      "url": "https://github.com/HeshamFS/materials-simulation-skills",
+      "description": "Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, mesh generation, simulation validation, parameter optimization, and post-processing",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "mattpocock/skills",
+      "name": "skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "17 dev workflow skills: PRD writing, TDD, codebase architecture, git guardrails, issue triage, refactoring plans, and more",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "mcollina/skills",
+      "name": "skills",
+      "url": "https://github.com/mcollina/skills/tree/main/skills",
+      "description": "11 skills by Matteo Collina: Node.js, Fastify, TypeScript, OAuth, Git/GitHub, ESLint neostandard, documentation (Diataxis), Node.js core internals, skill optimizer, and more",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "meodai/skill.color-expert",
+      "name": "skill.color-expert",
+      "url": "https://github.com/meodai/skill.color-expert",
+      "description": "Color science expert skill with 286K words of reference material covering OKLCH/OKLAB, palette generation, accessibility/contrast, color naming, pigment mixing, and historical color theory",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "metalbear-co/skills",
+      "name": "skills",
+      "url": "https://github.com/metalbear-co/skills",
+      "description": "Skills that let agents code and test against your Kubernetes cluster using mirrord",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "MohamedAbdallah-14/unslop",
+      "name": "unslop",
+      "url": "https://github.com/MohamedAbdallah-14/unslop",
+      "description": "Removes named AI writing tells (tricolons, em-dash pileups, hedging stacks, sycophancy openers, stock vocab like \"delve\"/\"crucial\"). Split lint/rewrite modes for auditing your own text without auto-rewriting. Five intensity levels, MIT",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "more-io/apple-bridges",
+      "name": "apple-bridges",
+      "url": "https://github.com/more-io/claude-apple-bridges",
+      "description": "Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "mukul975/Anthropic-Cybersecurity-Skills",
+      "name": "Anthropic-Cybersecurity-Skills",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "description": "753 cybersecurity skills across 38 domains: cloud security, pentesting, red teaming, DFIR, malware analysis, threat intel, and more (MITRE ATT&CK mapped)",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "muratcankoylan/context-compression",
+      "name": "context-compression",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression",
+      "description": "Design and evaluate compression strategies for long-running sessions",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muratcankoylan/context-degradation",
+      "name": "context-degradation",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-degradation",
+      "description": "Recognize patterns of context failure: lost-in-middle, poisoning, distraction, and clash",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muratcankoylan/context-fundamentals",
+      "name": "context-fundamentals",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-fundamentals",
+      "description": "Understand what context is, why it matters, and the anatomy of context in agent systems",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muratcankoylan/context-optimization",
+      "name": "context-optimization",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-optimization",
+      "description": "Apply compaction, masking, and caching strategies",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muratcankoylan/evaluation",
+      "name": "evaluation",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/evaluation",
+      "description": "Build evaluation frameworks for agent systems",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muratcankoylan/memory-systems",
+      "name": "memory-systems",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/memory-systems",
+      "description": "Design short-term, long-term, and graph-based memory architectures",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muratcankoylan/multi-agent-patterns",
+      "name": "multi-agent-patterns",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/multi-agent-patterns",
+      "description": "Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muratcankoylan/tool-design",
+      "name": "tool-design",
+      "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/tool-design",
+      "description": "Build tools that agents can use effectively, including architectural reduction patterns",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "muthuishere/hand-drawn-diagrams",
+      "name": "hand-drawn-diagrams",
+      "url": "https://github.com/muthuishere/hand-drawn-diagrams",
+      "description": "Generate hand-drawn Excalidraw diagrams from a prompt — animated SVG, hosted edit link, and PNG export. Works with Claude Code, Codex, Gemini CLI, and any agent supporting standard skill paths",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "mvanhorn/last30days-skill",
+      "name": "last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "Research any topic across Reddit, X, YouTube, HN, Polymarket, and the web, ranked by upvotes, likes, and real money instead of editors",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "NeoLabHQ/code-review",
+      "name": "code-review",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/code-review",
+      "description": "Comprehensive PR code review using specialized agents: bug-hunter, security-auditor, code-quality-reviewer, contracts-reviewer, historical-context-reviewer, test-coverage-reviewer",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NeoLabHQ/ddd",
+      "name": "ddd",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd",
+      "description": "Domain-driven development skills that also include Clean Architecture, SOLID principles, and design patterns.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NeoLabHQ/kaizen",
+      "name": "kaizen",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen",
+      "description": "Applies continuous improvement methodology with multiple analytical approaches, based on Japanese Kaizen philosophy and Lean methodology.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NeoLabHQ/prompt-engineering",
+      "name": "prompt-engineering",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
+      "description": "Widely used prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles.",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "NeoLabHQ/reflexion",
+      "name": "reflexion",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/reflexion",
+      "description": "Self-refinement loop that forces the LLM to reflect on previous output and correct itself.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NeoLabHQ/sadd",
+      "name": "sadd",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd",
+      "description": "Dispatches independent subagents for individual tasks with code review checkpoints between iterations for rapid, controlled development.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NeoLabHQ/sdd",
+      "name": "sdd",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sdd",
+      "description": "Spec-driven development workflow that transforms prompts into production-ready implementations through structured planning, architecture design, and LLM-as-a-Judge based quality gates.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NeoLabHQ/write-concisely",
+      "name": "write-concisely",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
+      "description": "Applies the famous *The Elements of Style* book principles to make documentation and writing clearer and more professional by eliminating wordiness and improving structure.",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "name": "ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "UI/UX design patterns and best practices",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NoizAI/skills",
+      "name": "skills",
+      "url": "https://github.com/NoizAI/skills",
+      "description": "Human-like TTS workflows with local/cloud APIs and app delivery",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "notiondevs/Notion Skills for Claude",
+      "name": "Notion Skills for Claude",
+      "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
+      "description": "Skills for working with Notion",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "NotMyself/claude-win11-speckit-update-skill",
+      "name": "claude-win11-speckit-update-skill",
+      "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
+      "description": "Windows 11 system management",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "obra/brainstorming",
+      "name": "brainstorming",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
+      "description": "Generate and explore ideas",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "obra/commands",
+      "name": "commands",
+      "url": "https://github.com/obra/superpowers/tree/main/skills/commands",
+      "description": "Create and manage command structures",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/condition-based-waiting",
+      "name": "condition-based-waiting",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/condition-based-waiting/SKILL.md",
+      "description": "Manage conditional pauses or delays",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/defense-in-depth",
+      "name": "defense-in-depth",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
+      "description": "Multi-layered security approaches",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "obra/dispatching-parallel-agents",
+      "name": "dispatching-parallel-agents",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
+      "description": "Coordinate multiple simultaneous agents",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "obra/executing-plans",
+      "name": "executing-plans",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
+      "description": "Implement and run strategic plans",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "obra/finishing-a-development-branch",
+      "name": "finishing-a-development-branch",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md",
+      "description": "Complete Git code branches",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/receiving-code-review",
+      "name": "receiving-code-review",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md",
+      "description": "Process and incorporate code feedback",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/requesting-code-review",
+      "name": "requesting-code-review",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md",
+      "description": "Initiate code review processes",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/root-cause-tracing",
+      "name": "root-cause-tracing",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/root-cause-tracing/SKILL.md",
+      "description": "Investigate and identify fundamental problems",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/sharing-skills",
+      "name": "sharing-skills",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/sharing-skills/SKILL.md",
+      "description": "Distribute and communicate capabilities",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "obra/subagent-driven-development",
+      "name": "subagent-driven-development",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
+      "description": "Development using multiple sub-agents",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/superpowers-lab",
+      "name": "superpowers-lab",
+      "url": "https://github.com/obra/superpowers-lab",
+      "description": "Lab environment for Claude superpowers",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "obra/systematic-debugging",
+      "name": "systematic-debugging",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md",
+      "description": "Methodical problem-solving in code",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/test-driven-development",
+      "name": "test-driven-development",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
+      "description": "Write tests before implementing code",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/testing-anti-patterns",
+      "name": "testing-anti-patterns",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/testing-anti-patterns/SKILL.md",
+      "description": "Identify ineffective testing practices",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/testing-skills-with-subagents",
+      "name": "testing-skills-with-subagents",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/testing-skills-with-subagents/SKILL.md",
+      "description": "Collaborative testing approaches",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/using-git-worktrees",
+      "name": "using-git-worktrees",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md",
+      "description": "Manage multiple Git working trees",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/using-superpowers",
+      "name": "using-superpowers",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
+      "description": "Leverage core platform capabilities",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "obra/verification-before-completion",
+      "name": "verification-before-completion",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md",
+      "description": "Validate work before finalizing",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "obra/writing-plans",
+      "name": "writing-plans",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
+      "description": "Create strategic documentation",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "obra/writing-skills",
+      "name": "writing-skills",
+      "url": "https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md",
+      "description": "Develop and document capabilities",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "ognjengt/founder-skills",
+      "name": "founder-skills",
+      "url": "https://github.com/ognjengt/founder-skills",
+      "description": "Claude skills for founders with packaged startup workflows",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "omkamal/pypict-skill",
+      "name": "pypict-skill",
+      "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
+      "description": "Pairwise test generation",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "op7418/NanoBanana-PPT-Skills",
+      "name": "NanoBanana-PPT-Skills",
+      "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
+      "description": "AI-powered PPT generation with document analysis and styled images",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "op7418/Youtube-clipper-skill",
+      "name": "Youtube-clipper-skill",
+      "url": "https://github.com/op7418/Youtube-clipper-skill",
+      "description": "YouTube clip generation and editing with automated workflows",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "openaccountants/openaccountants",
+      "name": "openaccountants",
+      "url": "https://github.com/openaccountants/openaccountants",
+      "description": "371 tax classification skills across 134 countries",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "Orchestra-Research/AI-research-SKILLs",
+      "name": "AI-research-SKILLs",
+      "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
+      "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "Paramchoudhary/ResumeSkills",
+      "name": "ResumeSkills",
+      "url": "https://github.com/Paramchoudhary/ResumeSkills",
+      "description": "20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "peas/genealogy-research",
+      "name": "genealogy-research",
+      "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
+      "description": "Genealogy research agent with OCR, FamilySearch, YAML data, and human-in-the-loop",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "PleasePrompto/notebooklm-skill",
+      "name": "notebooklm-skill",
+      "url": "https://github.com/PleasePrompto/notebooklm-skill",
+      "description": "Interact with NotebookLM for document-based conversations",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "prompt-security/clawsec",
+      "name": "clawsec",
+      "url": "https://github.com/prompt-security/clawsec",
+      "description": "Security skill suite with drift detection, automated audits, and skill integrity verification",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "PSPDFKit-labs/nutrient-agent-skill",
+      "name": "nutrient-agent-skill",
+      "url": "https://github.com/PSPDFKit-labs/nutrient-agent-skill",
+      "description": "Document processing with Nutrient DWS API: convert (PDF/DOCX/XLSX/PPTX/HTML/images), extract text/tables, OCR (20+ languages), redact PII (pattern + AI), watermark, digital signatures, form filling. [MCP server](https://www.npmjs.com/package/@nutrient-sdk/dws-mcp-server) also available.",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "qdrant/skills",
+      "name": "skills",
+      "url": "https://github.com/qdrant/skills",
+      "description": "Agent skills for Qdrant vector search, covering scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, and Java",
+      "publisher": "Community",
+      "section": "Vector Databases"
+    },
+    {
+      "id": "raintree-technology/apple-hig-skills",
+      "name": "apple-hig-skills",
+      "url": "https://github.com/raintree-technology/apple-hig-skills",
+      "description": "Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "rameerez/claude-code-startup-skills",
+      "name": "claude-code-startup-skills",
+      "url": "https://github.com/rameerez/claude-code-startup-skills",
+      "description": "Skills for building and running software startups, apps, and SaaS",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "ramzesenok/iOS-Accessibility-Audit-Skill",
+      "name": "iOS-Accessibility-Audit-Skill",
+      "url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
+      "description": "Audit iOS App against Accessibility norms",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "ReScienceLab/opc-skills",
+      "name": "opc-skills",
+      "url": "https://github.com/ReScienceLab/opc-skills",
+      "description": "Agent skills for solopreneurs with SEO, geo, and LLM tools",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "robzolkos/skill-rails-upgrade",
+      "name": "skill-rails-upgrade",
+      "url": "https://github.com/robzolkos/skill-rails-upgrade",
+      "description": "Analyze Rails apps and provide upgrade assessments",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "Rootly-AI-Labs/rootly-incident-responder",
+      "name": "rootly-incident-responder",
+      "url": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server/blob/main/examples/skills/rootly-incident-responder.md",
+      "description": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "RoundTable02/tutor-skills",
+      "name": "tutor-skills",
+      "url": "https://github.com/RoundTable02/tutor-skills",
+      "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "rudrankriyam/app-store-connect-cli-skills",
+      "name": "app-store-connect-cli-skills",
+      "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
+      "description": "Automate App Store deployments and management using ASC CLI",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "sanjay3290/deep-research",
+      "name": "deep-research",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
+      "description": "Autonomous multi-step research using Gemini Deep Research Agent",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "sanjay3290/imagen",
+      "name": "imagen",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
+      "description": "Generate images using Google Gemini's API",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "sanjay3290/postgres",
+      "name": "postgres",
+      "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
+      "description": "Execute safe read-only SQL queries against PostgreSQL databases",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "scarletkc/vexor",
+      "name": "vexor",
+      "url": "https://github.com/scarletkc/vexor",
+      "description": "Vector-powered CLI for semantic file search with a Claude/Codex skill",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "SeanZoR/claude-speed-reader",
+      "name": "claude-speed-reader",
+      "url": "https://github.com/SeanZoR/claude-speed-reader",
+      "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "SHADOWPR0/beautiful_prose",
+      "name": "beautiful_prose",
+      "url": "https://github.com/SHADOWPR0/beautiful_prose",
+      "description": "Hard-edged writing style contract for timeless, forceful English prose without AI tics",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "SHADOWPR0/security-bluebook-builder",
+      "name": "security-bluebook-builder",
+      "url": "https://github.com/SHADOWPR0/security-bluebook-builder",
+      "description": "Build security Blue Books for sensitive apps",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "Shpigford/readme",
+      "name": "readme",
+      "url": "https://github.com/Shpigford/skills/tree/main/readme",
+      "description": "Generate comprehensive project documentation",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "Shpigford/screenshots",
+      "name": "screenshots",
+      "url": "https://github.com/Shpigford/skills/tree/main/screenshots",
+      "description": "Generate marketing screenshots with Playwright",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "ShunsukeHayashi/agent-skill-bus",
+      "name": "agent-skill-bus",
+      "url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
+      "description": "Self-improving task orchestration for AI agent systems",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "Skill_Seekers",
+      "name": "Skill_Seekers",
+      "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+      "description": "Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "smixs/creative-director-skill",
+      "name": "creative-director-skill",
+      "url": "https://github.com/smixs/creative-director-skill",
+      "description": "AI creative director with recursive self-assessment: 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD/HumanKind, 5-phase process from brief to presentation",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "takechanman1228/claude-ecom",
+      "name": "claude-ecom",
+      "url": "https://github.com/takechanman1228/claude-ecom",
+      "description": "Ecommerce CSV to business review with KPI decomposition",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "talkstream/ru-text",
+      "name": "ru-text",
+      "url": "https://github.com/talkstream/ru-text",
+      "description": "Russian text quality: ~1,040 rules for typography, info-style, editorial, UX writing, business correspondence. Cross-platform: Claude Code, Codex CLI, Gemini CLI, Cursor.",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "testdino-hq/playwright-skill",
+      "name": "playwright-skill",
+      "url": "https://github.com/testdino-hq/playwright-skill",
+      "description": "70+ production-tested Playwright automation testing patterns: E2E, POM, CI/CD, migrations, CLI",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "transloadit/skills",
+      "name": "skills",
+      "url": "https://github.com/transloadit/skills/tree/main/skills",
+      "description": "Transloadit skill collection (6)",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "truongduy2611/app-store-preflight-skills",
+      "name": "app-store-preflight-skills",
+      "url": "https://github.com/truongduy2611/app-store-preflight-skills",
+      "description": "Scan iOS/macOS projects to catch common mistakes that lead to App Store rejection before submission",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "uucz/moyu",
+      "name": "moyu",
+      "url": "https://github.com/uucz/moyu",
+      "description": "Anti-over-engineering skill with 5 variants and 10 platforms",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "video-db/skills",
+      "name": "skills",
+      "url": "https://github.com/video-db/skills",
+      "description": "Realtime and batch video workflows: capture screen/audio, ingest URLs/YouTube/RTSP, transcribe, index, search, generate subtitles, edit timelines, and stream HLS output",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "voidborne-d/humanize-chinese",
+      "name": "humanize-chinese",
+      "url": "https://github.com/voidborne-d/humanize-chinese",
+      "description": "Detect and rewrite AI-generated Chinese text; rule-ensemble scoring, 7 style transforms, academic AIGC reduction",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "name": "Auto-claude-code-research-in-sleep",
+      "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+      "description": "Autonomous ML research with cross-model review loops and GPU deployment",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "wrsmith108/linear-claude-skill",
+      "name": "linear-claude-skill",
+      "url": "https://github.com/wrsmith108/linear-claude-skill",
+      "description": "Manage Linear issues, projects, and teams",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "wrsmith108/varlock-claude-skill",
+      "name": "varlock-claude-skill",
+      "url": "https://github.com/wrsmith108/varlock-claude-skill",
+      "description": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "wshuyi/x-article-publisher-skill",
+      "name": "x-article-publisher-skill",
+      "url": "https://github.com/wshuyi/x-article-publisher-skill",
+      "description": "Publish articles to X/Twitter",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "Xquik-dev/tweetclaw",
+      "name": "tweetclaw",
+      "url": "https://github.com/Xquik-dev/tweetclaw",
+      "description": "Post tweets, replies, DMs; search, monitor, run giveaways",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "Xquik-dev/x-twitter-scraper",
+      "name": "x-twitter-scraper",
+      "url": "https://github.com/Xquik-dev/x-twitter-scraper",
+      "description": "Tweet search, profile tweets, follower export, media, posting, replies, MCP",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "zarazhangrui/frontend-slides",
+      "name": "frontend-slides",
+      "url": "https://github.com/zarazhangrui/frontend-slides",
+      "description": "Generate animation-rich HTML presentations with visual style previews",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "zechenzhangAGI/AI-research-SKILLs",
+      "name": "AI-research-SKILLs",
+      "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
+      "description": "77 AI research skills for model training, inference, and MLOps",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "ZhangHanDong/makepad-skills",
+      "name": "makepad-skills",
+      "url": "https://github.com/ZhangHanDong/makepad-skills",
+      "description": "Makepad UI development skills for Rust apps: setup, patterns, shaders, packaging, and troubleshooting.",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "zscole/model-hierarchy-skill",
+      "name": "model-hierarchy-skill",
+      "url": "https://github.com/zscole/model-hierarchy-skill",
+      "description": "Cost-optimized model routing based on task complexity",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "zw008/VMware-AIops",
+      "name": "VMware-AIops",
+      "url": "https://github.com/zw008/VMware-AIops",
+      "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "zxkane/aws-skills",
+      "name": "aws-skills",
+      "url": "https://github.com/zxkane/aws-skills",
+      "description": "AWS development with infrastructure automation and cloud architecture patterns",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    }
+  ]
+}

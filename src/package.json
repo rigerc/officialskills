@@ -1,0 +1,15 @@
+{
+  "name": "awesome-skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx awesome-skills.ts",
+    "build": "npx tsx awesome-skills.ts",
+    "registry": "npx tsx awesome-skills.ts --save ../registry"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
