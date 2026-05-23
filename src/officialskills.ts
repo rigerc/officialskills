@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * awesome-skills — Parse awesome-agent-skills README into JSON
+ * officialskills — Parse awesome-agent-skills README into structured JSON
  *
  * TypeScript rewrite of the original bash/gawk/jq script
  * (example/awesome-skills.sh).
@@ -14,8 +14,8 @@
  *   - Single dependency runtime (Node.js) vs 3+ CLI tools
  *
  * Usage:
- *   npx tsx awesome-skills.ts               Output full JSON to stdout
- *   npx tsx awesome-skills.ts --save <dir>   Write official.json, community.json,
+ *   npx tsx officialskills.ts               Output full JSON to stdout
+ *   npx tsx officialskills.ts --save <dir>   Write official.json, community.json,
  *                                            and manifest.json into <dir>
  *
  * Also prints a summary table to stderr in all modes.
@@ -67,7 +67,7 @@ interface Output {
 // Imports & Constants
 // ============================================================
 
-import { mkdirSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const READONLY_URL =
@@ -82,6 +82,68 @@ function parseArgs(): { saveDir: string | null } {
 }
 
 const { saveDir } = parseArgs();
+
+// ============================================================
+// Cache helpers
+// ============================================================
+
+/** Resolved entry with staleness tracking */
+interface ResolvedEntry {
+  githubUrl: string;
+  resolvedAt: number; // Unix ms timestamp
+}
+
+interface Cache {
+  readmeEtag: string | null;
+  resolved: Record<string, ResolvedEntry>;
+}
+
+/** Re-crawl a URL if it hasn't been checked within this window (24 h) */
+const CACHE_TTL_MS = 86_400_000;
+
+/** Resolve cache file path: prefer --save dir, else cwd */
+function cachePath(): string {
+  return saveDir
+    ? join(saveDir, ".skills-cache.json")
+    : join(process.cwd(), ".skills-cache.json");
+}
+
+/** Migrate old-style cache (flat string map) to current format */
+function migrateEntry(entry: unknown): ResolvedEntry {
+  if (typeof entry === "string") {
+    return { githubUrl: entry, resolvedAt: 0 }; // stale — will be re-crawled
+  }
+  const e = entry as Partial<ResolvedEntry>;
+  return {
+    githubUrl: e.githubUrl ?? "",
+    resolvedAt: e.resolvedAt ?? 0,
+  };
+}
+
+function loadCache(): Cache {
+  try {
+    const path = cachePath();
+    if (!existsSync(path)) return { readmeEtag: null, resolved: {} };
+    const raw = JSON.parse(readFileSync(path, "utf-8"));
+    const resolved: Record<string, ResolvedEntry> = {};
+    for (const [id, entry] of Object.entries(raw.resolved ?? {})) {
+      resolved[id] = migrateEntry(entry);
+    }
+    return { readmeEtag: raw.readmeEtag ?? null, resolved };
+  } catch {
+    return { readmeEtag: null, resolved: {} };
+  }
+}
+
+function saveCache(cache: Cache): void {
+  try {
+    writeFileSync(cachePath(), JSON.stringify(cache, null, 2), "utf-8");
+  } catch {
+    // Non-fatal: cache is optional
+  }
+}
+
+// ============================================================
 
 const MICROSOFT_SUBSECTIONS = new Set([
   "Core Skills",
@@ -487,46 +549,104 @@ function repoFromUrl(url: string): string | null {
   return match?.[1] ?? null;
 }
 
-/**
- * Resolve all officialskills.sh URLs to their GitHub source URLs
- * by crawling the pages with controlled concurrency.
- */
-async function resolveSkillUrls(
-  skills: Skill[],
-  concurrency = 10,
-): Promise<Skill[]> {
-  const toResolve = skills.filter((s) => s.url.includes("officialskills.sh"));
-  if (toResolve.length === 0) return skills;
-
-  console.error(`  Resolving ${toResolve.length} GitHub URLs ...`);
-
+/** Crawl a batch of officialskills.sh URLs in parallel. */
+async function crawlBatch(
+  entries: { id: string; url: string }[],
+  cache: Cache,
+  concurrency: number,
+  label: string,
+): Promise<void> {
+  if (entries.length === 0) return;
+  console.error(`  ${label} ...`);
   let completed = 0;
-  const replacements = new Map<string, string>();
 
-  for (let i = 0; i < toResolve.length; i += concurrency) {
-    const chunk = toResolve.slice(i, i + concurrency);
+  for (let i = 0; i < entries.length; i += concurrency) {
+    const chunk = entries.slice(i, i + concurrency);
     const results = await Promise.all(
-      chunk.map(async (s) => ({
-        id: s.id,
-        url: (await resolveGithubUrl(s.url)) ?? s.url,
+      chunk.map(async ({ id, url }) => ({
+        id,
+        githubUrl: await resolveGithubUrl(url),
       })),
     );
     for (const r of results) {
-      replacements.set(r.id, r.url);
+      if (r.githubUrl) {
+        cache.resolved[r.id] = {
+          githubUrl: r.githubUrl,
+          resolvedAt: Date.now(),
+        };
+      }
     }
     completed += chunk.length;
-    console.error(`    ${completed}/${toResolve.length} resolved`);
+    console.error(`    ${completed}/${entries.length} ${label.toLowerCase()}`);
+  }
+}
+
+/**
+ * Find cache entries whose timestamp is older than TTL and re-crawl them.
+ * Can be called even on a 304 to catch URL changes on skill pages.
+ * Returns the number of entries that were re-checked.
+ */
+async function refreshStaleCache(cache: Cache, concurrency = 10): Promise<number> {
+  const now = Date.now();
+  const stale: { id: string; url: string }[] = [];
+
+  for (const [id, entry] of Object.entries(cache.resolved)) {
+    if (now - entry.resolvedAt > CACHE_TTL_MS) {
+      const [publisher] = id.split("/");
+      stale.push({
+        id,
+        url: `https://officialskills.sh/${publisher}/skills/${id.split("/").slice(1).join("/")}`,
+      });
+    }
   }
 
-  const updated = skills.map((s) => {
-    const newUrl = replacements.get(s.id);
-    return newUrl && newUrl !== s.url ? { ...s, url: newUrl, repo: repoFromUrl(newUrl) } : s;
-  });
+  if (stale.length > 0) {
+    await crawlBatch(stale, cache, concurrency, `Re-checking ${stale.length} stale GitHub URLs`);
+  }
+  return stale.length;
+}
 
-  const changed = updated.filter((s, i) => s.url !== skills[i].url).length;
-  console.error(`  Updated ${changed} URLs to GitHub source`);
+/**
+ * Resolve officialskills.sh URLs to GitHub source URLs.
+ * Uses the cache to skip already-resolved skills and re-crawls
+ * stale entries.
+ */
+async function resolveSkillUrls(
+  skills: Skill[],
+  cache: Cache,
+  concurrency = 10,
+): Promise<{ skills: Skill[]; cache: Cache }> {
+  // 1. Re-crawl stale cache entries
+  await refreshStaleCache(cache, concurrency);
 
-  return updated;
+  // 2. Find skills from the fresh README not yet in cache
+  const toResolve = skills.filter(
+    (s) => s.url.includes("officialskills.sh") && !cache.resolved[s.id],
+  );
+  if (toResolve.length > 0) {
+    await crawlBatch(
+      toResolve.map((s) => ({ id: s.id, url: s.url })),
+      cache,
+      concurrency,
+      `Crawling ${toResolve.length} new officialskills.sh URLs`,
+    );
+  }
+
+  // 3. Apply all cached URLs to the skills list
+  for (const s of skills) {
+    const entry = cache.resolved[s.id];
+    if (entry) {
+      s.url = entry.githubUrl;
+      s.repo = repoFromUrl(entry.githubUrl);
+    }
+  }
+
+  const resolvedCount = skills.filter(
+    (s) => !s.url.includes("officialskills.sh"),
+  ).length;
+  console.error(`  ${resolvedCount} skills have GitHub URLs`);
+
+  return { skills, cache };
 }
 
 // ============================================================
@@ -534,93 +654,114 @@ async function resolveSkillUrls(
 // ============================================================
 
 async function main(): Promise<void> {
-  console.error("Fetching README from awesome-agent-skills ...");
+  // ---- Load cache ----
+  const cache = loadCache();
 
-  const response = await fetch(READONLY_URL);
-  if (!response.ok) {
+  // ---- Fetch README with conditional request ----
+  console.error("Fetching README from awesome-agent-skills ...");
+  const headers: Record<string, string> = {};
+  if (cache.readmeEtag) headers["If-None-Match"] = cache.readmeEtag;
+
+  const response = await fetch(READONLY_URL, { headers });
+
+  if (response.status === 304) {
+    console.error("  README unchanged (304). Checking stale cache entries ...");
+    const refreshed = await refreshStaleCache(cache);
+    if (refreshed > 0) {
+      saveCache(cache);
+    }
+    console.error("  Done.");
+  } else if (!response.ok) {
     throw new Error(
       `Failed to fetch README: ${response.status} ${response.statusText}`,
     );
-  }
-
-  const readme = await response.text();
-
-  console.error("Parsing skills ...");
-  let skills = parseSkills(readme);
-  console.error(`  Extracted ${skills.length} skills`);
-
-  console.error("Resolving GitHub source URLs ...");
-  skills = await resolveSkillUrls(skills);
-
-  // Enrich repo field for all skills (already set for resolved ones)
-  skills = skills.map((s) => ({ ...s, repo: s.repo ?? repoFromUrl(s.url) }));
-
-  console.error("Building JSON structure ...");
-  const output = buildOutput(skills);
-
-  if (saveDir) {
-    // ---- Split output into files ----
-    mkdirSync(saveDir, { recursive: true });
-
-    // Rebuild full Output (with grouped publishers & metadata) for each type
-    const officialOutput = buildOutput(
-      output.skills.filter((s) => {
-        const p = output.publishers.find((pub) => pub.name === s.publisher);
-        return p && p.type === "official";
-      }),
-    );
-    const communityOutput = buildOutput(
-      output.skills.filter((s) => {
-        const p = output.publishers.find((pub) => pub.name === s.publisher);
-        return p && p.type === "community";
-      }),
-    );
-
-    const officialJson = JSON.stringify(officialOutput, null, 2);
-    writeFileSync(join(saveDir, "official.json"), officialJson, "utf-8");
-    console.error(
-      `  Wrote official.json (${Buffer.byteLength(officialJson, "utf-8")} bytes)`,
-    );
-
-    const communityJson = JSON.stringify(communityOutput, null, 2);
-    writeFileSync(join(saveDir, "community.json"), communityJson, "utf-8");
-    console.error(
-      `  Wrote community.json (${Buffer.byteLength(communityJson, "utf-8")} bytes)`,
-    );
-
-    // Publisher-keyed manifest for fast programmatic lookup
-    const manifestPublishers: Record<string, { skills_count: number; skills: { id: string; name: string; url: string; repo: string | null }[] }> = {};
-    for (const pub of output.publishers) {
-      manifestPublishers[pub.name] = {
-        skills_count: pub.skills_count,
-        skills: pub.skills.flatMap((s) =>
-          s.skills.map((sk) => ({
-            id: sk.id,
-            name: sk.name,
-            url: sk.url,
-            repo: sk.repo,
-          })),
-        ),
-      };
-    }
-    const manifest = {
-      generated_at: output.meta.fetched_at,
-      total_skills: output.meta.total_skills,
-      publishers: manifestPublishers,
-    };
-    const manifestJson = JSON.stringify(manifest, null, 2);
-    writeFileSync(join(saveDir, "manifest.json"), manifestJson, "utf-8");
-    console.error(
-      `  Wrote manifest.json (${Buffer.byteLength(manifestJson, "utf-8")} bytes)`,
-    );
   } else {
-    // ---- No --save: full JSON to stdout ----
-    const json = JSON.stringify(output, null, 2);
-    console.log(json);
-  }
+    // ---- Parse new README ----
+    const etag = response.headers.get("etag");
+    if (etag) cache.readmeEtag = etag;
 
-  // Pretty-print summary to stderr
-  printSummary(output);
+    const readme = await response.text();
+
+    console.error("Parsing skills ...");
+    let skills = parseSkills(readme);
+    console.error(`  Extracted ${skills.length} skills`);
+
+    // ---- Resolve GitHub URLs (uses cache to skip already-crawled) ----
+    console.error("Resolving GitHub source URLs ...");
+    const result = await resolveSkillUrls(skills, cache);
+    skills = result.skills;
+
+    // Enrich repo field for all skills
+    skills = skills.map((s) => ({ ...s, repo: s.repo ?? repoFromUrl(s.url) }));
+
+    // ---- Build output ----
+    console.error("Building JSON structure ...");
+    const output = buildOutput(skills);
+
+    if (saveDir) {
+      mkdirSync(saveDir, { recursive: true });
+
+      // ---- Save cache (after ensuring saveDir exists) ----
+      saveCache(cache);
+
+      const officialOutput = buildOutput(
+        output.skills.filter((s) => {
+          const p = output.publishers.find((pub) => pub.name === s.publisher);
+          return p && p.type === "official";
+        }),
+      );
+      const communityOutput = buildOutput(
+        output.skills.filter((s) => {
+          const p = output.publishers.find((pub) => pub.name === s.publisher);
+          return p && p.type === "community";
+        }),
+      );
+
+      const officialJson = JSON.stringify(officialOutput, null, 2);
+      writeFileSync(join(saveDir, "official.json"), officialJson, "utf-8");
+      console.error(
+        `  Wrote official.json (${Buffer.byteLength(officialJson, "utf-8")} bytes)`,
+      );
+
+      const communityJson = JSON.stringify(communityOutput, null, 2);
+      writeFileSync(join(saveDir, "community.json"), communityJson, "utf-8");
+      console.error(
+        `  Wrote community.json (${Buffer.byteLength(communityJson, "utf-8")} bytes)`,
+      );
+
+      const manifestPublishers: Record<string, { skills_count: number; skills: { id: string; name: string; url: string; repo: string | null }[] }> = {};
+      for (const pub of output.publishers) {
+        manifestPublishers[pub.name] = {
+          skills_count: pub.skills_count,
+          skills: pub.skills.flatMap((s) =>
+            s.skills.map((sk) => ({
+              id: sk.id,
+              name: sk.name,
+              url: sk.url,
+              repo: sk.repo,
+            })),
+          ),
+        };
+      }
+      const manifest = {
+        generated_at: output.meta.fetched_at,
+        total_skills: output.meta.total_skills,
+        publishers: manifestPublishers,
+      };
+      const manifestJson = JSON.stringify(manifest, null, 2);
+      writeFileSync(join(saveDir, "manifest.json"), manifestJson, "utf-8");
+      console.error(
+        `  Wrote manifest.json (${Buffer.byteLength(manifestJson, "utf-8")} bytes)`,
+      );
+    } else {
+      const json = JSON.stringify(output, null, 2);
+      console.log(json);
+      // ---- Save cache to cwd (saveDir is null) ----
+      saveCache(cache);
+    }
+
+    printSummary(output);
+  }
 }
 
 main().catch((err) => {

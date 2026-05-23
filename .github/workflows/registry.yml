@@ -1,0 +1,56 @@
+name: Update registry
+
+on:
+  schedule:
+    # Every 2 days at 06:00 UTC
+    - cron: "0 6 */2 * *"
+  workflow_dispatch: # manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: src/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: src
+
+      - name: Restore URL resolution cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: registry/.skills-cache.json
+          key: skills-cache-v1
+
+      - name: Generate registry files
+        run: npm run registry
+        working-directory: src
+
+      - name: Update README stats
+        run: node update-readme.mjs
+        working-directory: src
+
+      - name: Save URL resolution cache
+        uses: actions/cache/save@v4
+        with:
+          path: registry/.skills-cache.json
+          key: skills-cache-v1
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add registry/official.json registry/community.json registry/manifest.json README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update registry ($(date -u +%Y-%m-%d))"
+            git push
+          fi

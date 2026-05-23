@@ -1,11 +1,11 @@
 {
-  "name": "awesome-skills",
+  "name": "officialskills",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "npx tsx awesome-skills.ts",
-    "build": "npx tsx awesome-skills.ts",
-    "registry": "npx tsx awesome-skills.ts --save ../registry"
+    "start": "npx tsx officialskills.ts",
+    "build": "npx tsx officialskills.ts",
+    "registry": "npx tsx officialskills.ts --save ../registry"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",
