@@ -47,15 +47,79 @@ jobs:
           path: registry/.skills-cache.json
           key: skills-cache-v1
 
+      - name: Build commit message
+        run: |
+          CHANGES_FILE="registry/changes-summary.json"
+          MSG_FILE="commit-msg.txt"
+
+          if [ ! -f "$CHANGES_FILE" ]; then
+            echo "Update registry ($(date -u +%Y-%m-%d))" > "$MSG_FILE"
+            echo "Commit message (fallback):"
+            cat "$MSG_FILE"
+            exit 0
+          fi
+
+          TOTAL=$(jq -r '.total_skills // 0' "$CHANGES_FILE")
+          PUBLISHERS=$(jq -r '.total_publishers // 0' "$CHANGES_FILE")
+          OFFICIAL=$(jq -r '.total_official // 0' "$CHANGES_FILE")
+          COMMUNITY=$(jq -r '.total_community // 0' "$CHANGES_FILE")
+
+          DATE=$(date -u +%Y-%m-%d)
+          {
+            echo "Update registry ($DATE)"
+            echo ""
+            echo "📦 $TOTAL skills · $PUBLISHERS publishers · ${OFFICIAL} official, ${COMMUNITY} community"
+          } > "$MSG_FILE"
+
+          DIFF_AVAILABLE=$(jq -r '.diff.available // false' "$CHANGES_FILE")
+          if [ "$DIFF_AVAILABLE" = "true" ]; then
+            ADDED=$(jq -r '.diff.added_count // 0' "$CHANGES_FILE")
+            REMOVED=$(jq -r '.diff.removed_count // 0' "$CHANGES_FILE")
+            CHANGED=$(jq -r '.diff.changed_count // 0' "$CHANGES_FILE")
+
+            # Build changes line
+            CHANGES=""
+            [ "$ADDED" -gt 0 ] && CHANGES="${CHANGES}+${ADDED} added "
+            [ "$REMOVED" -gt 0 ] && CHANGES="${CHANGES}-${REMOVED} removed "
+            [ "$CHANGED" -gt 0 ] && CHANGES="${CHANGES}~${CHANGED} URL changes"
+            CHANGES="${CHANGES% }"  # trim trailing space
+
+            if [ -n "$CHANGES" ]; then
+              printf "\n📈 %s\n" "$CHANGES" >> "$MSG_FILE"
+            fi
+
+            # Add detailed lists for small change sets
+            if [ "$ADDED" -gt 0 ] && [ "$ADDED" -le 10 ]; then
+              printf "\nSkills added:\n" >> "$MSG_FILE"
+              jq -r '.diff.added[] | "  • \(.publisher)/\(.id)"' "$CHANGES_FILE" >> "$MSG_FILE"
+            fi
+
+            if [ "$REMOVED" -gt 0 ] && [ "$REMOVED" -le 10 ]; then
+              printf "\nSkills removed:\n" >> "$MSG_FILE"
+              jq -r '.diff.removed[] | "  • \(.publisher)/\(.id)"' "$CHANGES_FILE" >> "$MSG_FILE"
+            fi
+
+            if [ "$CHANGED" -gt 0 ] && [ "$CHANGED" -le 10 ]; then
+              printf "\nURLs changed:\n" >> "$MSG_FILE"
+              jq -r '.diff.changed[] | "  • \(.id)"' "$CHANGES_FILE" >> "$MSG_FILE"
+            fi
+          fi
+
+          echo "Commit message:"
+          cat "$MSG_FILE"
+
       - name: Commit & push changes
+        env:
+          PAT: ${{ secrets.PAT }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
+          git remote set-url origin https://x-access-token:${PAT}@github.com/rigerc/officialskills.git
           git add registry/official.json registry/community.json registry/manifest.json README.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update registry ($(date -u +%Y-%m-%d))"
+            git commit -F commit-msg.txt
             git push
           fi
 

@@ -930,6 +930,7 @@ async function main(): Promise<void> {
   // ---- Phase 1: obtain skills (from cache or fresh fetch) ----
   let skills: Skill[];
   let crawlStatsMessage: string;
+  let crawlStatsSummary: { cacheHits?: number; staleChecked?: number; newCrawled?: number; failures: number } | null = null;
 
   if (response.status === 304) {
     console.error("  README unchanged (304). Checking stale cache entries ...");
@@ -941,6 +942,7 @@ async function main(): Promise<void> {
     if (cache.previousSnapshot && cache.previousSnapshot.length > 0) {
       console.error(`  Rebuilding output from ${cache.previousSnapshot.length} cached skills ...`);
       skills = cache.previousSnapshot as Skill[];
+      crawlStatsSummary = { staleChecked: r.staleChecked, failures: r.failures };
       crawlStatsMessage = `${r.staleChecked} stale checked, ${r.failures} failures`;
     } else {
       // No cached snapshot — must do a fresh fetch (first run edge case)
@@ -962,6 +964,7 @@ async function main(): Promise<void> {
       console.error("Resolving GitHub source URLs ...");
       const { skills: resolvedSkills, stats } = await resolveSkillUrls(skills, cache);
       skills = resolvedSkills;
+      crawlStatsSummary = { cacheHits: stats.cacheHits, staleChecked: stats.staleChecked, newCrawled: stats.newCrawled, failures: stats.failures };
       crawlStatsMessage = `${stats.cacheHits} cached, ${stats.staleChecked} stale, ${stats.newCrawled} new, ${stats.failures} failures`;
     }
   } else {
@@ -984,6 +987,7 @@ async function main(): Promise<void> {
     console.error("Resolving GitHub source URLs ...");
     const { skills: resolvedSkills, stats } = await resolveSkillUrls(skills, cache);
     skills = resolvedSkills;
+    crawlStatsSummary = { cacheHits: stats.cacheHits, staleChecked: stats.staleChecked, newCrawled: stats.newCrawled, failures: stats.failures };
     crawlStatsMessage = `${stats.cacheHits} cached, ${stats.staleChecked} stale, ${stats.newCrawled} new, ${stats.failures} failures`;
   }
 
@@ -1054,6 +1058,31 @@ async function main(): Promise<void> {
     const manifestJson = JSON.stringify(manifest, null, 2);
     writeFileSync(join(saveDir, "manifest.json"), manifestJson, "utf-8");
     console.error(`  Wrote manifest.json (${Buffer.byteLength(manifestJson, "utf-8")} bytes)`);
+
+    // Write changes summary for workflow commit message
+    const changesSummary: Record<string, unknown> = {
+      fetched_at: output.meta.fetched_at,
+      total_skills: output.meta.total_skills,
+      total_official: output.meta.total_official,
+      total_community: output.meta.total_community,
+      total_publishers: output.meta.total_publishers,
+      total_categories: output.meta.total_categories,
+      crawl: crawlStatsSummary,
+      diff: diff
+        ? {
+            available: true,
+            added_count: diff.added.length,
+            removed_count: diff.removed.length,
+            changed_count: diff.changed.length,
+            added: diff.added.map(s => ({ id: s.id, publisher: s.publisher, name: s.name })),
+            removed: diff.removed.map(s => ({ id: s.id, publisher: s.publisher, name: s.name })),
+            changed: diff.changed.map(c => ({ id: c.id })),
+          }
+        : null,
+    };
+    const changesJson = JSON.stringify(changesSummary, null, 2);
+    writeFileSync(join(saveDir, "changes-summary.json"), changesJson, "utf-8");
+    console.error(`  Wrote changes-summary.json (${Buffer.byteLength(changesJson, "utf-8")} bytes)`);
 
     // ---- Update README if --readme was passed ----
     if (readmePath) {
