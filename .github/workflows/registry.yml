@@ -29,12 +29,8 @@ jobs:
           path: registry/.skills-cache.json
           key: skills-cache-v1
 
-      - name: Generate registry files
+      - name: Generate registry files & update README
         run: npm run registry
-        working-directory: src
-
-      - name: Update README stats
-        run: node update-readme.mjs
         working-directory: src
 
       - name: Save URL resolution cache
@@ -54,3 +50,16 @@ jobs:
             git commit -m "Update registry ($(date -u +%Y-%m-%d))"
             git push
           fi
+
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "Registry update failed",
+              body: `The scheduled registry update workflow failed at ${new Date().toISOString()}.\n\nSee: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`,
+              labels: ["automation"]
+            });

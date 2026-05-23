@@ -5,11 +5,13 @@
   "scripts": {
     "start": "npx tsx officialskills.ts",
     "build": "npx tsx officialskills.ts",
-    "registry": "npx tsx officialskills.ts --save ../registry"
+    "registry": "npx tsx officialskills.ts --save ../registry --readme ../README.md",
+    "test": "vitest run"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",
     "tsx": "^4.19.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "vitest": "^4.1.7"
   }
 }

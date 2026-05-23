@@ -73,15 +73,20 @@ import { join } from "node:path";
 const READONLY_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md";
 
-function parseArgs(): { saveDir: string | null } {
+function parseArgs(): { saveDir: string | null; readmePath: string | null } {
   const saveIdx = process.argv.indexOf("--save");
-  if (saveIdx !== -1 && saveIdx + 1 < process.argv.length) {
-    return { saveDir: process.argv[saveIdx + 1] };
-  }
-  return { saveDir: null };
+  const readmeIdx = process.argv.indexOf("--readme");
+  return {
+    saveDir: saveIdx !== -1 && saveIdx + 1 < process.argv.length
+      ? process.argv[saveIdx + 1]
+      : null,
+    readmePath: readmeIdx !== -1 && readmeIdx + 1 < process.argv.length
+      ? process.argv[readmeIdx + 1]
+      : null,
+  };
 }
 
-const { saveDir } = parseArgs();
+const { saveDir, readmePath } = parseArgs();
 
 // ============================================================
 // Cache helpers
@@ -96,6 +101,7 @@ interface ResolvedEntry {
 interface Cache {
   readmeEtag: string | null;
   resolved: Record<string, ResolvedEntry>;
+  previousSnapshot?: Skill[];
 }
 
 /** Re-crawl a URL if it hasn't been checked within this window (24 h) */
@@ -123,15 +129,15 @@ function migrateEntry(entry: unknown): ResolvedEntry {
 function loadCache(): Cache {
   try {
     const path = cachePath();
-    if (!existsSync(path)) return { readmeEtag: null, resolved: {} };
+    if (!existsSync(path)) return { readmeEtag: null, resolved: {}, previousSnapshot: undefined };
     const raw = JSON.parse(readFileSync(path, "utf-8"));
     const resolved: Record<string, ResolvedEntry> = {};
     for (const [id, entry] of Object.entries(raw.resolved ?? {})) {
       resolved[id] = migrateEntry(entry);
     }
-    return { readmeEtag: raw.readmeEtag ?? null, resolved };
+    return { readmeEtag: raw.readmeEtag ?? null, resolved, previousSnapshot: raw.previousSnapshot };
   } catch {
-    return { readmeEtag: null, resolved: {} };
+    return { readmeEtag: null, resolved: {}, previousSnapshot: undefined };
   }
 }
 
@@ -168,7 +174,7 @@ const MICROSOFT_SUBSECTIONS = new Set([
  *   "Skills by Anthropic for their dev team."                → "Anthropic"
  *   "Skills by Microsoft Development Team"                   → "Microsoft"
  */
-function extractPublisher(heading: string): string {
+export function extractPublisher(heading: string): string {
   let p = heading.replace(/^Skills by /, "");
 
   // Remove " for ..." clauses (e.g. "for Terraform", "for their dev team.")
@@ -200,7 +206,7 @@ const SKILL_LINE_RE = /^- \*\*\[([^\]]+)\]\(([^)]+)\)\*\* - (.+)$/;
  * Parse a single skill entry line into its components.
  * Returns null if the line is not a valid skill entry.
  */
-function parseSkillLine(
+export function parseSkillLine(
   line: string,
 ): { id: string; name: string; url: string; description: string; repo: string | null } | null {
   const match = line.match(SKILL_LINE_RE);
@@ -243,7 +249,7 @@ function extractH3(text: string): string | null {
  *   - Community Skills block with sub-categories
  *   - Skill entries in `- **[path](url)** - description` format
  */
-function parseSkills(readme: string): Skill[] {
+export function parseSkills(readme: string): Skill[] {
   const skills: Skill[] = [];
 
   let publisher = "Unknown";
@@ -374,7 +380,7 @@ function parseSkills(readme: string): Skill[] {
 // Output construction
 // ============================================================
 
-function buildOutput(skills: Skill[]): Output {
+export function buildOutput(skills: Skill[]): Output {
   const sorted = [...skills].sort((a, b) =>
     a.publisher.localeCompare(b.publisher) || a.id.localeCompare(b.id),
   );
@@ -544,21 +550,30 @@ async function resolveGithubUrl(pageUrl: string): Promise<string | null> {
 }
 
 /** Extract owner/repo from a GitHub URL. Returns null for non-GitHub URLs. */
-function repoFromUrl(url: string): string | null {
+export function repoFromUrl(url: string): string | null {
   const match = url.match(/github\.com\/([^/]+\/[^/]+)/);
   return match?.[1] ?? null;
 }
 
-/** Crawl a batch of officialskills.sh URLs in parallel. */
+/** Stats collected during URL resolution */
+interface CrawlStats {
+  cacheHits: number;
+  staleChecked: number;
+  newCrawled: number;
+  failures: number;
+}
+
+/** Crawl a batch of officialskills.sh URLs in parallel. Returns failure count. */
 async function crawlBatch(
   entries: { id: string; url: string }[],
   cache: Cache,
   concurrency: number,
   label: string,
-): Promise<void> {
-  if (entries.length === 0) return;
+): Promise<number> {
+  if (entries.length === 0) return 0;
   console.error(`  ${label} ...`);
   let completed = 0;
+  let failures = 0;
 
   for (let i = 0; i < entries.length; i += concurrency) {
     const chunk = entries.slice(i, i + concurrency);
@@ -574,19 +589,25 @@ async function crawlBatch(
           githubUrl: r.githubUrl,
           resolvedAt: Date.now(),
         };
+      } else {
+        failures++;
       }
     }
     completed += chunk.length;
     console.error(`    ${completed}/${entries.length} ${label.toLowerCase()}`);
   }
+  return failures;
 }
 
 /**
  * Find cache entries whose timestamp is older than TTL and re-crawl them.
  * Can be called even on a 304 to catch URL changes on skill pages.
- * Returns the number of entries that were re-checked.
+ * Returns the number of entries that were re-checked (and failures).
  */
-async function refreshStaleCache(cache: Cache, concurrency = 10): Promise<number> {
+async function refreshStaleCache(
+  cache: Cache,
+  concurrency = 10,
+): Promise<{ staleChecked: number; failures: number }> {
   const now = Date.now();
   const stale: { id: string; url: string }[] = [];
 
@@ -600,31 +621,38 @@ async function refreshStaleCache(cache: Cache, concurrency = 10): Promise<number
     }
   }
 
+  let failures = 0;
   if (stale.length > 0) {
-    await crawlBatch(stale, cache, concurrency, `Re-checking ${stale.length} stale GitHub URLs`);
+    failures = await crawlBatch(stale, cache, concurrency, `Re-checking ${stale.length} stale GitHub URLs`);
   }
-  return stale.length;
+  return { staleChecked: stale.length, failures };
 }
 
 /**
  * Resolve officialskills.sh URLs to GitHub source URLs.
- * Uses the cache to skip already-resolved skills and re-crawls
- * stale entries.
+ * Uses the cache to skip already-resolved skills and re-crawls stale entries.
  */
 async function resolveSkillUrls(
   skills: Skill[],
   cache: Cache,
   concurrency = 10,
-): Promise<{ skills: Skill[]; cache: Cache }> {
+): Promise<{ skills: Skill[]; cache: Cache; stats: CrawlStats }> {
+  // Count cache hits before any resolution
+  let cacheHits = 0;
+  for (const s of skills) {
+    if (cache.resolved[s.id]) cacheHits++;
+  }
+
   // 1. Re-crawl stale cache entries
-  await refreshStaleCache(cache, concurrency);
+  const { staleChecked, failures: staleFailures } = await refreshStaleCache(cache, concurrency);
 
   // 2. Find skills from the fresh README not yet in cache
   const toResolve = skills.filter(
     (s) => s.url.includes("officialskills.sh") && !cache.resolved[s.id],
   );
+  let newFailures = 0;
   if (toResolve.length > 0) {
-    await crawlBatch(
+    newFailures = await crawlBatch(
       toResolve.map((s) => ({ id: s.id, url: s.url })),
       cache,
       concurrency,
@@ -641,12 +669,225 @@ async function resolveSkillUrls(
     }
   }
 
-  const resolvedCount = skills.filter(
-    (s) => !s.url.includes("officialskills.sh"),
-  ).length;
-  console.error(`  ${resolvedCount} skills have GitHub URLs`);
+  const stats: CrawlStats = {
+    cacheHits,
+    staleChecked,
+    newCrawled: toResolve.length - newFailures,
+    failures: staleFailures + newFailures,
+  };
 
-  return { skills, cache };
+  return { skills, cache, stats };
+}
+
+// ============================================================
+// Diff computation
+// ============================================================
+
+function computeDiff(
+  current: Skill[],
+  previous: Skill[] | undefined,
+): { added: Skill[]; removed: Skill[]; changed: { id: string; from: string; to: string }[] } | null {
+  if (!previous || previous.length === 0) return null;
+
+  const prevMap = new Map(previous.map((s) => [s.id, s]));
+  const currMap = new Map(current.map((s) => [s.id, s]));
+
+  const added = current.filter((s) => !prevMap.has(s.id));
+  const removed = previous.filter((s) => !currMap.has(s.id));
+  const changed: { id: string; from: string; to: string }[] = [];
+
+  for (const s of current) {
+    const prev = prevMap.get(s.id);
+    if (prev && prev.url !== s.url) {
+      changed.push({ id: s.id, from: prev.url, to: s.url });
+    }
+  }
+
+  return { added, removed, changed };
+}
+
+// ============================================================
+// README update (consolidated from update-readme.mjs)
+// ============================================================
+
+const SKILL_SCHEMA = {
+  $schema: "https://json-schema.org/draft/2020-12/schema",
+  title: "Skill",
+  type: "object",
+  required: ["id", "name", "url", "description", "publisher", "section", "repo"],
+  properties: {
+    id:        { type: "string", description: "Unique skill identifier, e.g. \"anthropics/algorithmic-art\"" },
+    name:      { type: "string", description: "Short skill name (last path segment of id)" },
+    url:       { type: "string", format: "uri", description: "GitHub source URL (resolved from officialskills.sh)" },
+    description: { type: "string", description: "One-line description of what the skill does" },
+    publisher: { type: "string", description: "Publisher name, e.g. \"Anthropic\"" },
+    section:   { type: "string", description: "Section within publisher, e.g. \"Official\"" },
+    repo:      { type: "string", nullable: true, description: "GitHub repository as \"<owner>/<repo>\", null if unresolved" },
+  },
+};
+
+const OUTPUT_SCHEMA = {
+  $schema: "https://json-schema.org/draft/2020-12/schema",
+  title: "Output",
+  type: "object",
+  required: ["meta", "publishers", "skills"],
+  properties: {
+    meta: {
+      type: "object",
+      required: ["fetched_at", "source", "total_skills", "total_publishers", "total_categories", "total_official", "total_community"],
+      properties: {
+        fetched_at:       { type: "string", format: "date-time", description: "When the source README was fetched" },
+        source:           { type: "string", format: "uri", description: "Source README URL" },
+        total_skills:     { type: "integer", description: "Total number of skills in this file" },
+        total_publishers: { type: "integer", description: "Total number of publishers" },
+        total_categories: { type: "integer", description: "Unique section categories across publishers" },
+        total_official:   { type: "integer", description: "Official skills count (only relevant in full output)" },
+        total_community:  { type: "integer", description: "Community skills count (only relevant in full output)" },
+      },
+    },
+    publishers: {
+      type: "array",
+      description: "Skills grouped by publisher, then by section",
+      items: {
+        type: "object",
+        required: ["name", "type", "skills_count", "skills"],
+        properties: {
+          name:         { type: "string", description: "Publisher name" },
+          type:         { type: "string", enum: ["official", "community"] },
+          skills_count: { type: "integer", description: "Total skills for this publisher" },
+          skills: {
+            type: "array",
+            description: "Sections within this publisher",
+            items: {
+              type: "object",
+              required: ["section", "skills_count", "skills"],
+              properties: {
+                section:       { type: "string", description: "Section name, e.g. \"Official\" or \"Core Skills\"" },
+                skills_count:  { type: "integer" },
+                skills:        { type: "array", items: SKILL_SCHEMA },
+              },
+            },
+          },
+        },
+      },
+    },
+    skills: {
+      type: "array",
+      description: "Flat list of all skills in this file, sorted by publisher then id",
+      items: SKILL_SCHEMA,
+    },
+  },
+};
+
+const MANIFEST_SCHEMA = {
+  $schema: "https://json-schema.org/draft/2020-12/schema",
+  title: "Manifest",
+  type: "object",
+  required: ["generated_at", "total_skills", "publishers"],
+  properties: {
+    generated_at: { type: "string", format: "date-time", description: "When this manifest was generated" },
+    total_skills: { type: "integer", description: "Total skills across all publishers" },
+    publishers: {
+      type: "object",
+      description: "Publisher-keyed map for O(1) lookup",
+      additionalProperties: {
+        type: "object",
+        required: ["skills_count", "skills"],
+        properties: {
+          skills_count: { type: "integer" },
+          skills: {
+            type: "array",
+            items: {
+              type: "object",
+              required: ["id", "name", "url", "repo"],
+              properties: {
+                id:   { type: "string", description: "Unique skill identifier" },
+                name: { type: "string", description: "Short skill name" },
+                url:  { type: "string", format: "uri", description: "GitHub source URL" },
+                repo: { type: "string", nullable: true, description: "GitHub repository as \"<owner>/<repo>\"" },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+};
+
+function schemaToMarkdown(title: string, schema: object): string {
+  const json = JSON.stringify(schema, null, 2);
+  return [
+    `<details>`,
+    `<summary><strong>${title}</strong></summary>`,
+    "",
+    "```json",
+    json,
+    "```",
+    `</details>`,
+  ].join("\n");
+}
+
+function updateReadme(readmePath: string, output: Output, now: string): void {
+  let readme = readFileSync(readmePath, "utf-8");
+
+  // --- Stats badges ---
+  const official = output.meta.total_official + output.meta.total_community;
+  const totalPublishers = output.meta.total_publishers;
+  const fetchedAt = output.meta.fetched_at;
+  const statsBlock = [
+    "<!-- REGISTRY_STATS -->",
+    `<p align="center">`,
+    `  <img src="https://img.shields.io/static/v1?label=last+run&message=${encodeURIComponent(now)}&color=blue&style=flat" alt="Last run">`,
+    `  <img src="https://img.shields.io/static/v1?label=last+change&message=${encodeURIComponent(fetchedAt)}&color=informational&style=flat" alt="Last change">`,
+    `  <img src="https://img.shields.io/static/v1?label=publishers&message=${totalPublishers}&color=orange&style=flat" alt="Publishers">`,
+    `  <img src="https://img.shields.io/static/v1?label=skills&message=${official}&color=green&style=flat" alt="Skills">`,
+    `</p>`,
+    "<!-- /REGISTRY_STATS -->",
+  ].join("\n");
+
+  const statsStart = "<!-- REGISTRY_STATS -->";
+  const statsEnd = "<!-- /REGISTRY_STATS -->";
+  const ss = readme.indexOf(statsStart);
+  const se = readme.indexOf(statsEnd);
+  if (ss !== -1 && se !== -1) {
+    readme = readme.slice(0, ss) + statsBlock + readme.slice(se + statsEnd.length);
+  }
+
+  // --- JSON Schemas ---
+  const schemaBlock = [
+    "<!-- JSON_SCHEMA -->",
+    "",
+    "### Registry schemas",
+    "",
+    "These JSON Schemas describe the structure of the generated files.",
+    "",
+    schemaToMarkdown("official.json / community.json — Output", OUTPUT_SCHEMA),
+    "",
+    schemaToMarkdown("manifest.json — Manifest", MANIFEST_SCHEMA),
+    "",
+    schemaToMarkdown("Skill (inner type)", SKILL_SCHEMA),
+    "",
+    "<!-- /JSON_SCHEMA -->",
+  ].join("\n");
+
+  const schemaStart = "<!-- JSON_SCHEMA -->";
+  const schemaEnd = "<!-- /JSON_SCHEMA -->";
+  const scs = readme.indexOf(schemaStart);
+  const sce = readme.indexOf(schemaEnd);
+  if (scs !== -1 && sce !== -1) {
+    const currentBlock = readme.slice(scs, sce + schemaEnd.length);
+    if (currentBlock !== schemaBlock) {
+      readme = readme.slice(0, scs) + schemaBlock + readme.slice(sce + schemaEnd.length);
+    }
+  } else {
+    const insertAt = readme.indexOf("## Output structure");
+    if (insertAt !== -1) {
+      readme = readme.slice(0, insertAt) + schemaBlock + "\n\n" + readme.slice(insertAt);
+    }
+  }
+
+  writeFileSync(readmePath, readme, "utf-8");
+  console.error(`  Updated ${readmePath}`);
 }
 
 // ============================================================
@@ -654,8 +895,21 @@ async function resolveSkillUrls(
 // ============================================================
 
 async function main(): Promise<void> {
-  // ---- Load cache ----
+  const now = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
   const cache = loadCache();
+
+  // --readme only: update README from existing registry files, no fetch
+  if (readmePath && !saveDir && !process.argv.includes("--save") && process.argv.includes("--readme")) {
+    const officialPath = join(process.cwd(), "registry", "official.json");
+    try {
+      const output = JSON.parse(readFileSync(officialPath, "utf-8")) as Output;
+      updateReadme(readmePath, output, now);
+      return;
+    } catch {
+      console.error("ERROR: No registry/official.json found. Run with --save first.");
+      process.exit(1);
+    }
+  }
 
   // ---- Fetch README with conditional request ----
   console.error("Fetching README from awesome-agent-skills ...");
@@ -666,102 +920,121 @@ async function main(): Promise<void> {
 
   if (response.status === 304) {
     console.error("  README unchanged (304). Checking stale cache entries ...");
-    const refreshed = await refreshStaleCache(cache);
-    if (refreshed > 0) {
+    const r = await refreshStaleCache(cache);
+    if (r.staleChecked > 0) {
       saveCache(cache);
+      console.error(`  Cache: ${r.staleChecked} stale, ${r.failures} failures`);
     }
     console.error("  Done.");
-  } else if (!response.ok) {
+    return;
+  }
+
+  if (!response.ok) {
     throw new Error(
       `Failed to fetch README: ${response.status} ${response.statusText}`,
     );
-  } else {
-    // ---- Parse new README ----
-    const etag = response.headers.get("etag");
-    if (etag) cache.readmeEtag = etag;
-
-    const readme = await response.text();
-
-    console.error("Parsing skills ...");
-    let skills = parseSkills(readme);
-    console.error(`  Extracted ${skills.length} skills`);
-
-    // ---- Resolve GitHub URLs (uses cache to skip already-crawled) ----
-    console.error("Resolving GitHub source URLs ...");
-    const result = await resolveSkillUrls(skills, cache);
-    skills = result.skills;
-
-    // Enrich repo field for all skills
-    skills = skills.map((s) => ({ ...s, repo: s.repo ?? repoFromUrl(s.url) }));
-
-    // ---- Build output ----
-    console.error("Building JSON structure ...");
-    const output = buildOutput(skills);
-
-    if (saveDir) {
-      mkdirSync(saveDir, { recursive: true });
-
-      // ---- Save cache (after ensuring saveDir exists) ----
-      saveCache(cache);
-
-      const officialOutput = buildOutput(
-        output.skills.filter((s) => {
-          const p = output.publishers.find((pub) => pub.name === s.publisher);
-          return p && p.type === "official";
-        }),
-      );
-      const communityOutput = buildOutput(
-        output.skills.filter((s) => {
-          const p = output.publishers.find((pub) => pub.name === s.publisher);
-          return p && p.type === "community";
-        }),
-      );
-
-      const officialJson = JSON.stringify(officialOutput, null, 2);
-      writeFileSync(join(saveDir, "official.json"), officialJson, "utf-8");
-      console.error(
-        `  Wrote official.json (${Buffer.byteLength(officialJson, "utf-8")} bytes)`,
-      );
-
-      const communityJson = JSON.stringify(communityOutput, null, 2);
-      writeFileSync(join(saveDir, "community.json"), communityJson, "utf-8");
-      console.error(
-        `  Wrote community.json (${Buffer.byteLength(communityJson, "utf-8")} bytes)`,
-      );
-
-      const manifestPublishers: Record<string, { skills_count: number; skills: { id: string; name: string; url: string; repo: string | null }[] }> = {};
-      for (const pub of output.publishers) {
-        manifestPublishers[pub.name] = {
-          skills_count: pub.skills_count,
-          skills: pub.skills.flatMap((s) =>
-            s.skills.map((sk) => ({
-              id: sk.id,
-              name: sk.name,
-              url: sk.url,
-              repo: sk.repo,
-            })),
-          ),
-        };
-      }
-      const manifest = {
-        generated_at: output.meta.fetched_at,
-        total_skills: output.meta.total_skills,
-        publishers: manifestPublishers,
-      };
-      const manifestJson = JSON.stringify(manifest, null, 2);
-      writeFileSync(join(saveDir, "manifest.json"), manifestJson, "utf-8");
-      console.error(
-        `  Wrote manifest.json (${Buffer.byteLength(manifestJson, "utf-8")} bytes)`,
-      );
-    } else {
-      const json = JSON.stringify(output, null, 2);
-      console.log(json);
-      // ---- Save cache to cwd (saveDir is null) ----
-      saveCache(cache);
-    }
-
-    printSummary(output);
   }
+
+  // ---- Parse new README ----
+  const etag = response.headers.get("etag");
+  if (etag) cache.readmeEtag = etag;
+
+  const readme = await response.text();
+
+  console.error("Parsing skills ...");
+  let skills = parseSkills(readme);
+  console.error(`  Extracted ${skills.length} skills`);
+
+  // ---- Resolve GitHub URLs ----
+  console.error("Resolving GitHub source URLs ...");
+  const { stats } = await resolveSkillUrls(skills, cache);
+
+  // Enrich repo field for all skills
+  skills = skills.map((s) => ({ ...s, repo: s.repo ?? repoFromUrl(s.url) }));
+
+  // ---- Build output ----
+  console.error("Building JSON structure ...");
+  const output = buildOutput(skills);
+
+  // ---- Diff against previous snapshot ----
+  const diff = computeDiff(skills, cache.previousSnapshot);
+  if (diff) {
+    if (diff.added.length > 0) console.error(`  + ${diff.added.length} skills added`);
+    if (diff.removed.length > 0) console.error(`  - ${diff.removed.length} skills removed`);
+    if (diff.changed.length > 0) console.error(`  ~ ${diff.changed.length} URLs changed`);
+  }
+
+  // ---- Save snapshot for next diff ----
+  cache.previousSnapshot = skills.map((s) => ({
+    id: s.id, url: s.url, name: s.name, description: s.description,
+    publisher: s.publisher, section: s.section, repo: s.repo,
+  }));
+
+  // ---- Write output ----
+  if (saveDir) {
+    mkdirSync(saveDir, { recursive: true });
+    saveCache(cache);
+
+    const officialOutput = buildOutput(
+      output.skills.filter((s) => {
+        const p = output.publishers.find((pub) => pub.name === s.publisher);
+        return p && p.type === "official";
+      }),
+    );
+    const communityOutput = buildOutput(
+      output.skills.filter((s) => {
+        const p = output.publishers.find((pub) => pub.name === s.publisher);
+        return p && p.type === "community";
+      }),
+    );
+
+    const officialJson = JSON.stringify(officialOutput, null, 2);
+    writeFileSync(join(saveDir, "official.json"), officialJson, "utf-8");
+    console.error(`  Wrote official.json (${Buffer.byteLength(officialJson, "utf-8")} bytes)`);
+
+    const communityJson = JSON.stringify(communityOutput, null, 2);
+    writeFileSync(join(saveDir, "community.json"), communityJson, "utf-8");
+    console.error(`  Wrote community.json (${Buffer.byteLength(communityJson, "utf-8")} bytes)`);
+
+    const manifestPublishers: Record<string, {
+      skills_count: number;
+      skills: { id: string; name: string; url: string; repo: string | null; publisher: string }[];
+    }> = {};
+    for (const pub of output.publishers) {
+      manifestPublishers[pub.name] = {
+        skills_count: pub.skills_count,
+        skills: pub.skills.flatMap((s) =>
+          s.skills.map((sk) => ({
+            id: sk.id, name: sk.name, url: sk.url, repo: sk.repo,
+            publisher: pub.name,
+          })),
+        ),
+      };
+    }
+    const manifest = {
+      generated_at: output.meta.fetched_at,
+      total_skills: output.meta.total_skills,
+      publishers: manifestPublishers,
+    };
+    const manifestJson = JSON.stringify(manifest, null, 2);
+    writeFileSync(join(saveDir, "manifest.json"), manifestJson, "utf-8");
+    console.error(`  Wrote manifest.json (${Buffer.byteLength(manifestJson, "utf-8")} bytes)`);
+
+    // ---- Update README if --readme was passed ----
+    if (readmePath) {
+      updateReadme(readmePath, output, now);
+    }
+  } else {
+    const json = JSON.stringify(output, null, 2);
+    console.log(json);
+    saveCache(cache);
+  }
+
+  // ---- Print crawl stats ----
+  console.error(`  Stats: ${stats.cacheHits} cached, ${stats.staleChecked} stale, ${stats.newCrawled} new, ${stats.failures} failures`);
+
+  // ---- Print summary ----
+  printSummary(output);
 }
 
 main().catch((err) => {
