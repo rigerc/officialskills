@@ -127,6 +127,7 @@ jobs:
         if: failure()
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.PAT }}
           script: |
             await github.rest.issues.create({
               owner: context.repo.owner,
