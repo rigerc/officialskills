@@ -122,16 +122,129 @@ jobs:
             git push
           fi
 
+      - name: Close stale failure issues on success
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.PAT }}
+          script: |
+            const { data: openIssues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'automation',
+            });
+
+            for (const issue of openIssues) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `✅ Registry update succeeded at ${new Date().toISOString()}. Automatically closing this issue.`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+              });
+              console.log(`Closed issue #${issue.number}`);
+            }
+
       - name: Notify on failure
         if: failure()
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.PAT }}
           script: |
+            // 1. Close any existing open automation issues (dedup)
+            const { data: existingIssues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'automation',
+            });
+
+            for (const issue of existingIssues) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `🔄 Superseded by a new failure at ${new Date().toISOString()}. Closing in favor of fresh report.`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+              });
+            }
+
+            // 2. Fetch full error log from the failed job
+            const { data: jobsData } = await github.rest.actions.listJobsForWorkflowRun({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              run_id: context.runId,
+            });
+
+            const failedJob = jobsData.jobs.find(job => job.conclusion === 'failure');
+            let fullLog = '';
+            let errorMessage = 'No failed job could be identified from the workflow run.';
+
+            if (failedJob) {
+              const failedSteps = (failedJob.steps || [])
+                .filter(s => s.conclusion === 'failure')
+                .map(s => `  • **${s.name}** (exit code: ${s.exit_code || 'N/A'})`);
+
+              errorMessage = failedSteps.length > 0
+                ? '**Failed step(s):**\n' + failedSteps.join('\n')
+                : '**Failed job:** ' + failedJob.name;
+
+              // Download raw logs
+              try {
+                const logResp = await github.rest.actions.downloadJobLogsForWorkflowRun({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  job_id: failedJob.id,
+                });
+                fullLog = typeof logResp.data === 'string'
+                  ? logResp.data
+                  : JSON.stringify(logResp.data);
+              } catch (err) {
+                fullLog = `(Could not download full logs: ${err.message})`;
+              }
+            }
+
+            // 3. Build the issue body
+            const runUrl = `${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`;
+
+            // Truncate logs to last 15k characters (errors typically at the end)
+            const maxLen = 15000;
+            const truncatedLog = fullLog.length > maxLen
+              ? `... (truncated to last ${maxLen} characters; see full log at the run link below)\n` +
+                fullLog.slice(-maxLen)
+              : fullLog || '_(No log output captured.)_';
+
+            const body = [
+              `## ❌ Registry update failed`,
+              '',
+              `**Time:** ${new Date().toISOString()}`,
+              `**Workflow Run:** [${runUrl}](${runUrl})`,
+              `**Ref:** \`${{ github.ref }}\``,
+              `**Commit:** \`${{ github.sha }}\``,
+              '',
+              errorMessage,
+              '',
+              `### Full error log`,
+              '````',
+              truncatedLog,
+              '````',
+            ].join('\n');
+
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: "Registry update failed",
-              body: `The scheduled registry update workflow failed at ${new Date().toISOString()}.\n\nSee: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}`,
-              labels: ["automation"]
+              title: `Registry update failed (${{ github.run_id }})`,
+              body: body,
+              labels: ['automation'],
             });
