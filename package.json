@@ -1,0 +1,9 @@
+{
+  "name": "officialskills-root",
+  "private": true,
+  "description": "Root package — delegates to src/",
+  "scripts": {
+    "registry": "cd src && npm run registry",
+    "test": "cd src && npm test"
+  }
+}

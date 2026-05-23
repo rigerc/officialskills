@@ -22,6 +22,10 @@ jobs:
         run: npm ci
         working-directory: src
 
+      - name: Run tests (catch regressions in parser/output builder)
+        run: npm test
+        working-directory: src
+
       - name: Restore URL resolution cache
         id: cache-restore
         uses: actions/cache/restore@v4

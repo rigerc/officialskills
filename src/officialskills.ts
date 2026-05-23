@@ -26,7 +26,7 @@
 // Types
 // ============================================================
 
-interface Skill {
+export interface Skill {
   publisher: string;
   section: string;
   id: string;
@@ -49,7 +49,7 @@ interface PublisherGroup {
   skills: SectionGroup[];
 }
 
-interface Output {
+export interface Output {
   meta: {
     fetched_at: string;
     source: string;
@@ -68,7 +68,7 @@ interface Output {
 // ============================================================
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
-import { join } from "node:path";
+import { dirname, join, resolve } from "node:path";
 
 const READONLY_URL =
   "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md";
@@ -305,6 +305,12 @@ export function parseSkills(readme: string): Skill[] {
         inMicrosoft = false;
         publisher = extractPublisher(heading);
         section = "Official";
+        continue;
+      }
+
+      // Community sub-category (inside Community Skills block)
+      if (inCommunity) {
+        section = heading;
         continue;
       }
 
@@ -631,12 +637,13 @@ async function refreshStaleCache(
 /**
  * Resolve officialskills.sh URLs to GitHub source URLs.
  * Uses the cache to skip already-resolved skills and re-crawls stale entries.
+ * Returns a new array of skills with resolved URLs (does not mutate the input).
  */
 async function resolveSkillUrls(
-  skills: Skill[],
+  skills: readonly Skill[],
   cache: Cache,
   concurrency = 10,
-): Promise<{ skills: Skill[]; cache: Cache; stats: CrawlStats }> {
+): Promise<{ skills: Skill[]; stats: CrawlStats }> {
   // Count cache hits before any resolution
   let cacheHits = 0;
   for (const s of skills) {
@@ -660,14 +667,12 @@ async function resolveSkillUrls(
     );
   }
 
-  // 3. Apply all cached URLs to the skills list
-  for (const s of skills) {
+  // 3. Build resolved skill array (pure — no mutation of input)
+  const resolved = skills.map((s) => {
     const entry = cache.resolved[s.id];
-    if (entry) {
-      s.url = entry.githubUrl;
-      s.repo = repoFromUrl(entry.githubUrl);
-    }
-  }
+    if (!entry) return { ...s };
+    return { ...s, url: entry.githubUrl, repo: repoFromUrl(entry.githubUrl) };
+  });
 
   const stats: CrawlStats = {
     cacheHits,
@@ -676,7 +681,7 @@ async function resolveSkillUrls(
     failures: staleFailures + newFailures,
   };
 
-  return { skills, cache, stats };
+  return { skills: resolved, stats };
 }
 
 // ============================================================
@@ -898,9 +903,13 @@ async function main(): Promise<void> {
   const now = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
   const cache = loadCache();
 
-  // --readme only: update README from existing registry files, no fetch
-  if (readmePath && !saveDir && !process.argv.includes("--save") && process.argv.includes("--readme")) {
-    const officialPath = join(process.cwd(), "registry", "official.json");
+  // --readme only: update README from existing registry files, no fetch.
+  // Intent: re-generate the README from previously saved registry files.
+  // saveCache is intentionally NOT called here — cache was already saved
+  // during the --save run that produced the registry files.
+  if (readmePath && !saveDir) {
+    // Resolve registry path relative to the README file
+    const officialPath = join(dirname(resolve(readmePath)), "registry", "official.json");
     try {
       const output = JSON.parse(readFileSync(officialPath, "utf-8")) as Output;
       updateReadme(readmePath, output, now);
@@ -918,41 +927,67 @@ async function main(): Promise<void> {
 
   const response = await fetch(READONLY_URL, { headers });
 
+  // ---- Phase 1: obtain skills (from cache or fresh fetch) ----
+  let skills: Skill[];
+  let crawlStatsMessage: string;
+
   if (response.status === 304) {
     console.error("  README unchanged (304). Checking stale cache entries ...");
     const r = await refreshStaleCache(cache);
     if (r.staleChecked > 0) {
       saveCache(cache);
-      console.error(`  Cache: ${r.staleChecked} stale, ${r.failures} failures`);
     }
-    console.error("  Done.");
-    return;
+
+    if (cache.previousSnapshot && cache.previousSnapshot.length > 0) {
+      console.error(`  Rebuilding output from ${cache.previousSnapshot.length} cached skills ...`);
+      skills = cache.previousSnapshot as Skill[];
+      crawlStatsMessage = `${r.staleChecked} stale checked, ${r.failures} failures`;
+    } else {
+      // No cached snapshot — must do a fresh fetch (first run edge case)
+      console.error("  No cached snapshot. Re-fetching README ...");
+      const freshResponse = await fetch(READONLY_URL);
+      if (!freshResponse.ok) {
+        throw new Error(
+          `Failed to fetch README: ${freshResponse.status} ${freshResponse.statusText}`,
+        );
+      }
+      const etag = freshResponse.headers.get("etag");
+      if (etag) cache.readmeEtag = etag;
+
+      const readme = await freshResponse.text();
+      console.error("Parsing skills ...");
+      skills = parseSkills(readme);
+      console.error(`  Extracted ${skills.length} skills`);
+
+      console.error("Resolving GitHub source URLs ...");
+      const { skills: resolvedSkills, stats } = await resolveSkillUrls(skills, cache);
+      skills = resolvedSkills;
+      crawlStatsMessage = `${stats.cacheHits} cached, ${stats.staleChecked} stale, ${stats.newCrawled} new, ${stats.failures} failures`;
+    }
+  } else {
+    if (!response.ok) {
+      throw new Error(
+        `Failed to fetch README: ${response.status} ${response.statusText}`,
+      );
+    }
+
+    const etag = response.headers.get("etag");
+    if (etag) cache.readmeEtag = etag;
+
+    const readme = await response.text();
+
+    console.error("Parsing skills ...");
+    skills = parseSkills(readme);
+    console.error(`  Extracted ${skills.length} skills`);
+
+    // ---- Resolve GitHub URLs ----
+    console.error("Resolving GitHub source URLs ...");
+    const { skills: resolvedSkills, stats } = await resolveSkillUrls(skills, cache);
+    skills = resolvedSkills;
+    crawlStatsMessage = `${stats.cacheHits} cached, ${stats.staleChecked} stale, ${stats.newCrawled} new, ${stats.failures} failures`;
   }
 
-  if (!response.ok) {
-    throw new Error(
-      `Failed to fetch README: ${response.status} ${response.statusText}`,
-    );
-  }
-
-  // ---- Parse new README ----
-  const etag = response.headers.get("etag");
-  if (etag) cache.readmeEtag = etag;
-
-  const readme = await response.text();
-
-  console.error("Parsing skills ...");
-  let skills = parseSkills(readme);
-  console.error(`  Extracted ${skills.length} skills`);
-
-  // ---- Resolve GitHub URLs ----
-  console.error("Resolving GitHub source URLs ...");
-  const { stats } = await resolveSkillUrls(skills, cache);
-
-  // Enrich repo field for all skills
-  skills = skills.map((s) => ({ ...s, repo: s.repo ?? repoFromUrl(s.url) }));
-
-  // ---- Build output ----
+  // ---- Phase 2: build, diff, save ----
   console.error("Building JSON structure ...");
   const output = buildOutput(skills);
 
@@ -1031,7 +1066,7 @@ async function main(): Promise<void> {
   }
 
   // ---- Print crawl stats ----
-  console.error(`  Stats: ${stats.cacheHits} cached, ${stats.staleChecked} stale, ${stats.newCrawled} new, ${stats.failures} failures`);
+  console.error(`  Stats: ${crawlStatsMessage}`);
 
   // ---- Print summary ----
   printSummary(output);
