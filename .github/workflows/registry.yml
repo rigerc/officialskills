@@ -5,6 +5,10 @@ on:
     # Every 2 days at 06:00 UTC
     - cron: "0 6 */2 * *"
   workflow_dispatch: # manual trigger
+  push:
+    paths:
+      - src/officialskills.ts
+      - src/officialskills.test.ts
 
 jobs:
   generate:
