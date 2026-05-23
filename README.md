@@ -1,6 +1,6 @@
 # officialskills
 
-Parses the [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) README into structured JSON, resolves all `officialskills.sh` URLs to their real GitHub source URLs, and produces three output files — `official.json`, `community.json`, and `manifest.json`.
+Parses the [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) README into structured JSON, resolves all `officialskills.sh` URLs to their real GitHub source URLs, and produces three output files — [`official.json`](https://raw.githubusercontent.com/rigerc/officialskills/main/registry/official.json), [`community.json`](https://raw.githubusercontent.com/rigerc/officialskills/main/registry/community.json), and [`manifest.json`](https://raw.githubusercontent.com/rigerc/officialskills/main/registry/manifest.json).
 
 > This collection features official skills published by leading development teams, including Anthropic, Google Labs, Vercel, Stripe, Cloudflare, Netlify, Trail of Bits, Sentry, Expo, Hugging Face, Figma, and more, alongside community-built skills.
 >
