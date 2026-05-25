@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-23T18:22:32Z",
-  "total_skills": 937,
+  "generated_at": "2026-05-25T09:50:18Z",
+  "total_skills": 1114,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 168,
+      "skills_count": 171,
       "skills": [
         {
           "id": "AgriciDaniel/claude-seo",
@@ -906,6 +906,13 @@
           "name": "postiz-agent",
           "url": "https://github.com/gitroomhq/postiz-agent",
           "repo": "gitroomhq/postiz-agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "indranilbanerjee/digital-marketing-pro",
+          "name": "digital-marketing-pro",
+          "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
+          "repo": "indranilbanerjee/digital-marketing-pro",
           "publisher": "Community"
         },
         {
@@ -1200,6 +1207,13 @@
           "name": "ios-simulator-skill",
           "url": "https://github.com/conorluddy/ios-simulator-skill",
           "repo": "conorluddy/ios-simulator-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "dembrandt/dembrandt-skills",
+          "name": "dembrandt-skills",
+          "url": "https://github.com/dembrandt/dembrandt-skills",
+          "repo": "dembrandt/dembrandt-skills",
           "publisher": "Community"
         },
         {
@@ -1949,6 +1963,13 @@
           "name": "tutor-skills",
           "url": "https://github.com/RoundTable02/tutor-skills",
           "repo": "RoundTable02/tutor-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "santifer/career-ops",
+          "name": "career-ops",
+          "url": "https://github.com/santifer/career-ops",
+          "repo": "santifer/career-ops",
           "publisher": "Community"
         },
         {
@@ -3982,6 +4003,144 @@
         }
       ]
     },
+    "Google Cloud": {
+      "skills_count": 19,
+      "skills": [
+        {
+          "id": "google/cloud/agent-platform-skill-registry",
+          "name": "agent-platform-skill-registry",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/agent-platform-skill-registry",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/alloydb-basics",
+          "name": "alloydb-basics",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/alloydb-basics",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/bigquery-basics",
+          "name": "bigquery-basics",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-basics",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/cloud-run-basics",
+          "name": "cloud-run-basics",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/cloud-run-basics",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/cloud-sql-basics",
+          "name": "cloud-sql-basics",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/cloud-sql-basics",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/firebase-basics",
+          "name": "firebase-basics",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/firebase-basics",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/gemini-agents-api",
+          "name": "gemini-agents-api",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/gemini-agents-api",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/gemini-api",
+          "name": "gemini-api",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/gemini-api",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/gemini-interactions-api",
+          "name": "gemini-interactions-api",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/gemini-interactions-api",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/gke-basics",
+          "name": "gke-basics",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/gke-basics",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-networking-observability",
+          "name": "google-cloud-networking-observability",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-networking-observability",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-recipe-auth",
+          "name": "google-cloud-recipe-auth",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-recipe-auth",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-recipe-onboarding",
+          "name": "google-cloud-recipe-onboarding",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-recipe-onboarding",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-waf-cost-optimization",
+          "name": "google-cloud-waf-cost-optimization",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-cost-optimization",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-waf-operational-excellence",
+          "name": "google-cloud-waf-operational-excellence",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-operational-excellence",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-waf-performance-optimization",
+          "name": "google-cloud-waf-performance-optimization",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-performance-optimization",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-waf-reliability",
+          "name": "google-cloud-waf-reliability",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-reliability",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-waf-security",
+          "name": "google-cloud-waf-security",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-security",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        },
+        {
+          "id": "google/cloud/google-cloud-waf-sustainability",
+          "name": "google-cloud-waf-sustainability",
+          "url": "https://github.com/google/skills/tree/main/skills/cloud/google-cloud-waf-sustainability",
+          "repo": "google/skills",
+          "publisher": "Google Cloud"
+        }
+      ]
+    },
     "Google Gemini": {
       "skills_count": 4,
       "skills": [
@@ -5817,6 +5976,1096 @@
           "url": "https://github.com/makenotion/notion-cookbook/tree/main/skills/claude/spec-to-implementation",
           "repo": "makenotion/notion-cookbook",
           "publisher": "Notion"
+        }
+      ]
+    },
+    "NVIDIA": {
+      "skills_count": 155,
+      "skills": [
+        {
+          "id": "NVIDIA/CUDA-Q/cudaq-guide",
+          "name": "cudaq-guide",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/CUDA-Q/cudaq-guide",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-developer",
+          "name": "cuopt-developer",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-developer",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-install",
+          "name": "cuopt-install",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-install",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-numerical-optimization-api-c",
+          "name": "cuopt-numerical-optimization-api-c",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-numerical-optimization-api-c",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-numerical-optimization-api-cli",
+          "name": "cuopt-numerical-optimization-api-cli",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-numerical-optimization-api-cli",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-numerical-optimization-api-python",
+          "name": "cuopt-numerical-optimization-api-python",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-numerical-optimization-api-python",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-routing-api-python",
+          "name": "cuopt-routing-api-python",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-routing-api-python",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-server-api-python",
+          "name": "cuopt-server-api-python",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-server-api-python",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-server-common",
+          "name": "cuopt-server-common",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-server-common",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/cuopt-user-rules",
+          "name": "cuopt-user-rules",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/cuopt-user-rules",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/numerical-optimization-formulation",
+          "name": "numerical-optimization-formulation",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/numerical-optimization-formulation",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/routing-formulation",
+          "name": "routing-formulation",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/routing-formulation",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/cuopt/skill-evolution",
+          "name": "skill-evolution",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/DALI/dali-dynamic-mode",
+          "name": "dali-dynamic-mode",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/DALI/dali-dynamic-mode",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/deepstream/deepstream-dev",
+          "name": "deepstream-dev",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/deepstream/deepstream-dev",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/deepstream/deepstream-import-vision-model",
+          "name": "deepstream-import-vision-model",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/deepstream/deepstream-import-vision-model",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/adding-model-support",
+          "name": "adding-model-support",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/adding-model-support",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/build-and-dependency",
+          "name": "build-and-dependency",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/build-and-dependency",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/bump-dependency",
+          "name": "bump-dependency",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/bump-dependency",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/cicd",
+          "name": "cicd",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/cicd",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/linting-and-formatting",
+          "name": "linting-and-formatting",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/linting-and-formatting",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/mlm-bridge-training",
+          "name": "mlm-bridge-training",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/mlm-bridge-training",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/multi-node-slurm",
+          "name": "multi-node-slurm",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/multi-node-slurm",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/nemo-rl-e2e-testing",
+          "name": "nemo-rl-e2e-testing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/nemo-rl-e2e-testing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/parity-testing",
+          "name": "parity-testing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/parity-testing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-activation-recompute",
+          "name": "perf-activation-recompute",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-activation-recompute",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-cpu-offloading",
+          "name": "perf-cpu-offloading",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cpu-offloading",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-cuda-graphs",
+          "name": "perf-cuda-graphs",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cuda-graphs",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-expert-parallel-overlap",
+          "name": "perf-expert-parallel-overlap",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-expert-parallel-overlap",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-hierarchical-context-parallel",
+          "name": "perf-hierarchical-context-parallel",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-hierarchical-context-parallel",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-megatron-fsdp",
+          "name": "perf-megatron-fsdp",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-megatron-fsdp",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-memory-tuning",
+          "name": "perf-memory-tuning",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-memory-tuning",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-moe-comm-overlap",
+          "name": "perf-moe-comm-overlap",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-comm-overlap",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-moe-dispatcher-selection",
+          "name": "perf-moe-dispatcher-selection",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-dispatcher-selection",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-moe-hardware-configs",
+          "name": "perf-moe-hardware-configs",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-hardware-configs",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-moe-long-context",
+          "name": "perf-moe-long-context",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-long-context",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-moe-optimization-workflow",
+          "name": "perf-moe-optimization-workflow",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-optimization-workflow",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-moe-vlm-training",
+          "name": "perf-moe-vlm-training",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-vlm-training",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-parallelism-strategies",
+          "name": "perf-parallelism-strategies",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-parallelism-strategies",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-sequence-packing",
+          "name": "perf-sequence-packing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-sequence-packing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/perf-tp-dp-comm-overlap",
+          "name": "perf-tp-dp-comm-overlap",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-tp-dp-comm-overlap",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/recipe-recommender",
+          "name": "recipe-recommender",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/recipe-recommender",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/resiliency",
+          "name": "resiliency",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/resiliency",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/testing",
+          "name": "testing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/testing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Bridge/verl-e2e-testing",
+          "name": "verl-e2e-testing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/verl-e2e-testing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/build-and-dependency",
+          "name": "build-and-dependency",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/build-and-dependency",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/bump-base-image",
+          "name": "bump-base-image",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/bump-base-image",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/cicd",
+          "name": "cicd",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/cicd",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/create-issue",
+          "name": "create-issue",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/create-issue",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/linting-and-formatting",
+          "name": "linting-and-formatting",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/linting-and-formatting",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/nightly-sync",
+          "name": "nightly-sync",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/nightly-sync",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/onboard-gb200-1node-tests",
+          "name": "onboard-gb200-1node-tests",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/onboard-gb200-1node-tests",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/respond-to-issue",
+          "name": "respond-to-issue",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/respond-to-issue",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/run-on-slurm",
+          "name": "run-on-slurm",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/run-on-slurm",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/split-pr",
+          "name": "split-pr",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/split-pr",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/testing",
+          "name": "testing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/testing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Megatron-Core/update-golden-values",
+          "name": "update-golden-values",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/update-golden-values",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/accessing-mlflow",
+          "name": "accessing-mlflow",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/accessing-mlflow",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/debug",
+          "name": "debug",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/debug",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/deployment",
+          "name": "deployment",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/deployment",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/evaluation",
+          "name": "evaluation",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/evaluation",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/launching-evals",
+          "name": "launching-evals",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/launching-evals",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/monitor",
+          "name": "monitor",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/monitor",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/ptq",
+          "name": "ptq",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/ptq",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/Model-Optimizer/release-cherry-pick",
+          "name": "release-cherry-pick",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/release-cherry-pick",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Evaluator-Launcher/accessing-mlflow",
+          "name": "accessing-mlflow",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/accessing-mlflow",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Evaluator-Launcher/launching-evals",
+          "name": "launching-evals",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/launching-evals",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Evaluator-Launcher/nel-assistant",
+          "name": "nel-assistant",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/nel-assistant",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Evaluator/byob",
+          "name": "byob",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator/byob",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Gym/add-benchmark",
+          "name": "add-benchmark",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/add-benchmark",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Gym/nemo-gym-debugging",
+          "name": "nemo-gym-debugging",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-debugging",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Gym/nemo-gym-docs",
+          "name": "nemo-gym-docs",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-docs",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Gym/nemo-gym-pivot-datasets",
+          "name": "nemo-gym-pivot-datasets",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-pivot-datasets",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-Gym/nemo-gym-reward-profiling",
+          "name": "nemo-gym-reward-profiling",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/nemo-gym-reward-profiling",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/auto-research",
+          "name": "auto-research",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/auto-research",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/brev-etiquette",
+          "name": "brev-etiquette",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/brev-etiquette",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/build-and-dependency",
+          "name": "build-and-dependency",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/build-and-dependency",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/cicd",
+          "name": "cicd",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/cicd",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/config-conventions",
+          "name": "config-conventions",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/config-conventions",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/contributing",
+          "name": "contributing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/contributing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/copyright",
+          "name": "copyright",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/copyright",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/docs",
+          "name": "docs",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/docs",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/error-handling",
+          "name": "error-handling",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/error-handling",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/launch-nemo-rl",
+          "name": "launch-nemo-rl",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/launch-nemo-rl",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/linting-and-formatting",
+          "name": "linting-and-formatting",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/linting-and-formatting",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/review-pr",
+          "name": "review-pr",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/review-pr",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/session-memory",
+          "name": "session-memory",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/session-memory",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NeMo-RL/testing",
+          "name": "testing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-RL/testing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-contributor-create-pr",
+          "name": "nemoclaw-contributor-create-pr",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-contributor-create-pr",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-contributor-update-docs",
+          "name": "nemoclaw-contributor-update-docs",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-contributor-update-docs",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-cross-issue-sweep",
+          "name": "nemoclaw-maintainer-cross-issue-sweep",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-cross-issue-sweep",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-cut-release-tag",
+          "name": "nemoclaw-maintainer-cut-release-tag",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-cut-release-tag",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-day",
+          "name": "nemoclaw-maintainer-day",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-day",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-evening",
+          "name": "nemoclaw-maintainer-evening",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-evening",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-find-review-pr",
+          "name": "nemoclaw-maintainer-find-review-pr",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-find-review-pr",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-morning",
+          "name": "nemoclaw-maintainer-morning",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-morning",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-normalize-title-tags",
+          "name": "nemoclaw-maintainer-normalize-title-tags",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-normalize-title-tags",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-pr-comparator",
+          "name": "nemoclaw-maintainer-pr-comparator",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-pr-comparator",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-security-code-review",
+          "name": "nemoclaw-maintainer-security-code-review",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-security-code-review",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-maintainer-triage",
+          "name": "nemoclaw-maintainer-triage",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-triage",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-skills-guide",
+          "name": "nemoclaw-skills-guide",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-skills-guide",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-agent-skills",
+          "name": "nemoclaw-user-agent-skills",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-agent-skills",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-configure-inference",
+          "name": "nemoclaw-user-configure-inference",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-configure-inference",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-configure-security",
+          "name": "nemoclaw-user-configure-security",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-configure-security",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-deploy-remote",
+          "name": "nemoclaw-user-deploy-remote",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-deploy-remote",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-get-started",
+          "name": "nemoclaw-user-get-started",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-get-started",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-manage-policy",
+          "name": "nemoclaw-user-manage-policy",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-manage-policy",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-manage-sandboxes",
+          "name": "nemoclaw-user-manage-sandboxes",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-manage-sandboxes",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-monitor-sandbox",
+          "name": "nemoclaw-user-monitor-sandbox",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-monitor-sandbox",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-overview",
+          "name": "nemoclaw-user-overview",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-overview",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/NemoClaw/nemoclaw-user-reference",
+          "name": "nemoclaw-user-reference",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-user-reference",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/nemotron-voice-agent/nemotron-voice-agent-deploy",
+          "name": "nemotron-voice-agent-deploy",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/nemotron-voice-agent/nemotron-voice-agent-deploy",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/rag/rag-blueprint",
+          "name": "rag-blueprint",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/rag/rag-blueprint",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/ad-accuracy-debug",
+          "name": "ad-accuracy-debug",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-accuracy-debug",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/ad-add-fusion-transformation",
+          "name": "ad-add-fusion-transformation",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-add-fusion-transformation",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/ad-conf-check",
+          "name": "ad-conf-check",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-conf-check",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/ad-graph-dump",
+          "name": "ad-graph-dump",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-graph-dump",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/ad-layer-visualizer",
+          "name": "ad-layer-visualizer",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-layer-visualizer",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/ad-model-onboard",
+          "name": "ad-model-onboard",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/ad-model-onboard",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/exec-local-compile",
+          "name": "exec-local-compile",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/exec-local-compile",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/exec-slurm-compile",
+          "name": "exec-slurm-compile",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/exec-slurm-compile",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/kernel-cute-writing",
+          "name": "kernel-cute-writing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-cute-writing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/kernel-tileir-optimization",
+          "name": "kernel-tileir-optimization",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-tileir-optimization",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/kernel-triton-writing",
+          "name": "kernel-triton-writing",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/kernel-triton-writing",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-analysis",
+          "name": "perf-analysis",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-analysis",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-host-analysis",
+          "name": "perf-host-analysis",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-host-analysis",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-host-optimization",
+          "name": "perf-host-optimization",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-host-optimization",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-nsight-compute-analysis",
+          "name": "perf-nsight-compute-analysis",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-nsight-compute-analysis",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-nsight-systems",
+          "name": "perf-nsight-systems",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-nsight-systems",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-optimization",
+          "name": "perf-optimization",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-optimization",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-torch-cuda-graphs",
+          "name": "perf-torch-cuda-graphs",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-torch-cuda-graphs",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-torch-sync-free",
+          "name": "perf-torch-sync-free",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-torch-sync-free",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/perf-workload-profiling",
+          "name": "perf-workload-profiling",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-workload-profiling",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/trtllm-code-contribution",
+          "name": "trtllm-code-contribution",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-code-contribution",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/trtllm-codebase-exploration",
+          "name": "trtllm-codebase-exploration",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-codebase-exploration",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/trtllm-flashinfer-upgrade",
+          "name": "trtllm-flashinfer-upgrade",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-flashinfer-upgrade",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/trtllm-moe-develop",
+          "name": "trtllm-moe-develop",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-moe-develop",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TensorRT-LLM/trtllm-serve-config-guide",
+          "name": "trtllm-serve-config-guide",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/trtllm-serve-config-guide",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TileGym/adding-cutile-kernel",
+          "name": "adding-cutile-kernel",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/adding-cutile-kernel",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TileGym/converting-cutile-to-julia",
+          "name": "converting-cutile-to-julia",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/converting-cutile-to-julia",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TileGym/converting-cutile-to-triton",
+          "name": "converting-cutile-to-triton",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/converting-cutile-to-triton",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TileGym/cutile-autotuning",
+          "name": "cutile-autotuning",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/cutile-autotuning",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TileGym/cutile-python",
+          "name": "cutile-python",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/cutile-python",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TileGym/improve-cutile-kernel-perf",
+          "name": "improve-cutile-kernel-perf",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/improve-cutile-kernel-perf",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/TileGym/monkey-patch-kernels-to-transformers",
+          "name": "monkey-patch-kernels-to-transformers",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/TileGym/monkey-patch-kernels-to-transformers",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/alerts",
+          "name": "alerts",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/alerts",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/deploy",
+          "name": "deploy",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/deploy",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/report",
+          "name": "report",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/report",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/rt-vlm",
+          "name": "rt-vlm",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/rt-vlm",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/video-analytics",
+          "name": "video-analytics",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-analytics",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/video-search",
+          "name": "video-search",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-search",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/video-summarization",
+          "name": "video-summarization",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-summarization",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/video-understanding",
+          "name": "video-understanding",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-understanding",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/vios",
+          "name": "vios",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vios",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
+        },
+        {
+          "id": "NVIDIA/video-search-and-summarization/vss-frag",
+          "name": "vss-frag",
+          "url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vss-frag",
+          "repo": "NVIDIA/skills",
+          "publisher": "NVIDIA"
         }
       ]
     },
