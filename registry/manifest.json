@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-03T10:44:23Z",
-  "total_skills": 1114,
+  "generated_at": "2026-06-05T09:32:08Z",
+  "total_skills": 1117,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -2079,6 +2079,32 @@
           "url": "https://github.com/trycourier/courier-skills",
           "repo": "trycourier/courier-skills",
           "publisher": "Courier"
+        }
+      ]
+    },
+    "Cypress": {
+      "skills_count": 3,
+      "skills": [
+        {
+          "id": "cypress-io/cypress-author",
+          "name": "cypress-author",
+          "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-author",
+          "repo": "cypress-io/ai-toolkit",
+          "publisher": "Cypress"
+        },
+        {
+          "id": "cypress-io/cypress-docs",
+          "name": "cypress-docs",
+          "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-docs",
+          "repo": "cypress-io/ai-toolkit",
+          "publisher": "Cypress"
+        },
+        {
+          "id": "cypress-io/cypress-explain",
+          "name": "cypress-explain",
+          "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-explain",
+          "repo": "cypress-io/ai-toolkit",
+          "publisher": "Cypress"
         }
       ]
     },
@@ -7368,6 +7394,39 @@
         }
       ]
     },
+    "RedHat": {
+      "skills_count": 4,
+      "skills": [
+        {
+          "id": "redhat/cve-skillpack",
+          "name": "cve-skillpack",
+          "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-customers#agent-and-skills",
+          "repo": null,
+          "publisher": "RedHat"
+        },
+        {
+          "id": "redhat/openshift-skillpack",
+          "name": "openshift-skillpack",
+          "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift",
+          "repo": null,
+          "publisher": "RedHat"
+        },
+        {
+          "id": "redhat/openshift-virtualization",
+          "name": "openshift-virtualization",
+          "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift-virtualization",
+          "repo": null,
+          "publisher": "RedHat"
+        },
+        {
+          "id": "redhat/sre-skillpack",
+          "name": "sre-skillpack",
+          "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-site-reliability-engineers",
+          "repo": null,
+          "publisher": "RedHat"
+        }
+      ]
+    },
     "Redis": {
       "skills_count": 1,
       "skills": [
@@ -7893,15 +7952,8 @@
       ]
     },
     "Vercel": {
-      "skills_count": 7,
+      "skills_count": 3,
       "skills": [
-        {
-          "id": "vercel-labs/composition-patterns",
-          "name": "composition-patterns",
-          "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/composition-patterns",
-          "repo": "vercel-labs/next-skills",
-          "publisher": "Vercel"
-        },
         {
           "id": "vercel-labs/next-best-practices",
           "name": "next-best-practices",
@@ -7920,27 +7972,6 @@
           "id": "vercel-labs/next-upgrade",
           "name": "next-upgrade",
           "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-upgrade",
-          "repo": "vercel-labs/next-skills",
-          "publisher": "Vercel"
-        },
-        {
-          "id": "vercel-labs/react-best-practices",
-          "name": "react-best-practices",
-          "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-best-practices",
-          "repo": "vercel-labs/next-skills",
-          "publisher": "Vercel"
-        },
-        {
-          "id": "vercel-labs/react-native-skills",
-          "name": "react-native-skills",
-          "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-native-skills",
-          "repo": "vercel-labs/next-skills",
-          "publisher": "Vercel"
-        },
-        {
-          "id": "vercel-labs/web-design-guidelines",
-          "name": "web-design-guidelines",
-          "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/web-design-guidelines",
           "repo": "vercel-labs/next-skills",
           "publisher": "Vercel"
         }

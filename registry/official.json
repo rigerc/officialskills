@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-06-03T10:44:23Z",
+    "fetched_at": "2026-06-05T09:32:08Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 943,
-    "total_publishers": 54,
+    "total_skills": 946,
+    "total_publishers": 56,
     "total_categories": 7,
-    "total_official": 943,
+    "total_official": 946,
     "total_community": 0
   },
   "publishers": [
@@ -1237,6 +1237,46 @@
               "description": "Multi-channel notifications via email, SMS, push, and chat",
               "repo": "trycourier/courier-skills",
               "publisher": "Courier",
+              "section": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cypress",
+      "type": "official",
+      "skills_count": 3,
+      "skills": [
+        {
+          "section": "Official",
+          "skills_count": 3,
+          "skills": [
+            {
+              "id": "cypress-io/cypress-author",
+              "name": "cypress-author",
+              "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-author",
+              "description": "Creates, updates, and fixes Cypress E2E and component tests.",
+              "repo": "cypress-io/ai-toolkit",
+              "publisher": "Cypress",
+              "section": "Official"
+            },
+            {
+              "id": "cypress-io/cypress-docs",
+              "name": "cypress-docs",
+              "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-docs",
+              "description": "Search and extract Cypress information from official documentation.",
+              "repo": "cypress-io/ai-toolkit",
+              "publisher": "Cypress",
+              "section": "Official"
+            },
+            {
+              "id": "cypress-io/cypress-explain",
+              "name": "cypress-explain",
+              "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-explain",
+              "description": "Explains Cypress E2E and component tests, and answers questions about Cypress use and behavior.",
+              "repo": "cypress-io/ai-toolkit",
+              "publisher": "Cypress",
               "section": "Official"
             }
           ]
@@ -8228,6 +8268,55 @@
       ]
     },
     {
+      "name": "RedHat",
+      "type": "official",
+      "skills_count": 4,
+      "skills": [
+        {
+          "section": "Official",
+          "skills_count": 4,
+          "skills": [
+            {
+              "id": "redhat/cve-skillpack",
+              "name": "cve-skillpack",
+              "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-customers#agent-and-skills",
+              "description": "Understand CVEs, check product lifecycle status, gather diagnostics, and file support cases at the right severity — essential Red Hat skills for everyday operations.",
+              "repo": null,
+              "publisher": "RedHat",
+              "section": "Official"
+            },
+            {
+              "id": "redhat/openshift-skillpack",
+              "name": "openshift-skillpack",
+              "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift",
+              "description": "Provision, inventory, and report on OpenShift clusters — spanning Assisted Installer, OCM, ROSA, ARO, and kubeconfig fleets — through a single conversational workflow.",
+              "repo": null,
+              "publisher": "RedHat",
+              "section": "Official"
+            },
+            {
+              "id": "redhat/openshift-virtualization",
+              "name": "openshift-virtualization",
+              "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift-virtualization",
+              "description": "Manage the full VM lifecycle on OpenShift Virtualization — create, clone, snapshot, restore, rebalance, and report — through a single conversational workflow.",
+              "repo": null,
+              "publisher": "RedHat",
+              "section": "Official"
+            },
+            {
+              "id": "redhat/sre-skillpack",
+              "name": "sre-skillpack",
+              "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-site-reliability-engineers",
+              "description": "Discover, remediate, and verify CVEs across your RHEL fleet — orchestrating Red Hat Lightspeed and Ansible Automation Platform through a single workflow.",
+              "repo": null,
+              "publisher": "RedHat",
+              "section": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Redis",
       "type": "official",
       "skills_count": 1,
@@ -8976,21 +9065,12 @@
     {
       "name": "Vercel",
       "type": "official",
-      "skills_count": 7,
+      "skills_count": 3,
       "skills": [
         {
           "section": "Official",
-          "skills_count": 7,
+          "skills_count": 3,
           "skills": [
-            {
-              "id": "vercel-labs/composition-patterns",
-              "name": "composition-patterns",
-              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/composition-patterns",
-              "description": "React component composition and reusable patterns",
-              "repo": "vercel-labs/next-skills",
-              "publisher": "Vercel",
-              "section": "Official"
-            },
             {
               "id": "vercel-labs/next-best-practices",
               "name": "next-best-practices",
@@ -9014,33 +9094,6 @@
               "name": "next-upgrade",
               "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-upgrade",
               "description": "Upgrade Next.js projects to newer versions",
-              "repo": "vercel-labs/next-skills",
-              "publisher": "Vercel",
-              "section": "Official"
-            },
-            {
-              "id": "vercel-labs/react-best-practices",
-              "name": "react-best-practices",
-              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-best-practices",
-              "description": "React best practices and patterns",
-              "repo": "vercel-labs/next-skills",
-              "publisher": "Vercel",
-              "section": "Official"
-            },
-            {
-              "id": "vercel-labs/react-native-skills",
-              "name": "react-native-skills",
-              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-native-skills",
-              "description": "React Native best practices and performance guidelines",
-              "repo": "vercel-labs/next-skills",
-              "publisher": "Vercel",
-              "section": "Official"
-            },
-            {
-              "id": "vercel-labs/web-design-guidelines",
-              "name": "web-design-guidelines",
-              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/web-design-guidelines",
-              "description": "Web design guidelines and standards",
               "repo": "vercel-labs/next-skills",
               "publisher": "Vercel",
               "section": "Official"
@@ -10254,6 +10307,33 @@
       "description": "Multi-channel notifications via email, SMS, push, and chat",
       "repo": "trycourier/courier-skills",
       "publisher": "Courier",
+      "section": "Official"
+    },
+    {
+      "id": "cypress-io/cypress-author",
+      "name": "cypress-author",
+      "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-author",
+      "description": "Creates, updates, and fixes Cypress E2E and component tests.",
+      "repo": "cypress-io/ai-toolkit",
+      "publisher": "Cypress",
+      "section": "Official"
+    },
+    {
+      "id": "cypress-io/cypress-docs",
+      "name": "cypress-docs",
+      "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-docs",
+      "description": "Search and extract Cypress information from official documentation.",
+      "repo": "cypress-io/ai-toolkit",
+      "publisher": "Cypress",
+      "section": "Official"
+    },
+    {
+      "id": "cypress-io/cypress-explain",
+      "name": "cypress-explain",
+      "url": "https://github.com/cypress-io/ai-toolkit/tree/main/skills/cypress-explain",
+      "description": "Explains Cypress E2E and component tests, and answers questions about Cypress use and behavior.",
+      "repo": "cypress-io/ai-toolkit",
+      "publisher": "Cypress",
       "section": "Official"
     },
     {
@@ -16899,6 +16979,42 @@
       "section": "Official"
     },
     {
+      "id": "redhat/cve-skillpack",
+      "name": "cve-skillpack",
+      "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-customers#agent-and-skills",
+      "description": "Understand CVEs, check product lifecycle status, gather diagnostics, and file support cases at the right severity — essential Red Hat skills for everyday operations.",
+      "repo": null,
+      "publisher": "RedHat",
+      "section": "Official"
+    },
+    {
+      "id": "redhat/openshift-skillpack",
+      "name": "openshift-skillpack",
+      "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift",
+      "description": "Provision, inventory, and report on OpenShift clusters — spanning Assisted Installer, OCM, ROSA, ARO, and kubeconfig fleets — through a single conversational workflow.",
+      "repo": null,
+      "publisher": "RedHat",
+      "section": "Official"
+    },
+    {
+      "id": "redhat/openshift-virtualization",
+      "name": "openshift-virtualization",
+      "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-red-hat-openshift-virtualization",
+      "description": "Manage the full VM lifecycle on OpenShift Virtualization — create, clone, snapshot, restore, rebalance, and report — through a single conversational workflow.",
+      "repo": null,
+      "publisher": "RedHat",
+      "section": "Official"
+    },
+    {
+      "id": "redhat/sre-skillpack",
+      "name": "sre-skillpack",
+      "url": "https://catalog.redhat.com/en/ai/skills/detail/agentic-skill-pack-for-site-reliability-engineers",
+      "description": "Discover, remediate, and verify CVEs across your RHEL fleet — orchestrating Red Hat Lightspeed and Ansible Automation Platform through a single workflow.",
+      "repo": null,
+      "publisher": "RedHat",
+      "section": "Official"
+    },
+    {
       "id": "redis/redis-development",
       "name": "redis-development",
       "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-development",
@@ -17502,15 +17618,6 @@
       "section": "Official"
     },
     {
-      "id": "vercel-labs/composition-patterns",
-      "name": "composition-patterns",
-      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/composition-patterns",
-      "description": "React component composition and reusable patterns",
-      "repo": "vercel-labs/next-skills",
-      "publisher": "Vercel",
-      "section": "Official"
-    },
-    {
       "id": "vercel-labs/next-best-practices",
       "name": "next-best-practices",
       "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-best-practices",
@@ -17533,33 +17640,6 @@
       "name": "next-upgrade",
       "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-upgrade",
       "description": "Upgrade Next.js projects to newer versions",
-      "repo": "vercel-labs/next-skills",
-      "publisher": "Vercel",
-      "section": "Official"
-    },
-    {
-      "id": "vercel-labs/react-best-practices",
-      "name": "react-best-practices",
-      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-best-practices",
-      "description": "React best practices and patterns",
-      "repo": "vercel-labs/next-skills",
-      "publisher": "Vercel",
-      "section": "Official"
-    },
-    {
-      "id": "vercel-labs/react-native-skills",
-      "name": "react-native-skills",
-      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-native-skills",
-      "description": "React Native best practices and performance guidelines",
-      "repo": "vercel-labs/next-skills",
-      "publisher": "Vercel",
-      "section": "Official"
-    },
-    {
-      "id": "vercel-labs/web-design-guidelines",
-      "name": "web-design-guidelines",
-      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/web-design-guidelines",
-      "description": "Web design guidelines and standards",
       "repo": "vercel-labs/next-skills",
       "publisher": "Vercel",
       "section": "Official"
