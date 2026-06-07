@@ -10,8 +10,8 @@ Parses the [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-ski
 
 <!-- REGISTRY_STATS -->
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=last+run&message=2026-06-05T09%3A32%3A05Z&color=blue&style=flat" alt="Last run">
-  <img src="https://img.shields.io/static/v1?label=last+change&message=2026-06-05T09%3A32%3A08Z&color=informational&style=flat" alt="Last change">
+  <img src="https://img.shields.io/static/v1?label=last+run&message=2026-06-07T08%3A45%3A41Z&color=blue&style=flat" alt="Last run">
+  <img src="https://img.shields.io/static/v1?label=last+change&message=2026-06-07T08%3A45%3A44Z&color=informational&style=flat" alt="Last change">
   <img src="https://img.shields.io/static/v1?label=publishers&message=57&color=orange&style=flat" alt="Publishers">
   <img src="https://img.shields.io/static/v1?label=skills&message=1117&color=green&style=flat" alt="Skills">
 </p>
