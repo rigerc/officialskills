@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-11T10:07:23Z",
-  "total_skills": 1117,
+  "generated_at": "2026-06-13T08:47:40Z",
+  "total_skills": 1119,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 171,
+      "skills_count": 173,
       "skills": [
         {
           "id": "AgriciDaniel/claude-seo",
@@ -983,6 +983,13 @@
           "name": "claude-ai-music-skills",
           "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
           "repo": "bitwize-music-studio/claude-ai-music-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "Ericyoung-183/alpha-insights",
+          "name": "alpha-insights",
+          "url": "https://github.com/Ericyoung-183/alpha-insights",
+          "repo": "Ericyoung-183/alpha-insights",
           "publisher": "Community"
         },
         {
@@ -1249,6 +1256,13 @@
           "name": "dev-agent-skills",
           "url": "https://github.com/fvadicamo/dev-agent-skills",
           "repo": "fvadicamo/dev-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "GanyuanRan/Aegis",
+          "name": "Aegis",
+          "url": "https://github.com/GanyuanRan/Aegis",
+          "repo": "GanyuanRan/Aegis",
           "publisher": "Community"
         },
         {

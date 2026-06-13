@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-06-11T10:07:23Z",
+    "fetched_at": "2026-06-13T08:47:40Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 171,
+    "total_skills": 173,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 171
+    "total_community": 173
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 171,
+      "skills_count": 173,
       "skills": [
         {
           "section": "Marketing",
@@ -157,7 +157,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 29,
+          "skills_count": 30,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -183,6 +183,15 @@
               "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
               "description": "Full-lifecycle AI music album production",
               "repo": "bitwize-music-studio/claude-ai-music-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Ericyoung-183/alpha-insights",
+              "name": "alpha-insights",
+              "url": "https://github.com/Ericyoung-183/alpha-insights",
+              "description": "Harness-enforced business research for Claude Code and Codex",
+              "repo": "Ericyoung-183/alpha-insights",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -424,7 +433,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 75,
+          "skills_count": 76,
           "skills": [
             {
               "id": "alinaqi/claude-bootstrap",
@@ -531,6 +540,15 @@
               "url": "https://github.com/fvadicamo/dev-agent-skills",
               "description": "Git and GitHub workflow skills for commits, PRs, and code reviews",
               "repo": "fvadicamo/dev-agent-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "GanyuanRan/Aegis",
+              "name": "Aegis",
+              "url": "https://github.com/GanyuanRan/Aegis",
+              "description": "Evidence-driven method pack for AI coding agents",
+              "repo": "GanyuanRan/Aegis",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1852,6 +1870,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "Ericyoung-183/alpha-insights",
+      "name": "alpha-insights",
+      "url": "https://github.com/Ericyoung-183/alpha-insights",
+      "description": "Harness-enforced business research for Claude Code and Codex",
+      "repo": "Ericyoung-183/alpha-insights",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "Eronred/aso-skills",
       "name": "aso-skills",
       "url": "https://github.com/Eronred/aso-skills",
@@ -1902,6 +1929,15 @@
       "url": "https://github.com/fvadicamo/dev-agent-skills",
       "description": "Git and GitHub workflow skills for commits, PRs, and code reviews",
       "repo": "fvadicamo/dev-agent-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "GanyuanRan/Aegis",
+      "name": "Aegis",
+      "url": "https://github.com/GanyuanRan/Aegis",
+      "description": "Evidence-driven method pack for AI coding agents",
+      "repo": "GanyuanRan/Aegis",
       "publisher": "Community",
       "section": "Development and Testing"
     },
