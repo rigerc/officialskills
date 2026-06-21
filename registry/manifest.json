@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-19T10:13:15Z",
-  "total_skills": 1119,
+  "generated_at": "2026-06-21T09:36:37Z",
+  "total_skills": 1120,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 173,
+      "skills_count": 174,
       "skills": [
         {
           "id": "AgriciDaniel/claude-seo",
@@ -1781,6 +1781,13 @@
           "name": "prompt-engineering",
           "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
           "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "sametbrr/llm-wiki-manager",
+          "name": "llm-wiki-manager",
+          "url": "https://github.com/sametbrr/llm-wiki-manager",
+          "repo": "sametbrr/llm-wiki-manager",
           "publisher": "Community"
         },
         {

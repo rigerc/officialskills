@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-06-19T10:13:15Z",
+    "fetched_at": "2026-06-21T09:36:37Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 173,
+    "total_skills": 174,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 173
+    "total_community": 174
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 173,
+      "skills_count": 174,
       "skills": [
         {
           "section": "Marketing",
@@ -1123,7 +1123,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 11,
+          "skills_count": 12,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1221,6 +1221,15 @@
               "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
               "description": "Widely used prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles.",
               "repo": "NeoLabHQ/context-engineering-kit",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "sametbrr/llm-wiki-manager",
+              "name": "llm-wiki-manager",
+              "url": "https://github.com/sametbrr/llm-wiki-manager",
+              "description": "Persistent LLM-managed personal wiki — the model writes, cross-references, and maintains the knowledge base while you curate sources. Implements Karpathy's LLM Wiki pattern with 8 operating modes.",
+              "repo": "sametbrr/llm-wiki-manager",
               "publisher": "Community",
               "section": "Context Engineering"
             }
@@ -2876,6 +2885,15 @@
       "repo": "rudrankriyam/app-store-connect-cli-skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "sametbrr/llm-wiki-manager",
+      "name": "llm-wiki-manager",
+      "url": "https://github.com/sametbrr/llm-wiki-manager",
+      "description": "Persistent LLM-managed personal wiki — the model writes, cross-references, and maintains the knowledge base while you curate sources. Implements Karpathy's LLM Wiki pattern with 8 operating modes.",
+      "repo": "sametbrr/llm-wiki-manager",
+      "publisher": "Community",
+      "section": "Context Engineering"
     },
     {
       "id": "sanjay3290/deep-research",
