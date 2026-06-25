@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-23T08:59:29Z",
-  "total_skills": 1168,
+  "generated_at": "2026-06-25T08:48:12Z",
+  "total_skills": 1172,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 174,
+      "skills_count": 178,
       "skills": [
         {
           "id": "AgriciDaniel/claude-seo",
@@ -923,6 +923,13 @@
           "publisher": "Community"
         },
         {
+          "id": "nowork-studio/NotFair",
+          "name": "NotFair",
+          "url": "https://github.com/nowork-studio/NotFair",
+          "repo": "nowork-studio/NotFair",
+          "publisher": "Community"
+        },
+        {
           "id": "SHADOWPR0/beautiful_prose",
           "name": "beautiful_prose",
           "url": "https://github.com/SHADOWPR0/beautiful_prose",
@@ -934,13 +941,6 @@
           "name": "creative-director-skill",
           "url": "https://github.com/smixs/creative-director-skill",
           "repo": "smixs/creative-director-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "voidborne-d/humanize-chinese",
-          "name": "humanize-chinese",
-          "url": "https://github.com/voidborne-d/humanize-chinese",
-          "repo": "voidborne-d/humanize-chinese",
           "publisher": "Community"
         },
         {
@@ -997,6 +997,13 @@
           "name": "clarity-gate",
           "url": "https://github.com/frmoretto/clarity-gate",
           "repo": "frmoretto/clarity-gate",
+          "publisher": "Community"
+        },
+        {
+          "id": "hanhuark/mechanical-engineering-research-skill",
+          "name": "mechanical-engineering-research-skill",
+          "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+          "repo": "hanhuark/mechanical-engineering-research-skill",
           "publisher": "Community"
         },
         {
@@ -1193,6 +1200,13 @@
           "name": "swiftui-expert-skill",
           "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
           "repo": "AvdLee/SwiftUI-Agent-Skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "baskduf/codex-fable5",
+          "name": "codex-fable5",
+          "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
+          "repo": "baskduf/FableCodex",
           "publisher": "Community"
         },
         {
@@ -1784,6 +1798,13 @@
           "publisher": "Community"
         },
         {
+          "id": "Panniantong/Agent-Reach",
+          "name": "Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "repo": "Panniantong/Agent-Reach",
+          "publisher": "Community"
+        },
+        {
           "id": "sametbrr/llm-wiki-manager",
           "name": "llm-wiki-manager",
           "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -1956,6 +1977,13 @@
           "name": "ResumeSkills",
           "url": "https://github.com/Paramchoudhary/ResumeSkills",
           "repo": "Paramchoudhary/ResumeSkills",
+          "publisher": "Community"
+        },
+        {
+          "id": "pattern-ai-labs/agentcall",
+          "name": "agentcall",
+          "url": "https://github.com/pattern-ai-labs/agentcall",
+          "repo": "pattern-ai-labs/agentcall",
           "publisher": "Community"
         },
         {

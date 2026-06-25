@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-06-23T08:59:29Z",
+    "fetched_at": "2026-06-25T08:48:12Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 174,
+    "total_skills": 178,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 174
+    "total_community": 178
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 174,
+      "skills_count": 178,
       "skills": [
         {
           "section": "Marketing",
@@ -100,6 +100,15 @@
               "section": "Marketing"
             },
             {
+              "id": "nowork-studio/NotFair",
+              "name": "NotFair",
+              "url": "https://github.com/nowork-studio/NotFair",
+              "description": "SEO, GEO, Google Ads, and Meta Ads skills with live data",
+              "repo": "nowork-studio/NotFair",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "SHADOWPR0/beautiful_prose",
               "name": "beautiful_prose",
               "url": "https://github.com/SHADOWPR0/beautiful_prose",
@@ -114,15 +123,6 @@
               "url": "https://github.com/smixs/creative-director-skill",
               "description": "AI creative director with recursive self-assessment: 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER, Synectics), 3-axis evaluation calibrated against Cannes/D&AD/HumanKind, 5-phase process from brief to presentation",
               "repo": "smixs/creative-director-skill",
-              "publisher": "Community",
-              "section": "Marketing"
-            },
-            {
-              "id": "voidborne-d/humanize-chinese",
-              "name": "humanize-chinese",
-              "url": "https://github.com/voidborne-d/humanize-chinese",
-              "description": "Detect and rewrite AI-generated Chinese text; rule-ensemble scoring, 7 style transforms, academic AIGC reduction",
-              "repo": "voidborne-d/humanize-chinese",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -157,7 +157,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 30,
+          "skills_count": 31,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -201,6 +201,15 @@
               "url": "https://github.com/frmoretto/clarity-gate",
               "description": "Epistemic quality verification for RAG systems",
               "repo": "frmoretto/clarity-gate",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "hanhuark/mechanical-engineering-research-skill",
+              "name": "mechanical-engineering-research-skill",
+              "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+              "description": "Thermal-fluid research writing, proposals, DOE, and presentation feedback",
+              "repo": "hanhuark/mechanical-engineering-research-skill",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -433,7 +442,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 76,
+          "skills_count": 77,
           "skills": [
             {
               "id": "alinaqi/claude-bootstrap",
@@ -459,6 +468,15 @@
               "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
               "description": "Modern SwiftUI best practices and iOS 26+ Liquid Glass adoption",
               "repo": "AvdLee/SwiftUI-Agent-Skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "baskduf/codex-fable5",
+              "name": "codex-fable5",
+              "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
+              "description": "Evidence-based workflow gates for Codex",
+              "repo": "baskduf/FableCodex",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1123,7 +1141,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 12,
+          "skills_count": 13,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1225,6 +1243,15 @@
               "section": "Context Engineering"
             },
             {
+              "id": "Panniantong/Agent-Reach",
+              "name": "Agent-Reach",
+              "url": "https://github.com/Panniantong/Agent-Reach",
+              "description": "Multi-platform search CLI for 17 sites including Chinese platforms",
+              "repo": "Panniantong/Agent-Reach",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
               "id": "sametbrr/llm-wiki-manager",
               "name": "llm-wiki-manager",
               "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -1237,7 +1264,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 33,
+          "skills_count": 34,
           "skills": [
             {
               "id": "Charlie85270/Dorothy",
@@ -1452,6 +1479,15 @@
               "url": "https://github.com/Paramchoudhary/ResumeSkills",
               "description": "20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions",
               "repo": "Paramchoudhary/ResumeSkills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "pattern-ai-labs/agentcall",
+              "name": "agentcall",
+              "url": "https://github.com/pattern-ai-labs/agentcall",
+              "description": "Let your AI agents join Google Meet, Zoom, Teams calls and collaborate like a real team-mate.",
+              "repo": "pattern-ai-labs/agentcall",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -1679,6 +1715,15 @@
       "repo": "awrshift/claude-memory-kit",
       "publisher": "Community",
       "section": "Context Engineering"
+    },
+    {
+      "id": "baskduf/codex-fable5",
+      "name": "codex-fable5",
+      "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
+      "description": "Evidence-based workflow gates for Codex",
+      "repo": "baskduf/FableCodex",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "BehiSecc/vibesec",
@@ -2057,6 +2102,15 @@
       "repo": "hanfang/claude-memory-skill",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "hanhuark/mechanical-engineering-research-skill",
+      "name": "mechanical-engineering-research-skill",
+      "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+      "description": "Thermal-fluid research writing, proposals, DOE, and presentation feedback",
+      "repo": "hanhuark/mechanical-engineering-research-skill",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "helius-labs/helius-skills",
@@ -2509,6 +2563,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "nowork-studio/NotFair",
+      "name": "NotFair",
+      "url": "https://github.com/nowork-studio/NotFair",
+      "description": "SEO, GEO, Google Ads, and Meta Ads skills with live data",
+      "repo": "nowork-studio/NotFair",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "obra/brainstorming",
       "name": "brainstorming",
       "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
@@ -2761,11 +2824,29 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "Panniantong/Agent-Reach",
+      "name": "Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Multi-platform search CLI for 17 sites including Chinese platforms",
+      "repo": "Panniantong/Agent-Reach",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "Paramchoudhary/ResumeSkills",
       "name": "ResumeSkills",
       "url": "https://github.com/Paramchoudhary/ResumeSkills",
       "description": "20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions",
       "repo": "Paramchoudhary/ResumeSkills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "pattern-ai-labs/agentcall",
+      "name": "agentcall",
+      "url": "https://github.com/pattern-ai-labs/agentcall",
+      "description": "Let your AI agents join Google Meet, Zoom, Teams calls and collaborate like a real team-mate.",
+      "repo": "pattern-ai-labs/agentcall",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
     },
@@ -3074,15 +3155,6 @@
       "repo": "video-db/skills",
       "publisher": "Community",
       "section": "Specialized Domains"
-    },
-    {
-      "id": "voidborne-d/humanize-chinese",
-      "name": "humanize-chinese",
-      "url": "https://github.com/voidborne-d/humanize-chinese",
-      "description": "Detect and rewrite AI-generated Chinese text; rule-ensemble scoring, 7 style transforms, academic AIGC reduction",
-      "repo": "voidborne-d/humanize-chinese",
-      "publisher": "Community",
-      "section": "Marketing"
     },
     {
       "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
