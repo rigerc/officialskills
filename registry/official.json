@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-06-29T10:23:11Z",
+    "fetched_at": "2026-07-01T09:30:09Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 994,
-    "total_publishers": 57,
+    "total_skills": 996,
+    "total_publishers": 58,
     "total_categories": 7,
-    "total_official": 994,
+    "total_official": 996,
     "total_community": 0
   },
   "publishers": [
@@ -9725,6 +9725,37 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Zero",
+      "type": "official",
+      "skills_count": 2,
+      "skills": [
+        {
+          "section": "Official",
+          "skills_count": 2,
+          "skills": [
+            {
+              "id": "zero/zero",
+              "name": "zero",
+              "url": "https://github.com/officialzeroxyz/zero-plugins/blob/main/plugins/zero/skills/zero/SKILL.md",
+              "description": "Discover and call external paid tools for Claude Code agents instead of stopping to ask the user to sign up or fetch an API key",
+              "repo": "officialzeroxyz/zero-plugins",
+              "publisher": "Zero",
+              "section": "Official"
+            },
+            {
+              "id": "zero/zero-gemini",
+              "name": "zero-gemini",
+              "url": "https://github.com/officialzeroxyz/zero-plugins/tree/main/plugins/zero-gemini",
+              "description": "Same Zero tool-discovery and payment layer packaged as a Gemini CLI extension",
+              "repo": "officialzeroxyz/zero-plugins",
+              "publisher": "Zero",
+              "section": "Official"
+            }
+          ]
+        }
+      ]
     }
   ],
   "skills": [
@@ -18672,6 +18703,24 @@
       "description": "WordPress Design System",
       "repo": "WordPress/agent-skills",
       "publisher": "WordPress",
+      "section": "Official"
+    },
+    {
+      "id": "zero/zero",
+      "name": "zero",
+      "url": "https://github.com/officialzeroxyz/zero-plugins/blob/main/plugins/zero/skills/zero/SKILL.md",
+      "description": "Discover and call external paid tools for Claude Code agents instead of stopping to ask the user to sign up or fetch an API key",
+      "repo": "officialzeroxyz/zero-plugins",
+      "publisher": "Zero",
+      "section": "Official"
+    },
+    {
+      "id": "zero/zero-gemini",
+      "name": "zero-gemini",
+      "url": "https://github.com/officialzeroxyz/zero-plugins/tree/main/plugins/zero-gemini",
+      "description": "Same Zero tool-discovery and payment layer packaged as a Gemini CLI extension",
+      "repo": "officialzeroxyz/zero-plugins",
+      "publisher": "Zero",
       "section": "Official"
     }
   ]

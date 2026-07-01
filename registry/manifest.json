@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T10:23:11Z",
-  "total_skills": 1172,
+  "generated_at": "2026-07-01T09:30:09Z",
+  "total_skills": 1174,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -8493,6 +8493,25 @@
           "url": "https://github.com/WordPress/agent-skills/tree/trunk/skills/wpds",
           "repo": "WordPress/agent-skills",
           "publisher": "WordPress"
+        }
+      ]
+    },
+    "Zero": {
+      "skills_count": 2,
+      "skills": [
+        {
+          "id": "zero/zero",
+          "name": "zero",
+          "url": "https://github.com/officialzeroxyz/zero-plugins/blob/main/plugins/zero/skills/zero/SKILL.md",
+          "repo": "officialzeroxyz/zero-plugins",
+          "publisher": "Zero"
+        },
+        {
+          "id": "zero/zero-gemini",
+          "name": "zero-gemini",
+          "url": "https://github.com/officialzeroxyz/zero-plugins/tree/main/plugins/zero-gemini",
+          "repo": "officialzeroxyz/zero-plugins",
+          "publisher": "Zero"
         }
       ]
     }
