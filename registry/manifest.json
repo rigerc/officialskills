@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T09:26:46Z",
-  "total_skills": 1174,
+  "generated_at": "2026-07-11T07:40:43Z",
+  "total_skills": 1182,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,8 +857,15 @@
       ]
     },
     "Community": {
-      "skills_count": 178,
+      "skills_count": 186,
       "skills": [
+        {
+          "id": "aaron-he-zhu/aaron-marketing-skills",
+          "name": "aaron-marketing-skills",
+          "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+          "repo": "aaron-he-zhu/aaron-marketing-skills",
+          "publisher": "Community"
+        },
         {
           "id": "AgriciDaniel/claude-seo",
           "name": "claude-seo",
@@ -944,6 +951,13 @@
           "publisher": "Community"
         },
         {
+          "id": "taisly/agent",
+          "name": "agent",
+          "url": "https://github.com/taisly/agent",
+          "repo": "taisly/agent",
+          "publisher": "Community"
+        },
+        {
           "id": "wshuyi/x-article-publisher-skill",
           "name": "x-article-publisher-skill",
           "url": "https://github.com/wshuyi/x-article-publisher-skill",
@@ -969,6 +983,13 @@
           "name": "kicad-happy",
           "url": "https://github.com/aklofas/kicad-happy",
           "repo": "aklofas/kicad-happy",
+          "publisher": "Community"
+        },
+        {
+          "id": "Alisa0808/vibe-creating-skill",
+          "name": "vibe-creating-skill",
+          "url": "https://github.com/Alisa0808/vibe-creating-skill",
+          "repo": "Alisa0808/vibe-creating-skill",
           "publisher": "Community"
         },
         {
@@ -1133,6 +1154,13 @@
           "publisher": "Community"
         },
         {
+          "id": "shouldnotappearcalm/a-share-skill",
+          "name": "a-share-skill",
+          "url": "https://github.com/shouldnotappearcalm/a-share-skill",
+          "repo": "shouldnotappearcalm/a-share-skill",
+          "publisher": "Community"
+        },
+        {
           "id": "takechanman1228/claude-ecom",
           "name": "claude-ecom",
           "url": "https://github.com/takechanman1228/claude-ecom",
@@ -1228,6 +1256,13 @@
           "name": "ios-simulator-skill",
           "url": "https://github.com/conorluddy/ios-simulator-skill",
           "repo": "conorluddy/ios-simulator-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "csthink/dashmotion",
+          "name": "dashmotion",
+          "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
+          "repo": "csthink/dashmotion",
           "publisher": "Community"
         },
         {
@@ -1812,6 +1847,13 @@
           "publisher": "Community"
         },
         {
+          "id": "Tubo2333/obsidian-knowledge-brain",
+          "name": "obsidian-knowledge-brain",
+          "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
+          "repo": "Tubo2333/obsidian-knowledge-brain",
+          "publisher": "Community"
+        },
+        {
           "id": "Charlie85270/Dorothy",
           "name": "Dorothy",
           "url": "https://github.com/Charlie85270/Dorothy",
@@ -1872,6 +1914,13 @@
           "name": "kreuzberg",
           "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
           "repo": "kreuzberg-dev/kreuzberg",
+          "publisher": "Community"
+        },
+        {
+          "id": "Linked-API/linkedin",
+          "name": "linkedin",
+          "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
+          "repo": "Linked-API/linkedin-skills",
           "publisher": "Community"
         },
         {
@@ -2026,6 +2075,13 @@
           "name": "claude-speed-reader",
           "url": "https://github.com/SeanZoR/claude-speed-reader",
           "repo": "SeanZoR/claude-speed-reader",
+          "publisher": "Community"
+        },
+        {
+          "id": "Sendmux/skills",
+          "name": "skills",
+          "url": "https://github.com/Sendmux/skills",
+          "repo": "Sendmux/skills",
           "publisher": "Community"
         },
         {

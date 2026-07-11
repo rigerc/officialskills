@@ -1,23 +1,32 @@
 {
   "meta": {
-    "fetched_at": "2026-07-09T09:26:46Z",
+    "fetched_at": "2026-07-11T07:40:43Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 178,
+    "total_skills": 186,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 178
+    "total_community": 186
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 178,
+      "skills_count": 186,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 15,
+          "skills_count": 17,
           "skills": [
+            {
+              "id": "aaron-he-zhu/aaron-marketing-skills",
+              "name": "aaron-marketing-skills",
+              "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+              "description": "69 marketing skills across SEO/GEO, influencer, paid ads, and email on one shared contract, with 5 benchmark-driven auditor gates (CORE-EEAT, CITE, C³, ROAS, SEND) and keyless data connectors",
+              "repo": "aaron-he-zhu/aaron-marketing-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
             {
               "id": "AgriciDaniel/claude-seo",
               "name": "claude-seo",
@@ -127,6 +136,15 @@
               "section": "Marketing"
             },
             {
+              "id": "taisly/agent",
+              "name": "agent",
+              "url": "https://github.com/taisly/agent",
+              "description": "Codex plugin, Agent Skill, CLI, and MCP server for publishing approved short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook through Taisly",
+              "repo": "taisly/agent",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "wshuyi/x-article-publisher-skill",
               "name": "x-article-publisher-skill",
               "url": "https://github.com/wshuyi/x-article-publisher-skill",
@@ -157,7 +175,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 31,
+          "skills_count": 33,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -165,6 +183,15 @@
               "url": "https://github.com/aklofas/kicad-happy",
               "description": "AI-powered KiCad electronics design review and analysis",
               "repo": "aklofas/kicad-happy",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Alisa0808/vibe-creating-skill",
+              "name": "vibe-creating-skill",
+              "url": "https://github.com/Alisa0808/vibe-creating-skill",
+              "description": "Rewrites a rough idea or shot script into text-to-video prompts",
+              "repo": "Alisa0808/vibe-creating-skill",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -376,6 +403,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "shouldnotappearcalm/a-share-skill",
+              "name": "a-share-skill",
+              "url": "https://github.com/shouldnotappearcalm/a-share-skill",
+              "description": "China A-share (Shanghai/Shenzhen) skills: real-time quotes, K-line history, technical indicators, events, capital flows, sector heatmaps, and paper trading. Works with Claude Code, Cursor, Codex, and Qoder",
+              "repo": "shouldnotappearcalm/a-share-skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "takechanman1228/claude-ecom",
               "name": "claude-ecom",
               "url": "https://github.com/takechanman1228/claude-ecom",
@@ -442,7 +478,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 77,
+          "skills_count": 78,
           "skills": [
             {
               "id": "alinaqi/claude-bootstrap",
@@ -504,6 +540,15 @@
               "url": "https://github.com/conorluddy/ios-simulator-skill",
               "description": "Control iOS Simulator",
               "repo": "conorluddy/ios-simulator-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "csthink/dashmotion",
+              "name": "dashmotion",
+              "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
+              "description": "Animated technical diagrams from plain English or Mermaid, self-contained HTML/SVG",
+              "repo": "csthink/dashmotion",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1141,7 +1186,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 13,
+          "skills_count": 14,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1259,12 +1304,21 @@
               "repo": "sametbrr/llm-wiki-manager",
               "publisher": "Community",
               "section": "Context Engineering"
+            },
+            {
+              "id": "Tubo2333/obsidian-knowledge-brain",
+              "name": "obsidian-knowledge-brain",
+              "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
+              "description": "Cross-session knowledge memory and rule evolution for AI coding agents",
+              "repo": "Tubo2333/obsidian-knowledge-brain",
+              "publisher": "Community",
+              "section": "Context Engineering"
             }
           ]
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 34,
+          "skills_count": 36,
           "skills": [
             {
               "id": "Charlie85270/Dorothy",
@@ -1344,6 +1398,15 @@
               "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
               "description": "Extract text, tables, and metadata from 62+ document formats",
               "repo": "kreuzberg-dev/kreuzberg",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Linked-API/linkedin",
+              "name": "linkedin",
+              "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
+              "description": "Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.",
+              "repo": "Linked-API/linkedin-skills",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -1546,6 +1609,15 @@
               "section": "Productivity and Collaboration"
             },
             {
+              "id": "Sendmux/skills",
+              "name": "skills",
+              "url": "https://github.com/Sendmux/skills",
+              "description": "Sendmux email and mailbox workflows for agents",
+              "repo": "Sendmux/skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "Shpigford/readme",
               "name": "readme",
               "url": "https://github.com/Shpigford/skills/tree/main/readme",
@@ -1663,6 +1735,15 @@
   ],
   "skills": [
     {
+      "id": "aaron-he-zhu/aaron-marketing-skills",
+      "name": "aaron-marketing-skills",
+      "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+      "description": "69 marketing skills across SEO/GEO, influencer, paid ads, and email on one shared contract, with 5 benchmark-driven auditor gates (CORE-EEAT, CITE, C³, ROAS, SEND) and keyless data connectors",
+      "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "AgriciDaniel/claude-seo",
       "name": "claude-seo",
       "url": "https://github.com/AgriciDaniel/claude-seo",
@@ -1688,6 +1769,15 @@
       "repo": "alinaqi/claude-bootstrap",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "Alisa0808/vibe-creating-skill",
+      "name": "vibe-creating-skill",
+      "url": "https://github.com/Alisa0808/vibe-creating-skill",
+      "description": "Rewrites a rough idea or shot script into text-to-video prompts",
+      "repo": "Alisa0808/vibe-creating-skill",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "antonbabenko/terraform-skill",
@@ -1805,6 +1895,15 @@
       "repo": "CosmoBlk/email-marketing-bible",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "csthink/dashmotion",
+      "name": "dashmotion",
+      "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
+      "description": "Animated technical diagrams from plain English or Mermaid, self-contained HTML/SVG",
+      "repo": "csthink/dashmotion",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "czlonkowski/n8n-code-javascript",
@@ -2273,6 +2372,15 @@
       "repo": "Leonxlnx/taste-skill",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "Linked-API/linkedin",
+      "name": "linkedin",
+      "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
+      "description": "Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.",
+      "repo": "Linked-API/linkedin-skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "Lum1104/understand-anything",
@@ -3031,6 +3139,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "Sendmux/skills",
+      "name": "skills",
+      "url": "https://github.com/Sendmux/skills",
+      "description": "Sendmux email and mailbox workflows for agents",
+      "repo": "Sendmux/skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "SHADOWPR0/beautiful_prose",
       "name": "beautiful_prose",
       "url": "https://github.com/SHADOWPR0/beautiful_prose",
@@ -3045,6 +3162,15 @@
       "url": "https://github.com/SHADOWPR0/security-bluebook-builder",
       "description": "Build security Blue Books for sensitive apps",
       "repo": "SHADOWPR0/security-bluebook-builder",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "shouldnotappearcalm/a-share-skill",
+      "name": "a-share-skill",
+      "url": "https://github.com/shouldnotappearcalm/a-share-skill",
+      "description": "China A-share (Shanghai/Shenzhen) skills: real-time quotes, K-line history, technical indicators, events, capital flows, sector heatmaps, and paper trading. Works with Claude Code, Cursor, Codex, and Qoder",
+      "repo": "shouldnotappearcalm/a-share-skill",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
@@ -3094,6 +3220,15 @@
       "section": "Marketing"
     },
     {
+      "id": "taisly/agent",
+      "name": "agent",
+      "url": "https://github.com/taisly/agent",
+      "description": "Codex plugin, Agent Skill, CLI, and MCP server for publishing approved short-form videos to TikTok, Instagram Reels, YouTube Shorts, X, and Facebook through Taisly",
+      "repo": "taisly/agent",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "takechanman1228/claude-ecom",
       "name": "claude-ecom",
       "url": "https://github.com/takechanman1228/claude-ecom",
@@ -3137,6 +3272,15 @@
       "repo": "truongduy2611/app-store-preflight-skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "Tubo2333/obsidian-knowledge-brain",
+      "name": "obsidian-knowledge-brain",
+      "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
+      "description": "Cross-session knowledge memory and rule evolution for AI coding agents",
+      "repo": "Tubo2333/obsidian-knowledge-brain",
+      "publisher": "Community",
+      "section": "Context Engineering"
     },
     {
       "id": "uucz/moyu",
