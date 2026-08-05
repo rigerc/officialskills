@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-08-03T09:22:56Z",
+    "fetched_at": "2026-08-05T08:18:04Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 186,
+    "total_skills": 192,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 186
+    "total_community": 192
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 186,
+      "skills_count": 192,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 17,
+          "skills_count": 19,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -37,11 +37,29 @@
               "section": "Marketing"
             },
             {
+              "id": "AIDevGTM/gtm-cofounder",
+              "name": "gtm-cofounder",
+              "url": "https://github.com/AIDevGTM/gtm-cofounder",
+              "description": "18 go-to-market skills for solo technical founders: positioning, first users, launch, pricing, and founder-led sales; grounded in Adam Frankl and Jakub Czakon",
+              "repo": "AIDevGTM/gtm-cofounder",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "blader/humanizer",
               "name": "humanizer",
               "url": "https://github.com/blader/humanizer",
               "description": "Remove signs of AI-generated writing from text, making it sound more natural and human",
               "repo": "blader/humanizer",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "Bomx/distribb-skill",
+              "name": "distribb-skill",
+              "url": "https://github.com/Bomx/distribb-skill",
+              "description": "SEO articles, keyword research, CMS publishing, high-DR backlink exchange",
+              "repo": "Bomx/distribb-skill",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -175,7 +193,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 33,
+          "skills_count": 34,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -358,6 +376,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "Orkas-AI/video-router",
+              "name": "video-router",
+              "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
+              "description": "Route video requests through deterministic agent production stages",
+              "repo": "Orkas-AI/Orkas-VideoStudio",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "peas/genealogy-research",
               "name": "genealogy-research",
               "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
@@ -478,7 +505,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 78,
+          "skills_count": 79,
           "skills": [
             {
               "id": "alinaqi/claude-bootstrap",
@@ -513,6 +540,15 @@
               "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
               "description": "Evidence-based workflow gates for Codex",
               "repo": "baskduf/FableCodex",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "browser-act/browser-act",
+              "name": "browser-act",
+              "url": "https://github.com/browser-act/skills/tree/main/browser-act",
+              "description": "Automate authenticated browsers with extraction and human handoff",
+              "repo": "browser-act/skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1186,7 +1222,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 14,
+          "skills_count": 16,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1284,6 +1320,24 @@
               "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
               "description": "Widely used prompt engineering techniques and patterns, including Anthropic best practices and agent persuasion principles.",
               "repo": "NeoLabHQ/context-engineering-kit",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "ohad6k/emulo",
+              "name": "emulo",
+              "url": "https://github.com/ohad6k/emulo",
+              "description": "Mines AI coding logs into personal agent profiles",
+              "repo": "ohad6k/emulo",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "oliver-zehentleitner/keep-the-why",
+              "name": "keep-the-why",
+              "url": "https://github.com/oliver-zehentleitner/keep-the-why",
+              "description": "Preserves the reasoning behind a codebase — decisions, workarounds, rejected alternatives",
+              "repo": "oliver-zehentleitner/keep-the-why",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -1753,6 +1807,15 @@
       "section": "Marketing"
     },
     {
+      "id": "AIDevGTM/gtm-cofounder",
+      "name": "gtm-cofounder",
+      "url": "https://github.com/AIDevGTM/gtm-cofounder",
+      "description": "18 go-to-market skills for solo technical founders: positioning, first users, launch, pricing, and founder-led sales; grounded in Adam Frankl and Jakub Czakon",
+      "repo": "AIDevGTM/gtm-cofounder",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "aklofas/kicad-happy",
       "name": "kicad-happy",
       "url": "https://github.com/aklofas/kicad-happy",
@@ -1843,6 +1906,15 @@
       "section": "Marketing"
     },
     {
+      "id": "Bomx/distribb-skill",
+      "name": "distribb-skill",
+      "url": "https://github.com/Bomx/distribb-skill",
+      "description": "SEO articles, keyword research, CMS publishing, high-DR backlink exchange",
+      "repo": "Bomx/distribb-skill",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "BrianRWagner/ai-marketing-skills",
       "name": "ai-marketing-skills",
       "url": "https://github.com/BrianRWagner/ai-marketing-skills",
@@ -1850,6 +1922,15 @@
       "repo": "BrianRWagner/ai-marketing-skills",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "browser-act/browser-act",
+      "name": "browser-act",
+      "url": "https://github.com/browser-act/skills/tree/main/browser-act",
+      "description": "Automate authenticated browsers with extraction and human handoff",
+      "repo": "browser-act/skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "Charlie85270/Dorothy",
@@ -2887,6 +2968,24 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "ohad6k/emulo",
+      "name": "emulo",
+      "url": "https://github.com/ohad6k/emulo",
+      "description": "Mines AI coding logs into personal agent profiles",
+      "repo": "ohad6k/emulo",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "oliver-zehentleitner/keep-the-why",
+      "name": "keep-the-why",
+      "url": "https://github.com/oliver-zehentleitner/keep-the-why",
+      "description": "Preserves the reasoning behind a codebase — decisions, workarounds, rejected alternatives",
+      "repo": "oliver-zehentleitner/keep-the-why",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "omkamal/pypict-skill",
       "name": "pypict-skill",
       "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
@@ -2928,6 +3027,15 @@
       "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
       "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
       "repo": "Orchestra-Research/AI-research-SKILLs",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "Orkas-AI/video-router",
+      "name": "video-router",
+      "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
+      "description": "Route video requests through deterministic agent production stages",
+      "repo": "Orkas-AI/Orkas-VideoStudio",
       "publisher": "Community",
       "section": "Specialized Domains"
     },

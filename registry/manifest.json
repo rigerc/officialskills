@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-03T09:22:56Z",
-  "total_skills": 1182,
+  "generated_at": "2026-08-05T08:18:04Z",
+  "total_skills": 1188,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 186,
+      "skills_count": 192,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -874,10 +874,24 @@
           "publisher": "Community"
         },
         {
+          "id": "AIDevGTM/gtm-cofounder",
+          "name": "gtm-cofounder",
+          "url": "https://github.com/AIDevGTM/gtm-cofounder",
+          "repo": "AIDevGTM/gtm-cofounder",
+          "publisher": "Community"
+        },
+        {
           "id": "blader/humanizer",
           "name": "humanizer",
           "url": "https://github.com/blader/humanizer",
           "repo": "blader/humanizer",
+          "publisher": "Community"
+        },
+        {
+          "id": "Bomx/distribb-skill",
+          "name": "distribb-skill",
+          "url": "https://github.com/Bomx/distribb-skill",
+          "repo": "Bomx/distribb-skill",
           "publisher": "Community"
         },
         {
@@ -1119,6 +1133,13 @@
           "publisher": "Community"
         },
         {
+          "id": "Orkas-AI/video-router",
+          "name": "video-router",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
+          "repo": "Orkas-AI/Orkas-VideoStudio",
+          "publisher": "Community"
+        },
+        {
           "id": "peas/genealogy-research",
           "name": "genealogy-research",
           "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
@@ -1235,6 +1256,13 @@
           "name": "codex-fable5",
           "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
           "repo": "baskduf/FableCodex",
+          "publisher": "Community"
+        },
+        {
+          "id": "browser-act/browser-act",
+          "name": "browser-act",
+          "url": "https://github.com/browser-act/skills/tree/main/browser-act",
+          "repo": "browser-act/skills",
           "publisher": "Community"
         },
         {
@@ -1830,6 +1858,20 @@
           "name": "prompt-engineering",
           "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/customaize-agent/skills/prompt-engineering",
           "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "ohad6k/emulo",
+          "name": "emulo",
+          "url": "https://github.com/ohad6k/emulo",
+          "repo": "ohad6k/emulo",
+          "publisher": "Community"
+        },
+        {
+          "id": "oliver-zehentleitner/keep-the-why",
+          "name": "keep-the-why",
+          "url": "https://github.com/oliver-zehentleitner/keep-the-why",
+          "repo": "oliver-zehentleitner/keep-the-why",
           "publisher": "Community"
         },
         {
