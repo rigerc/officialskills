@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T07:00:24Z",
-  "total_skills": 1188,
+  "generated_at": "2026-08-09T06:38:34Z",
+  "total_skills": 1189,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 192,
+      "skills_count": 193,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1403,6 +1403,13 @@
           "name": "ui-skills",
           "url": "https://github.com/ibelick/ui-skills",
           "repo": "ibelick/ui-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "JasonColapietro/suede-creator-skills",
+          "name": "suede-creator-skills",
+          "url": "https://github.com/JasonColapietro/suede-creator-skills",
+          "repo": "JasonColapietro/suede-creator-skills",
           "publisher": "Community"
         },
         {

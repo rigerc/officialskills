@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-08-07T07:00:24Z",
+    "fetched_at": "2026-08-09T06:38:34Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 192,
+    "total_skills": 193,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 192
+    "total_community": 193
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 192,
+      "skills_count": 193,
       "skills": [
         {
           "section": "Marketing",
@@ -505,7 +505,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 79,
+          "skills_count": 80,
           "skills": [
             {
               "id": "alinaqi/claude-bootstrap",
@@ -729,6 +729,15 @@
               "url": "https://github.com/ibelick/ui-skills",
               "description": "Opinionated, evolving constraints to guide agents when building interfaces",
               "repo": "ibelick/ui-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "JasonColapietro/suede-creator-skills",
+              "name": "suede-creator-skills",
+              "url": "https://github.com/JasonColapietro/suede-creator-skills",
+              "description": "Agent orchestration, code review grading, AI eval, creator tooling skills.",
+              "repo": "JasonColapietro/suede-creator-skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -2345,6 +2354,15 @@
       "repo": "indranilbanerjee/digital-marketing-pro",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "JasonColapietro/suede-creator-skills",
+      "name": "suede-creator-skills",
+      "url": "https://github.com/JasonColapietro/suede-creator-skills",
+      "description": "Agent orchestration, code review grading, AI eval, creator tooling skills.",
+      "repo": "JasonColapietro/suede-creator-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "jeffersonwarrior/claudisms",
