@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-11T06:49:14Z",
-  "total_skills": 1189,
+  "generated_at": "2026-08-13T07:12:44Z",
+  "total_skills": 1197,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 193,
+      "skills_count": 201,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -969,6 +969,13 @@
           "name": "agent",
           "url": "https://github.com/taisly/agent",
           "repo": "taisly/agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "Vladimir-Human/humanizer-ru",
+          "name": "humanizer-ru",
+          "url": "https://github.com/Vladimir-Human/humanizer-ru",
+          "repo": "Vladimir-Human/humanizer-ru",
           "publisher": "Community"
         },
         {
@@ -1123,6 +1130,13 @@
           "name": "defense-in-depth",
           "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
           "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "Optim-Agent/optim-agent",
+          "name": "optim-agent",
+          "url": "https://github.com/Optim-Agent/optim-agent",
+          "repo": "Optim-Agent/optim-agent",
           "publisher": "Community"
         },
         {
@@ -1298,6 +1312,13 @@
           "name": "dembrandt-skills",
           "url": "https://github.com/dembrandt/dembrandt-skills",
           "repo": "dembrandt/dembrandt-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "drogers0/github-image-upload",
+          "name": "github-image-upload",
+          "url": "https://github.com/drogers0/gh-image/tree/main/skills/github-image-upload",
+          "repo": "drogers0/gh-image",
           "publisher": "Community"
         },
         {
@@ -1700,6 +1721,13 @@
           "publisher": "Community"
         },
         {
+          "id": "Ryan-yang125/motion-lexicon",
+          "name": "motion-lexicon",
+          "url": "https://github.com/Ryan-yang125/motion-lexicon/tree/main/skills/motion-lexicon",
+          "repo": "Ryan-yang125/motion-lexicon",
+          "publisher": "Community"
+        },
+        {
           "id": "sanjay3290/deep-research",
           "name": "deep-research",
           "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
@@ -1805,6 +1833,13 @@
           "publisher": "Community"
         },
         {
+          "id": "khendzel/skills-janitor",
+          "name": "skills-janitor",
+          "url": "https://github.com/khendzel/skills-janitor",
+          "repo": "khendzel/skills-janitor",
+          "publisher": "Community"
+        },
+        {
           "id": "muratcankoylan/context-compression",
           "name": "context-compression",
           "url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-compression",
@@ -1896,10 +1931,24 @@
           "publisher": "Community"
         },
         {
+          "id": "stjbrown/agent-knowledge",
+          "name": "agent-knowledge",
+          "url": "https://github.com/stjbrown/agent-knowledge",
+          "repo": "stjbrown/agent-knowledge",
+          "publisher": "Community"
+        },
+        {
           "id": "Tubo2333/obsidian-knowledge-brain",
           "name": "obsidian-knowledge-brain",
           "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
           "repo": "Tubo2333/obsidian-knowledge-brain",
+          "publisher": "Community"
+        },
+        {
+          "id": "zilliztech/mfs",
+          "name": "mfs",
+          "url": "https://github.com/zilliztech/mfs",
+          "repo": "zilliztech/mfs",
           "publisher": "Community"
         },
         {
@@ -1977,6 +2026,13 @@
           "name": "last30days-skill",
           "url": "https://github.com/mvanhorn/last30days-skill",
           "repo": "mvanhorn/last30days-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "Neeeophytee/finding-unknowns-skills",
+          "name": "finding-unknowns-skills",
+          "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
+          "repo": "Neeeophytee/finding-unknowns-skills",
           "publisher": "Community"
         },
         {

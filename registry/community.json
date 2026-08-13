@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-08-11T06:49:14Z",
+    "fetched_at": "2026-08-13T07:12:44Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 193,
+    "total_skills": 201,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 193
+    "total_community": 201
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 193,
+      "skills_count": 201,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 19,
+          "skills_count": 20,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -163,6 +163,15 @@
               "section": "Marketing"
             },
             {
+              "id": "Vladimir-Human/humanizer-ru",
+              "name": "humanizer-ru",
+              "url": "https://github.com/Vladimir-Human/humanizer-ru",
+              "description": "Removes AI-writing markers from Russian text",
+              "repo": "Vladimir-Human/humanizer-ru",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "wshuyi/x-article-publisher-skill",
               "name": "x-article-publisher-skill",
               "url": "https://github.com/wshuyi/x-article-publisher-skill",
@@ -193,7 +202,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 34,
+          "skills_count": 35,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -367,6 +376,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "Optim-Agent/optim-agent",
+              "name": "optim-agent",
+              "url": "https://github.com/Optim-Agent/optim-agent",
+              "description": "Agent-guided optimization for measurable system tuning.",
+              "repo": "Optim-Agent/optim-agent",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "Orchestra-Research/AI-research-SKILLs",
               "name": "AI-research-SKILLs",
               "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
@@ -505,7 +523,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 80,
+          "skills_count": 82,
           "skills": [
             {
               "id": "alinaqi/claude-bootstrap",
@@ -594,6 +612,15 @@
               "url": "https://github.com/dembrandt/dembrandt-skills",
               "description": "UX and design system skills: hierarchy, typography, accessibility, interactions",
               "repo": "dembrandt/dembrandt-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "drogers0/github-image-upload",
+              "name": "github-image-upload",
+              "url": "https://github.com/drogers0/gh-image/tree/main/skills/github-image-upload",
+              "description": "Attach screenshots, PDFs, logs, zips, and videos to GitHub PRs, issues, and comments, returning canonical user-attachments URLs. GitHub has no public attachment-upload API. Works with Claude Code, Codex, Cursor, and Gemini CLI",
+              "repo": "drogers0/gh-image",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1111,6 +1138,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "Ryan-yang125/motion-lexicon",
+              "name": "motion-lexicon",
+              "url": "https://github.com/Ryan-yang125/motion-lexicon/tree/main/skills/motion-lexicon",
+              "description": "Build and review product motion with installable React components",
+              "repo": "Ryan-yang125/motion-lexicon",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "sanjay3290/deep-research",
               "name": "deep-research",
               "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
@@ -1231,7 +1267,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 16,
+          "skills_count": 19,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1248,6 +1284,15 @@
               "url": "https://github.com/k-kolomeitsev/data-structure-protocol",
               "description": "Graph-based long-term memory skill for AI (LLM) coding agents — faster context, fewer tokens, safer refactors",
               "repo": "k-kolomeitsev/data-structure-protocol",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "khendzel/skills-janitor",
+              "name": "skills-janitor",
+              "url": "https://github.com/khendzel/skills-janitor",
+              "description": "Token audit, usage tracking, and swipe-to-delete skill pruning.",
+              "repo": "khendzel/skills-janitor",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -1369,6 +1414,15 @@
               "section": "Context Engineering"
             },
             {
+              "id": "stjbrown/agent-knowledge",
+              "name": "agent-knowledge",
+              "url": "https://github.com/stjbrown/agent-knowledge",
+              "description": "Maintains portable, cited agent knowledge bases in plain Markdown",
+              "repo": "stjbrown/agent-knowledge",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
               "id": "Tubo2333/obsidian-knowledge-brain",
               "name": "obsidian-knowledge-brain",
               "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
@@ -1376,12 +1430,21 @@
               "repo": "Tubo2333/obsidian-knowledge-brain",
               "publisher": "Community",
               "section": "Context Engineering"
+            },
+            {
+              "id": "zilliztech/mfs",
+              "name": "mfs",
+              "url": "https://github.com/zilliztech/mfs",
+              "description": "`mfs-find` / `mfs-ingest` skills that search, grep and read across your code, docs, chat (Slack/Gmail/Jira), databases and object stores as one file-like, searchable namespace; self-hosted with local ONNX embeddings",
+              "repo": "zilliztech/mfs",
+              "publisher": "Community",
+              "section": "Context Engineering"
             }
           ]
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 36,
+          "skills_count": 37,
           "skills": [
             {
               "id": "Charlie85270/Dorothy",
@@ -1479,6 +1542,15 @@
               "url": "https://github.com/mvanhorn/last30days-skill",
               "description": "Research any topic across Reddit, X, YouTube, HN, Polymarket, and the web, ranked by upvotes, likes, and real money instead of editors",
               "repo": "mvanhorn/last30days-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Neeeophytee/finding-unknowns-skills",
+              "name": "finding-unknowns-skills",
+              "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
+              "description": "8 meta-skills that make a coding agent surface your unknowns before they get expensive: blindspot pass, interview, reference hunt, implementation plan/notes, pitch packager, and a pre-merge change quiz. Works in Claude Code, Codex, and Cursor via the agentskills.io SKILL.md format",
+              "repo": "Neeeophytee/finding-unknowns-skills",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2095,6 +2167,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "drogers0/github-image-upload",
+      "name": "github-image-upload",
+      "url": "https://github.com/drogers0/gh-image/tree/main/skills/github-image-upload",
+      "description": "Attach screenshots, PDFs, logs, zips, and videos to GitHub PRs, issues, and comments, returning canonical user-attachments URLs. GitHub has no public attachment-upload API. Works with Claude Code, Codex, Cursor, and Gemini CLI",
+      "repo": "drogers0/gh-image",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "efremidze/swift-patterns-skill",
       "name": "swift-patterns-skill",
       "url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
@@ -2419,6 +2500,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "khendzel/skills-janitor",
+      "name": "skills-janitor",
+      "url": "https://github.com/khendzel/skills-janitor",
+      "description": "Token audit, usage tracking, and swipe-to-delete skill pruning.",
+      "repo": "khendzel/skills-janitor",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "komal-SkyNET/claude-skill-homeassistant",
       "name": "claude-skill-homeassistant",
       "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
@@ -2658,6 +2748,15 @@
       "url": "https://github.com/mvanhorn/last30days-skill",
       "description": "Research any topic across Reddit, X, YouTube, HN, Polymarket, and the web, ranked by upvotes, likes, and real money instead of editors",
       "repo": "mvanhorn/last30days-skill",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "Neeeophytee/finding-unknowns-skills",
+      "name": "finding-unknowns-skills",
+      "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
+      "description": "8 meta-skills that make a coding agent surface your unknowns before they get expensive: blindspot pass, interview, reference hunt, implementation plan/notes, pitch packager, and a pre-merge change quiz. Works in Claude Code, Codex, and Cursor via the agentskills.io SKILL.md format",
+      "repo": "Neeeophytee/finding-unknowns-skills",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
     },
@@ -3040,6 +3139,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "Optim-Agent/optim-agent",
+      "name": "optim-agent",
+      "url": "https://github.com/Optim-Agent/optim-agent",
+      "description": "Agent-guided optimization for measurable system tuning.",
+      "repo": "Optim-Agent/optim-agent",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "Orchestra-Research/AI-research-SKILLs",
       "name": "AI-research-SKILLs",
       "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
@@ -3202,6 +3310,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "Ryan-yang125/motion-lexicon",
+      "name": "motion-lexicon",
+      "url": "https://github.com/Ryan-yang125/motion-lexicon/tree/main/skills/motion-lexicon",
+      "description": "Build and review product motion with installable React components",
+      "repo": "Ryan-yang125/motion-lexicon",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "sametbrr/llm-wiki-manager",
       "name": "llm-wiki-manager",
       "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -3346,6 +3463,15 @@
       "section": "Marketing"
     },
     {
+      "id": "stjbrown/agent-knowledge",
+      "name": "agent-knowledge",
+      "url": "https://github.com/stjbrown/agent-knowledge",
+      "description": "Maintains portable, cited agent knowledge bases in plain Markdown",
+      "repo": "stjbrown/agent-knowledge",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "taisly/agent",
       "name": "agent",
       "url": "https://github.com/taisly/agent",
@@ -3427,6 +3553,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "Vladimir-Human/humanizer-ru",
+      "name": "humanizer-ru",
+      "url": "https://github.com/Vladimir-Human/humanizer-ru",
+      "description": "Removes AI-writing markers from Russian text",
+      "repo": "Vladimir-Human/humanizer-ru",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
       "name": "Auto-claude-code-research-in-sleep",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -3506,6 +3641,15 @@
       "repo": "ZhangHanDong/makepad-skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "zilliztech/mfs",
+      "name": "mfs",
+      "url": "https://github.com/zilliztech/mfs",
+      "description": "`mfs-find` / `mfs-ingest` skills that search, grep and read across your code, docs, chat (Slack/Gmail/Jira), databases and object stores as one file-like, searchable namespace; self-hosted with local ONNX embeddings",
+      "repo": "zilliztech/mfs",
+      "publisher": "Community",
+      "section": "Context Engineering"
     },
     {
       "id": "zscole/model-hierarchy-skill",
