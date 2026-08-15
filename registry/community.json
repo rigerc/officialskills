@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-08-13T07:12:44Z",
+    "fetched_at": "2026-08-15T06:21:04Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 201,
+    "total_skills": 209,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 201
+    "total_community": 209
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 201,
+      "skills_count": 209,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 20,
+          "skills_count": 22,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -109,6 +109,15 @@
               "section": "Marketing"
             },
             {
+              "id": "gooseworks-ai/goose-skills",
+              "name": "goose-skills",
+              "url": "https://github.com/gooseworks-ai/goose-skills",
+              "description": "125 growth and GTM skills: ads, content, lead gen, SEO",
+              "repo": "gooseworks-ai/goose-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "indranilbanerjee/digital-marketing-pro",
               "name": "digital-marketing-pro",
               "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
@@ -132,6 +141,15 @@
               "url": "https://github.com/nowork-studio/NotFair",
               "description": "SEO, GEO, Google Ads, and Meta Ads skills with live data",
               "repo": "nowork-studio/NotFair",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "sergebulaev/linkedin-skills",
+              "name": "linkedin-skills",
+              "url": "https://github.com/sergebulaev/linkedin-skills",
+              "description": "LinkedIn marketing skills: viral hooks, comment drafting, algorithm audit, humanizer",
+              "repo": "sergebulaev/linkedin-skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -523,7 +541,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 82,
+          "skills_count": 87,
           "skills": [
             {
               "id": "alinaqi/claude-bootstrap",
@@ -621,6 +639,15 @@
               "url": "https://github.com/drogers0/gh-image/tree/main/skills/github-image-upload",
               "description": "Attach screenshots, PDFs, logs, zips, and videos to GitHub PRs, issues, and comments, returning canonical user-attachments URLs. GitHub has no public attachment-upload API. Works with Claude Code, Codex, Cursor, and Gemini CLI",
               "repo": "drogers0/gh-image",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "eduardo-sl/go-agent-skills",
+              "name": "go-agent-skills",
+              "url": "https://github.com/eduardo-sl/go-agent-skills",
+              "description": "Curated Go skills for code review, concurrency, testing, and architecture",
+              "repo": "eduardo-sl/go-agent-skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1093,6 +1120,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "plasma-ai/fractal",
+              "name": "fractal",
+              "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
+              "description": "Bounded hierarchical agent loops in isolated git worktrees",
+              "repo": "plasma-ai/fractal",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "rameerez/claude-code-startup-skills",
               "name": "claude-code-startup-skills",
               "url": "https://github.com/rameerez/claude-code-startup-skills",
@@ -1107,6 +1143,15 @@
               "url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
               "description": "Audit iOS App against Accessibility norms",
               "repo": "ramzesenok/iOS-Accessibility-Audit-Skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "reliefeai/browser-relay",
+              "name": "browser-relay",
+              "url": "https://github.com/reliefeai/browser-relay/tree/v1.4.1/skills/browser-relay",
+              "description": "Control an existing logged-in Chrome without stealing focus",
+              "repo": "reliefeai/browser-relay",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1192,11 +1237,29 @@
               "section": "Development and Testing"
             },
             {
+              "id": "Simon-He95/markstream-install",
+              "name": "markstream-install",
+              "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
+              "description": "Install streaming Markdown renderers across five frontend frameworks",
+              "repo": "Simon-He95/markstream-vue",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "Skill_Seekers",
               "name": "Skill_Seekers",
               "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
               "description": "Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes",
               "repo": "yusufkaraaslan/Skill_Seekers",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "squirrelscan/squirrelscan",
+              "name": "squirrelscan",
+              "url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
+              "description": "Audits websites for SEO, performance, security, accessibility and returns fixes",
+              "repo": "squirrelscan/squirrelscan",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1444,7 +1507,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 37,
+          "skills_count": 38,
           "skills": [
             {
               "id": "Charlie85270/Dorothy",
@@ -1767,6 +1830,15 @@
               "url": "https://github.com/wrsmith108/linear-claude-skill",
               "description": "Manage Linear issues, projects, and teams",
               "repo": "wrsmith108/linear-claude-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "zapier/zapier-mcp",
+              "name": "zapier-mcp",
+              "url": "https://github.com/zapier/zapier-mcp",
+              "description": "Official plugin distribution for the hosted Zapier MCP server. Connects Claude to thousands of apps — send messages, pull data, trigger workflows.",
+              "repo": "zapier/zapier-mcp",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2176,6 +2248,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "eduardo-sl/go-agent-skills",
+      "name": "go-agent-skills",
+      "url": "https://github.com/eduardo-sl/go-agent-skills",
+      "description": "Curated Go skills for code review, concurrency, testing, and architecture",
+      "repo": "eduardo-sl/go-agent-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "efremidze/swift-patterns-skill",
       "name": "swift-patterns-skill",
       "url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
@@ -2300,6 +2381,15 @@
       "repo": "gokapso/agent-skills",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "gooseworks-ai/goose-skills",
+      "name": "goose-skills",
+      "url": "https://github.com/gooseworks-ai/goose-skills",
+      "description": "125 growth and GTM skills: ads, content, lead gen, SEO",
+      "repo": "gooseworks-ai/goose-skills",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "hamelsmu/build-review-interface",
@@ -3202,6 +3292,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "plasma-ai/fractal",
+      "name": "fractal",
+      "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
+      "description": "Bounded hierarchical agent loops in isolated git worktrees",
+      "repo": "plasma-ai/fractal",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "PleasePrompto/notebooklm-skill",
       "name": "notebooklm-skill",
       "url": "https://github.com/PleasePrompto/notebooklm-skill",
@@ -3261,6 +3360,15 @@
       "url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
       "description": "Audit iOS App against Accessibility norms",
       "repo": "ramzesenok/iOS-Accessibility-Audit-Skill",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "reliefeai/browser-relay",
+      "name": "browser-relay",
+      "url": "https://github.com/reliefeai/browser-relay/tree/v1.4.1/skills/browser-relay",
+      "description": "Control an existing logged-in Chrome without stealing focus",
+      "repo": "reliefeai/browser-relay",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -3391,6 +3499,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "sergebulaev/linkedin-skills",
+      "name": "linkedin-skills",
+      "url": "https://github.com/sergebulaev/linkedin-skills",
+      "description": "LinkedIn marketing skills: viral hooks, comment drafting, algorithm audit, humanizer",
+      "repo": "sergebulaev/linkedin-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "SHADOWPR0/beautiful_prose",
       "name": "beautiful_prose",
       "url": "https://github.com/SHADOWPR0/beautiful_prose",
@@ -3445,6 +3562,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "Simon-He95/markstream-install",
+      "name": "markstream-install",
+      "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
+      "description": "Install streaming Markdown renderers across five frontend frameworks",
+      "repo": "Simon-He95/markstream-vue",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "Skill_Seekers",
       "name": "Skill_Seekers",
       "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
@@ -3461,6 +3587,15 @@
       "repo": "smixs/creative-director-skill",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "squirrelscan/squirrelscan",
+      "name": "squirrelscan",
+      "url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
+      "description": "Audits websites for SEO, performance, security, accessibility and returns fixes",
+      "repo": "squirrelscan/squirrelscan",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "stjbrown/agent-knowledge",
@@ -3614,6 +3749,15 @@
       "repo": "Xquik-dev/x-twitter-scraper",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "zapier/zapier-mcp",
+      "name": "zapier-mcp",
+      "url": "https://github.com/zapier/zapier-mcp",
+      "description": "Official plugin distribution for the hosted Zapier MCP server. Connects Claude to thousands of apps — send messages, pull data, trigger workflows.",
+      "repo": "zapier/zapier-mcp",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "zarazhangrui/frontend-slides",

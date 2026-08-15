@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-13T07:12:44Z",
-  "total_skills": 1197,
+  "generated_at": "2026-08-15T06:21:04Z",
+  "total_skills": 1205,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 201,
+      "skills_count": 209,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -930,6 +930,13 @@
           "publisher": "Community"
         },
         {
+          "id": "gooseworks-ai/goose-skills",
+          "name": "goose-skills",
+          "url": "https://github.com/gooseworks-ai/goose-skills",
+          "repo": "gooseworks-ai/goose-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "indranilbanerjee/digital-marketing-pro",
           "name": "digital-marketing-pro",
           "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
@@ -948,6 +955,13 @@
           "name": "NotFair",
           "url": "https://github.com/nowork-studio/NotFair",
           "repo": "nowork-studio/NotFair",
+          "publisher": "Community"
+        },
+        {
+          "id": "sergebulaev/linkedin-skills",
+          "name": "linkedin-skills",
+          "url": "https://github.com/sergebulaev/linkedin-skills",
+          "repo": "sergebulaev/linkedin-skills",
           "publisher": "Community"
         },
         {
@@ -1322,6 +1336,13 @@
           "publisher": "Community"
         },
         {
+          "id": "eduardo-sl/go-agent-skills",
+          "name": "go-agent-skills",
+          "url": "https://github.com/eduardo-sl/go-agent-skills",
+          "repo": "eduardo-sl/go-agent-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "efremidze/swift-patterns-skill",
           "name": "swift-patterns-skill",
           "url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
@@ -1686,6 +1707,13 @@
           "publisher": "Community"
         },
         {
+          "id": "plasma-ai/fractal",
+          "name": "fractal",
+          "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
+          "repo": "plasma-ai/fractal",
+          "publisher": "Community"
+        },
+        {
           "id": "rameerez/claude-code-startup-skills",
           "name": "claude-code-startup-skills",
           "url": "https://github.com/rameerez/claude-code-startup-skills",
@@ -1697,6 +1725,13 @@
           "name": "iOS-Accessibility-Audit-Skill",
           "url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
           "repo": "ramzesenok/iOS-Accessibility-Audit-Skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "reliefeai/browser-relay",
+          "name": "browser-relay",
+          "url": "https://github.com/reliefeai/browser-relay/tree/v1.4.1/skills/browser-relay",
+          "repo": "reliefeai/browser-relay",
           "publisher": "Community"
         },
         {
@@ -1763,10 +1798,24 @@
           "publisher": "Community"
         },
         {
+          "id": "Simon-He95/markstream-install",
+          "name": "markstream-install",
+          "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
+          "repo": "Simon-He95/markstream-vue",
+          "publisher": "Community"
+        },
+        {
           "id": "Skill_Seekers",
           "name": "Skill_Seekers",
           "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
           "repo": "yusufkaraaslan/Skill_Seekers",
+          "publisher": "Community"
+        },
+        {
+          "id": "squirrelscan/squirrelscan",
+          "name": "squirrelscan",
+          "url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
+          "repo": "squirrelscan/squirrelscan",
           "publisher": "Community"
         },
         {
@@ -2201,6 +2250,13 @@
           "name": "linear-claude-skill",
           "url": "https://github.com/wrsmith108/linear-claude-skill",
           "repo": "wrsmith108/linear-claude-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "zapier/zapier-mcp",
+          "name": "zapier-mcp",
+          "url": "https://github.com/zapier/zapier-mcp",
+          "repo": "zapier/zapier-mcp",
           "publisher": "Community"
         },
         {
