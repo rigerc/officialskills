@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-08-15T06:21:04Z",
+    "fetched_at": "2026-08-17T06:33:48Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 209,
+    "total_skills": 213,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 209
+    "total_community": 213
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 209,
+      "skills_count": 213,
       "skills": [
         {
           "section": "Marketing",
@@ -220,7 +220,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 35,
+          "skills_count": 38,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -304,6 +304,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "HUANGCHIHHUNGLeo/claude-real-video",
+              "name": "claude-real-video",
+              "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+              "description": "Scene-aware keyframes plus transcripts so any LLM watches videos",
+              "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "huifer/Claude-Ally-Health",
               "name": "Claude-Ally-Health",
               "url": "https://github.com/huifer/Claude-Ally-Health",
@@ -372,6 +381,15 @@
               "url": "https://github.com/more-io/claude-apple-bridges",
               "description": "Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges",
               "repo": "more-io/claude-apple-bridges",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "morluto/rea",
+              "name": "rea",
+              "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+              "description": "Reverse-engineer binaries, applications, and runtimes with REA",
+              "repo": "morluto/rea",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -525,6 +543,15 @@
               "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
               "description": "77 AI research skills for model training, inference, and MLOps",
               "repo": "zechenzhangAGI/AI-research-SKILLs",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "ZeroPointRepo/youtube-skills",
+              "name": "youtube-skills",
+              "url": "https://github.com/ZeroPointRepo/youtube-skills",
+              "description": "Agent skills for YouTube: pull video transcripts and discover videos (search, channel and playlist listings) via TranscriptAPI.",
+              "repo": "ZeroPointRepo/youtube-skills",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1507,7 +1534,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 38,
+          "skills_count": 39,
           "skills": [
             {
               "id": "Charlie85270/Dorothy",
@@ -1578,6 +1605,15 @@
               "url": "https://github.com/hanfang/claude-memory-skill",
               "description": "Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence",
               "repo": "hanfang/claude-memory-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "JimmySadek/youtube-fetcher",
+              "name": "youtube-fetcher",
+              "url": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
+              "description": "Create Obsidian-ready Markdown notes from YouTube videos",
+              "repo": "JimmySadek/youtube-fetcher-to-markdown",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2500,6 +2536,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "HUANGCHIHHUNGLeo/claude-real-video",
+      "name": "claude-real-video",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "description": "Scene-aware keyframes plus transcripts so any LLM watches videos",
+      "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "huifer/Claude-Ally-Health",
       "name": "Claude-Ally-Health",
       "url": "https://github.com/huifer/Claude-Ally-Health",
@@ -2543,6 +2588,15 @@
       "repo": "jeffersonwarrior/claudisms",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "JimmySadek/youtube-fetcher",
+      "name": "youtube-fetcher",
+      "url": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
+      "description": "Create Obsidian-ready Markdown notes from YouTube videos",
+      "repo": "JimmySadek/youtube-fetcher-to-markdown",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "Joannis/claude-skills",
@@ -2739,6 +2793,15 @@
       "url": "https://github.com/more-io/claude-apple-bridges",
       "description": "Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges",
       "repo": "more-io/claude-apple-bridges",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "morluto/rea",
+      "name": "rea",
+      "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+      "description": "Reverse-engineer binaries, applications, and runtimes with REA",
+      "repo": "morluto/rea",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
@@ -3774,6 +3837,15 @@
       "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
       "description": "77 AI research skills for model training, inference, and MLOps",
       "repo": "zechenzhangAGI/AI-research-SKILLs",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "ZeroPointRepo/youtube-skills",
+      "name": "youtube-skills",
+      "url": "https://github.com/ZeroPointRepo/youtube-skills",
+      "description": "Agent skills for YouTube: pull video transcripts and discover videos (search, channel and playlist listings) via TranscriptAPI.",
+      "repo": "ZeroPointRepo/youtube-skills",
       "publisher": "Community",
       "section": "Specialized Domains"
     },

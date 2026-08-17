@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T06:21:04Z",
-  "total_skills": 1205,
+  "generated_at": "2026-08-17T06:33:48Z",
+  "total_skills": 1209,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 209,
+      "skills_count": 213,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1077,6 +1077,13 @@
           "publisher": "Community"
         },
         {
+          "id": "HUANGCHIHHUNGLeo/claude-real-video",
+          "name": "claude-real-video",
+          "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+          "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+          "publisher": "Community"
+        },
+        {
           "id": "huifer/Claude-Ally-Health",
           "name": "Claude-Ally-Health",
           "url": "https://github.com/huifer/Claude-Ally-Health",
@@ -1130,6 +1137,13 @@
           "name": "apple-bridges",
           "url": "https://github.com/more-io/claude-apple-bridges",
           "repo": "more-io/claude-apple-bridges",
+          "publisher": "Community"
+        },
+        {
+          "id": "morluto/rea",
+          "name": "rea",
+          "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+          "repo": "morluto/rea",
           "publisher": "Community"
         },
         {
@@ -1249,6 +1263,13 @@
           "name": "AI-research-SKILLs",
           "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
           "repo": "zechenzhangAGI/AI-research-SKILLs",
+          "publisher": "Community"
+        },
+        {
+          "id": "ZeroPointRepo/youtube-skills",
+          "name": "youtube-skills",
+          "url": "https://github.com/ZeroPointRepo/youtube-skills",
+          "repo": "ZeroPointRepo/youtube-skills",
           "publisher": "Community"
         },
         {
@@ -2054,6 +2075,13 @@
           "name": "claude-memory-skill",
           "url": "https://github.com/hanfang/claude-memory-skill",
           "repo": "hanfang/claude-memory-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "JimmySadek/youtube-fetcher",
+          "name": "youtube-fetcher",
+          "url": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
+          "repo": "JimmySadek/youtube-fetcher-to-markdown",
           "publisher": "Community"
         },
         {
