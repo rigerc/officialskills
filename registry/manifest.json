@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-17T06:33:48Z",
-  "total_skills": 1209,
+  "generated_at": "2026-08-19T06:26:46Z",
+  "total_skills": 1219,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 213,
+      "skills_count": 222,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1014,269 +1014,10 @@
           "publisher": "Community"
         },
         {
-          "id": "aklofas/kicad-happy",
-          "name": "kicad-happy",
-          "url": "https://github.com/aklofas/kicad-happy",
-          "repo": "aklofas/kicad-happy",
-          "publisher": "Community"
-        },
-        {
-          "id": "Alisa0808/vibe-creating-skill",
-          "name": "vibe-creating-skill",
-          "url": "https://github.com/Alisa0808/vibe-creating-skill",
-          "repo": "Alisa0808/vibe-creating-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "BehiSecc/vibesec",
-          "name": "vibesec",
-          "url": "https://github.com/BehiSecc/VibeSec-Skill",
-          "repo": "BehiSecc/VibeSec-Skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "bitwize-music-studio/claude-ai-music-skills",
-          "name": "claude-ai-music-skills",
-          "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
-          "repo": "bitwize-music-studio/claude-ai-music-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "Ericyoung-183/alpha-insights",
-          "name": "alpha-insights",
-          "url": "https://github.com/Ericyoung-183/alpha-insights",
-          "repo": "Ericyoung-183/alpha-insights",
-          "publisher": "Community"
-        },
-        {
-          "id": "frmoretto/clarity-gate",
-          "name": "clarity-gate",
-          "url": "https://github.com/frmoretto/clarity-gate",
-          "repo": "frmoretto/clarity-gate",
-          "publisher": "Community"
-        },
-        {
-          "id": "hanhuark/mechanical-engineering-research-skill",
-          "name": "mechanical-engineering-research-skill",
-          "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
-          "repo": "hanhuark/mechanical-engineering-research-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "helius-labs/helius-skills",
-          "name": "helius-skills",
-          "url": "https://github.com/helius-labs/core-ai/tree/main/helius-skills",
-          "repo": "helius-labs/core-ai",
-          "publisher": "Community"
-        },
-        {
-          "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
-          "name": "honeydew-ai-coding-agents-plugins",
-          "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
-          "repo": "honeydew-ai/honeydew-ai-coding-agents-plugins",
-          "publisher": "Community"
-        },
-        {
-          "id": "HUANGCHIHHUNGLeo/claude-real-video",
-          "name": "claude-real-video",
-          "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-          "repo": "HUANGCHIHHUNGLeo/claude-real-video",
-          "publisher": "Community"
-        },
-        {
-          "id": "huifer/Claude-Ally-Health",
-          "name": "Claude-Ally-Health",
-          "url": "https://github.com/huifer/Claude-Ally-Health",
-          "repo": "huifer/Claude-Ally-Health",
-          "publisher": "Community"
-        },
-        {
-          "id": "jeffersonwarrior/claudisms",
-          "name": "claudisms",
-          "url": "https://github.com/jeffersonwarrior/claudisms",
-          "repo": "jeffersonwarrior/claudisms",
-          "publisher": "Community"
-        },
-        {
-          "id": "K-Dense-AI/claude-scientific-skills",
-          "name": "claude-scientific-skills",
-          "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
-          "repo": "K-Dense-AI/claude-scientific-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "komal-SkyNET/claude-skill-homeassistant",
-          "name": "claude-skill-homeassistant",
-          "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
-          "repo": "komal-SkyNET/claude-skill-homeassistant",
-          "publisher": "Community"
-        },
-        {
-          "id": "lawvable/awesome-legal-skills",
-          "name": "awesome-legal-skills",
-          "url": "https://github.com/lawvable/awesome-legal-skills",
-          "repo": "lawvable/awesome-legal-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "materials-simulation-skills",
-          "name": "materials-simulation-skills",
-          "url": "https://github.com/HeshamFS/materials-simulation-skills",
-          "repo": "HeshamFS/materials-simulation-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "meodai/skill.color-expert",
-          "name": "skill.color-expert",
-          "url": "https://github.com/meodai/skill.color-expert",
-          "repo": "meodai/skill.color-expert",
-          "publisher": "Community"
-        },
-        {
-          "id": "more-io/apple-bridges",
-          "name": "apple-bridges",
-          "url": "https://github.com/more-io/claude-apple-bridges",
-          "repo": "more-io/claude-apple-bridges",
-          "publisher": "Community"
-        },
-        {
-          "id": "morluto/rea",
-          "name": "rea",
-          "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
-          "repo": "morluto/rea",
-          "publisher": "Community"
-        },
-        {
-          "id": "NotMyself/claude-win11-speckit-update-skill",
-          "name": "claude-win11-speckit-update-skill",
-          "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
-          "repo": "NotMyself/claude-win11-speckit-update-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/defense-in-depth",
-          "name": "defense-in-depth",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "Optim-Agent/optim-agent",
-          "name": "optim-agent",
-          "url": "https://github.com/Optim-Agent/optim-agent",
-          "repo": "Optim-Agent/optim-agent",
-          "publisher": "Community"
-        },
-        {
-          "id": "Orchestra-Research/AI-research-SKILLs",
-          "name": "AI-research-SKILLs",
-          "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
-          "repo": "Orchestra-Research/AI-research-SKILLs",
-          "publisher": "Community"
-        },
-        {
-          "id": "Orkas-AI/video-router",
-          "name": "video-router",
-          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
-          "repo": "Orkas-AI/Orkas-VideoStudio",
-          "publisher": "Community"
-        },
-        {
-          "id": "peas/genealogy-research",
-          "name": "genealogy-research",
-          "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
-          "repo": null,
-          "publisher": "Community"
-        },
-        {
-          "id": "prompt-security/clawsec",
-          "name": "clawsec",
-          "url": "https://github.com/prompt-security/clawsec",
-          "repo": "prompt-security/clawsec",
-          "publisher": "Community"
-        },
-        {
-          "id": "raintree-technology/apple-hig-skills",
-          "name": "apple-hig-skills",
-          "url": "https://github.com/raintree-technology/apple-hig-skills",
-          "repo": "raintree-technology/apple-hig-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "sanjay3290/imagen",
-          "name": "imagen",
-          "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
-          "repo": "sanjay3290/ai-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "SHADOWPR0/security-bluebook-builder",
-          "name": "security-bluebook-builder",
-          "url": "https://github.com/SHADOWPR0/security-bluebook-builder",
-          "repo": "SHADOWPR0/security-bluebook-builder",
-          "publisher": "Community"
-        },
-        {
-          "id": "shouldnotappearcalm/a-share-skill",
-          "name": "a-share-skill",
-          "url": "https://github.com/shouldnotappearcalm/a-share-skill",
-          "repo": "shouldnotappearcalm/a-share-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "takechanman1228/claude-ecom",
-          "name": "claude-ecom",
-          "url": "https://github.com/takechanman1228/claude-ecom",
-          "repo": "takechanman1228/claude-ecom",
-          "publisher": "Community"
-        },
-        {
-          "id": "talkstream/ru-text",
-          "name": "ru-text",
-          "url": "https://github.com/talkstream/ru-text",
-          "repo": "talkstream/ru-text",
-          "publisher": "Community"
-        },
-        {
-          "id": "transloadit/skills",
-          "name": "skills",
-          "url": "https://github.com/transloadit/skills/tree/main/skills",
-          "repo": "transloadit/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "video-db/skills",
-          "name": "skills",
-          "url": "https://github.com/video-db/skills",
-          "repo": "video-db/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
-          "name": "Auto-claude-code-research-in-sleep",
-          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
-          "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-          "publisher": "Community"
-        },
-        {
-          "id": "zechenzhangAGI/AI-research-SKILLs",
-          "name": "AI-research-SKILLs",
-          "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
-          "repo": "zechenzhangAGI/AI-research-SKILLs",
-          "publisher": "Community"
-        },
-        {
-          "id": "ZeroPointRepo/youtube-skills",
-          "name": "youtube-skills",
-          "url": "https://github.com/ZeroPointRepo/youtube-skills",
-          "repo": "ZeroPointRepo/youtube-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "zw008/VMware-AIops",
-          "name": "VMware-AIops",
-          "url": "https://github.com/zw008/VMware-AIops",
-          "repo": "zw008/VMware-AIops",
+          "id": "agiwhitelist/auteur",
+          "name": "auteur",
+          "url": "https://github.com/agiwhitelist/auteur",
+          "repo": "agiwhitelist/auteur",
           "publisher": "Community"
         },
         {
@@ -1840,6 +1581,13 @@
           "publisher": "Community"
         },
         {
+          "id": "superdesigndev/superdesign-skill",
+          "name": "superdesign-skill",
+          "url": "https://github.com/superdesigndev/superdesign-skill",
+          "repo": "superdesigndev/superdesign-skill",
+          "publisher": "Community"
+        },
+        {
           "id": "testdino-hq/playwright-skill",
           "name": "playwright-skill",
           "url": "https://github.com/testdino-hq/playwright-skill",
@@ -1886,6 +1634,314 @@
           "name": "aws-skills",
           "url": "https://github.com/zxkane/aws-skills",
           "repo": "zxkane/aws-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "aklofas/kicad-happy",
+          "name": "kicad-happy",
+          "url": "https://github.com/aklofas/kicad-happy",
+          "repo": "aklofas/kicad-happy",
+          "publisher": "Community"
+        },
+        {
+          "id": "Alisa0808/vibe-creating-skill",
+          "name": "vibe-creating-skill",
+          "url": "https://github.com/Alisa0808/vibe-creating-skill",
+          "repo": "Alisa0808/vibe-creating-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "BehiSecc/vibesec",
+          "name": "vibesec",
+          "url": "https://github.com/BehiSecc/VibeSec-Skill",
+          "repo": "BehiSecc/VibeSec-Skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "bitwize-music-studio/claude-ai-music-skills",
+          "name": "claude-ai-music-skills",
+          "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+          "repo": "bitwize-music-studio/claude-ai-music-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "Ericyoung-183/alpha-insights",
+          "name": "alpha-insights",
+          "url": "https://github.com/Ericyoung-183/alpha-insights",
+          "repo": "Ericyoung-183/alpha-insights",
+          "publisher": "Community"
+        },
+        {
+          "id": "frmoretto/clarity-gate",
+          "name": "clarity-gate",
+          "url": "https://github.com/frmoretto/clarity-gate",
+          "repo": "frmoretto/clarity-gate",
+          "publisher": "Community"
+        },
+        {
+          "id": "GarethManning/assessment-validity-checker",
+          "name": "assessment-validity-checker",
+          "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/assessment-validity-checker",
+          "repo": "GarethManning/education-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "GarethManning/competency-unpacker",
+          "name": "competency-unpacker",
+          "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/competency-unpacker",
+          "repo": "GarethManning/education-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "GarethManning/learning-target-authoring-guide",
+          "name": "learning-target-authoring-guide",
+          "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/original-frameworks/learning-target-authoring-guide",
+          "repo": "GarethManning/education-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "GarethManning/progressive-hint-ladder",
+          "name": "progressive-hint-ladder",
+          "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/student-learning/progressive-hint-ladder",
+          "repo": "GarethManning/education-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "GarethManning/regenerative-project-design-orchestrator",
+          "name": "regenerative-project-design-orchestrator",
+          "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/original-frameworks/regenerative-project-design-orchestrator",
+          "repo": "GarethManning/education-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "hanhuark/mechanical-engineering-research-skill",
+          "name": "mechanical-engineering-research-skill",
+          "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+          "repo": "hanhuark/mechanical-engineering-research-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "helius-labs/helius-skills",
+          "name": "helius-skills",
+          "url": "https://github.com/helius-labs/core-ai/tree/main/helius-skills",
+          "repo": "helius-labs/core-ai",
+          "publisher": "Community"
+        },
+        {
+          "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+          "name": "honeydew-ai-coding-agents-plugins",
+          "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
+          "repo": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+          "publisher": "Community"
+        },
+        {
+          "id": "HUANGCHIHHUNGLeo/claude-real-video",
+          "name": "claude-real-video",
+          "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+          "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+          "publisher": "Community"
+        },
+        {
+          "id": "huifer/Claude-Ally-Health",
+          "name": "Claude-Ally-Health",
+          "url": "https://github.com/huifer/Claude-Ally-Health",
+          "repo": "huifer/Claude-Ally-Health",
+          "publisher": "Community"
+        },
+        {
+          "id": "jeffersonwarrior/claudisms",
+          "name": "claudisms",
+          "url": "https://github.com/jeffersonwarrior/claudisms",
+          "repo": "jeffersonwarrior/claudisms",
+          "publisher": "Community"
+        },
+        {
+          "id": "K-Dense-AI/claude-scientific-skills",
+          "name": "claude-scientific-skills",
+          "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+          "repo": "K-Dense-AI/claude-scientific-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "komal-SkyNET/claude-skill-homeassistant",
+          "name": "claude-skill-homeassistant",
+          "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+          "repo": "komal-SkyNET/claude-skill-homeassistant",
+          "publisher": "Community"
+        },
+        {
+          "id": "lawvable/awesome-legal-skills",
+          "name": "awesome-legal-skills",
+          "url": "https://github.com/lawvable/awesome-legal-skills",
+          "repo": "lawvable/awesome-legal-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "materials-simulation-skills",
+          "name": "materials-simulation-skills",
+          "url": "https://github.com/HeshamFS/materials-simulation-skills",
+          "repo": "HeshamFS/materials-simulation-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "meodai/skill.color-expert",
+          "name": "skill.color-expert",
+          "url": "https://github.com/meodai/skill.color-expert",
+          "repo": "meodai/skill.color-expert",
+          "publisher": "Community"
+        },
+        {
+          "id": "more-io/apple-bridges",
+          "name": "apple-bridges",
+          "url": "https://github.com/more-io/claude-apple-bridges",
+          "repo": "more-io/claude-apple-bridges",
+          "publisher": "Community"
+        },
+        {
+          "id": "morluto/rea",
+          "name": "rea",
+          "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+          "repo": "morluto/rea",
+          "publisher": "Community"
+        },
+        {
+          "id": "NotMyself/claude-win11-speckit-update-skill",
+          "name": "claude-win11-speckit-update-skill",
+          "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
+          "repo": "NotMyself/claude-win11-speckit-update-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/defense-in-depth",
+          "name": "defense-in-depth",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "Optim-Agent/optim-agent",
+          "name": "optim-agent",
+          "url": "https://github.com/Optim-Agent/optim-agent",
+          "repo": "Optim-Agent/optim-agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "Orchestra-Research/AI-research-SKILLs",
+          "name": "AI-research-SKILLs",
+          "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
+          "repo": "Orchestra-Research/AI-research-SKILLs",
+          "publisher": "Community"
+        },
+        {
+          "id": "Orkas-AI/video-router",
+          "name": "video-router",
+          "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
+          "repo": "Orkas-AI/Orkas-VideoStudio",
+          "publisher": "Community"
+        },
+        {
+          "id": "peas/genealogy-research",
+          "name": "genealogy-research",
+          "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
+          "repo": null,
+          "publisher": "Community"
+        },
+        {
+          "id": "perso-ai/perso-dubbing",
+          "name": "perso-dubbing",
+          "url": "https://github.com/perso-ai/perso-dubbing-plugin",
+          "repo": "perso-ai/perso-dubbing-plugin",
+          "publisher": "Community"
+        },
+        {
+          "id": "prompt-security/clawsec",
+          "name": "clawsec",
+          "url": "https://github.com/prompt-security/clawsec",
+          "repo": "prompt-security/clawsec",
+          "publisher": "Community"
+        },
+        {
+          "id": "raintree-technology/apple-hig-skills",
+          "name": "apple-hig-skills",
+          "url": "https://github.com/raintree-technology/apple-hig-skills",
+          "repo": "raintree-technology/apple-hig-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "sanjay3290/imagen",
+          "name": "imagen",
+          "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
+          "repo": "sanjay3290/ai-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "SHADOWPR0/security-bluebook-builder",
+          "name": "security-bluebook-builder",
+          "url": "https://github.com/SHADOWPR0/security-bluebook-builder",
+          "repo": "SHADOWPR0/security-bluebook-builder",
+          "publisher": "Community"
+        },
+        {
+          "id": "shouldnotappearcalm/a-share-skill",
+          "name": "a-share-skill",
+          "url": "https://github.com/shouldnotappearcalm/a-share-skill",
+          "repo": "shouldnotappearcalm/a-share-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "takechanman1228/claude-ecom",
+          "name": "claude-ecom",
+          "url": "https://github.com/takechanman1228/claude-ecom",
+          "repo": "takechanman1228/claude-ecom",
+          "publisher": "Community"
+        },
+        {
+          "id": "talkstream/ru-text",
+          "name": "ru-text",
+          "url": "https://github.com/talkstream/ru-text",
+          "repo": "talkstream/ru-text",
+          "publisher": "Community"
+        },
+        {
+          "id": "transloadit/skills",
+          "name": "skills",
+          "url": "https://github.com/transloadit/skills/tree/main/skills",
+          "repo": "transloadit/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "video-db/skills",
+          "name": "skills",
+          "url": "https://github.com/video-db/skills",
+          "repo": "video-db/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
+          "name": "Auto-claude-code-research-in-sleep",
+          "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+          "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+          "publisher": "Community"
+        },
+        {
+          "id": "zechenzhangAGI/AI-research-SKILLs",
+          "name": "AI-research-SKILLs",
+          "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
+          "repo": "zechenzhangAGI/AI-research-SKILLs",
+          "publisher": "Community"
+        },
+        {
+          "id": "ZeroPointRepo/youtube-skills",
+          "name": "youtube-skills",
+          "url": "https://github.com/ZeroPointRepo/youtube-skills",
+          "repo": "ZeroPointRepo/youtube-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "zw008/VMware-AIops",
+          "name": "VMware-AIops",
+          "url": "https://github.com/zw008/VMware-AIops",
+          "repo": "zw008/VMware-AIops",
           "publisher": "Community"
         },
         {
@@ -2271,6 +2327,13 @@
           "name": "readme",
           "url": "https://github.com/Shpigford/skills/tree/main/readme",
           "repo": "Shpigford/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "tjboudreaux/cc-thinking-skills",
+          "name": "cc-thinking-skills",
+          "url": "https://github.com/tjboudreaux/cc-thinking-skills",
+          "repo": "tjboudreaux/cc-thinking-skills",
           "publisher": "Community"
         },
         {
@@ -6066,6 +6129,18 @@
           "url": "https://github.com/MiniMax-AI/skills/tree/main/skills/shader-dev",
           "repo": "MiniMax-AI/skills",
           "publisher": "MiniMax"
+        }
+      ]
+    },
+    "Modem Dev": {
+      "skills_count": 1,
+      "skills": [
+        {
+          "id": "modem-dev/skills",
+          "name": "skills",
+          "url": "https://github.com/modem-dev/skills",
+          "repo": "modem-dev/skills",
+          "publisher": "Modem Dev"
         }
       ]
     },

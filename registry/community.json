@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-08-17T06:33:48Z",
+    "fetched_at": "2026-08-19T06:26:46Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 213,
+    "total_skills": 222,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 213
+    "total_community": 222
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 213,
+      "skills_count": 222,
       "skills": [
         {
           "section": "Marketing",
@@ -219,357 +219,18 @@
           ]
         },
         {
-          "section": "Specialized Domains",
-          "skills_count": 38,
-          "skills": [
-            {
-              "id": "aklofas/kicad-happy",
-              "name": "kicad-happy",
-              "url": "https://github.com/aklofas/kicad-happy",
-              "description": "AI-powered KiCad electronics design review and analysis",
-              "repo": "aklofas/kicad-happy",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "Alisa0808/vibe-creating-skill",
-              "name": "vibe-creating-skill",
-              "url": "https://github.com/Alisa0808/vibe-creating-skill",
-              "description": "Rewrites a rough idea or shot script into text-to-video prompts",
-              "repo": "Alisa0808/vibe-creating-skill",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "BehiSecc/vibesec",
-              "name": "vibesec",
-              "url": "https://github.com/BehiSecc/VibeSec-Skill",
-              "description": "Helps write secure code by preventing common vulnerabilities including IDOR, XSS, SQL injection, SSRF, and weak authentication, approaching code from a bug hunter's perspective",
-              "repo": "BehiSecc/VibeSec-Skill",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "bitwize-music-studio/claude-ai-music-skills",
-              "name": "claude-ai-music-skills",
-              "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
-              "description": "Full-lifecycle AI music album production",
-              "repo": "bitwize-music-studio/claude-ai-music-skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "Ericyoung-183/alpha-insights",
-              "name": "alpha-insights",
-              "url": "https://github.com/Ericyoung-183/alpha-insights",
-              "description": "Harness-enforced business research for Claude Code and Codex",
-              "repo": "Ericyoung-183/alpha-insights",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "frmoretto/clarity-gate",
-              "name": "clarity-gate",
-              "url": "https://github.com/frmoretto/clarity-gate",
-              "description": "Epistemic quality verification for RAG systems",
-              "repo": "frmoretto/clarity-gate",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "hanhuark/mechanical-engineering-research-skill",
-              "name": "mechanical-engineering-research-skill",
-              "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
-              "description": "Thermal-fluid research writing, proposals, DOE, and presentation feedback",
-              "repo": "hanhuark/mechanical-engineering-research-skill",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "helius-labs/helius-skills",
-              "name": "helius-skills",
-              "url": "https://github.com/helius-labs/core-ai/tree/main/helius-skills",
-              "description": "Ship Solana apps end-to-end; transaction sending, asset queries, real-time streaming, token swaps, prediction markets, browser wallets, and deep research into protocol internals all powered by Helius APIs, DFlow trading, and Phantom wallet integrations",
-              "repo": "helius-labs/core-ai",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
-              "name": "honeydew-ai-coding-agents-plugins",
-              "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
-              "description": "11 skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery: model exploration, entity/relation/attribute/metric/context/domain creation, validation, query, filtering, and workspace branching",
-              "repo": "honeydew-ai/honeydew-ai-coding-agents-plugins",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "HUANGCHIHHUNGLeo/claude-real-video",
-              "name": "claude-real-video",
-              "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
-              "description": "Scene-aware keyframes plus transcripts so any LLM watches videos",
-              "repo": "HUANGCHIHHUNGLeo/claude-real-video",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "huifer/Claude-Ally-Health",
-              "name": "Claude-Ally-Health",
-              "url": "https://github.com/huifer/Claude-Ally-Health",
-              "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
-              "repo": "huifer/Claude-Ally-Health",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "jeffersonwarrior/claudisms",
-              "name": "claudisms",
-              "url": "https://github.com/jeffersonwarrior/claudisms",
-              "description": "SMS messaging integration",
-              "repo": "jeffersonwarrior/claudisms",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "K-Dense-AI/claude-scientific-skills",
-              "name": "claude-scientific-skills",
-              "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
-              "description": "Scientific research and analysis skills",
-              "repo": "K-Dense-AI/claude-scientific-skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "komal-SkyNET/claude-skill-homeassistant",
-              "name": "claude-skill-homeassistant",
-              "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
-              "description": "Supercharge and manage Home Assistant workflows",
-              "repo": "komal-SkyNET/claude-skill-homeassistant",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "lawvable/awesome-legal-skills",
-              "name": "awesome-legal-skills",
-              "url": "https://github.com/lawvable/awesome-legal-skills",
-              "description": "Curated agent skills for automating legal workflows",
-              "repo": "lawvable/awesome-legal-skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "materials-simulation-skills",
-              "name": "materials-simulation-skills",
-              "url": "https://github.com/HeshamFS/materials-simulation-skills",
-              "description": "Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, mesh generation, simulation validation, parameter optimization, and post-processing",
-              "repo": "HeshamFS/materials-simulation-skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "meodai/skill.color-expert",
-              "name": "skill.color-expert",
-              "url": "https://github.com/meodai/skill.color-expert",
-              "description": "Color science expert skill with 286K words of reference material covering OKLCH/OKLAB, palette generation, accessibility/contrast, color naming, pigment mixing, and historical color theory",
-              "repo": "meodai/skill.color-expert",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "more-io/apple-bridges",
-              "name": "apple-bridges",
-              "url": "https://github.com/more-io/claude-apple-bridges",
-              "description": "Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges",
-              "repo": "more-io/claude-apple-bridges",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "morluto/rea",
-              "name": "rea",
-              "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
-              "description": "Reverse-engineer binaries, applications, and runtimes with REA",
-              "repo": "morluto/rea",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "NotMyself/claude-win11-speckit-update-skill",
-              "name": "claude-win11-speckit-update-skill",
-              "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
-              "description": "Windows 11 system management",
-              "repo": "NotMyself/claude-win11-speckit-update-skill",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "obra/defense-in-depth",
-              "name": "defense-in-depth",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
-              "description": "Multi-layered security approaches",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "Optim-Agent/optim-agent",
-              "name": "optim-agent",
-              "url": "https://github.com/Optim-Agent/optim-agent",
-              "description": "Agent-guided optimization for measurable system tuning.",
-              "repo": "Optim-Agent/optim-agent",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "Orchestra-Research/AI-research-SKILLs",
-              "name": "AI-research-SKILLs",
-              "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
-              "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
-              "repo": "Orchestra-Research/AI-research-SKILLs",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "Orkas-AI/video-router",
-              "name": "video-router",
-              "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
-              "description": "Route video requests through deterministic agent production stages",
-              "repo": "Orkas-AI/Orkas-VideoStudio",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "peas/genealogy-research",
-              "name": "genealogy-research",
-              "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
-              "description": "Genealogy research agent with OCR, FamilySearch, YAML data, and human-in-the-loop",
-              "repo": null,
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "prompt-security/clawsec",
-              "name": "clawsec",
-              "url": "https://github.com/prompt-security/clawsec",
-              "description": "Security skill suite with drift detection, automated audits, and skill integrity verification",
-              "repo": "prompt-security/clawsec",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "raintree-technology/apple-hig-skills",
-              "name": "apple-hig-skills",
-              "url": "https://github.com/raintree-technology/apple-hig-skills",
-              "description": "Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS",
-              "repo": "raintree-technology/apple-hig-skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "sanjay3290/imagen",
-              "name": "imagen",
-              "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
-              "description": "Generate images using Google Gemini's API",
-              "repo": "sanjay3290/ai-skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "SHADOWPR0/security-bluebook-builder",
-              "name": "security-bluebook-builder",
-              "url": "https://github.com/SHADOWPR0/security-bluebook-builder",
-              "description": "Build security Blue Books for sensitive apps",
-              "repo": "SHADOWPR0/security-bluebook-builder",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "shouldnotappearcalm/a-share-skill",
-              "name": "a-share-skill",
-              "url": "https://github.com/shouldnotappearcalm/a-share-skill",
-              "description": "China A-share (Shanghai/Shenzhen) skills: real-time quotes, K-line history, technical indicators, events, capital flows, sector heatmaps, and paper trading. Works with Claude Code, Cursor, Codex, and Qoder",
-              "repo": "shouldnotappearcalm/a-share-skill",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "takechanman1228/claude-ecom",
-              "name": "claude-ecom",
-              "url": "https://github.com/takechanman1228/claude-ecom",
-              "description": "Ecommerce CSV to business review with KPI decomposition",
-              "repo": "takechanman1228/claude-ecom",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "talkstream/ru-text",
-              "name": "ru-text",
-              "url": "https://github.com/talkstream/ru-text",
-              "description": "Russian text quality: ~1,040 rules for typography, info-style, editorial, UX writing, business correspondence. Cross-platform: Claude Code, Codex CLI, Gemini CLI, Cursor.",
-              "repo": "talkstream/ru-text",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "transloadit/skills",
-              "name": "skills",
-              "url": "https://github.com/transloadit/skills/tree/main/skills",
-              "description": "Transloadit skill collection (6)",
-              "repo": "transloadit/skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "video-db/skills",
-              "name": "skills",
-              "url": "https://github.com/video-db/skills",
-              "description": "Realtime and batch video workflows: capture screen/audio, ingest URLs/YouTube/RTSP, transcribe, index, search, generate subtitles, edit timelines, and stream HLS output",
-              "repo": "video-db/skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
-              "name": "Auto-claude-code-research-in-sleep",
-              "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
-              "description": "Autonomous ML research with cross-model review loops and GPU deployment",
-              "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "zechenzhangAGI/AI-research-SKILLs",
-              "name": "AI-research-SKILLs",
-              "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
-              "description": "77 AI research skills for model training, inference, and MLOps",
-              "repo": "zechenzhangAGI/AI-research-SKILLs",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "ZeroPointRepo/youtube-skills",
-              "name": "youtube-skills",
-              "url": "https://github.com/ZeroPointRepo/youtube-skills",
-              "description": "Agent skills for YouTube: pull video transcripts and discover videos (search, channel and playlist listings) via TranscriptAPI.",
-              "repo": "ZeroPointRepo/youtube-skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "zw008/VMware-AIops",
-              "name": "VMware-AIops",
-              "url": "https://github.com/zw008/VMware-AIops",
-              "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
-              "repo": "zw008/VMware-AIops",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            }
-          ]
-        },
-        {
           "section": "Development and Testing",
-          "skills_count": 87,
+          "skills_count": 89,
           "skills": [
+            {
+              "id": "agiwhitelist/auteur",
+              "name": "auteur",
+              "url": "https://github.com/agiwhitelist/auteur",
+              "description": "Builds websites gated by an anti-slop linter and motion QA",
+              "repo": "agiwhitelist/auteur",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
             {
               "id": "alinaqi/claude-bootstrap",
               "name": "claude-bootstrap",
@@ -1291,6 +952,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "superdesigndev/superdesign-skill",
+              "name": "superdesign-skill",
+              "url": "https://github.com/superdesigndev/superdesign-skill",
+              "description": "Creates design systems from existing codebases and iterates UI drafts",
+              "repo": "superdesigndev/superdesign-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "testdino-hq/playwright-skill",
               "name": "playwright-skill",
               "url": "https://github.com/testdino-hq/playwright-skill",
@@ -1352,6 +1022,408 @@
               "repo": "zxkane/aws-skills",
               "publisher": "Community",
               "section": "Development and Testing"
+            }
+          ]
+        },
+        {
+          "section": "Specialized Domains",
+          "skills_count": 44,
+          "skills": [
+            {
+              "id": "aklofas/kicad-happy",
+              "name": "kicad-happy",
+              "url": "https://github.com/aklofas/kicad-happy",
+              "description": "AI-powered KiCad electronics design review and analysis",
+              "repo": "aklofas/kicad-happy",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Alisa0808/vibe-creating-skill",
+              "name": "vibe-creating-skill",
+              "url": "https://github.com/Alisa0808/vibe-creating-skill",
+              "description": "Rewrites a rough idea or shot script into text-to-video prompts",
+              "repo": "Alisa0808/vibe-creating-skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "BehiSecc/vibesec",
+              "name": "vibesec",
+              "url": "https://github.com/BehiSecc/VibeSec-Skill",
+              "description": "Helps write secure code by preventing common vulnerabilities including IDOR, XSS, SQL injection, SSRF, and weak authentication, approaching code from a bug hunter's perspective",
+              "repo": "BehiSecc/VibeSec-Skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "bitwize-music-studio/claude-ai-music-skills",
+              "name": "claude-ai-music-skills",
+              "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+              "description": "Full-lifecycle AI music album production",
+              "repo": "bitwize-music-studio/claude-ai-music-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Ericyoung-183/alpha-insights",
+              "name": "alpha-insights",
+              "url": "https://github.com/Ericyoung-183/alpha-insights",
+              "description": "Harness-enforced business research for Claude Code and Codex",
+              "repo": "Ericyoung-183/alpha-insights",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "frmoretto/clarity-gate",
+              "name": "clarity-gate",
+              "url": "https://github.com/frmoretto/clarity-gate",
+              "description": "Epistemic quality verification for RAG systems",
+              "repo": "frmoretto/clarity-gate",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "GarethManning/assessment-validity-checker",
+              "name": "assessment-validity-checker",
+              "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/assessment-validity-checker",
+              "description": "Audits assessments for validity, reliability, and learning alignment",
+              "repo": "GarethManning/education-agent-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "GarethManning/competency-unpacker",
+              "name": "competency-unpacker",
+              "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/competency-unpacker",
+              "description": "Unpacks broad competencies into assessable sub-skills and success criteria",
+              "repo": "GarethManning/education-agent-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "GarethManning/learning-target-authoring-guide",
+              "name": "learning-target-authoring-guide",
+              "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/original-frameworks/learning-target-authoring-guide",
+              "description": "Authors observable competency learning targets across developmental bands",
+              "repo": "GarethManning/education-agent-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "GarethManning/progressive-hint-ladder",
+              "name": "progressive-hint-ladder",
+              "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/student-learning/progressive-hint-ladder",
+              "description": "Provides graduated hints while preserving learner thinking and agency",
+              "repo": "GarethManning/education-agent-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "GarethManning/regenerative-project-design-orchestrator",
+              "name": "regenerative-project-design-orchestrator",
+              "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/original-frameworks/regenerative-project-design-orchestrator",
+              "description": "Orchestrates proportionate regenerative learning projects with safeguards and stewardship",
+              "repo": "GarethManning/education-agent-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "hanhuark/mechanical-engineering-research-skill",
+              "name": "mechanical-engineering-research-skill",
+              "url": "https://github.com/hanhuark/mechanical-engineering-research-skill",
+              "description": "Thermal-fluid research writing, proposals, DOE, and presentation feedback",
+              "repo": "hanhuark/mechanical-engineering-research-skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "helius-labs/helius-skills",
+              "name": "helius-skills",
+              "url": "https://github.com/helius-labs/core-ai/tree/main/helius-skills",
+              "description": "Ship Solana apps end-to-end; transaction sending, asset queries, real-time streaming, token swaps, prediction markets, browser wallets, and deep research into protocol internals all powered by Helius APIs, DFlow trading, and Phantom wallet integrations",
+              "repo": "helius-labs/core-ai",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+              "name": "honeydew-ai-coding-agents-plugins",
+              "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
+              "description": "11 skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery: model exploration, entity/relation/attribute/metric/context/domain creation, validation, query, filtering, and workspace branching",
+              "repo": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "HUANGCHIHHUNGLeo/claude-real-video",
+              "name": "claude-real-video",
+              "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+              "description": "Scene-aware keyframes plus transcripts so any LLM watches videos",
+              "repo": "HUANGCHIHHUNGLeo/claude-real-video",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "huifer/Claude-Ally-Health",
+              "name": "Claude-Ally-Health",
+              "url": "https://github.com/huifer/Claude-Ally-Health",
+              "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
+              "repo": "huifer/Claude-Ally-Health",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "jeffersonwarrior/claudisms",
+              "name": "claudisms",
+              "url": "https://github.com/jeffersonwarrior/claudisms",
+              "description": "SMS messaging integration",
+              "repo": "jeffersonwarrior/claudisms",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "K-Dense-AI/claude-scientific-skills",
+              "name": "claude-scientific-skills",
+              "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+              "description": "Scientific research and analysis skills",
+              "repo": "K-Dense-AI/claude-scientific-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "komal-SkyNET/claude-skill-homeassistant",
+              "name": "claude-skill-homeassistant",
+              "url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+              "description": "Supercharge and manage Home Assistant workflows",
+              "repo": "komal-SkyNET/claude-skill-homeassistant",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "lawvable/awesome-legal-skills",
+              "name": "awesome-legal-skills",
+              "url": "https://github.com/lawvable/awesome-legal-skills",
+              "description": "Curated agent skills for automating legal workflows",
+              "repo": "lawvable/awesome-legal-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "materials-simulation-skills",
+              "name": "materials-simulation-skills",
+              "url": "https://github.com/HeshamFS/materials-simulation-skills",
+              "description": "Agent skills for computational materials science: numerical stability, time-stepping, linear solvers, mesh generation, simulation validation, parameter optimization, and post-processing",
+              "repo": "HeshamFS/materials-simulation-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "meodai/skill.color-expert",
+              "name": "skill.color-expert",
+              "url": "https://github.com/meodai/skill.color-expert",
+              "description": "Color science expert skill with 286K words of reference material covering OKLCH/OKLAB, palette generation, accessibility/contrast, color naming, pigment mixing, and historical color theory",
+              "repo": "meodai/skill.color-expert",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "more-io/apple-bridges",
+              "name": "apple-bridges",
+              "url": "https://github.com/more-io/claude-apple-bridges",
+              "description": "Native macOS app access — manage Apple Reminders, Calendar, Contacts, Notes, Mail, and tmux sessions via Swift CLI bridges",
+              "repo": "more-io/claude-apple-bridges",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "morluto/rea",
+              "name": "rea",
+              "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+              "description": "Reverse-engineer binaries, applications, and runtimes with REA",
+              "repo": "morluto/rea",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "NotMyself/claude-win11-speckit-update-skill",
+              "name": "claude-win11-speckit-update-skill",
+              "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
+              "description": "Windows 11 system management",
+              "repo": "NotMyself/claude-win11-speckit-update-skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "obra/defense-in-depth",
+              "name": "defense-in-depth",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
+              "description": "Multi-layered security approaches",
+              "repo": "obra/superpowers",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Optim-Agent/optim-agent",
+              "name": "optim-agent",
+              "url": "https://github.com/Optim-Agent/optim-agent",
+              "description": "Agent-guided optimization for measurable system tuning.",
+              "repo": "Optim-Agent/optim-agent",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Orchestra-Research/AI-research-SKILLs",
+              "name": "AI-research-SKILLs",
+              "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
+              "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
+              "repo": "Orchestra-Research/AI-research-SKILLs",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "Orkas-AI/video-router",
+              "name": "video-router",
+              "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
+              "description": "Route video requests through deterministic agent production stages",
+              "repo": "Orkas-AI/Orkas-VideoStudio",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "peas/genealogy-research",
+              "name": "genealogy-research",
+              "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
+              "description": "Genealogy research agent with OCR, FamilySearch, YAML data, and human-in-the-loop",
+              "repo": null,
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "perso-ai/perso-dubbing",
+              "name": "perso-dubbing",
+              "url": "https://github.com/perso-ai/perso-dubbing-plugin",
+              "description": "Video translator: dubbing, lip-sync, subtitles, and short clips",
+              "repo": "perso-ai/perso-dubbing-plugin",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "prompt-security/clawsec",
+              "name": "clawsec",
+              "url": "https://github.com/prompt-security/clawsec",
+              "description": "Security skill suite with drift detection, automated audits, and skill integrity verification",
+              "repo": "prompt-security/clawsec",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "raintree-technology/apple-hig-skills",
+              "name": "apple-hig-skills",
+              "url": "https://github.com/raintree-technology/apple-hig-skills",
+              "description": "Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS",
+              "repo": "raintree-technology/apple-hig-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "sanjay3290/imagen",
+              "name": "imagen",
+              "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
+              "description": "Generate images using Google Gemini's API",
+              "repo": "sanjay3290/ai-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "SHADOWPR0/security-bluebook-builder",
+              "name": "security-bluebook-builder",
+              "url": "https://github.com/SHADOWPR0/security-bluebook-builder",
+              "description": "Build security Blue Books for sensitive apps",
+              "repo": "SHADOWPR0/security-bluebook-builder",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "shouldnotappearcalm/a-share-skill",
+              "name": "a-share-skill",
+              "url": "https://github.com/shouldnotappearcalm/a-share-skill",
+              "description": "China A-share (Shanghai/Shenzhen) skills: real-time quotes, K-line history, technical indicators, events, capital flows, sector heatmaps, and paper trading. Works with Claude Code, Cursor, Codex, and Qoder",
+              "repo": "shouldnotappearcalm/a-share-skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "takechanman1228/claude-ecom",
+              "name": "claude-ecom",
+              "url": "https://github.com/takechanman1228/claude-ecom",
+              "description": "Ecommerce CSV to business review with KPI decomposition",
+              "repo": "takechanman1228/claude-ecom",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "talkstream/ru-text",
+              "name": "ru-text",
+              "url": "https://github.com/talkstream/ru-text",
+              "description": "Russian text quality: ~1,040 rules for typography, info-style, editorial, UX writing, business correspondence. Cross-platform: Claude Code, Codex CLI, Gemini CLI, Cursor.",
+              "repo": "talkstream/ru-text",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "transloadit/skills",
+              "name": "skills",
+              "url": "https://github.com/transloadit/skills/tree/main/skills",
+              "description": "Transloadit skill collection (6)",
+              "repo": "transloadit/skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "video-db/skills",
+              "name": "skills",
+              "url": "https://github.com/video-db/skills",
+              "description": "Realtime and batch video workflows: capture screen/audio, ingest URLs/YouTube/RTSP, transcribe, index, search, generate subtitles, edit timelines, and stream HLS output",
+              "repo": "video-db/skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
+              "name": "Auto-claude-code-research-in-sleep",
+              "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
+              "description": "Autonomous ML research with cross-model review loops and GPU deployment",
+              "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "zechenzhangAGI/AI-research-SKILLs",
+              "name": "AI-research-SKILLs",
+              "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
+              "description": "77 AI research skills for model training, inference, and MLOps",
+              "repo": "zechenzhangAGI/AI-research-SKILLs",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "ZeroPointRepo/youtube-skills",
+              "name": "youtube-skills",
+              "url": "https://github.com/ZeroPointRepo/youtube-skills",
+              "description": "Agent skills for YouTube: pull video transcripts and discover videos (search, channel and playlist listings) via TranscriptAPI.",
+              "repo": "ZeroPointRepo/youtube-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "zw008/VMware-AIops",
+              "name": "VMware-AIops",
+              "url": "https://github.com/zw008/VMware-AIops",
+              "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
+              "repo": "zw008/VMware-AIops",
+              "publisher": "Community",
+              "section": "Specialized Domains"
             }
           ]
         },
@@ -1534,7 +1606,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 39,
+          "skills_count": 40,
           "skills": [
             {
               "id": "Charlie85270/Dorothy",
@@ -1861,6 +1933,15 @@
               "section": "Productivity and Collaboration"
             },
             {
+              "id": "tjboudreaux/cc-thinking-skills",
+              "name": "cc-thinking-skills",
+              "url": "https://github.com/tjboudreaux/cc-thinking-skills",
+              "description": "28 eval-informed mental models for decisions, debugging, systems, and strategy",
+              "repo": "tjboudreaux/cc-thinking-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "wrsmith108/linear-claude-skill",
               "name": "linear-claude-skill",
               "url": "https://github.com/wrsmith108/linear-claude-skill",
@@ -1985,6 +2066,15 @@
       "repo": "aaron-he-zhu/aaron-marketing-skills",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "agiwhitelist/auteur",
+      "name": "auteur",
+      "url": "https://github.com/agiwhitelist/auteur",
+      "description": "Builds websites gated by an anti-slop linter and motion QA",
+      "repo": "agiwhitelist/auteur",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "AgriciDaniel/claude-seo",
@@ -2381,6 +2471,51 @@
       "repo": "GanyuanRan/Aegis",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "GarethManning/assessment-validity-checker",
+      "name": "assessment-validity-checker",
+      "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/assessment-validity-checker",
+      "description": "Audits assessments for validity, reliability, and learning alignment",
+      "repo": "GarethManning/education-agent-skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "GarethManning/competency-unpacker",
+      "name": "competency-unpacker",
+      "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/curriculum-assessment/competency-unpacker",
+      "description": "Unpacks broad competencies into assessable sub-skills and success criteria",
+      "repo": "GarethManning/education-agent-skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "GarethManning/learning-target-authoring-guide",
+      "name": "learning-target-authoring-guide",
+      "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/original-frameworks/learning-target-authoring-guide",
+      "description": "Authors observable competency learning targets across developmental bands",
+      "repo": "GarethManning/education-agent-skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "GarethManning/progressive-hint-ladder",
+      "name": "progressive-hint-ladder",
+      "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/student-learning/progressive-hint-ladder",
+      "description": "Provides graduated hints while preserving learner thinking and agency",
+      "repo": "GarethManning/education-agent-skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "GarethManning/regenerative-project-design-orchestrator",
+      "name": "regenerative-project-design-orchestrator",
+      "url": "https://github.com/GarethManning/education-agent-skills/tree/main/skills/original-frameworks/regenerative-project-design-orchestrator",
+      "description": "Orchestrates proportionate regenerative learning projects with safeguards and stewardship",
+      "repo": "GarethManning/education-agent-skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "gitroomhq/postiz-agent",
@@ -3355,6 +3490,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "perso-ai/perso-dubbing",
+      "name": "perso-dubbing",
+      "url": "https://github.com/perso-ai/perso-dubbing-plugin",
+      "description": "Video translator: dubbing, lip-sync, subtitles, and short clips",
+      "repo": "perso-ai/perso-dubbing-plugin",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "plasma-ai/fractal",
       "name": "fractal",
       "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
@@ -3670,6 +3814,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "superdesigndev/superdesign-skill",
+      "name": "superdesign-skill",
+      "url": "https://github.com/superdesigndev/superdesign-skill",
+      "description": "Creates design systems from existing codebases and iterates UI drafts",
+      "repo": "superdesigndev/superdesign-skill",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "taisly/agent",
       "name": "agent",
       "url": "https://github.com/taisly/agent",
@@ -3704,6 +3857,15 @@
       "repo": "testdino-hq/playwright-skill",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "tjboudreaux/cc-thinking-skills",
+      "name": "cc-thinking-skills",
+      "url": "https://github.com/tjboudreaux/cc-thinking-skills",
+      "description": "28 eval-informed mental models for decisions, debugging, systems, and strategy",
+      "repo": "tjboudreaux/cc-thinking-skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "transloadit/skills",

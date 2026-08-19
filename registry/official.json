@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-08-17T06:33:48Z",
+    "fetched_at": "2026-08-19T06:26:46Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 996,
-    "total_publishers": 58,
+    "total_skills": 997,
+    "total_publishers": 59,
     "total_categories": 7,
-    "total_official": 996,
+    "total_official": 997,
     "total_community": 0
   },
   "publishers": [
@@ -6140,6 +6140,28 @@
               "description": "GLSL shader techniques for ray marching, fluid simulation, particle systems, and procedural generation",
               "repo": "MiniMax-AI/skills",
               "publisher": "MiniMax",
+              "section": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Modem Dev",
+      "type": "official",
+      "skills_count": 1,
+      "skills": [
+        {
+          "section": "Official",
+          "skills_count": 1,
+          "skills": [
+            {
+              "id": "modem-dev/skills",
+              "name": "skills",
+              "url": "https://github.com/modem-dev/skills",
+              "description": "Agent skills from [Modem](https://modem.dev/go/awesome-agent-skills), starting with write-discoverable-code",
+              "repo": "modem-dev/skills",
+              "publisher": "Modem Dev",
               "section": "Official"
             }
           ]
@@ -15409,6 +15431,15 @@
       "description": "GLSL shader techniques for ray marching, fluid simulation, particle systems, and procedural generation",
       "repo": "MiniMax-AI/skills",
       "publisher": "MiniMax",
+      "section": "Official"
+    },
+    {
+      "id": "modem-dev/skills",
+      "name": "skills",
+      "url": "https://github.com/modem-dev/skills",
+      "description": "Agent skills from [Modem](https://modem.dev/go/awesome-agent-skills), starting with write-discoverable-code",
+      "repo": "modem-dev/skills",
+      "publisher": "Modem Dev",
       "section": "Official"
     },
     {
