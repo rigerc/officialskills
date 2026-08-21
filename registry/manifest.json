@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T06:26:46Z",
-  "total_skills": 1219,
+  "generated_at": "2026-08-21T06:29:36Z",
+  "total_skills": 1204,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 222,
+      "skills_count": 208,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -979,6 +979,13 @@
           "publisher": "Community"
         },
         {
+          "id": "SupercmoHQ/superCMO-skills",
+          "name": "superCMO-skills",
+          "url": "https://github.com/SupercmoHQ/superCMO-skills",
+          "repo": "SupercmoHQ/superCMO-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "taisly/agent",
           "name": "agent",
           "url": "https://github.com/taisly/agent",
@@ -1011,6 +1018,13 @@
           "name": "x-twitter-scraper",
           "url": "https://github.com/Xquik-dev/x-twitter-scraper",
           "repo": "Xquik-dev/x-twitter-scraper",
+          "publisher": "Community"
+        },
+        {
+          "id": "aeonfun/aeon",
+          "name": "aeon",
+          "url": "https://github.com/aeonfun/aeon",
+          "repo": "aeonfun/aeon",
           "publisher": "Community"
         },
         {
@@ -1147,55 +1161,6 @@
           "publisher": "Community"
         },
         {
-          "id": "hamelsmu/build-review-interface",
-          "name": "build-review-interface",
-          "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/build-review-interface",
-          "repo": "hamelsmu/prompts",
-          "publisher": "Community"
-        },
-        {
-          "id": "hamelsmu/error-analysis",
-          "name": "error-analysis",
-          "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/error-analysis",
-          "repo": "hamelsmu/prompts",
-          "publisher": "Community"
-        },
-        {
-          "id": "hamelsmu/eval-audit",
-          "name": "eval-audit",
-          "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/eval-audit",
-          "repo": "hamelsmu/prompts",
-          "publisher": "Community"
-        },
-        {
-          "id": "hamelsmu/evaluate-rag",
-          "name": "evaluate-rag",
-          "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
-          "repo": "hamelsmu/prompts",
-          "publisher": "Community"
-        },
-        {
-          "id": "hamelsmu/generate-synthetic-data",
-          "name": "generate-synthetic-data",
-          "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
-          "repo": "hamelsmu/prompts",
-          "publisher": "Community"
-        },
-        {
-          "id": "hamelsmu/validate-evaluator",
-          "name": "validate-evaluator",
-          "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
-          "repo": "hamelsmu/prompts",
-          "publisher": "Community"
-        },
-        {
-          "id": "hamelsmu/write-judge-prompt",
-          "name": "write-judge-prompt",
-          "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/write-judge-prompt",
-          "repo": "hamelsmu/prompts",
-          "publisher": "Community"
-        },
-        {
           "id": "hqhq1025/skill-optimizer",
           "name": "skill-optimizer",
           "url": "https://github.com/hqhq1025/skill-optimizer",
@@ -1308,13 +1273,6 @@
           "publisher": "Community"
         },
         {
-          "id": "NeoLabHQ/code-review",
-          "name": "code-review",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/code-review",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
           "id": "NeoLabHQ/ddd",
           "name": "ddd",
           "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd",
@@ -1332,6 +1290,13 @@
           "id": "NeoLabHQ/reflexion",
           "name": "reflexion",
           "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/reflexion",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/review",
+          "name": "review",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/review",
           "repo": "NeoLabHQ/context-engineering-kit",
           "publisher": "Community"
         },
@@ -1364,20 +1329,6 @@
           "publisher": "Community"
         },
         {
-          "id": "obra/commands",
-          "name": "commands",
-          "url": "https://github.com/obra/superpowers/tree/main/skills/commands",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/condition-based-waiting",
-          "name": "condition-based-waiting",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/condition-based-waiting/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
           "id": "obra/finishing-a-development-branch",
           "name": "finishing-a-development-branch",
           "url": "https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md",
@@ -1399,13 +1350,6 @@
           "publisher": "Community"
         },
         {
-          "id": "obra/root-cause-tracing",
-          "name": "root-cause-tracing",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/root-cause-tracing/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
           "id": "obra/subagent-driven-development",
           "name": "subagent-driven-development",
           "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
@@ -1423,20 +1367,6 @@
           "id": "obra/test-driven-development",
           "name": "test-driven-development",
           "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/testing-anti-patterns",
-          "name": "testing-anti-patterns",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/testing-anti-patterns/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/testing-skills-with-subagents",
-          "name": "testing-skills-with-subagents",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/testing-skills-with-subagents/SKILL.md",
           "repo": "obra/superpowers",
           "publisher": "Community"
         },
@@ -1543,20 +1473,6 @@
           "name": "vexor",
           "url": "https://github.com/scarletkc/vexor",
           "repo": "scarletkc/vexor",
-          "publisher": "Community"
-        },
-        {
-          "id": "Shpigford/screenshots",
-          "name": "screenshots",
-          "url": "https://github.com/Shpigford/skills/tree/main/screenshots",
-          "repo": "Shpigford/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "ShunsukeHayashi/agent-skill-bus",
-          "name": "agent-skill-bus",
-          "url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
-          "repo": "ShunsukeHayashi/agent-skill-bus",
           "publisher": "Community"
         },
         {
@@ -1749,13 +1665,6 @@
           "publisher": "Community"
         },
         {
-          "id": "jeffersonwarrior/claudisms",
-          "name": "claudisms",
-          "url": "https://github.com/jeffersonwarrior/claudisms",
-          "repo": "jeffersonwarrior/claudisms",
-          "publisher": "Community"
-        },
-        {
           "id": "K-Dense-AI/claude-scientific-skills",
           "name": "claude-scientific-skills",
           "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
@@ -1809,13 +1718,6 @@
           "name": "claude-win11-speckit-update-skill",
           "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
           "repo": "NotMyself/claude-win11-speckit-update-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/defense-in-depth",
-          "name": "defense-in-depth",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
-          "repo": "obra/superpowers",
           "publisher": "Community"
         },
         {
@@ -2064,6 +1966,13 @@
           "publisher": "Community"
         },
         {
+          "id": "thedotmack/claude-mem",
+          "name": "claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "repo": "thedotmack/claude-mem",
+          "publisher": "Community"
+        },
+        {
           "id": "Tubo2333/obsidian-knowledge-brain",
           "name": "obsidian-knowledge-brain",
           "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
@@ -2141,9 +2050,16 @@
           "publisher": "Community"
         },
         {
-          "id": "kreuzberg-dev/kreuzberg",
-          "name": "kreuzberg",
-          "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
+          "id": "kgraph57/strategy-consulting-visualization",
+          "name": "strategy-consulting-visualization",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+          "repo": "kgraph57/mckinsey-style-visualization-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "kreuzberg-dev/xberg",
+          "name": "xberg",
+          "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/plugin/skills/xberg",
           "repo": "kreuzberg-dev/kreuzberg",
           "publisher": "Community"
         },
@@ -2200,13 +2116,6 @@
           "id": "obra/executing-plans",
           "name": "executing-plans",
           "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/sharing-skills",
-          "name": "sharing-skills",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/sharing-skills/SKILL.md",
           "repo": "obra/superpowers",
           "publisher": "Community"
         },
@@ -2320,13 +2229,6 @@
           "name": "skills",
           "url": "https://github.com/Sendmux/skills",
           "repo": "Sendmux/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "Shpigford/readme",
-          "name": "readme",
-          "url": "https://github.com/Shpigford/skills/tree/main/readme",
-          "repo": "Shpigford/skills",
           "publisher": "Community"
         },
         {
@@ -2766,12 +2668,12 @@
       ]
     },
     "Figma": {
-      "skills_count": 51,
+      "skills_count": 50,
       "skills": [
         {
-          "id": "coreyhaines31/ab-test-setup",
-          "name": "ab-test-setup",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup",
+          "id": "coreyhaines31/ab-testing",
+          "name": "ab-testing",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2783,6 +2685,13 @@
           "publisher": "Figma"
         },
         {
+          "id": "coreyhaines31/ads",
+          "name": "ads",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads",
+          "repo": "coreyhaines31/marketingskills",
+          "publisher": "Figma"
+        },
+        {
           "id": "coreyhaines31/ai-seo",
           "name": "ai-seo",
           "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
@@ -2790,9 +2699,9 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/analytics-tracking",
-          "name": "analytics-tracking",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking",
+          "id": "coreyhaines31/analytics",
+          "name": "analytics",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2811,9 +2720,9 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/competitor-alternatives",
-          "name": "competitor-alternatives",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-alternatives",
+          "id": "coreyhaines31/competitors",
+          "name": "competitors",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitors",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2839,30 +2748,30 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/email-sequence",
-          "name": "email-sequence",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence",
+          "id": "coreyhaines31/cro",
+          "name": "cro",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/form-cro",
-          "name": "form-cro",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/form-cro",
+          "id": "coreyhaines31/emails",
+          "name": "emails",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/emails",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/free-tool-strategy",
-          "name": "free-tool-strategy",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tool-strategy",
+          "id": "coreyhaines31/free-tools",
+          "name": "free-tools",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tools",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/launch-strategy",
-          "name": "launch-strategy",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy",
+          "id": "coreyhaines31/launch",
+          "name": "launch",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2881,51 +2790,37 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/onboarding-cro",
-          "name": "onboarding-cro",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding-cro",
+          "id": "coreyhaines31/onboarding",
+          "name": "onboarding",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/page-cro",
-          "name": "page-cro",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
+          "id": "coreyhaines31/paywalls",
+          "name": "paywalls",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywalls",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/paid-ads",
-          "name": "paid-ads",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads",
+          "id": "coreyhaines31/popups",
+          "name": "popups",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/paywall-upgrade-cro",
-          "name": "paywall-upgrade-cro",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywall-upgrade-cro",
+          "id": "coreyhaines31/pricing",
+          "name": "pricing",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/popup-cro",
-          "name": "popup-cro",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro",
-          "repo": "coreyhaines31/marketingskills",
-          "publisher": "Figma"
-        },
-        {
-          "id": "coreyhaines31/pricing-strategy",
-          "name": "pricing-strategy",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy",
-          "repo": "coreyhaines31/marketingskills",
-          "publisher": "Figma"
-        },
-        {
-          "id": "coreyhaines31/product-marketing-context",
-          "name": "product-marketing-context",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing-context",
+          "id": "coreyhaines31/product-marketing",
+          "name": "product-marketing",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2937,9 +2832,9 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/referral-program",
-          "name": "referral-program",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program",
+          "id": "coreyhaines31/referrals",
+          "name": "referrals",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referrals",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2958,9 +2853,9 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/schema-markup",
-          "name": "schema-markup",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema-markup",
+          "id": "coreyhaines31/schema",
+          "name": "schema",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2972,9 +2867,9 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/signup-flow-cro",
-          "name": "signup-flow-cro",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup-flow-cro",
+          "id": "coreyhaines31/signup",
+          "name": "signup",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -2986,9 +2881,9 @@
           "publisher": "Figma"
         },
         {
-          "id": "coreyhaines31/social-content",
-          "name": "social-content",
-          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content",
+          "id": "coreyhaines31/social",
+          "name": "social",
+          "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social",
           "repo": "coreyhaines31/marketingskills",
           "publisher": "Figma"
         },
@@ -7800,9 +7695,9 @@
       "skills_count": 1,
       "skills": [
         {
-          "id": "redis/redis-development",
-          "name": "redis-development",
-          "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-development",
+          "id": "redis/redis-core",
+          "name": "redis-core",
+          "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-core",
           "repo": "redis/agent-skills",
           "publisher": "Redis"
         }

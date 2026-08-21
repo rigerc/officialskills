@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-08-19T06:26:46Z",
+    "fetched_at": "2026-08-21T06:29:36Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 222,
+    "total_skills": 208,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 222
+    "total_community": 208
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 222,
+      "skills_count": 208,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 22,
+          "skills_count": 23,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -172,6 +172,15 @@
               "section": "Marketing"
             },
             {
+              "id": "SupercmoHQ/superCMO-skills",
+              "name": "superCMO-skills",
+              "url": "https://github.com/SupercmoHQ/superCMO-skills",
+              "description": "Open-source skills + local MCP server for marketing video & image production: UGC videos, ad videos, product photography, and image ads from a product photo and a brief; casts AI actors, picks the best image/video models, edits any-length clips with consistent actor and product, and researches competitor ads. BYO or managed keys, Apache-2.0",
+              "repo": "SupercmoHQ/superCMO-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "taisly/agent",
               "name": "agent",
               "url": "https://github.com/taisly/agent",
@@ -220,8 +229,17 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 89,
+          "skills_count": 76,
           "skills": [
+            {
+              "id": "aeonfun/aeon",
+              "name": "aeon",
+              "url": "https://github.com/aeonfun/aeon",
+              "description": "70+ Claude Code skills + autonomous GitHub Actions agent framework",
+              "repo": "aeonfun/aeon",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
             {
               "id": "agiwhitelist/auteur",
               "name": "auteur",
@@ -394,69 +412,6 @@
               "section": "Development and Testing"
             },
             {
-              "id": "hamelsmu/build-review-interface",
-              "name": "build-review-interface",
-              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/build-review-interface",
-              "description": "Build annotation interfaces for reviewing LLM traces",
-              "repo": "hamelsmu/prompts",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "hamelsmu/error-analysis",
-              "name": "error-analysis",
-              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/error-analysis",
-              "description": "Systematically identify failure modes in LLM pipelines",
-              "repo": "hamelsmu/prompts",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "hamelsmu/eval-audit",
-              "name": "eval-audit",
-              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/eval-audit",
-              "description": "Audit LLM eval pipelines and surface problems",
-              "repo": "hamelsmu/prompts",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "hamelsmu/evaluate-rag",
-              "name": "evaluate-rag",
-              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
-              "description": "Evaluate RAG retrieval and generation quality",
-              "repo": "hamelsmu/prompts",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "hamelsmu/generate-synthetic-data",
-              "name": "generate-synthetic-data",
-              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
-              "description": "Create diverse synthetic test inputs for LLM evals",
-              "repo": "hamelsmu/prompts",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "hamelsmu/validate-evaluator",
-              "name": "validate-evaluator",
-              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
-              "description": "Calibrate LLM judges against human labels",
-              "repo": "hamelsmu/prompts",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "hamelsmu/write-judge-prompt",
-              "name": "write-judge-prompt",
-              "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/write-judge-prompt",
-              "description": "Design LLM-as-Judge evaluators for subjective criteria",
-              "repo": "hamelsmu/prompts",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
               "id": "hqhq1025/skill-optimizer",
               "name": "skill-optimizer",
               "url": "https://github.com/hqhq1025/skill-optimizer",
@@ -601,15 +556,6 @@
               "section": "Development and Testing"
             },
             {
-              "id": "NeoLabHQ/code-review",
-              "name": "code-review",
-              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/code-review",
-              "description": "Comprehensive PR code review using specialized agents: bug-hunter, security-auditor, code-quality-reviewer, contracts-reviewer, historical-context-reviewer, test-coverage-reviewer",
-              "repo": "NeoLabHQ/context-engineering-kit",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
               "id": "NeoLabHQ/ddd",
               "name": "ddd",
               "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd",
@@ -632,6 +578,15 @@
               "name": "reflexion",
               "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/reflexion",
               "description": "Self-refinement loop that forces the LLM to reflect on previous output and correct itself.",
+              "repo": "NeoLabHQ/context-engineering-kit",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "NeoLabHQ/review",
+              "name": "review",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/review",
+              "description": "Comprehensive PR code review using specialized agents: bug-hunter, security-auditor, code-quality-reviewer, contracts-reviewer, historical-context-reviewer, test-coverage-reviewer",
               "repo": "NeoLabHQ/context-engineering-kit",
               "publisher": "Community",
               "section": "Development and Testing"
@@ -673,24 +628,6 @@
               "section": "Development and Testing"
             },
             {
-              "id": "obra/commands",
-              "name": "commands",
-              "url": "https://github.com/obra/superpowers/tree/main/skills/commands",
-              "description": "Create and manage command structures",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "obra/condition-based-waiting",
-              "name": "condition-based-waiting",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/condition-based-waiting/SKILL.md",
-              "description": "Manage conditional pauses or delays",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
               "id": "obra/finishing-a-development-branch",
               "name": "finishing-a-development-branch",
               "url": "https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md",
@@ -718,15 +655,6 @@
               "section": "Development and Testing"
             },
             {
-              "id": "obra/root-cause-tracing",
-              "name": "root-cause-tracing",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/root-cause-tracing/SKILL.md",
-              "description": "Investigate and identify fundamental problems",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
               "id": "obra/subagent-driven-development",
               "name": "subagent-driven-development",
               "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
@@ -749,24 +677,6 @@
               "name": "test-driven-development",
               "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
               "description": "Write tests before implementing code",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "obra/testing-anti-patterns",
-              "name": "testing-anti-patterns",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/testing-anti-patterns/SKILL.md",
-              "description": "Identify ineffective testing practices",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "obra/testing-skills-with-subagents",
-              "name": "testing-skills-with-subagents",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/testing-skills-with-subagents/SKILL.md",
-              "description": "Collaborative testing approaches",
               "repo": "obra/superpowers",
               "publisher": "Community",
               "section": "Development and Testing"
@@ -907,24 +817,6 @@
               "section": "Development and Testing"
             },
             {
-              "id": "Shpigford/screenshots",
-              "name": "screenshots",
-              "url": "https://github.com/Shpigford/skills/tree/main/screenshots",
-              "description": "Generate marketing screenshots with Playwright",
-              "repo": "Shpigford/skills",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "ShunsukeHayashi/agent-skill-bus",
-              "name": "agent-skill-bus",
-              "url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
-              "description": "Self-improving task orchestration for AI agent systems",
-              "repo": "ShunsukeHayashi/agent-skill-bus",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
               "id": "Simon-He95/markstream-install",
               "name": "markstream-install",
               "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
@@ -1027,7 +919,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 44,
+          "skills_count": 42,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -1174,15 +1066,6 @@
               "section": "Specialized Domains"
             },
             {
-              "id": "jeffersonwarrior/claudisms",
-              "name": "claudisms",
-              "url": "https://github.com/jeffersonwarrior/claudisms",
-              "description": "SMS messaging integration",
-              "repo": "jeffersonwarrior/claudisms",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
               "id": "K-Dense-AI/claude-scientific-skills",
               "name": "claude-scientific-skills",
               "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
@@ -1251,15 +1134,6 @@
               "url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
               "description": "Windows 11 system management",
               "repo": "NotMyself/claude-win11-speckit-update-skill",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "obra/defense-in-depth",
-              "name": "defense-in-depth",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
-              "description": "Multi-layered security approaches",
-              "repo": "obra/superpowers",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1429,7 +1303,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 19,
+          "skills_count": 20,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1585,6 +1459,15 @@
               "section": "Context Engineering"
             },
             {
+              "id": "thedotmack/claude-mem",
+              "name": "claude-mem",
+              "url": "https://github.com/thedotmack/claude-mem",
+              "description": "Compresses and persists agent memory across sessions",
+              "repo": "thedotmack/claude-mem",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
               "id": "Tubo2333/obsidian-knowledge-brain",
               "name": "obsidian-knowledge-brain",
               "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
@@ -1606,7 +1489,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 40,
+          "skills_count": 39,
           "skills": [
             {
               "id": "Charlie85270/Dorothy",
@@ -1690,10 +1573,19 @@
               "section": "Productivity and Collaboration"
             },
             {
-              "id": "kreuzberg-dev/kreuzberg",
-              "name": "kreuzberg",
-              "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
-              "description": "Extract text, tables, and metadata from 62+ document formats",
+              "id": "kgraph57/strategy-consulting-visualization",
+              "name": "strategy-consulting-visualization",
+              "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+              "description": "McKinsey-style charts and consulting slide decks",
+              "repo": "kgraph57/mckinsey-style-visualization-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "kreuzberg-dev/xberg",
+              "name": "xberg",
+              "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/plugin/skills/xberg",
+              "description": "Extract text, tables, and metadata from 101+ document formats",
               "repo": "kreuzberg-dev/kreuzberg",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
@@ -1766,15 +1658,6 @@
               "name": "executing-plans",
               "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
               "description": "Implement and run strategic plans",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "obra/sharing-skills",
-              "name": "sharing-skills",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/sharing-skills/SKILL.md",
-              "description": "Distribute and communicate capabilities",
               "repo": "obra/superpowers",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
@@ -1924,15 +1807,6 @@
               "section": "Productivity and Collaboration"
             },
             {
-              "id": "Shpigford/readme",
-              "name": "readme",
-              "url": "https://github.com/Shpigford/skills/tree/main/readme",
-              "description": "Generate comprehensive project documentation",
-              "repo": "Shpigford/skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
               "id": "tjboudreaux/cc-thinking-skills",
               "name": "cc-thinking-skills",
               "url": "https://github.com/tjboudreaux/cc-thinking-skills",
@@ -2066,6 +1940,15 @@
       "repo": "aaron-he-zhu/aaron-marketing-skills",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "aeonfun/aeon",
+      "name": "aeon",
+      "url": "https://github.com/aeonfun/aeon",
+      "description": "70+ Claude Code skills + autonomous GitHub Actions agent framework",
+      "repo": "aeonfun/aeon",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "agiwhitelist/auteur",
@@ -2563,69 +2446,6 @@
       "section": "Marketing"
     },
     {
-      "id": "hamelsmu/build-review-interface",
-      "name": "build-review-interface",
-      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/build-review-interface",
-      "description": "Build annotation interfaces for reviewing LLM traces",
-      "repo": "hamelsmu/prompts",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "hamelsmu/error-analysis",
-      "name": "error-analysis",
-      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/error-analysis",
-      "description": "Systematically identify failure modes in LLM pipelines",
-      "repo": "hamelsmu/prompts",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "hamelsmu/eval-audit",
-      "name": "eval-audit",
-      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/eval-audit",
-      "description": "Audit LLM eval pipelines and surface problems",
-      "repo": "hamelsmu/prompts",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "hamelsmu/evaluate-rag",
-      "name": "evaluate-rag",
-      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
-      "description": "Evaluate RAG retrieval and generation quality",
-      "repo": "hamelsmu/prompts",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "hamelsmu/generate-synthetic-data",
-      "name": "generate-synthetic-data",
-      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
-      "description": "Create diverse synthetic test inputs for LLM evals",
-      "repo": "hamelsmu/prompts",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "hamelsmu/validate-evaluator",
-      "name": "validate-evaluator",
-      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
-      "description": "Calibrate LLM judges against human labels",
-      "repo": "hamelsmu/prompts",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "hamelsmu/write-judge-prompt",
-      "name": "write-judge-prompt",
-      "url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/write-judge-prompt",
-      "description": "Design LLM-as-Judge evaluators for subjective criteria",
-      "repo": "hamelsmu/prompts",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
       "id": "hanfang/claude-memory-skill",
       "name": "claude-memory-skill",
       "url": "https://github.com/hanfang/claude-memory-skill",
@@ -2716,15 +2536,6 @@
       "section": "Development and Testing"
     },
     {
-      "id": "jeffersonwarrior/claudisms",
-      "name": "claudisms",
-      "url": "https://github.com/jeffersonwarrior/claudisms",
-      "description": "SMS messaging integration",
-      "repo": "jeffersonwarrior/claudisms",
-      "publisher": "Community",
-      "section": "Specialized Domains"
-    },
-    {
       "id": "JimmySadek/youtube-fetcher",
       "name": "youtube-fetcher",
       "url": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
@@ -2779,6 +2590,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "kgraph57/strategy-consulting-visualization",
+      "name": "strategy-consulting-visualization",
+      "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+      "description": "McKinsey-style charts and consulting slide decks",
+      "repo": "kgraph57/mckinsey-style-visualization-skill",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "khendzel/skills-janitor",
       "name": "skills-janitor",
       "url": "https://github.com/khendzel/skills-janitor",
@@ -2797,10 +2617,10 @@
       "section": "Specialized Domains"
     },
     {
-      "id": "kreuzberg-dev/kreuzberg",
-      "name": "kreuzberg",
-      "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/skills/kreuzberg",
-      "description": "Extract text, tables, and metadata from 62+ document formats",
+      "id": "kreuzberg-dev/xberg",
+      "name": "xberg",
+      "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/plugin/skills/xberg",
+      "description": "Extract text, tables, and metadata from 101+ document formats",
       "repo": "kreuzberg-dev/kreuzberg",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
@@ -3049,15 +2869,6 @@
       "section": "Productivity and Collaboration"
     },
     {
-      "id": "NeoLabHQ/code-review",
-      "name": "code-review",
-      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/code-review",
-      "description": "Comprehensive PR code review using specialized agents: bug-hunter, security-auditor, code-quality-reviewer, contracts-reviewer, historical-context-reviewer, test-coverage-reviewer",
-      "repo": "NeoLabHQ/context-engineering-kit",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
       "id": "NeoLabHQ/ddd",
       "name": "ddd",
       "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd",
@@ -3089,6 +2900,15 @@
       "name": "reflexion",
       "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/reflexion",
       "description": "Self-refinement loop that forces the LLM to reflect on previous output and correct itself.",
+      "repo": "NeoLabHQ/context-engineering-kit",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "NeoLabHQ/review",
+      "name": "review",
+      "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/review",
+      "description": "Comprehensive PR code review using specialized agents: bug-hunter, security-auditor, code-quality-reviewer, contracts-reviewer, historical-context-reviewer, test-coverage-reviewer",
       "repo": "NeoLabHQ/context-engineering-kit",
       "publisher": "Community",
       "section": "Development and Testing"
@@ -3175,33 +2995,6 @@
       "section": "Productivity and Collaboration"
     },
     {
-      "id": "obra/commands",
-      "name": "commands",
-      "url": "https://github.com/obra/superpowers/tree/main/skills/commands",
-      "description": "Create and manage command structures",
-      "repo": "obra/superpowers",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "obra/condition-based-waiting",
-      "name": "condition-based-waiting",
-      "url": "https://github.com/obra/superpowers/blob/main/skills/condition-based-waiting/SKILL.md",
-      "description": "Manage conditional pauses or delays",
-      "repo": "obra/superpowers",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "obra/defense-in-depth",
-      "name": "defense-in-depth",
-      "url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
-      "description": "Multi-layered security approaches",
-      "repo": "obra/superpowers",
-      "publisher": "Community",
-      "section": "Specialized Domains"
-    },
-    {
       "id": "obra/dispatching-parallel-agents",
       "name": "dispatching-parallel-agents",
       "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
@@ -3247,24 +3040,6 @@
       "section": "Development and Testing"
     },
     {
-      "id": "obra/root-cause-tracing",
-      "name": "root-cause-tracing",
-      "url": "https://github.com/obra/superpowers/blob/main/skills/root-cause-tracing/SKILL.md",
-      "description": "Investigate and identify fundamental problems",
-      "repo": "obra/superpowers",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "obra/sharing-skills",
-      "name": "sharing-skills",
-      "url": "https://github.com/obra/superpowers/blob/main/skills/sharing-skills/SKILL.md",
-      "description": "Distribute and communicate capabilities",
-      "repo": "obra/superpowers",
-      "publisher": "Community",
-      "section": "Productivity and Collaboration"
-    },
-    {
       "id": "obra/subagent-driven-development",
       "name": "subagent-driven-development",
       "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
@@ -3296,24 +3071,6 @@
       "name": "test-driven-development",
       "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
       "description": "Write tests before implementing code",
-      "repo": "obra/superpowers",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "obra/testing-anti-patterns",
-      "name": "testing-anti-patterns",
-      "url": "https://github.com/obra/superpowers/blob/main/skills/testing-anti-patterns/SKILL.md",
-      "description": "Identify ineffective testing practices",
-      "repo": "obra/superpowers",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "obra/testing-skills-with-subagents",
-      "name": "testing-skills-with-subagents",
-      "url": "https://github.com/obra/superpowers/blob/main/skills/testing-skills-with-subagents/SKILL.md",
-      "description": "Collaborative testing approaches",
       "repo": "obra/superpowers",
       "publisher": "Community",
       "section": "Development and Testing"
@@ -3742,33 +3499,6 @@
       "section": "Specialized Domains"
     },
     {
-      "id": "Shpigford/readme",
-      "name": "readme",
-      "url": "https://github.com/Shpigford/skills/tree/main/readme",
-      "description": "Generate comprehensive project documentation",
-      "repo": "Shpigford/skills",
-      "publisher": "Community",
-      "section": "Productivity and Collaboration"
-    },
-    {
-      "id": "Shpigford/screenshots",
-      "name": "screenshots",
-      "url": "https://github.com/Shpigford/skills/tree/main/screenshots",
-      "description": "Generate marketing screenshots with Playwright",
-      "repo": "Shpigford/skills",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
-      "id": "ShunsukeHayashi/agent-skill-bus",
-      "name": "agent-skill-bus",
-      "url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
-      "description": "Self-improving task orchestration for AI agent systems",
-      "repo": "ShunsukeHayashi/agent-skill-bus",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
       "id": "Simon-He95/markstream-install",
       "name": "markstream-install",
       "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
@@ -3814,6 +3544,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "SupercmoHQ/superCMO-skills",
+      "name": "superCMO-skills",
+      "url": "https://github.com/SupercmoHQ/superCMO-skills",
+      "description": "Open-source skills + local MCP server for marketing video & image production: UGC videos, ad videos, product photography, and image ads from a product photo and a brief; casts AI actors, picks the best image/video models, edits any-length clips with consistent actor and product, and researches competitor ads. BYO or managed keys, Apache-2.0",
+      "repo": "SupercmoHQ/superCMO-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "superdesigndev/superdesign-skill",
       "name": "superdesign-skill",
       "url": "https://github.com/superdesigndev/superdesign-skill",
@@ -3857,6 +3596,15 @@
       "repo": "testdino-hq/playwright-skill",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "name": "claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Compresses and persists agent memory across sessions",
+      "repo": "thedotmack/claude-mem",
+      "publisher": "Community",
+      "section": "Context Engineering"
     },
     {
       "id": "tjboudreaux/cc-thinking-skills",

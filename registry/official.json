@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-08-19T06:26:46Z",
+    "fetched_at": "2026-08-21T06:29:36Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 997,
+    "total_skills": 996,
     "total_publishers": 59,
     "total_categories": 7,
-    "total_official": 997,
+    "total_official": 996,
     "total_community": 0
   },
   "publishers": [
@@ -1698,16 +1698,16 @@
     {
       "name": "Figma",
       "type": "official",
-      "skills_count": 51,
+      "skills_count": 50,
       "skills": [
         {
           "section": "Official",
-          "skills_count": 51,
+          "skills_count": 50,
           "skills": [
             {
-              "id": "coreyhaines31/ab-test-setup",
-              "name": "ab-test-setup",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup",
+              "id": "coreyhaines31/ab-testing",
+              "name": "ab-testing",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing",
               "description": "Plan and implement A/B tests or experiments for any digital experience",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1723,6 +1723,15 @@
               "section": "Official"
             },
             {
+              "id": "coreyhaines31/ads",
+              "name": "ads",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads",
+              "description": "Create and optimize paid campaigns on Google, Meta, LinkedIn, and more",
+              "repo": "coreyhaines31/marketingskills",
+              "publisher": "Figma",
+              "section": "Official"
+            },
+            {
               "id": "coreyhaines31/ai-seo",
               "name": "ai-seo",
               "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
@@ -1732,9 +1741,9 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/analytics-tracking",
-              "name": "analytics-tracking",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking",
+              "id": "coreyhaines31/analytics",
+              "name": "analytics",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics",
               "description": "Set up and audit analytics tracking and measurement pipelines",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1759,9 +1768,9 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/competitor-alternatives",
-              "name": "competitor-alternatives",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-alternatives",
+              "id": "coreyhaines31/competitors",
+              "name": "competitors",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitors",
               "description": "Build competitor comparison and alternative landing pages for SEO",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1795,36 +1804,36 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/email-sequence",
-              "name": "email-sequence",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence",
+              "id": "coreyhaines31/cro",
+              "name": "cro",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro",
+              "description": "Improve conversion rates on any marketing page or form, including homepages, landing pages, and contact forms",
+              "repo": "coreyhaines31/marketingskills",
+              "publisher": "Figma",
+              "section": "Official"
+            },
+            {
+              "id": "coreyhaines31/emails",
+              "name": "emails",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/emails",
               "description": "Build email sequences, drip campaigns, and lifecycle email flows",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/form-cro",
-              "name": "form-cro",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/form-cro",
-              "description": "Optimize lead capture and contact forms to improve conversion",
-              "repo": "coreyhaines31/marketingskills",
-              "publisher": "Figma",
-              "section": "Official"
-            },
-            {
-              "id": "coreyhaines31/free-tool-strategy",
-              "name": "free-tool-strategy",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tool-strategy",
+              "id": "coreyhaines31/free-tools",
+              "name": "free-tools",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tools",
               "description": "Plan and build free tools for lead generation and SEO value",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/launch-strategy",
-              "name": "launch-strategy",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy",
+              "id": "coreyhaines31/launch",
+              "name": "launch",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch",
               "description": "Plan product launches, feature announcements, and go-to-market strategies",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1849,63 +1858,45 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/onboarding-cro",
-              "name": "onboarding-cro",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding-cro",
+              "id": "coreyhaines31/onboarding",
+              "name": "onboarding",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding",
               "description": "Optimize post-signup onboarding and user activation to improve time-to-value",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/page-cro",
-              "name": "page-cro",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
-              "description": "Improve conversion rates on any marketing page including homepages and landing pages",
-              "repo": "coreyhaines31/marketingskills",
-              "publisher": "Figma",
-              "section": "Official"
-            },
-            {
-              "id": "coreyhaines31/paid-ads",
-              "name": "paid-ads",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads",
-              "description": "Create and optimize paid campaigns on Google, Meta, LinkedIn, and more",
-              "repo": "coreyhaines31/marketingskills",
-              "publisher": "Figma",
-              "section": "Official"
-            },
-            {
-              "id": "coreyhaines31/paywall-upgrade-cro",
-              "name": "paywall-upgrade-cro",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywall-upgrade-cro",
+              "id": "coreyhaines31/paywalls",
+              "name": "paywalls",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywalls",
               "description": "Design and optimize upgrade screens, paywalls, and upsell modals",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/popup-cro",
-              "name": "popup-cro",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro",
+              "id": "coreyhaines31/popups",
+              "name": "popups",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups",
               "description": "Create and optimize popups, modals, and slide-ins for conversions",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/pricing-strategy",
-              "name": "pricing-strategy",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy",
+              "id": "coreyhaines31/pricing",
+              "name": "pricing",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing",
               "description": "Define pricing, packaging, and monetization strategy for SaaS products",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/product-marketing-context",
-              "name": "product-marketing-context",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing-context",
+              "id": "coreyhaines31/product-marketing",
+              "name": "product-marketing",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing",
               "description": "Create and maintain a product marketing context document for consistent messaging",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1921,9 +1912,9 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/referral-program",
-              "name": "referral-program",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program",
+              "id": "coreyhaines31/referrals",
+              "name": "referrals",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referrals",
               "description": "Design and optimize referral, affiliate, and word-of-mouth programs",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1948,9 +1939,9 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/schema-markup",
-              "name": "schema-markup",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema-markup",
+              "id": "coreyhaines31/schema",
+              "name": "schema",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema",
               "description": "Add and optimize schema markup and structured data for better SEO",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1966,9 +1957,9 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/signup-flow-cro",
-              "name": "signup-flow-cro",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup-flow-cro",
+              "id": "coreyhaines31/signup",
+              "name": "signup",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup",
               "description": "Optimize signup, registration, and trial activation flows for higher conversion",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -1984,9 +1975,9 @@
               "section": "Official"
             },
             {
-              "id": "coreyhaines31/social-content",
-              "name": "social-content",
-              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content",
+              "id": "coreyhaines31/social",
+              "name": "social",
+              "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social",
               "description": "Create and schedule social media content for LinkedIn, Twitter/X, and Instagram",
               "repo": "coreyhaines31/marketingskills",
               "publisher": "Figma",
@@ -8348,9 +8339,9 @@
           "skills_count": 1,
           "skills": [
             {
-              "id": "redis/redis-development",
-              "name": "redis-development",
-              "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-development",
+              "id": "redis/redis-core",
+              "name": "redis-core",
+              "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-core",
               "description": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization.",
               "repo": "redis/agent-skills",
               "publisher": "Redis",
@@ -11195,9 +11186,9 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/ab-test-setup",
-      "name": "ab-test-setup",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup",
+      "id": "coreyhaines31/ab-testing",
+      "name": "ab-testing",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing",
       "description": "Plan and implement A/B tests or experiments for any digital experience",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11213,6 +11204,15 @@
       "section": "Official"
     },
     {
+      "id": "coreyhaines31/ads",
+      "name": "ads",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ads",
+      "description": "Create and optimize paid campaigns on Google, Meta, LinkedIn, and more",
+      "repo": "coreyhaines31/marketingskills",
+      "publisher": "Figma",
+      "section": "Official"
+    },
+    {
       "id": "coreyhaines31/ai-seo",
       "name": "ai-seo",
       "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
@@ -11222,9 +11222,9 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/analytics-tracking",
-      "name": "analytics-tracking",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking",
+      "id": "coreyhaines31/analytics",
+      "name": "analytics",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics",
       "description": "Set up and audit analytics tracking and measurement pipelines",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11249,9 +11249,9 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/competitor-alternatives",
-      "name": "competitor-alternatives",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-alternatives",
+      "id": "coreyhaines31/competitors",
+      "name": "competitors",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitors",
       "description": "Build competitor comparison and alternative landing pages for SEO",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11285,36 +11285,36 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/email-sequence",
-      "name": "email-sequence",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence",
+      "id": "coreyhaines31/cro",
+      "name": "cro",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro",
+      "description": "Improve conversion rates on any marketing page or form, including homepages, landing pages, and contact forms",
+      "repo": "coreyhaines31/marketingskills",
+      "publisher": "Figma",
+      "section": "Official"
+    },
+    {
+      "id": "coreyhaines31/emails",
+      "name": "emails",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/emails",
       "description": "Build email sequences, drip campaigns, and lifecycle email flows",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/form-cro",
-      "name": "form-cro",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/form-cro",
-      "description": "Optimize lead capture and contact forms to improve conversion",
-      "repo": "coreyhaines31/marketingskills",
-      "publisher": "Figma",
-      "section": "Official"
-    },
-    {
-      "id": "coreyhaines31/free-tool-strategy",
-      "name": "free-tool-strategy",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tool-strategy",
+      "id": "coreyhaines31/free-tools",
+      "name": "free-tools",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tools",
       "description": "Plan and build free tools for lead generation and SEO value",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/launch-strategy",
-      "name": "launch-strategy",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy",
+      "id": "coreyhaines31/launch",
+      "name": "launch",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch",
       "description": "Plan product launches, feature announcements, and go-to-market strategies",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11339,63 +11339,45 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/onboarding-cro",
-      "name": "onboarding-cro",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding-cro",
+      "id": "coreyhaines31/onboarding",
+      "name": "onboarding",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding",
       "description": "Optimize post-signup onboarding and user activation to improve time-to-value",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/page-cro",
-      "name": "page-cro",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro",
-      "description": "Improve conversion rates on any marketing page including homepages and landing pages",
-      "repo": "coreyhaines31/marketingskills",
-      "publisher": "Figma",
-      "section": "Official"
-    },
-    {
-      "id": "coreyhaines31/paid-ads",
-      "name": "paid-ads",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads",
-      "description": "Create and optimize paid campaigns on Google, Meta, LinkedIn, and more",
-      "repo": "coreyhaines31/marketingskills",
-      "publisher": "Figma",
-      "section": "Official"
-    },
-    {
-      "id": "coreyhaines31/paywall-upgrade-cro",
-      "name": "paywall-upgrade-cro",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywall-upgrade-cro",
+      "id": "coreyhaines31/paywalls",
+      "name": "paywalls",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywalls",
       "description": "Design and optimize upgrade screens, paywalls, and upsell modals",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/popup-cro",
-      "name": "popup-cro",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro",
+      "id": "coreyhaines31/popups",
+      "name": "popups",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups",
       "description": "Create and optimize popups, modals, and slide-ins for conversions",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/pricing-strategy",
-      "name": "pricing-strategy",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy",
+      "id": "coreyhaines31/pricing",
+      "name": "pricing",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing",
       "description": "Define pricing, packaging, and monetization strategy for SaaS products",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/product-marketing-context",
-      "name": "product-marketing-context",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing-context",
+      "id": "coreyhaines31/product-marketing",
+      "name": "product-marketing",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing",
       "description": "Create and maintain a product marketing context document for consistent messaging",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11411,9 +11393,9 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/referral-program",
-      "name": "referral-program",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program",
+      "id": "coreyhaines31/referrals",
+      "name": "referrals",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/referrals",
       "description": "Design and optimize referral, affiliate, and word-of-mouth programs",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11438,9 +11420,9 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/schema-markup",
-      "name": "schema-markup",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema-markup",
+      "id": "coreyhaines31/schema",
+      "name": "schema",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema",
       "description": "Add and optimize schema markup and structured data for better SEO",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11456,9 +11438,9 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/signup-flow-cro",
-      "name": "signup-flow-cro",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup-flow-cro",
+      "id": "coreyhaines31/signup",
+      "name": "signup",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup",
       "description": "Optimize signup, registration, and trial activation flows for higher conversion",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -11474,9 +11456,9 @@
       "section": "Official"
     },
     {
-      "id": "coreyhaines31/social-content",
-      "name": "social-content",
-      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content",
+      "id": "coreyhaines31/social",
+      "name": "social",
+      "url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social",
       "description": "Create and schedule social media content for LinkedIn, Twitter/X, and Instagram",
       "repo": "coreyhaines31/marketingskills",
       "publisher": "Figma",
@@ -17522,9 +17504,9 @@
       "section": "Official"
     },
     {
-      "id": "redis/redis-development",
-      "name": "redis-development",
-      "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-development",
+      "id": "redis/redis-core",
+      "name": "redis-core",
+      "url": "https://github.com/redis/agent-skills/tree/main/skills/redis-core",
       "description": "Redis development best practices — data structures, query engine, vector search, caching, and performance optimization.",
       "repo": "redis/agent-skills",
       "publisher": "Redis",
