@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-08-21T06:29:36Z",
+    "fetched_at": "2026-08-23T06:23:57Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 208,
+    "total_skills": 209,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 208
+    "total_community": 209
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 208,
+      "skills_count": 209,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 23,
+          "skills_count": 24,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -123,6 +123,15 @@
               "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
               "description": "150-skill engagement methodology — 12-Part Strategy Flow, 25 specialist agents, EU AI Act Article 50 ready (C2PA signing), 6-platform AEO/GEO incl. Google AI Mode",
               "repo": "indranilbanerjee/digital-marketing-pro",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "mailtrap/mailtrap-skills",
+              "name": "mailtrap-skills",
+              "url": "https://github.com/mailtrap/mailtrap-skills",
+              "description": "Send emails via API/SMTP with sandbox testing",
+              "repo": "mailtrap/mailtrap-skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -2678,6 +2687,15 @@
       "repo": "Lum1104/Understand-Anything",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "mailtrap/mailtrap-skills",
+      "name": "mailtrap-skills",
+      "url": "https://github.com/mailtrap/mailtrap-skills",
+      "description": "Send emails via API/SMTP with sandbox testing",
+      "repo": "mailtrap/mailtrap-skills",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "massimodeluisa/recursive-decomposition-skill",

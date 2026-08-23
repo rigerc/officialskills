@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-21T06:29:36Z",
-  "total_skills": 1204,
+  "generated_at": "2026-08-23T06:23:57Z",
+  "total_skills": 1205,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 208,
+      "skills_count": 209,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -941,6 +941,13 @@
           "name": "digital-marketing-pro",
           "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
           "repo": "indranilbanerjee/digital-marketing-pro",
+          "publisher": "Community"
+        },
+        {
+          "id": "mailtrap/mailtrap-skills",
+          "name": "mailtrap-skills",
+          "url": "https://github.com/mailtrap/mailtrap-skills",
+          "repo": "mailtrap/mailtrap-skills",
           "publisher": "Community"
         },
         {
