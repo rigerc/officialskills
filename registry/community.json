@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-08-23T06:23:57Z",
+    "fetched_at": "2026-08-25T06:29:16Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 209,
+    "total_skills": 220,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 209
+    "total_community": 220
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 209,
+      "skills_count": 220,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 24,
+          "skills_count": 25,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -69,6 +69,15 @@
               "url": "https://github.com/BrianRWagner/ai-marketing-skills",
               "description": "17 marketing frameworks for cold outreach, homepage audit, social cards, and more",
               "repo": "BrianRWagner/ai-marketing-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "Citlyze/citlyze-skills",
+              "name": "citlyze-skills",
+              "url": "https://github.com/citlyze/citlyze-skills",
+              "description": "AI search visibility skills from the Citlyze team: window-over-window visibility reports, citation gap analysis, prompt audits, and action plans via the Citlyze MCP server, plus a standalone AEO page audit that grades any URL without an account",
+              "repo": "citlyze/citlyze-skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -238,7 +247,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 76,
+          "skills_count": 81,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -421,6 +430,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "hedralab/eskill",
+              "name": "eskill",
+              "url": "https://github.com/hedralab/eskill",
+              "description": "Meta-skill to build top-tier Agent Skills: spec-compliant SKILL.md, eval loop, validator, market research, numbered-file pipeline",
+              "repo": "hedralab/eskill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "hqhq1025/skill-optimizer",
               "name": "skill-optimizer",
               "url": "https://github.com/hqhq1025/skill-optimizer",
@@ -475,6 +493,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "KhazP/vibe-coding-prompt-template",
+              "name": "vibe-coding-prompt-template",
+              "url": "https://github.com/KhazP/vibe-coding-prompt-template",
+              "description": "Plan MVPs into PRD, tech design, and AGENTS.md",
+              "repo": "KhazP/vibe-coding-prompt-template",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "lackeyjb/playwright-skill",
               "name": "playwright-skill",
               "url": "https://github.com/lackeyjb/playwright-skill",
@@ -502,11 +529,29 @@
               "section": "Development and Testing"
             },
             {
+              "id": "lindblomstefan/skills-library",
+              "name": "skills-library",
+              "url": "https://github.com/lindblomstefan/skills-library",
+              "description": "Guided discovery skill for Claude Code: runs an interview to recommend from a catalog of 100+ AI skills; records session feedback that validates candidates over time",
+              "repo": "lindblomstefan/skills-library",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "Lum1104/understand-anything",
               "name": "understand-anything",
               "url": "https://github.com/Lum1104/Understand-Anything",
               "description": "Interactive codebase knowledge graphs via multi-agent LLM analysis",
               "repo": "Lum1104/Understand-Anything",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Maksim-Burtsev/simple-man",
+              "name": "simple-man",
+              "url": "https://github.com/Maksim-Burtsev/simple-man",
+              "description": "Strips praise, recaps and filler from agent answers while keeping every fact you act on: findings carry location and fix, refusals carry the safe procedure, tutorials stay long-form. Benchmarked on 1,793 preregistered live calls with raw records committed. Works with Claude Code, Codex, Gemini CLI, Cursor",
+              "repo": "Maksim-Burtsev/simple-man",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -889,6 +934,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "woniu9524/open-web-bridge",
+              "name": "open-web-bridge",
+              "url": "https://github.com/woniu9524/open-web-bridge",
+              "description": "Drive your real, logged-in Chrome via CDP from Claude Code, Codex, or Gemini CLI: semantic snapshots, real mouse clicks, human handoff for captchas and logins, HAR capture and replay",
+              "repo": "woniu9524/open-web-bridge",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "wrsmith108/varlock-claude-skill",
               "name": "varlock-claude-skill",
               "url": "https://github.com/wrsmith108/varlock-claude-skill",
@@ -928,7 +982,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 42,
+          "skills_count": 44,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -945,6 +999,15 @@
               "url": "https://github.com/Alisa0808/vibe-creating-skill",
               "description": "Rewrites a rough idea or shot script into text-to-video prompts",
               "repo": "Alisa0808/vibe-creating-skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "apitube/news-api-skills",
+              "name": "news-api-skills",
+              "url": "https://github.com/apitube/news-api-skills",
+              "description": "Search worldwide news by keyword, entity, sentiment, source, date",
+              "repo": "apitube/news-api-skills",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1300,6 +1363,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "zincio/universal-checkout",
+              "name": "universal-checkout",
+              "url": "https://github.com/zincio/skills/tree/master/skills/universal-checkout",
+              "description": "Official Zinc API (zinc.com) checkout across 50+ US retailers",
+              "repo": "zincio/skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "zw008/VMware-AIops",
               "name": "VMware-AIops",
               "url": "https://github.com/zw008/VMware-AIops",
@@ -1312,7 +1384,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 20,
+          "skills_count": 23,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1320,6 +1392,15 @@
               "url": "https://github.com/awrshift/claude-memory-kit",
               "description": "Persistent memory with hooks, wiki, and daily synthesis for multi-project workflows",
               "repo": "awrshift/claude-memory-kit",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "chrono-meta/context-doctor",
+              "name": "context-doctor",
+              "url": "https://github.com/chrono-meta/forge-harness/tree/main/plugins/fh-meta/skills/context-doctor",
+              "description": "Generates .claudeignore and flags context bloat before it costs tokens",
+              "repo": "chrono-meta/forge-harness",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -1441,6 +1522,15 @@
               "section": "Context Engineering"
             },
             {
+              "id": "orziz/odai",
+              "name": "odai",
+              "url": "https://github.com/orziz/odai/tree/main/skills/odai",
+              "description": "Govern evidence, responsibility routing, safety boundaries, and verified delivery",
+              "repo": "orziz/odai",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
               "id": "Panniantong/Agent-Reach",
               "name": "Agent-Reach",
               "url": "https://github.com/Panniantong/Agent-Reach",
@@ -1473,6 +1563,15 @@
               "url": "https://github.com/thedotmack/claude-mem",
               "description": "Compresses and persists agent memory across sessions",
               "repo": "thedotmack/claude-mem",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "thousandflowers/skillreaper",
+              "name": "skillreaper",
+              "url": "https://github.com/thousandflowers/skillreaper",
+              "description": "Prunes unused skills, MCP servers, and subagents from transcript evidence",
+              "repo": "thousandflowers/skillreaper",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -2023,6 +2122,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "apitube/news-api-skills",
+      "name": "news-api-skills",
+      "url": "https://github.com/apitube/news-api-skills",
+      "description": "Search worldwide news by keyword, entity, sentiment, source, date",
+      "repo": "apitube/news-api-skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "AvdLee/swiftui-expert-skill",
       "name": "swiftui-expert-skill",
       "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
@@ -2111,6 +2219,24 @@
       "repo": "Charlie85270/Dorothy",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "chrono-meta/context-doctor",
+      "name": "context-doctor",
+      "url": "https://github.com/chrono-meta/forge-harness/tree/main/plugins/fh-meta/skills/context-doctor",
+      "description": "Generates .claudeignore and flags context bloat before it costs tokens",
+      "repo": "chrono-meta/forge-harness",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "Citlyze/citlyze-skills",
+      "name": "citlyze-skills",
+      "url": "https://github.com/citlyze/citlyze-skills",
+      "description": "AI search visibility skills from the Citlyze team: window-over-window visibility reports, citation gap analysis, prompt audits, and action plans via the Citlyze MCP server, plus a standalone AEO page audit that grades any URL without an account",
+      "repo": "citlyze/citlyze-skills",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "CloudAI-X/threejs-skills",
@@ -2473,6 +2599,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "hedralab/eskill",
+      "name": "eskill",
+      "url": "https://github.com/hedralab/eskill",
+      "description": "Meta-skill to build top-tier Agent Skills: spec-compliant SKILL.md, eval loop, validator, market research, numbered-file pipeline",
+      "repo": "hedralab/eskill",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "helius-labs/helius-skills",
       "name": "helius-skills",
       "url": "https://github.com/helius-labs/core-ai/tree/main/helius-skills",
@@ -2608,6 +2743,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "KhazP/vibe-coding-prompt-template",
+      "name": "vibe-coding-prompt-template",
+      "url": "https://github.com/KhazP/vibe-coding-prompt-template",
+      "description": "Plan MVPs into PRD, tech design, and AGENTS.md",
+      "repo": "KhazP/vibe-coding-prompt-template",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "khendzel/skills-janitor",
       "name": "skills-janitor",
       "url": "https://github.com/khendzel/skills-janitor",
@@ -2671,6 +2815,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "lindblomstefan/skills-library",
+      "name": "skills-library",
+      "url": "https://github.com/lindblomstefan/skills-library",
+      "description": "Guided discovery skill for Claude Code: runs an interview to recommend from a catalog of 100+ AI skills; records session feedback that validates candidates over time",
+      "repo": "lindblomstefan/skills-library",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "Linked-API/linkedin",
       "name": "linkedin",
       "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
@@ -2696,6 +2849,15 @@
       "repo": "mailtrap/mailtrap-skills",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "Maksim-Burtsev/simple-man",
+      "name": "simple-man",
+      "url": "https://github.com/Maksim-Burtsev/simple-man",
+      "description": "Strips praise, recaps and filler from agent answers while keeping every fact you act on: findings carry location and fix, refusals carry the safe procedure, tutorials stay long-form. Benchmarked on 1,793 preregistered live calls with raw records committed. Works with Claude Code, Codex, Gemini CLI, Cursor",
+      "repo": "Maksim-Burtsev/simple-man",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "massimodeluisa/recursive-decomposition-skill",
@@ -3229,6 +3391,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "orziz/odai",
+      "name": "odai",
+      "url": "https://github.com/orziz/odai/tree/main/skills/odai",
+      "description": "Govern evidence, responsibility routing, safety boundaries, and verified delivery",
+      "repo": "orziz/odai",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "Panniantong/Agent-Reach",
       "name": "Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
@@ -3625,6 +3796,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "thousandflowers/skillreaper",
+      "name": "skillreaper",
+      "url": "https://github.com/thousandflowers/skillreaper",
+      "description": "Prunes unused skills, MCP servers, and subagents from transcript evidence",
+      "repo": "thousandflowers/skillreaper",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "tjboudreaux/cc-thinking-skills",
       "name": "cc-thinking-skills",
       "url": "https://github.com/tjboudreaux/cc-thinking-skills",
@@ -3695,6 +3875,15 @@
       "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "woniu9524/open-web-bridge",
+      "name": "open-web-bridge",
+      "url": "https://github.com/woniu9524/open-web-bridge",
+      "description": "Drive your real, logged-in Chrome via CDP from Claude Code, Codex, or Gemini CLI: semantic snapshots, real mouse clicks, human handoff for captchas and logins, HAR capture and replay",
+      "repo": "woniu9524/open-web-bridge",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "wrsmith108/linear-claude-skill",
@@ -3794,6 +3983,15 @@
       "repo": "zilliztech/mfs",
       "publisher": "Community",
       "section": "Context Engineering"
+    },
+    {
+      "id": "zincio/universal-checkout",
+      "name": "universal-checkout",
+      "url": "https://github.com/zincio/skills/tree/master/skills/universal-checkout",
+      "description": "Official Zinc API (zinc.com) checkout across 50+ US retailers",
+      "repo": "zincio/skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "zscole/model-hierarchy-skill",

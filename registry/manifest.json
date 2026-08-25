@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-23T06:23:57Z",
-  "total_skills": 1205,
+  "generated_at": "2026-08-25T06:29:16Z",
+  "total_skills": 1216,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 209,
+      "skills_count": 220,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -899,6 +899,13 @@
           "name": "ai-marketing-skills",
           "url": "https://github.com/BrianRWagner/ai-marketing-skills",
           "repo": "BrianRWagner/ai-marketing-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "Citlyze/citlyze-skills",
+          "name": "citlyze-skills",
+          "url": "https://github.com/citlyze/citlyze-skills",
+          "repo": "citlyze/citlyze-skills",
           "publisher": "Community"
         },
         {
@@ -1168,6 +1175,13 @@
           "publisher": "Community"
         },
         {
+          "id": "hedralab/eskill",
+          "name": "eskill",
+          "url": "https://github.com/hedralab/eskill",
+          "repo": "hedralab/eskill",
+          "publisher": "Community"
+        },
+        {
           "id": "hqhq1025/skill-optimizer",
           "name": "skill-optimizer",
           "url": "https://github.com/hqhq1025/skill-optimizer",
@@ -1210,6 +1224,13 @@
           "publisher": "Community"
         },
         {
+          "id": "KhazP/vibe-coding-prompt-template",
+          "name": "vibe-coding-prompt-template",
+          "url": "https://github.com/KhazP/vibe-coding-prompt-template",
+          "repo": "KhazP/vibe-coding-prompt-template",
+          "publisher": "Community"
+        },
+        {
           "id": "lackeyjb/playwright-skill",
           "name": "playwright-skill",
           "url": "https://github.com/lackeyjb/playwright-skill",
@@ -1231,10 +1252,24 @@
           "publisher": "Community"
         },
         {
+          "id": "lindblomstefan/skills-library",
+          "name": "skills-library",
+          "url": "https://github.com/lindblomstefan/skills-library",
+          "repo": "lindblomstefan/skills-library",
+          "publisher": "Community"
+        },
+        {
           "id": "Lum1104/understand-anything",
           "name": "understand-anything",
           "url": "https://github.com/Lum1104/Understand-Anything",
           "repo": "Lum1104/Understand-Anything",
+          "publisher": "Community"
+        },
+        {
+          "id": "Maksim-Burtsev/simple-man",
+          "name": "simple-man",
+          "url": "https://github.com/Maksim-Burtsev/simple-man",
+          "repo": "Maksim-Burtsev/simple-man",
           "publisher": "Community"
         },
         {
@@ -1532,6 +1567,13 @@
           "publisher": "Community"
         },
         {
+          "id": "woniu9524/open-web-bridge",
+          "name": "open-web-bridge",
+          "url": "https://github.com/woniu9524/open-web-bridge",
+          "repo": "woniu9524/open-web-bridge",
+          "publisher": "Community"
+        },
+        {
           "id": "wrsmith108/varlock-claude-skill",
           "name": "varlock-claude-skill",
           "url": "https://github.com/wrsmith108/varlock-claude-skill",
@@ -1571,6 +1613,13 @@
           "name": "vibe-creating-skill",
           "url": "https://github.com/Alisa0808/vibe-creating-skill",
           "repo": "Alisa0808/vibe-creating-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "apitube/news-api-skills",
+          "name": "news-api-skills",
+          "url": "https://github.com/apitube/news-api-skills",
+          "repo": "apitube/news-api-skills",
           "publisher": "Community"
         },
         {
@@ -1847,6 +1896,13 @@
           "publisher": "Community"
         },
         {
+          "id": "zincio/universal-checkout",
+          "name": "universal-checkout",
+          "url": "https://github.com/zincio/skills/tree/master/skills/universal-checkout",
+          "repo": "zincio/skills",
+          "publisher": "Community"
+        },
+        {
           "id": "zw008/VMware-AIops",
           "name": "VMware-AIops",
           "url": "https://github.com/zw008/VMware-AIops",
@@ -1858,6 +1914,13 @@
           "name": "claude-memory-kit",
           "url": "https://github.com/awrshift/claude-memory-kit",
           "repo": "awrshift/claude-memory-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "chrono-meta/context-doctor",
+          "name": "context-doctor",
+          "url": "https://github.com/chrono-meta/forge-harness/tree/main/plugins/fh-meta/skills/context-doctor",
+          "repo": "chrono-meta/forge-harness",
           "publisher": "Community"
         },
         {
@@ -1952,6 +2015,13 @@
           "publisher": "Community"
         },
         {
+          "id": "orziz/odai",
+          "name": "odai",
+          "url": "https://github.com/orziz/odai/tree/main/skills/odai",
+          "repo": "orziz/odai",
+          "publisher": "Community"
+        },
+        {
           "id": "Panniantong/Agent-Reach",
           "name": "Agent-Reach",
           "url": "https://github.com/Panniantong/Agent-Reach",
@@ -1977,6 +2047,13 @@
           "name": "claude-mem",
           "url": "https://github.com/thedotmack/claude-mem",
           "repo": "thedotmack/claude-mem",
+          "publisher": "Community"
+        },
+        {
+          "id": "thousandflowers/skillreaper",
+          "name": "skillreaper",
+          "url": "https://github.com/thousandflowers/skillreaper",
+          "repo": "thousandflowers/skillreaper",
           "publisher": "Community"
         },
         {
