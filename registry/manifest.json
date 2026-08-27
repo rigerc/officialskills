@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-25T06:29:16Z",
-  "total_skills": 1216,
+  "generated_at": "2026-08-27T17:06:37Z",
+  "total_skills": 1223,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 220,
+      "skills_count": 227,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -972,6 +972,13 @@
           "publisher": "Community"
         },
         {
+          "id": "sandbaseai/sandbase-skills/multi-source-search",
+          "name": "multi-source-search",
+          "url": "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search",
+          "repo": "sandbaseai/sandbase-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "sergebulaev/linkedin-skills",
           "name": "linkedin-skills",
           "url": "https://github.com/sergebulaev/linkedin-skills",
@@ -1032,6 +1039,13 @@
           "name": "x-twitter-scraper",
           "url": "https://github.com/Xquik-dev/x-twitter-scraper",
           "repo": "Xquik-dev/x-twitter-scraper",
+          "publisher": "Community"
+        },
+        {
+          "id": "YannisKiefer/dark-psychology-skills",
+          "name": "dark-psychology-skills",
+          "url": "https://github.com/YannisKiefer/dark-psychology-skills",
+          "repo": "YannisKiefer/dark-psychology-skills",
           "publisher": "Community"
         },
         {
@@ -1109,6 +1123,13 @@
           "name": "dashmotion",
           "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
           "repo": "csthink/dashmotion",
+          "publisher": "Community"
+        },
+        {
+          "id": "dannwaneri/spec-writer",
+          "name": "spec-writer",
+          "url": "https://github.com/dannwaneri/spec-writer",
+          "repo": "dannwaneri/spec-writer",
           "publisher": "Community"
         },
         {
@@ -1511,6 +1532,13 @@
           "publisher": "Community"
         },
         {
+          "id": "scarletkc/agents",
+          "name": "agents",
+          "url": "https://github.com/scarletkc/agents",
+          "repo": "scarletkc/agents",
+          "publisher": "Community"
+        },
+        {
           "id": "scarletkc/vexor",
           "name": "vexor",
           "url": "https://github.com/scarletkc/vexor",
@@ -1847,6 +1875,13 @@
           "publisher": "Community"
         },
         {
+          "id": "swaylq/humanize-chinese",
+          "name": "humanize-chinese",
+          "url": "https://github.com/swaylq/humanize-chinese",
+          "repo": "swaylq/humanize-chinese",
+          "publisher": "Community"
+        },
+        {
           "id": "takechanman1228/claude-ecom",
           "name": "claude-ecom",
           "url": "https://github.com/takechanman1228/claude-ecom",
@@ -1921,6 +1956,13 @@
           "name": "context-doctor",
           "url": "https://github.com/chrono-meta/forge-harness/tree/main/plugins/fh-meta/skills/context-doctor",
           "repo": "chrono-meta/forge-harness",
+          "publisher": "Community"
+        },
+        {
+          "id": "dankofly/perfectify",
+          "name": "perfectify",
+          "url": "https://github.com/dankofly/perfectify",
+          "repo": "dankofly/perfectify",
           "publisher": "Community"
         },
         {
@@ -2061,6 +2103,13 @@
           "name": "obsidian-knowledge-brain",
           "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
           "repo": "Tubo2333/obsidian-knowledge-brain",
+          "publisher": "Community"
+        },
+        {
+          "id": "vshulcz/deja-history",
+          "name": "deja-history",
+          "url": "https://github.com/vshulcz/deja-vu/tree/main/claude-plugin/skills/deja-history",
+          "repo": "vshulcz/deja-vu",
           "publisher": "Community"
         },
         {

@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-08-25T06:29:16Z",
+    "fetched_at": "2026-08-27T17:06:37Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 220,
+    "total_skills": 227,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 220
+    "total_community": 227
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 220,
+      "skills_count": 227,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 25,
+          "skills_count": 27,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -163,6 +163,15 @@
               "section": "Marketing"
             },
             {
+              "id": "sandbaseai/sandbase-skills/multi-source-search",
+              "name": "multi-source-search",
+              "url": "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search",
+              "description": "Evidence-led multi-source research with offline validation",
+              "repo": "sandbaseai/sandbase-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "sergebulaev/linkedin-skills",
               "name": "linkedin-skills",
               "url": "https://github.com/sergebulaev/linkedin-skills",
@@ -242,12 +251,21 @@
               "repo": "Xquik-dev/x-twitter-scraper",
               "publisher": "Community",
               "section": "Marketing"
+            },
+            {
+              "id": "YannisKiefer/dark-psychology-skills",
+              "name": "dark-psychology-skills",
+              "url": "https://github.com/YannisKiefer/dark-psychology-skills",
+              "description": "13 sales and negotiation skills for agents distilled from 36 books (CIA psyop manuals, FBI behavioral research, propaganda science, persuasion classics); every tactic passes an honest-influence filter: it must still work when fully disclosed",
+              "repo": "YannisKiefer/dark-psychology-skills",
+              "publisher": "Community",
+              "section": "Marketing"
             }
           ]
         },
         {
           "section": "Development and Testing",
-          "skills_count": 81,
+          "skills_count": 83,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -345,6 +363,15 @@
               "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
               "description": "Animated technical diagrams from plain English or Mermaid, self-contained HTML/SVG",
               "repo": "csthink/dashmotion",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "dannwaneri/spec-writer",
+              "name": "spec-writer",
+              "url": "https://github.com/dannwaneri/spec-writer",
+              "description": "Turns vague requests into spec, plan, and tasks",
+              "repo": "dannwaneri/spec-writer",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -862,6 +889,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "scarletkc/agents",
+              "name": "agents",
+              "url": "https://github.com/scarletkc/agents",
+              "description": "Reusable standards and workflow skills for AI coding agents",
+              "repo": "scarletkc/agents",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "scarletkc/vexor",
               "name": "vexor",
               "url": "https://github.com/scarletkc/vexor",
@@ -982,7 +1018,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 44,
+          "skills_count": 45,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -1300,6 +1336,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "swaylq/humanize-chinese",
+              "name": "humanize-chinese",
+              "url": "https://github.com/swaylq/humanize-chinese",
+              "description": "Detect and rewrite AI-generated Chinese text, fully offline, no LLM",
+              "repo": "swaylq/humanize-chinese",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "takechanman1228/claude-ecom",
               "name": "claude-ecom",
               "url": "https://github.com/takechanman1228/claude-ecom",
@@ -1384,7 +1429,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 23,
+          "skills_count": 25,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1401,6 +1446,15 @@
               "url": "https://github.com/chrono-meta/forge-harness/tree/main/plugins/fh-meta/skills/context-doctor",
               "description": "Generates .claudeignore and flags context bloat before it costs tokens",
               "repo": "chrono-meta/forge-harness",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "dankofly/perfectify",
+              "name": "perfectify",
+              "url": "https://github.com/dankofly/perfectify",
+              "description": "Self-improving control kernel (DAGx AGI Kernel): hard approval stops for irreversible actions, evidence-gated completion, and a self-learning playbook with drift governance. Behaviorally evaluated; works across Claude Code, Codex, Hermes, and OpenCode",
+              "repo": "dankofly/perfectify",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -1581,6 +1635,15 @@
               "url": "https://github.com/Tubo2333/obsidian-knowledge-brain",
               "description": "Cross-session knowledge memory and rule evolution for AI coding agents",
               "repo": "Tubo2333/obsidian-knowledge-brain",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "vshulcz/deja-history",
+              "name": "deja-history",
+              "url": "https://github.com/vshulcz/deja-vu/tree/main/claude-plugin/skills/deja-history",
+              "description": "Searches your own past sessions across 20 coding agents",
+              "repo": "vshulcz/deja-vu",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -2345,6 +2408,24 @@
       "repo": "czlonkowski/n8n-skills",
       "publisher": "Community",
       "section": "n8n Automation"
+    },
+    {
+      "id": "dankofly/perfectify",
+      "name": "perfectify",
+      "url": "https://github.com/dankofly/perfectify",
+      "description": "Self-improving control kernel (DAGx AGI Kernel): hard approval stops for irreversible actions, evidence-gated completion, and a self-learning playbook with drift governance. Behaviorally evaluated; works across Claude Code, Codex, Hermes, and OpenCode",
+      "repo": "dankofly/perfectify",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "dannwaneri/spec-writer",
+      "name": "spec-writer",
+      "url": "https://github.com/dannwaneri/spec-writer",
+      "description": "Turns vague requests into spec, plan, and tasks",
+      "repo": "dannwaneri/spec-writer",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "degausai/wonda",
@@ -3589,6 +3670,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "sandbaseai/sandbase-skills/multi-source-search",
+      "name": "multi-source-search",
+      "url": "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search",
+      "description": "Evidence-led multi-source research with offline validation",
+      "repo": "sandbaseai/sandbase-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "sanjay3290/deep-research",
       "name": "deep-research",
       "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
@@ -3623,6 +3713,15 @@
       "repo": "santifer/career-ops",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "scarletkc/agents",
+      "name": "agents",
+      "url": "https://github.com/scarletkc/agents",
+      "description": "Reusable standards and workflow skills for AI coding agents",
+      "repo": "scarletkc/agents",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "scarletkc/vexor",
@@ -3751,6 +3850,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "swaylq/humanize-chinese",
+      "name": "humanize-chinese",
+      "url": "https://github.com/swaylq/humanize-chinese",
+      "description": "Detect and rewrite AI-generated Chinese text, fully offline, no LLM",
+      "repo": "swaylq/humanize-chinese",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "taisly/agent",
       "name": "agent",
       "url": "https://github.com/taisly/agent",
@@ -3868,6 +3976,15 @@
       "section": "Marketing"
     },
     {
+      "id": "vshulcz/deja-history",
+      "name": "deja-history",
+      "url": "https://github.com/vshulcz/deja-vu/tree/main/claude-plugin/skills/deja-history",
+      "description": "Searches your own past sessions across 20 coding agents",
+      "repo": "vshulcz/deja-vu",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
       "name": "Auto-claude-code-research-in-sleep",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -3927,6 +4044,15 @@
       "url": "https://github.com/Xquik-dev/x-twitter-scraper",
       "description": "Tweet search, profile tweets, follower export, media, posting, replies, MCP",
       "repo": "Xquik-dev/x-twitter-scraper",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "YannisKiefer/dark-psychology-skills",
+      "name": "dark-psychology-skills",
+      "url": "https://github.com/YannisKiefer/dark-psychology-skills",
+      "description": "13 sales and negotiation skills for agents distilled from 36 books (CIA psyop manuals, FBI behavioral research, propaganda science, persuasion classics); every tactic passes an honest-influence filter: it must still work when fully disclosed",
+      "repo": "YannisKiefer/dark-psychology-skills",
       "publisher": "Community",
       "section": "Marketing"
     },
