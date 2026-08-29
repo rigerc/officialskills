@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetched_at": "2026-08-27T17:06:37Z",
+    "fetched_at": "2026-08-29T11:59:01Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
     "total_skills": 227,
     "total_publishers": 1,
@@ -64,11 +64,11 @@
               "section": "Marketing"
             },
             {
-              "id": "BrianRWagner/ai-marketing-skills",
-              "name": "ai-marketing-skills",
-              "url": "https://github.com/BrianRWagner/ai-marketing-skills",
+              "id": "BrianRWagner/ai-marketing-claude-code-skills",
+              "name": "ai-marketing-claude-code-skills",
+              "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
               "description": "17 marketing frameworks for cold outreach, homepage audit, social cards, and more",
-              "repo": "BrianRWagner/ai-marketing-skills",
+              "repo": "BrianRWagner/ai-marketing-claude-code-skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -154,11 +154,11 @@
               "section": "Marketing"
             },
             {
-              "id": "nowork-studio/NotFair",
-              "name": "NotFair",
-              "url": "https://github.com/nowork-studio/NotFair",
+              "id": "nowork-studio/notfair-plugin",
+              "name": "notfair-plugin",
+              "url": "https://github.com/nowork-studio/notfair-plugin",
               "description": "SEO, GEO, Google Ads, and Meta Ads skills with live data",
-              "repo": "nowork-studio/NotFair",
+              "repo": "nowork-studio/notfair-plugin",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -286,11 +286,11 @@
               "section": "Development and Testing"
             },
             {
-              "id": "alinaqi/claude-bootstrap",
-              "name": "claude-bootstrap",
-              "url": "https://github.com/alinaqi/claude-bootstrap",
+              "id": "alinaqi/maggy",
+              "name": "maggy",
+              "url": "https://github.com/alinaqi/maggy",
               "description": "Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI tool orchestration (gh, vercel, supabase)",
-              "repo": "alinaqi/claude-bootstrap",
+              "repo": "alinaqi/maggy",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -493,15 +493,6 @@
               "section": "Development and Testing"
             },
             {
-              "id": "Joannis/claude-skills",
-              "name": "claude-skills",
-              "url": "https://github.com/Joannis/claude-skills",
-              "description": "Swift Server development guidance with linting tool for best practices",
-              "repo": "Joannis/claude-skills",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
               "id": "jthack/ffuf-claude-skill",
               "name": "ffuf-claude-skill",
               "url": "https://github.com/jthack/ffuf_claude_skill",
@@ -567,9 +558,9 @@
             {
               "id": "Lum1104/understand-anything",
               "name": "understand-anything",
-              "url": "https://github.com/Lum1104/Understand-Anything",
+              "url": "https://github.com/Egonex-AI/Understand-Anything",
               "description": "Interactive codebase knowledge graphs via multi-agent LLM analysis",
-              "repo": "Lum1104/Understand-Anything",
+              "repo": "Egonex-AI/Understand-Anything",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -846,18 +837,18 @@
             {
               "id": "Rootly-AI-Labs/rootly-incident-responder",
               "name": "rootly-incident-responder",
-              "url": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server/blob/main/examples/skills/rootly-incident-responder.md",
-              "description": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)",
-              "repo": "Rootly-AI-Labs/Rootly-MCP-server",
+              "url": "https://github.com/rootlyhq/rootly-mcp-server/blob/main/examples/skills/rootly-incident-responder.md",
+              "description": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)",
+              "repo": "rootlyhq/rootly-mcp-server",
               "publisher": "Community",
               "section": "Development and Testing"
             },
             {
-              "id": "rudrankriyam/app-store-connect-cli-skills",
+              "id": "rorkai/app-store-connect-cli-skills",
               "name": "app-store-connect-cli-skills",
-              "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
+              "url": "https://github.com/rorkai/app-store-connect-cli-skills",
               "description": "Automate App Store deployments and management using ASC CLI",
-              "repo": "rudrankriyam/app-store-connect-cli-skills",
+              "repo": "rorkai/app-store-connect-cli-skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -966,6 +957,15 @@
               "url": "https://github.com/uucz/moyu",
               "description": "Anti-over-engineering skill with 5 variants and 10 platforms",
               "repo": "uucz/moyu",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "wendylabsinc/claude-skills",
+              "name": "claude-skills",
+              "url": "https://github.com/wendylabsinc/claude-skills",
+              "description": "Swift Server development guidance with linting tool for best practices",
+              "repo": "wendylabsinc/claude-skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1165,20 +1165,20 @@
               "section": "Specialized Domains"
             },
             {
-              "id": "huifer/Claude-Ally-Health",
-              "name": "Claude-Ally-Health",
-              "url": "https://github.com/huifer/Claude-Ally-Health",
+              "id": "huifer/WellAlly-health",
+              "name": "WellAlly-health",
+              "url": "https://github.com/huifer/WellAlly-health",
               "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
-              "repo": "huifer/Claude-Ally-Health",
+              "repo": "huifer/WellAlly-health",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
             {
-              "id": "K-Dense-AI/claude-scientific-skills",
-              "name": "claude-scientific-skills",
-              "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+              "id": "K-Dense-AI/scientific-agent-skills",
+              "name": "scientific-agent-skills",
+              "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
               "description": "Scientific research and analysis skills",
-              "repo": "K-Dense-AI/claude-scientific-skills",
+              "repo": "K-Dense-AI/scientific-agent-skills",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1192,11 +1192,11 @@
               "section": "Specialized Domains"
             },
             {
-              "id": "lawvable/awesome-legal-skills",
+              "id": "lawve-ai/awesome-legal-skills",
               "name": "awesome-legal-skills",
-              "url": "https://github.com/lawvable/awesome-legal-skills",
+              "url": "https://github.com/lawve-ai/awesome-legal-skills",
               "description": "Curated agent skills for automating legal workflows",
-              "repo": "lawvable/awesome-legal-skills",
+              "repo": "lawve-ai/awesome-legal-skills",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1264,6 +1264,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "Orchestra-Research/AI-Research-SKILLs",
+              "name": "AI-Research-SKILLs",
+              "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+              "description": "77 AI research skills for model training, inference, and MLOps",
+              "repo": "Orchestra-Research/AI-Research-SKILLs",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "Orkas-AI/video-router",
               "name": "video-router",
               "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
@@ -1300,11 +1309,11 @@
               "section": "Specialized Domains"
             },
             {
-              "id": "raintree-technology/apple-hig-skills",
-              "name": "apple-hig-skills",
-              "url": "https://github.com/raintree-technology/apple-hig-skills",
+              "id": "raintree-technology/hig-doctor",
+              "name": "hig-doctor",
+              "url": "https://github.com/raintree-technology/hig-doctor",
               "description": "Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS",
-              "repo": "raintree-technology/apple-hig-skills",
+              "repo": "raintree-technology/hig-doctor",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1381,20 +1390,20 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "vmware-skills/VMware-AIops",
+              "name": "VMware-AIops",
+              "url": "https://github.com/vmware-skills/VMware-AIops",
+              "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
+              "repo": "vmware-skills/VMware-AIops",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
               "name": "Auto-claude-code-research-in-sleep",
               "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
               "description": "Autonomous ML research with cross-model review loops and GPU deployment",
               "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "zechenzhangAGI/AI-research-SKILLs",
-              "name": "AI-research-SKILLs",
-              "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
-              "description": "77 AI research skills for model training, inference, and MLOps",
-              "repo": "zechenzhangAGI/AI-research-SKILLs",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1413,15 +1422,6 @@
               "url": "https://github.com/zincio/skills/tree/master/skills/universal-checkout",
               "description": "Official Zinc API (zinc.com) checkout across 50+ US retailers",
               "repo": "zincio/skills",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
-              "id": "zw008/VMware-AIops",
-              "name": "VMware-AIops",
-              "url": "https://github.com/zw008/VMware-AIops",
-              "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
-              "repo": "zw008/VMware-AIops",
               "publisher": "Community",
               "section": "Specialized Domains"
             }
@@ -1663,6 +1663,15 @@
           "skills_count": 39,
           "skills": [
             {
+              "id": "bevibing/tutor-skills",
+              "name": "tutor-skills",
+              "url": "https://github.com/bevibing/tutor-skills",
+              "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
+              "repo": "bevibing/tutor-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "Charlie85270/Dorothy",
               "name": "Dorothy",
               "url": "https://github.com/Charlie85270/Dorothy",
@@ -1749,15 +1758,6 @@
               "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
               "description": "McKinsey-style charts and consulting slide decks",
               "repo": "kgraph57/mckinsey-style-visualization-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "kreuzberg-dev/xberg",
-              "name": "xberg",
-              "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/plugin/skills/xberg",
-              "description": "Extract text, tables, and metadata from 101+ document formats",
-              "repo": "kreuzberg-dev/kreuzberg",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -1942,15 +1942,6 @@
               "section": "Productivity and Collaboration"
             },
             {
-              "id": "RoundTable02/tutor-skills",
-              "name": "tutor-skills",
-              "url": "https://github.com/RoundTable02/tutor-skills",
-              "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
-              "repo": "RoundTable02/tutor-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
               "id": "santifer/career-ops",
               "name": "career-ops",
               "url": "https://github.com/santifer/career-ops",
@@ -1992,6 +1983,15 @@
               "url": "https://github.com/wrsmith108/linear-claude-skill",
               "description": "Manage Linear issues, projects, and teams",
               "repo": "wrsmith108/linear-claude-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "xberg-io/xberg",
+              "name": "xberg",
+              "url": "https://github.com/xberg-io/xberg/tree/main/plugin/skills/xberg",
+              "description": "Extract text, tables, and metadata from 101+ document formats",
+              "repo": "xberg-io/xberg",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2158,11 +2158,11 @@
       "section": "Specialized Domains"
     },
     {
-      "id": "alinaqi/claude-bootstrap",
-      "name": "claude-bootstrap",
-      "url": "https://github.com/alinaqi/claude-bootstrap",
+      "id": "alinaqi/maggy",
+      "name": "maggy",
+      "url": "https://github.com/alinaqi/maggy",
       "description": "Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI tool orchestration (gh, vercel, supabase)",
-      "repo": "alinaqi/claude-bootstrap",
+      "repo": "alinaqi/maggy",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -2230,6 +2230,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "bevibing/tutor-skills",
+      "name": "tutor-skills",
+      "url": "https://github.com/bevibing/tutor-skills",
+      "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
+      "repo": "bevibing/tutor-skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "bitwize-music-studio/claude-ai-music-skills",
       "name": "claude-ai-music-skills",
       "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
@@ -2257,11 +2266,11 @@
       "section": "Marketing"
     },
     {
-      "id": "BrianRWagner/ai-marketing-skills",
-      "name": "ai-marketing-skills",
-      "url": "https://github.com/BrianRWagner/ai-marketing-skills",
+      "id": "BrianRWagner/ai-marketing-claude-code-skills",
+      "name": "ai-marketing-claude-code-skills",
+      "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
       "description": "17 marketing frameworks for cold outreach, homepage audit, social cards, and more",
-      "repo": "BrianRWagner/ai-marketing-skills",
+      "repo": "BrianRWagner/ai-marketing-claude-code-skills",
       "publisher": "Community",
       "section": "Marketing"
     },
@@ -2725,11 +2734,11 @@
       "section": "Specialized Domains"
     },
     {
-      "id": "huifer/Claude-Ally-Health",
-      "name": "Claude-Ally-Health",
-      "url": "https://github.com/huifer/Claude-Ally-Health",
+      "id": "huifer/WellAlly-health",
+      "name": "WellAlly-health",
+      "url": "https://github.com/huifer/WellAlly-health",
       "description": "A health assistant skill for medical information analysis, symptom tracking, and wellness guidance.",
-      "repo": "huifer/Claude-Ally-Health",
+      "repo": "huifer/WellAlly-health",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
@@ -2770,15 +2779,6 @@
       "section": "Productivity and Collaboration"
     },
     {
-      "id": "Joannis/claude-skills",
-      "name": "claude-skills",
-      "url": "https://github.com/Joannis/claude-skills",
-      "description": "Swift Server development guidance with linting tool for best practices",
-      "repo": "Joannis/claude-skills",
-      "publisher": "Community",
-      "section": "Development and Testing"
-    },
-    {
       "id": "jthack/ffuf-claude-skill",
       "name": "ffuf-claude-skill",
       "url": "https://github.com/jthack/ffuf_claude_skill",
@@ -2788,11 +2788,11 @@
       "section": "Development and Testing"
     },
     {
-      "id": "K-Dense-AI/claude-scientific-skills",
-      "name": "claude-scientific-skills",
-      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "id": "K-Dense-AI/scientific-agent-skills",
+      "name": "scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
       "description": "Scientific research and analysis skills",
-      "repo": "K-Dense-AI/claude-scientific-skills",
+      "repo": "K-Dense-AI/scientific-agent-skills",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
@@ -2851,15 +2851,6 @@
       "section": "Specialized Domains"
     },
     {
-      "id": "kreuzberg-dev/xberg",
-      "name": "xberg",
-      "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/plugin/skills/xberg",
-      "description": "Extract text, tables, and metadata from 101+ document formats",
-      "repo": "kreuzberg-dev/kreuzberg",
-      "publisher": "Community",
-      "section": "Productivity and Collaboration"
-    },
-    {
       "id": "lackeyjb/playwright-skill",
       "name": "playwright-skill",
       "url": "https://github.com/lackeyjb/playwright-skill",
@@ -2878,11 +2869,11 @@
       "section": "Development and Testing"
     },
     {
-      "id": "lawvable/awesome-legal-skills",
+      "id": "lawve-ai/awesome-legal-skills",
       "name": "awesome-legal-skills",
-      "url": "https://github.com/lawvable/awesome-legal-skills",
+      "url": "https://github.com/lawve-ai/awesome-legal-skills",
       "description": "Curated agent skills for automating legal workflows",
-      "repo": "lawvable/awesome-legal-skills",
+      "repo": "lawve-ai/awesome-legal-skills",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
@@ -2916,9 +2907,9 @@
     {
       "id": "Lum1104/understand-anything",
       "name": "understand-anything",
-      "url": "https://github.com/Lum1104/Understand-Anything",
+      "url": "https://github.com/Egonex-AI/Understand-Anything",
       "description": "Interactive codebase knowledge graphs via multi-agent LLM analysis",
-      "repo": "Lum1104/Understand-Anything",
+      "repo": "Egonex-AI/Understand-Anything",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -3238,11 +3229,11 @@
       "section": "Specialized Domains"
     },
     {
-      "id": "nowork-studio/NotFair",
-      "name": "NotFair",
-      "url": "https://github.com/nowork-studio/NotFair",
+      "id": "nowork-studio/notfair-plugin",
+      "name": "notfair-plugin",
+      "url": "https://github.com/nowork-studio/notfair-plugin",
       "description": "SEO, GEO, Google Ads, and Meta Ads skills with live data",
-      "repo": "nowork-studio/NotFair",
+      "repo": "nowork-studio/notfair-plugin",
       "publisher": "Community",
       "section": "Marketing"
     },
@@ -3463,6 +3454,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "Orchestra-Research/AI-Research-SKILLs",
+      "name": "AI-Research-SKILLs",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+      "description": "77 AI research skills for model training, inference, and MLOps",
+      "repo": "Orchestra-Research/AI-Research-SKILLs",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "Orkas-AI/video-router",
       "name": "video-router",
       "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
@@ -3571,11 +3571,11 @@
       "section": "Vector Databases"
     },
     {
-      "id": "raintree-technology/apple-hig-skills",
-      "name": "apple-hig-skills",
-      "url": "https://github.com/raintree-technology/apple-hig-skills",
+      "id": "raintree-technology/hig-doctor",
+      "name": "hig-doctor",
+      "url": "https://github.com/raintree-technology/hig-doctor",
       "description": "Apple Human Interface Guidelines as 14 agent skills covering platforms, foundations, components, patterns, inputs, and technologies for iOS, macOS, visionOS, watchOS, and tvOS",
-      "repo": "raintree-technology/apple-hig-skills",
+      "repo": "raintree-technology/hig-doctor",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
@@ -3627,27 +3627,18 @@
     {
       "id": "Rootly-AI-Labs/rootly-incident-responder",
       "name": "rootly-incident-responder",
-      "url": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server/blob/main/examples/skills/rootly-incident-responder.md",
-      "description": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)",
-      "repo": "Rootly-AI-Labs/Rootly-MCP-server",
+      "url": "https://github.com/rootlyhq/rootly-mcp-server/blob/main/examples/skills/rootly-incident-responder.md",
+      "description": "AI-powered incident response with ML similarity matching, solution suggestions, and on-call coordination. Requires [Rootly MCP Server](https://github.com/rootlyhq/rootly-mcp-server)",
+      "repo": "rootlyhq/rootly-mcp-server",
       "publisher": "Community",
       "section": "Development and Testing"
     },
     {
-      "id": "RoundTable02/tutor-skills",
-      "name": "tutor-skills",
-      "url": "https://github.com/RoundTable02/tutor-skills",
-      "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
-      "repo": "RoundTable02/tutor-skills",
-      "publisher": "Community",
-      "section": "Productivity and Collaboration"
-    },
-    {
-      "id": "rudrankriyam/app-store-connect-cli-skills",
+      "id": "rorkai/app-store-connect-cli-skills",
       "name": "app-store-connect-cli-skills",
-      "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
+      "url": "https://github.com/rorkai/app-store-connect-cli-skills",
       "description": "Automate App Store deployments and management using ASC CLI",
-      "repo": "rudrankriyam/app-store-connect-cli-skills",
+      "repo": "rorkai/app-store-connect-cli-skills",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -3976,6 +3967,15 @@
       "section": "Marketing"
     },
     {
+      "id": "vmware-skills/VMware-AIops",
+      "name": "VMware-AIops",
+      "url": "https://github.com/vmware-skills/VMware-AIops",
+      "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
+      "repo": "vmware-skills/VMware-AIops",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "vshulcz/deja-history",
       "name": "deja-history",
       "url": "https://github.com/vshulcz/deja-vu/tree/main/claude-plugin/skills/deja-history",
@@ -3992,6 +3992,15 @@
       "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "wendylabsinc/claude-skills",
+      "name": "claude-skills",
+      "url": "https://github.com/wendylabsinc/claude-skills",
+      "description": "Swift Server development guidance with linting tool for best practices",
+      "repo": "wendylabsinc/claude-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "woniu9524/open-web-bridge",
@@ -4028,6 +4037,15 @@
       "repo": "wshuyi/x-article-publisher-skill",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "xberg-io/xberg",
+      "name": "xberg",
+      "url": "https://github.com/xberg-io/xberg/tree/main/plugin/skills/xberg",
+      "description": "Extract text, tables, and metadata from 101+ document formats",
+      "repo": "xberg-io/xberg",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "Xquik-dev/tweetclaw",
@@ -4075,15 +4093,6 @@
       "section": "Productivity and Collaboration"
     },
     {
-      "id": "zechenzhangAGI/AI-research-SKILLs",
-      "name": "AI-research-SKILLs",
-      "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
-      "description": "77 AI research skills for model training, inference, and MLOps",
-      "repo": "zechenzhangAGI/AI-research-SKILLs",
-      "publisher": "Community",
-      "section": "Specialized Domains"
-    },
-    {
       "id": "ZeroPointRepo/youtube-skills",
       "name": "youtube-skills",
       "url": "https://github.com/ZeroPointRepo/youtube-skills",
@@ -4127,15 +4136,6 @@
       "repo": "zscole/model-hierarchy-skill",
       "publisher": "Community",
       "section": "Development and Testing"
-    },
-    {
-      "id": "zw008/VMware-AIops",
-      "name": "VMware-AIops",
-      "url": "https://github.com/zw008/VMware-AIops",
-      "description": "AI-powered VMware vCenter/ESXi monitoring and operations: inventory queries, health/alarms, VM lifecycle (create, delete, snapshot, clone, migrate), vSAN management, Aria Operations analytics, and scheduled log scanning. Supports Claude Code, Gemini CLI, Codex, Aider, Trae, Kimi, and MCP.",
-      "repo": "zw008/VMware-AIops",
-      "publisher": "Community",
-      "section": "Specialized Domains"
     },
     {
       "id": "zxkane/aws-skills",

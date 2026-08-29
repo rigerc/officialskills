@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T17:06:37Z",
+  "generated_at": "2026-08-29T11:59:01Z",
   "total_skills": 1223,
   "publishers": {
     "Addy Osmani": {
@@ -895,10 +895,10 @@
           "publisher": "Community"
         },
         {
-          "id": "BrianRWagner/ai-marketing-skills",
-          "name": "ai-marketing-skills",
-          "url": "https://github.com/BrianRWagner/ai-marketing-skills",
-          "repo": "BrianRWagner/ai-marketing-skills",
+          "id": "BrianRWagner/ai-marketing-claude-code-skills",
+          "name": "ai-marketing-claude-code-skills",
+          "url": "https://github.com/BrianRWagner/ai-marketing-claude-code-skills",
+          "repo": "BrianRWagner/ai-marketing-claude-code-skills",
           "publisher": "Community"
         },
         {
@@ -965,10 +965,10 @@
           "publisher": "Community"
         },
         {
-          "id": "nowork-studio/NotFair",
-          "name": "NotFair",
-          "url": "https://github.com/nowork-studio/NotFair",
-          "repo": "nowork-studio/NotFair",
+          "id": "nowork-studio/notfair-plugin",
+          "name": "notfair-plugin",
+          "url": "https://github.com/nowork-studio/notfair-plugin",
+          "repo": "nowork-studio/notfair-plugin",
           "publisher": "Community"
         },
         {
@@ -1063,10 +1063,10 @@
           "publisher": "Community"
         },
         {
-          "id": "alinaqi/claude-bootstrap",
-          "name": "claude-bootstrap",
-          "url": "https://github.com/alinaqi/claude-bootstrap",
-          "repo": "alinaqi/claude-bootstrap",
+          "id": "alinaqi/maggy",
+          "name": "maggy",
+          "url": "https://github.com/alinaqi/maggy",
+          "repo": "alinaqi/maggy",
           "publisher": "Community"
         },
         {
@@ -1224,13 +1224,6 @@
           "publisher": "Community"
         },
         {
-          "id": "Joannis/claude-skills",
-          "name": "claude-skills",
-          "url": "https://github.com/Joannis/claude-skills",
-          "repo": "Joannis/claude-skills",
-          "publisher": "Community"
-        },
-        {
           "id": "jthack/ffuf-claude-skill",
           "name": "ffuf-claude-skill",
           "url": "https://github.com/jthack/ffuf_claude_skill",
@@ -1282,8 +1275,8 @@
         {
           "id": "Lum1104/understand-anything",
           "name": "understand-anything",
-          "url": "https://github.com/Lum1104/Understand-Anything",
-          "repo": "Lum1104/Understand-Anything",
+          "url": "https://github.com/Egonex-AI/Understand-Anything",
+          "repo": "Egonex-AI/Understand-Anything",
           "publisher": "Community"
         },
         {
@@ -1499,15 +1492,15 @@
         {
           "id": "Rootly-AI-Labs/rootly-incident-responder",
           "name": "rootly-incident-responder",
-          "url": "https://github.com/Rootly-AI-Labs/Rootly-MCP-server/blob/main/examples/skills/rootly-incident-responder.md",
-          "repo": "Rootly-AI-Labs/Rootly-MCP-server",
+          "url": "https://github.com/rootlyhq/rootly-mcp-server/blob/main/examples/skills/rootly-incident-responder.md",
+          "repo": "rootlyhq/rootly-mcp-server",
           "publisher": "Community"
         },
         {
-          "id": "rudrankriyam/app-store-connect-cli-skills",
+          "id": "rorkai/app-store-connect-cli-skills",
           "name": "app-store-connect-cli-skills",
-          "url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
-          "repo": "rudrankriyam/app-store-connect-cli-skills",
+          "url": "https://github.com/rorkai/app-store-connect-cli-skills",
+          "repo": "rorkai/app-store-connect-cli-skills",
           "publisher": "Community"
         },
         {
@@ -1592,6 +1585,13 @@
           "name": "moyu",
           "url": "https://github.com/uucz/moyu",
           "repo": "uucz/moyu",
+          "publisher": "Community"
+        },
+        {
+          "id": "wendylabsinc/claude-skills",
+          "name": "claude-skills",
+          "url": "https://github.com/wendylabsinc/claude-skills",
+          "repo": "wendylabsinc/claude-skills",
           "publisher": "Community"
         },
         {
@@ -1742,17 +1742,17 @@
           "publisher": "Community"
         },
         {
-          "id": "huifer/Claude-Ally-Health",
-          "name": "Claude-Ally-Health",
-          "url": "https://github.com/huifer/Claude-Ally-Health",
-          "repo": "huifer/Claude-Ally-Health",
+          "id": "huifer/WellAlly-health",
+          "name": "WellAlly-health",
+          "url": "https://github.com/huifer/WellAlly-health",
+          "repo": "huifer/WellAlly-health",
           "publisher": "Community"
         },
         {
-          "id": "K-Dense-AI/claude-scientific-skills",
-          "name": "claude-scientific-skills",
-          "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
-          "repo": "K-Dense-AI/claude-scientific-skills",
+          "id": "K-Dense-AI/scientific-agent-skills",
+          "name": "scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "repo": "K-Dense-AI/scientific-agent-skills",
           "publisher": "Community"
         },
         {
@@ -1763,10 +1763,10 @@
           "publisher": "Community"
         },
         {
-          "id": "lawvable/awesome-legal-skills",
+          "id": "lawve-ai/awesome-legal-skills",
           "name": "awesome-legal-skills",
-          "url": "https://github.com/lawvable/awesome-legal-skills",
-          "repo": "lawvable/awesome-legal-skills",
+          "url": "https://github.com/lawve-ai/awesome-legal-skills",
+          "repo": "lawve-ai/awesome-legal-skills",
           "publisher": "Community"
         },
         {
@@ -1819,6 +1819,13 @@
           "publisher": "Community"
         },
         {
+          "id": "Orchestra-Research/AI-Research-SKILLs",
+          "name": "AI-Research-SKILLs",
+          "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+          "repo": "Orchestra-Research/AI-Research-SKILLs",
+          "publisher": "Community"
+        },
+        {
           "id": "Orkas-AI/video-router",
           "name": "video-router",
           "url": "https://github.com/Orkas-AI/Orkas-VideoStudio/tree/main/packages/skills/video-router",
@@ -1847,10 +1854,10 @@
           "publisher": "Community"
         },
         {
-          "id": "raintree-technology/apple-hig-skills",
-          "name": "apple-hig-skills",
-          "url": "https://github.com/raintree-technology/apple-hig-skills",
-          "repo": "raintree-technology/apple-hig-skills",
+          "id": "raintree-technology/hig-doctor",
+          "name": "hig-doctor",
+          "url": "https://github.com/raintree-technology/hig-doctor",
+          "repo": "raintree-technology/hig-doctor",
           "publisher": "Community"
         },
         {
@@ -1910,17 +1917,17 @@
           "publisher": "Community"
         },
         {
+          "id": "vmware-skills/VMware-AIops",
+          "name": "VMware-AIops",
+          "url": "https://github.com/vmware-skills/VMware-AIops",
+          "repo": "vmware-skills/VMware-AIops",
+          "publisher": "Community"
+        },
+        {
           "id": "wanshuiyin/Auto-claude-code-research-in-sleep",
           "name": "Auto-claude-code-research-in-sleep",
           "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
           "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
-          "publisher": "Community"
-        },
-        {
-          "id": "zechenzhangAGI/AI-research-SKILLs",
-          "name": "AI-research-SKILLs",
-          "url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
-          "repo": "zechenzhangAGI/AI-research-SKILLs",
           "publisher": "Community"
         },
         {
@@ -1935,13 +1942,6 @@
           "name": "universal-checkout",
           "url": "https://github.com/zincio/skills/tree/master/skills/universal-checkout",
           "repo": "zincio/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "zw008/VMware-AIops",
-          "name": "VMware-AIops",
-          "url": "https://github.com/zw008/VMware-AIops",
-          "repo": "zw008/VMware-AIops",
           "publisher": "Community"
         },
         {
@@ -2120,6 +2120,13 @@
           "publisher": "Community"
         },
         {
+          "id": "bevibing/tutor-skills",
+          "name": "tutor-skills",
+          "url": "https://github.com/bevibing/tutor-skills",
+          "repo": "bevibing/tutor-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "Charlie85270/Dorothy",
           "name": "Dorothy",
           "url": "https://github.com/Charlie85270/Dorothy",
@@ -2187,13 +2194,6 @@
           "name": "strategy-consulting-visualization",
           "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
           "repo": "kgraph57/mckinsey-style-visualization-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "kreuzberg-dev/xberg",
-          "name": "xberg",
-          "url": "https://github.com/kreuzberg-dev/kreuzberg/tree/main/plugin/skills/xberg",
-          "repo": "kreuzberg-dev/kreuzberg",
           "publisher": "Community"
         },
         {
@@ -2337,13 +2337,6 @@
           "publisher": "Community"
         },
         {
-          "id": "RoundTable02/tutor-skills",
-          "name": "tutor-skills",
-          "url": "https://github.com/RoundTable02/tutor-skills",
-          "repo": "RoundTable02/tutor-skills",
-          "publisher": "Community"
-        },
-        {
           "id": "santifer/career-ops",
           "name": "career-ops",
           "url": "https://github.com/santifer/career-ops",
@@ -2376,6 +2369,13 @@
           "name": "linear-claude-skill",
           "url": "https://github.com/wrsmith108/linear-claude-skill",
           "repo": "wrsmith108/linear-claude-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "xberg-io/xberg",
+          "name": "xberg",
+          "url": "https://github.com/xberg-io/xberg/tree/main/plugin/skills/xberg",
+          "repo": "xberg-io/xberg",
           "publisher": "Community"
         },
         {
