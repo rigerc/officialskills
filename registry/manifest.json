@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T12:11:06Z",
-  "total_skills": 1223,
+  "generated_at": "2026-09-01T10:47:45Z",
+  "total_skills": 1235,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -2471,6 +2471,95 @@
           "url": "https://github.com/trycourier/courier-skills",
           "repo": "trycourier/courier-skills",
           "publisher": "Courier"
+        }
+      ]
+    },
+    "Crawlbase": {
+      "skills_count": 12,
+      "skills": [
+        {
+          "id": "crawlbase/crawl-html",
+          "name": "crawl-html",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-html",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/crawl-markdown",
+          "name": "crawl-markdown",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-markdown",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/crawl-screenshot",
+          "name": "crawl-screenshot",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-screenshot",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/crawlbase-mcp",
+          "name": "crawlbase-mcp",
+          "url": "https://github.com/crawlbase/crawlbase-mcp",
+          "repo": "crawlbase/crawlbase-mcp",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/langchain-crawlbase",
+          "name": "langchain-crawlbase",
+          "url": "https://github.com/crawlbase/langchain-crawlbase",
+          "repo": "crawlbase/langchain-crawlbase",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/n8n-nodes-crawlbase",
+          "name": "n8n-nodes-crawlbase",
+          "url": "https://github.com/crawlbase/n8n-nodes-crawlbase",
+          "repo": "crawlbase/n8n-nodes-crawlbase",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/storage-bulk-delete",
+          "name": "storage-bulk-delete",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-bulk-delete",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/storage-bulk-get",
+          "name": "storage-bulk-get",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-bulk-get",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/storage-count",
+          "name": "storage-count",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-count",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/storage-delete",
+          "name": "storage-delete",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-delete",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/storage-get",
+          "name": "storage-get",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-get",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
+        },
+        {
+          "id": "crawlbase/storage-list",
+          "name": "storage-list",
+          "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-list",
+          "repo": "crawlbase/crawlbase-codex-plugin",
+          "publisher": "Crawlbase"
         }
       ]
     },

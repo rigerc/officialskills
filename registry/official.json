@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-08-31T12:11:06Z",
+    "fetched_at": "2026-09-01T10:47:45Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 996,
-    "total_publishers": 59,
+    "total_skills": 1008,
+    "total_publishers": 60,
     "total_categories": 7,
-    "total_official": 996,
+    "total_official": 1008,
     "total_community": 0
   },
   "publishers": [
@@ -1237,6 +1237,127 @@
               "description": "Multi-channel notifications via email, SMS, push, and chat",
               "repo": "trycourier/courier-skills",
               "publisher": "Courier",
+              "section": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crawlbase",
+      "type": "official",
+      "skills_count": 12,
+      "skills": [
+        {
+          "section": "Official",
+          "skills_count": 12,
+          "skills": [
+            {
+              "id": "crawlbase/crawl-html",
+              "name": "crawl-html",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-html",
+              "description": "Crawl a URL and return its raw HTML with JS rendering, device emulation, and geo-targeting",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/crawl-markdown",
+              "name": "crawl-markdown",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-markdown",
+              "description": "Extract clean, LLM-ready Markdown from any URL, stripped of ads and boilerplate",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/crawl-screenshot",
+              "name": "crawl-screenshot",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-screenshot",
+              "description": "Take full-page or viewport screenshots of any URL on desktop or mobile",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/crawlbase-mcp",
+              "name": "crawlbase-mcp",
+              "url": "https://github.com/crawlbase/crawlbase-mcp",
+              "description": "The MCP server behind these skills (npm `@crawlbase/mcp`) with JS rendering, proxy rotation, and anti-bot protection",
+              "repo": "crawlbase/crawlbase-mcp",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/langchain-crawlbase",
+              "name": "langchain-crawlbase",
+              "url": "https://github.com/crawlbase/langchain-crawlbase",
+              "description": "LangChain document loader, tool, and retriever backed by the Crawling API",
+              "repo": "crawlbase/langchain-crawlbase",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/n8n-nodes-crawlbase",
+              "name": "n8n-nodes-crawlbase",
+              "url": "https://github.com/crawlbase/n8n-nodes-crawlbase",
+              "description": "Native Crawlbase node for n8n with credentials and Crawling API options",
+              "repo": "crawlbase/n8n-nodes-crawlbase",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/storage-bulk-delete",
+              "name": "storage-bulk-delete",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-bulk-delete",
+              "description": "Delete up to 100 stored pages from Crawlbase Cloud Storage in one call",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/storage-bulk-get",
+              "name": "storage-bulk-get",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-bulk-get",
+              "description": "Retrieve up to 100 stored pages in one call, with optional auto-delete",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/storage-count",
+              "name": "storage-count",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-count",
+              "description": "Count the documents held in Crawlbase Cloud Storage for a token",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/storage-delete",
+              "name": "storage-delete",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-delete",
+              "description": "Delete a single stored page from Crawlbase Cloud Storage by rid",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/storage-get",
+              "name": "storage-get",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-get",
+              "description": "Retrieve a stored page from Crawlbase Cloud Storage as JSON, HTML, or Markdown",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
+              "section": "Official"
+            },
+            {
+              "id": "crawlbase/storage-list",
+              "name": "storage-list",
+              "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-list",
+              "description": "List stored rids with scroll-based pagination, up to 1000 per call",
+              "repo": "crawlbase/crawlbase-codex-plugin",
+              "publisher": "Crawlbase",
               "section": "Official"
             }
           ]
@@ -10796,6 +10917,114 @@
       "description": "Multi-channel notifications via email, SMS, push, and chat",
       "repo": "trycourier/courier-skills",
       "publisher": "Courier",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/crawl-html",
+      "name": "crawl-html",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-html",
+      "description": "Crawl a URL and return its raw HTML with JS rendering, device emulation, and geo-targeting",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/crawl-markdown",
+      "name": "crawl-markdown",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-markdown",
+      "description": "Extract clean, LLM-ready Markdown from any URL, stripped of ads and boilerplate",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/crawl-screenshot",
+      "name": "crawl-screenshot",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/crawl-screenshot",
+      "description": "Take full-page or viewport screenshots of any URL on desktop or mobile",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/crawlbase-mcp",
+      "name": "crawlbase-mcp",
+      "url": "https://github.com/crawlbase/crawlbase-mcp",
+      "description": "The MCP server behind these skills (npm `@crawlbase/mcp`) with JS rendering, proxy rotation, and anti-bot protection",
+      "repo": "crawlbase/crawlbase-mcp",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/langchain-crawlbase",
+      "name": "langchain-crawlbase",
+      "url": "https://github.com/crawlbase/langchain-crawlbase",
+      "description": "LangChain document loader, tool, and retriever backed by the Crawling API",
+      "repo": "crawlbase/langchain-crawlbase",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/n8n-nodes-crawlbase",
+      "name": "n8n-nodes-crawlbase",
+      "url": "https://github.com/crawlbase/n8n-nodes-crawlbase",
+      "description": "Native Crawlbase node for n8n with credentials and Crawling API options",
+      "repo": "crawlbase/n8n-nodes-crawlbase",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/storage-bulk-delete",
+      "name": "storage-bulk-delete",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-bulk-delete",
+      "description": "Delete up to 100 stored pages from Crawlbase Cloud Storage in one call",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/storage-bulk-get",
+      "name": "storage-bulk-get",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-bulk-get",
+      "description": "Retrieve up to 100 stored pages in one call, with optional auto-delete",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/storage-count",
+      "name": "storage-count",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-count",
+      "description": "Count the documents held in Crawlbase Cloud Storage for a token",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/storage-delete",
+      "name": "storage-delete",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-delete",
+      "description": "Delete a single stored page from Crawlbase Cloud Storage by rid",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/storage-get",
+      "name": "storage-get",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-get",
+      "description": "Retrieve a stored page from Crawlbase Cloud Storage as JSON, HTML, or Markdown",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
+      "section": "Official"
+    },
+    {
+      "id": "crawlbase/storage-list",
+      "name": "storage-list",
+      "url": "https://github.com/crawlbase/crawlbase-codex-plugin/tree/main/skills/storage-list",
+      "description": "List stored rids with scroll-based pagination, up to 1000 per call",
+      "repo": "crawlbase/crawlbase-codex-plugin",
+      "publisher": "Crawlbase",
       "section": "Official"
     },
     {
