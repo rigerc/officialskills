@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-09-03T10:24:27Z",
+    "fetched_at": "2026-09-05T09:39:51Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 227,
+    "total_skills": 238,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 227
+    "total_community": 238
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 227,
+      "skills_count": 238,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 27,
+          "skills_count": 30,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -42,6 +42,15 @@
               "url": "https://github.com/AIDevGTM/gtm-cofounder",
               "description": "18 go-to-market skills for solo technical founders: positioning, first users, launch, pricing, and founder-led sales; grounded in Adam Frankl and Jakub Czakon",
               "repo": "AIDevGTM/gtm-cofounder",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "axelfreeman/marketing-mindset",
+              "name": "marketing-mindset",
+              "url": "https://github.com/axelfreeman/marketing-mindset",
+              "description": "Marketing OS for AI agents — think like a marketer first, get tactics as the output",
+              "repo": "axelfreeman/marketing-mindset",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -154,6 +163,15 @@
               "section": "Marketing"
             },
             {
+              "id": "Nanako0129/sepia",
+              "name": "sepia",
+              "url": "https://github.com/Nanako0129/sepia",
+              "description": "De-AI writing skill fixing narrative structure before word choice",
+              "repo": "Nanako0129/sepia",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "nowork-studio/notfair-plugin",
               "name": "notfair-plugin",
               "url": "https://github.com/nowork-studio/notfair-plugin",
@@ -168,6 +186,15 @@
               "url": "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search",
               "description": "Evidence-led multi-source research with offline validation",
               "repo": "sandbaseai/sandbase-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "ScrapeCreators/social-media-research-skills",
+              "name": "social-media-research-skills",
+              "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+              "description": "Research social outliers, comments, competitors, ads, and trends",
+              "repo": "ScrapeCreators/social-media-research-skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -265,7 +292,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 83,
+          "skills_count": 89,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -363,6 +390,15 @@
               "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
               "description": "Animated technical diagrams from plain English or Mermaid, self-contained HTML/SVG",
               "repo": "csthink/dashmotion",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "d1vai/d1v",
+              "name": "d1v",
+              "url": "https://github.com/d1vai/d1v-cli/blob/main/skills/d1v/SKILL.md",
+              "description": "Deploy web projects with verified previews and confirmed production releases",
+              "repo": "d1vai/d1v-cli",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -498,6 +534,24 @@
               "url": "https://github.com/jthack/ffuf_claude_skill",
               "description": "Web fuzzing with ffuf",
               "repo": "jthack/ffuf_claude_skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Kayforkind/reimagine-it",
+              "name": "reimagine-it",
+              "url": "https://github.com/Kayforkind/reimagine-it",
+              "description": "Content-Derived Design CLI and agent skill: reads existing HTML and writes a stronger standalone page from nouns, dates, numbers, and colors already in the file",
+              "repo": "Kayforkind/reimagine-it",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Kayforkind/reimagine-it",
+              "name": "reimagine-it",
+              "url": "https://github.com/Kayforkind/reimagine-it",
+              "description": "Redesigns existing HTML pages from their own content",
+              "repo": "Kayforkind/reimagine-it",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -799,6 +853,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "rainmanjam/poka-yoke",
+              "name": "poka-yoke",
+              "url": "https://github.com/rainmanjam/poka-yoke",
+              "description": "Make misuse unrepresentable: audit, design, and enforce mistake-proofing devices",
+              "repo": "rainmanjam/poka-yoke",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "rameerez/claude-code-startup-skills",
               "name": "claude-code-startup-skills",
               "url": "https://github.com/rameerez/claude-code-startup-skills",
@@ -889,6 +952,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "scarletkc/agents",
+              "name": "agents",
+              "url": "https://github.com/scarletkc/agents",
+              "description": "Reusable standards and workflow skills for AI coding agents",
+              "repo": "scarletkc/agents",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "scarletkc/vexor",
               "name": "vexor",
               "url": "https://github.com/scarletkc/vexor",
@@ -957,6 +1029,15 @@
               "url": "https://github.com/uucz/moyu",
               "description": "Anti-over-engineering skill with 5 variants and 10 platforms",
               "repo": "uucz/moyu",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "VoDaiLocz/kilo-kit-mcp",
+              "name": "kilo-kit-mcp",
+              "url": "https://github.com/VoDaiLocz/kilo-kit-mcp",
+              "description": "Comprehensive library of 177 curated skills paired with an MCP runtime enforcing protocol-level C4 workflow gates, hard-gated command execution with security guardrails, and 5 cognitive reasoning engines (Tree of Thoughts DAG, Adversarial Grilling, 5-Whys Root Cause Tracer, Context Compactor, Self-Evolution) for Claude Code, Cursor, Antigravity, and Codex",
+              "repo": "VoDaiLocz/kilo-kit-mcp",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1429,7 +1510,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 25,
+          "skills_count": 26,
           "skills": [
             {
               "id": "awrshift/claude-memory-kit",
@@ -1594,6 +1675,15 @@
               "section": "Context Engineering"
             },
             {
+              "id": "rebelytics/task-observer",
+              "name": "task-observer",
+              "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
+              "description": "Meta-skill for continuous skill improvement & automatic skill creation.",
+              "repo": "rebelytics/one-skill-to-rule-them-all",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
               "id": "sametbrr/llm-wiki-manager",
               "name": "llm-wiki-manager",
               "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -1660,7 +1750,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 39,
+          "skills_count": 40,
           "skills": [
             {
               "id": "bevibing/tutor-skills",
@@ -1978,6 +2068,15 @@
               "section": "Productivity and Collaboration"
             },
             {
+              "id": "vaibhavarora14/job-application-agent",
+              "name": "job-application-agent",
+              "url": "https://github.com/vaibhavarora14/job-application-agent",
+              "description": "Privacy-first job discovery and tracking",
+              "repo": "vaibhavarora14/job-application-agent",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "wrsmith108/linear-claude-skill",
               "name": "linear-claude-skill",
               "url": "https://github.com/wrsmith108/linear-claude-skill",
@@ -2212,6 +2311,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "axelfreeman/marketing-mindset",
+      "name": "marketing-mindset",
+      "url": "https://github.com/axelfreeman/marketing-mindset",
+      "description": "Marketing OS for AI agents — think like a marketer first, get tactics as the output",
+      "repo": "axelfreeman/marketing-mindset",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "baskduf/codex-fable5",
       "name": "codex-fable5",
       "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
@@ -2417,6 +2525,15 @@
       "repo": "czlonkowski/n8n-skills",
       "publisher": "Community",
       "section": "n8n Automation"
+    },
+    {
+      "id": "d1vai/d1v",
+      "name": "d1v",
+      "url": "https://github.com/d1vai/d1v-cli/blob/main/skills/d1v/SKILL.md",
+      "description": "Deploy web projects with verified previews and confirmed production releases",
+      "repo": "d1vai/d1v-cli",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "dankofly/perfectify",
@@ -2806,6 +2923,24 @@
       "section": "Context Engineering"
     },
     {
+      "id": "Kayforkind/reimagine-it",
+      "name": "reimagine-it",
+      "url": "https://github.com/Kayforkind/reimagine-it",
+      "description": "Content-Derived Design CLI and agent skill: reads existing HTML and writes a stronger standalone page from nouns, dates, numbers, and colors already in the file",
+      "repo": "Kayforkind/reimagine-it",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "Kayforkind/reimagine-it",
+      "name": "reimagine-it",
+      "url": "https://github.com/Kayforkind/reimagine-it",
+      "description": "Redesigns existing HTML pages from their own content",
+      "repo": "Kayforkind/reimagine-it",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "Kevin7Qi/codex-collab",
       "name": "codex-collab",
       "url": "https://github.com/Kevin7Qi/codex-collab",
@@ -3110,6 +3245,15 @@
       "repo": "mvanhorn/last30days-skill",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "Nanako0129/sepia",
+      "name": "sepia",
+      "url": "https://github.com/Nanako0129/sepia",
+      "description": "De-AI writing skill fixing narrative structure before word choice",
+      "repo": "Nanako0129/sepia",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "Neeeophytee/finding-unknowns-skills",
@@ -3571,6 +3715,15 @@
       "section": "Vector Databases"
     },
     {
+      "id": "rainmanjam/poka-yoke",
+      "name": "poka-yoke",
+      "url": "https://github.com/rainmanjam/poka-yoke",
+      "description": "Make misuse unrepresentable: audit, design, and enforce mistake-proofing devices",
+      "repo": "rainmanjam/poka-yoke",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "raintree-technology/hig-doctor",
       "name": "hig-doctor",
       "url": "https://github.com/raintree-technology/hig-doctor",
@@ -3596,6 +3749,15 @@
       "repo": "ramzesenok/iOS-Accessibility-Audit-Skill",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "rebelytics/task-observer",
+      "name": "task-observer",
+      "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
+      "description": "Meta-skill for continuous skill improvement & automatic skill creation.",
+      "repo": "rebelytics/one-skill-to-rule-them-all",
+      "publisher": "Community",
+      "section": "Context Engineering"
     },
     {
       "id": "reliefeai/browser-relay",
@@ -3715,6 +3877,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "scarletkc/agents",
+      "name": "agents",
+      "url": "https://github.com/scarletkc/agents",
+      "description": "Reusable standards and workflow skills for AI coding agents",
+      "repo": "scarletkc/agents",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "scarletkc/vexor",
       "name": "vexor",
       "url": "https://github.com/scarletkc/vexor",
@@ -3722,6 +3893,15 @@
       "repo": "scarletkc/vexor",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "ScrapeCreators/social-media-research-skills",
+      "name": "social-media-research-skills",
+      "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+      "description": "Research social outliers, comments, competitors, ads, and trends",
+      "repo": "ScrapeCreators/social-media-research-skills",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "SeanZoR/claude-speed-reader",
@@ -3949,6 +4129,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "vaibhavarora14/job-application-agent",
+      "name": "job-application-agent",
+      "url": "https://github.com/vaibhavarora14/job-application-agent",
+      "description": "Privacy-first job discovery and tracking",
+      "repo": "vaibhavarora14/job-application-agent",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "video-db/skills",
       "name": "skills",
       "url": "https://github.com/video-db/skills",
@@ -3974,6 +4163,15 @@
       "repo": "vmware-skills/VMware-AIops",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "VoDaiLocz/kilo-kit-mcp",
+      "name": "kilo-kit-mcp",
+      "url": "https://github.com/VoDaiLocz/kilo-kit-mcp",
+      "description": "Comprehensive library of 177 curated skills paired with an MCP runtime enforcing protocol-level C4 workflow gates, hard-gated command execution with security guardrails, and 5 cognitive reasoning engines (Tree of Thoughts DAG, Adversarial Grilling, 5-Whys Root Cause Tracer, Context Compactor, Self-Evolution) for Claude Code, Cursor, Antigravity, and Codex",
+      "repo": "VoDaiLocz/kilo-kit-mcp",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "vshulcz/deja-history",

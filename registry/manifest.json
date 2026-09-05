@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T10:24:27Z",
-  "total_skills": 1235,
+  "generated_at": "2026-09-05T09:39:51Z",
+  "total_skills": 1250,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 227,
+      "skills_count": 238,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -878,6 +878,13 @@
           "name": "gtm-cofounder",
           "url": "https://github.com/AIDevGTM/gtm-cofounder",
           "repo": "AIDevGTM/gtm-cofounder",
+          "publisher": "Community"
+        },
+        {
+          "id": "axelfreeman/marketing-mindset",
+          "name": "marketing-mindset",
+          "url": "https://github.com/axelfreeman/marketing-mindset",
+          "repo": "axelfreeman/marketing-mindset",
           "publisher": "Community"
         },
         {
@@ -965,6 +972,13 @@
           "publisher": "Community"
         },
         {
+          "id": "Nanako0129/sepia",
+          "name": "sepia",
+          "url": "https://github.com/Nanako0129/sepia",
+          "repo": "Nanako0129/sepia",
+          "publisher": "Community"
+        },
+        {
           "id": "nowork-studio/notfair-plugin",
           "name": "notfair-plugin",
           "url": "https://github.com/nowork-studio/notfair-plugin",
@@ -976,6 +990,13 @@
           "name": "multi-source-search",
           "url": "https://github.com/sandbaseai/sandbase-skills/tree/main/research/multi-source-search",
           "repo": "sandbaseai/sandbase-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "ScrapeCreators/social-media-research-skills",
+          "name": "social-media-research-skills",
+          "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+          "repo": "ScrapeCreators/social-media-research-skills",
           "publisher": "Community"
         },
         {
@@ -1126,6 +1147,13 @@
           "publisher": "Community"
         },
         {
+          "id": "d1vai/d1v",
+          "name": "d1v",
+          "url": "https://github.com/d1vai/d1v-cli/blob/main/skills/d1v/SKILL.md",
+          "repo": "d1vai/d1v-cli",
+          "publisher": "Community"
+        },
+        {
           "id": "dannwaneri/spec-writer",
           "name": "spec-writer",
           "url": "https://github.com/dannwaneri/spec-writer",
@@ -1228,6 +1256,20 @@
           "name": "ffuf-claude-skill",
           "url": "https://github.com/jthack/ffuf_claude_skill",
           "repo": "jthack/ffuf_claude_skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "Kayforkind/reimagine-it",
+          "name": "reimagine-it",
+          "url": "https://github.com/Kayforkind/reimagine-it",
+          "repo": "Kayforkind/reimagine-it",
+          "publisher": "Community"
+        },
+        {
+          "id": "Kayforkind/reimagine-it",
+          "name": "reimagine-it",
+          "url": "https://github.com/Kayforkind/reimagine-it",
+          "repo": "Kayforkind/reimagine-it",
           "publisher": "Community"
         },
         {
@@ -1462,6 +1504,13 @@
           "publisher": "Community"
         },
         {
+          "id": "rainmanjam/poka-yoke",
+          "name": "poka-yoke",
+          "url": "https://github.com/rainmanjam/poka-yoke",
+          "repo": "rainmanjam/poka-yoke",
+          "publisher": "Community"
+        },
+        {
           "id": "rameerez/claude-code-startup-skills",
           "name": "claude-code-startup-skills",
           "url": "https://github.com/rameerez/claude-code-startup-skills",
@@ -1532,6 +1581,13 @@
           "publisher": "Community"
         },
         {
+          "id": "scarletkc/agents",
+          "name": "agents",
+          "url": "https://github.com/scarletkc/agents",
+          "repo": "scarletkc/agents",
+          "publisher": "Community"
+        },
+        {
           "id": "scarletkc/vexor",
           "name": "vexor",
           "url": "https://github.com/scarletkc/vexor",
@@ -1585,6 +1641,13 @@
           "name": "moyu",
           "url": "https://github.com/uucz/moyu",
           "repo": "uucz/moyu",
+          "publisher": "Community"
+        },
+        {
+          "id": "VoDaiLocz/kilo-kit-mcp",
+          "name": "kilo-kit-mcp",
+          "url": "https://github.com/VoDaiLocz/kilo-kit-mcp",
+          "repo": "VoDaiLocz/kilo-kit-mcp",
           "publisher": "Community"
         },
         {
@@ -2071,6 +2134,13 @@
           "publisher": "Community"
         },
         {
+          "id": "rebelytics/task-observer",
+          "name": "task-observer",
+          "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
+          "repo": "rebelytics/one-skill-to-rule-them-all",
+          "publisher": "Community"
+        },
+        {
           "id": "sametbrr/llm-wiki-manager",
           "name": "llm-wiki-manager",
           "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -2362,6 +2432,13 @@
           "name": "cc-thinking-skills",
           "url": "https://github.com/tjboudreaux/cc-thinking-skills",
           "repo": "tjboudreaux/cc-thinking-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "vaibhavarora14/job-application-agent",
+          "name": "job-application-agent",
+          "url": "https://github.com/vaibhavarora14/job-application-agent",
+          "repo": "vaibhavarora14/job-application-agent",
           "publisher": "Community"
         },
         {
@@ -8220,6 +8297,39 @@
           "url": "https://github.com/getsentry/sentry-for-ai/tree/main/skills/sentry-workflow",
           "repo": "getsentry/sentry-for-ai",
           "publisher": "Sentry"
+        }
+      ]
+    },
+    "SerpApi": {
+      "skills_count": 4,
+      "skills": [
+        {
+          "id": "serpapi/agent-usability-test",
+          "name": "agent-usability-test",
+          "url": "https://github.com/serpapi/skills/tree/main/skills/agent-usability-test",
+          "repo": "serpapi/skills",
+          "publisher": "SerpApi"
+        },
+        {
+          "id": "serpapi/serpapi-cli",
+          "name": "serpapi-cli",
+          "url": "https://github.com/serpapi/serpapi-cli",
+          "repo": "serpapi/serpapi-cli",
+          "publisher": "SerpApi"
+        },
+        {
+          "id": "serpapi/serpapi-search-tools-python",
+          "name": "serpapi-search-tools-python",
+          "url": "https://github.com/serpapi/serpapi-search-tools-python",
+          "repo": "serpapi/serpapi-search-tools-python",
+          "publisher": "SerpApi"
+        },
+        {
+          "id": "serpapi/serpapi-web-search",
+          "name": "serpapi-web-search",
+          "url": "https://github.com/serpapi/skills/tree/main/skills/serpapi-web-search",
+          "repo": "serpapi/skills",
+          "publisher": "SerpApi"
         }
       ]
     },

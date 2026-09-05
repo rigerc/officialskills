@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-09-03T10:24:27Z",
+    "fetched_at": "2026-09-05T09:39:51Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 1008,
-    "total_publishers": 60,
+    "total_skills": 1012,
+    "total_publishers": 61,
     "total_categories": 7,
-    "total_official": 1008,
+    "total_official": 1012,
     "total_community": 0
   },
   "publishers": [
@@ -8882,6 +8882,55 @@
               "description": "End-to-end Sentry workflow: fix production issues and review code with Sentry context",
               "repo": "getsentry/sentry-for-ai",
               "publisher": "Sentry",
+              "section": "Official"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SerpApi",
+      "type": "official",
+      "skills_count": 4,
+      "skills": [
+        {
+          "section": "Official",
+          "skills_count": 4,
+          "skills": [
+            {
+              "id": "serpapi/agent-usability-test",
+              "name": "agent-usability-test",
+              "url": "https://github.com/serpapi/skills/tree/main/skills/agent-usability-test",
+              "description": "Test whether agents can discover and use your tool — the subject under test is the interface, not the agent",
+              "repo": "serpapi/skills",
+              "publisher": "SerpApi",
+              "section": "Official"
+            },
+            {
+              "id": "serpapi/serpapi-cli",
+              "name": "serpapi-cli",
+              "url": "https://github.com/serpapi/serpapi-cli",
+              "description": "SerpApi client for the command line, covering all 130+ engines",
+              "repo": "serpapi/serpapi-cli",
+              "publisher": "SerpApi",
+              "section": "Official"
+            },
+            {
+              "id": "serpapi/serpapi-search-tools-python",
+              "name": "serpapi-search-tools-python",
+              "url": "https://github.com/serpapi/serpapi-search-tools-python",
+              "description": "Real-time search tools for Python agents with native support for popular agent SDKs",
+              "repo": "serpapi/serpapi-search-tools-python",
+              "publisher": "SerpApi",
+              "section": "Official"
+            },
+            {
+              "id": "serpapi/serpapi-web-search",
+              "name": "serpapi-web-search",
+              "url": "https://github.com/serpapi/skills/tree/main/skills/serpapi-web-search",
+              "description": "Structured search data via 130+ engines: pick the right engine, extract the right keys, recover from errors",
+              "repo": "serpapi/skills",
+              "publisher": "SerpApi",
               "section": "Official"
             }
           ]
@@ -18090,6 +18139,42 @@
       "description": "End-to-end Sentry workflow: fix production issues and review code with Sentry context",
       "repo": "getsentry/sentry-for-ai",
       "publisher": "Sentry",
+      "section": "Official"
+    },
+    {
+      "id": "serpapi/agent-usability-test",
+      "name": "agent-usability-test",
+      "url": "https://github.com/serpapi/skills/tree/main/skills/agent-usability-test",
+      "description": "Test whether agents can discover and use your tool — the subject under test is the interface, not the agent",
+      "repo": "serpapi/skills",
+      "publisher": "SerpApi",
+      "section": "Official"
+    },
+    {
+      "id": "serpapi/serpapi-cli",
+      "name": "serpapi-cli",
+      "url": "https://github.com/serpapi/serpapi-cli",
+      "description": "SerpApi client for the command line, covering all 130+ engines",
+      "repo": "serpapi/serpapi-cli",
+      "publisher": "SerpApi",
+      "section": "Official"
+    },
+    {
+      "id": "serpapi/serpapi-search-tools-python",
+      "name": "serpapi-search-tools-python",
+      "url": "https://github.com/serpapi/serpapi-search-tools-python",
+      "description": "Real-time search tools for Python agents with native support for popular agent SDKs",
+      "repo": "serpapi/serpapi-search-tools-python",
+      "publisher": "SerpApi",
+      "section": "Official"
+    },
+    {
+      "id": "serpapi/serpapi-web-search",
+      "name": "serpapi-web-search",
+      "url": "https://github.com/serpapi/skills/tree/main/skills/serpapi-web-search",
+      "description": "Structured search data via 130+ engines: pick the right engine, extract the right keys, recover from errors",
+      "repo": "serpapi/skills",
+      "publisher": "SerpApi",
       "section": "Official"
     },
     {
