@@ -1,6 +1,6 @@
 {
   "meta": {
-    "fetched_at": "2026-09-05T09:39:51Z",
+    "fetched_at": "2026-09-07T11:03:52Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
     "total_skills": 1012,
     "total_publishers": 61,
@@ -8900,7 +8900,7 @@
             {
               "id": "serpapi/agent-usability-test",
               "name": "agent-usability-test",
-              "url": "https://github.com/serpapi/skills/tree/main/skills/agent-usability-test",
+              "url": "https://github.com/serpapi/skills/tree/master/skills/agent-usability-test",
               "description": "Test whether agents can discover and use your tool — the subject under test is the interface, not the agent",
               "repo": "serpapi/skills",
               "publisher": "SerpApi",
@@ -8927,7 +8927,7 @@
             {
               "id": "serpapi/serpapi-web-search",
               "name": "serpapi-web-search",
-              "url": "https://github.com/serpapi/skills/tree/main/skills/serpapi-web-search",
+              "url": "https://github.com/serpapi/skills/tree/master/skills/serpapi-web-search",
               "description": "Structured search data via 130+ engines: pick the right engine, extract the right keys, recover from errors",
               "repo": "serpapi/skills",
               "publisher": "SerpApi",
@@ -18144,7 +18144,7 @@
     {
       "id": "serpapi/agent-usability-test",
       "name": "agent-usability-test",
-      "url": "https://github.com/serpapi/skills/tree/main/skills/agent-usability-test",
+      "url": "https://github.com/serpapi/skills/tree/master/skills/agent-usability-test",
       "description": "Test whether agents can discover and use your tool — the subject under test is the interface, not the agent",
       "repo": "serpapi/skills",
       "publisher": "SerpApi",
@@ -18171,7 +18171,7 @@
     {
       "id": "serpapi/serpapi-web-search",
       "name": "serpapi-web-search",
-      "url": "https://github.com/serpapi/skills/tree/main/skills/serpapi-web-search",
+      "url": "https://github.com/serpapi/skills/tree/master/skills/serpapi-web-search",
       "description": "Structured search data via 130+ engines: pick the right engine, extract the right keys, recover from errors",
       "repo": "serpapi/skills",
       "publisher": "SerpApi",

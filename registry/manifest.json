@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T09:39:51Z",
-  "total_skills": 1250,
+  "generated_at": "2026-09-07T11:03:52Z",
+  "total_skills": 1251,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -857,7 +857,7 @@
       ]
     },
     "Community": {
-      "skills_count": 238,
+      "skills_count": 239,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1634,6 +1634,13 @@
           "name": "app-store-preflight-skills",
           "url": "https://github.com/truongduy2611/app-store-preflight-skills",
           "repo": "truongduy2611/app-store-preflight-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "tt-a1i/archify",
+          "name": "archify",
+          "url": "https://github.com/tt-a1i/archify/tree/main/archify",
+          "repo": "tt-a1i/archify",
           "publisher": "Community"
         },
         {
@@ -8306,7 +8313,7 @@
         {
           "id": "serpapi/agent-usability-test",
           "name": "agent-usability-test",
-          "url": "https://github.com/serpapi/skills/tree/main/skills/agent-usability-test",
+          "url": "https://github.com/serpapi/skills/tree/master/skills/agent-usability-test",
           "repo": "serpapi/skills",
           "publisher": "SerpApi"
         },
@@ -8327,7 +8334,7 @@
         {
           "id": "serpapi/serpapi-web-search",
           "name": "serpapi-web-search",
-          "url": "https://github.com/serpapi/skills/tree/main/skills/serpapi-web-search",
+          "url": "https://github.com/serpapi/skills/tree/master/skills/serpapi-web-search",
           "repo": "serpapi/skills",
           "publisher": "SerpApi"
         }
