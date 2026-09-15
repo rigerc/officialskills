@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-09-13T10:49:01Z",
+    "fetched_at": "2026-09-15T10:42:01Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 239,
+    "total_skills": 246,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 239
+    "total_community": 246
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 239,
+      "skills_count": 246,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 30,
+          "skills_count": 31,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -132,6 +132,15 @@
               "url": "https://github.com/gooseworks-ai/goose-skills",
               "description": "125 growth and GTM skills: ads, content, lead gen, SEO",
               "repo": "gooseworks-ai/goose-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "ilyautov/humanizer-ru",
+              "name": "humanizer-ru",
+              "url": "https://github.com/ilyautov/humanizer-ru/tree/main/skills/humanizer-ru",
+              "description": "Removes 64 AI-writing markers from Russian text, with scanner",
+              "repo": "ilyautov/humanizer-ru",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -292,7 +301,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 90,
+          "skills_count": 91,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -381,6 +390,15 @@
               "url": "https://github.com/conorluddy/ios-simulator-skill",
               "description": "Control iOS Simulator",
               "repo": "conorluddy/ios-simulator-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "Continuum-AI-Corp/orca-replay",
+              "name": "orca-replay",
+              "url": "https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay",
+              "description": "Answer questions about past agent runs from their recordings",
+              "repo": "Continuum-AI-Corp/OrcaReplay",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -541,17 +559,17 @@
               "id": "Kayforkind/reimagine-it",
               "name": "reimagine-it",
               "url": "https://github.com/Kayforkind/reimagine-it",
-              "description": "Content-Derived Design CLI and agent skill: reads existing HTML and writes a stronger standalone page from nouns, dates, numbers, and colors already in the file",
+              "description": "Redesign HTML pages using only their existing content",
               "repo": "Kayforkind/reimagine-it",
               "publisher": "Community",
               "section": "Development and Testing"
             },
             {
-              "id": "Kayforkind/reimagine-it",
-              "name": "reimagine-it",
-              "url": "https://github.com/Kayforkind/reimagine-it",
-              "description": "Redesigns existing HTML pages from their own content",
-              "repo": "Kayforkind/reimagine-it",
+              "id": "kensaurus/cursor-kenji",
+              "name": "cursor-kenji",
+              "url": "https://github.com/kensaurus/cursor-kenji",
+              "description": "Ready-made playbooks your coding agent auto-triggers",
+              "repo": "kensaurus/cursor-kenji",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -925,6 +943,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "saleh-alhaddad/itqan-engineering",
+              "name": "itqan-engineering",
+              "url": "https://github.com/saleh-alhaddad/itqan-engineering",
+              "description": "Full software-engineering lifecycle in 12 skills: a resumable orchestrator plus spec, plan, TDD build, verify, five-axis review, security, and release — with approval gates before code and evidence before \"done\"",
+              "repo": "saleh-alhaddad/itqan-engineering",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "sanjay3290/deep-research",
               "name": "deep-research",
               "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
@@ -939,15 +966,6 @@
               "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
               "description": "Execute safe read-only SQL queries against PostgreSQL databases",
               "repo": "sanjay3290/ai-skills",
-              "publisher": "Community",
-              "section": "Development and Testing"
-            },
-            {
-              "id": "scarletkc/agents",
-              "name": "agents",
-              "url": "https://github.com/scarletkc/agents",
-              "description": "Reusable standards and workflow skills for AI coding agents",
-              "repo": "scarletkc/agents",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1108,7 +1126,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 45,
+          "skills_count": 47,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -1264,6 +1282,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "ilyautov/small-business-ru",
+              "name": "small-business-ru",
+              "url": "https://github.com/ilyautov/small-business-ru/tree/main/small-business-ru/skills",
+              "description": "34 skills for Russian small business: taxes, deadlines, counterparty checks",
+              "repo": "ilyautov/small-business-ru",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "K-Dense-AI/scientific-agent-skills",
               "name": "scientific-agent-skills",
               "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
@@ -1287,6 +1314,15 @@
               "url": "https://github.com/lawve-ai/awesome-legal-skills",
               "description": "Curated agent skills for automating legal workflows",
               "repo": "lawve-ai/awesome-legal-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "MartinDelophy/edit-timeline-studio",
+              "name": "edit-timeline-studio",
+              "url": "https://github.com/MartinDelophy/ai-video-editor/tree/main/skills/edit-timeline-studio",
+              "description": "Create editable video timelines with captions, voiceovers, and verified exports.",
+              "repo": "MartinDelophy/ai-video-editor",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1345,19 +1381,10 @@
               "section": "Specialized Domains"
             },
             {
-              "id": "Orchestra-Research/AI-research-SKILLs",
-              "name": "AI-research-SKILLs",
-              "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
-              "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
-              "repo": "Orchestra-Research/AI-research-SKILLs",
-              "publisher": "Community",
-              "section": "Specialized Domains"
-            },
-            {
               "id": "Orchestra-Research/AI-Research-SKILLs",
               "name": "AI-Research-SKILLs",
               "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-              "description": "77 AI research skills for model training, inference, and MLOps",
+              "description": "AI research skills for model training, inference, and MLOps",
               "repo": "Orchestra-Research/AI-Research-SKILLs",
               "publisher": "Community",
               "section": "Specialized Domains"
@@ -1462,6 +1489,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "Tencent/aig-agent-redteam",
+              "name": "aig-agent-redteam",
+              "url": "https://github.com/Tencent/AI-Infra-Guard/tree/main/skills/aig-agent-redteam",
+              "description": "One-command Agent red-team security assessment skill",
+              "repo": "Tencent/AI-Infra-Guard",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "transloadit/skills",
               "name": "skills",
               "url": "https://github.com/transloadit/skills/tree/main/skills",
@@ -1519,8 +1555,17 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 26,
+          "skills_count": 27,
           "skills": [
+            {
+              "id": "amirkiarafiei/subagent-cli-skills",
+              "name": "subagent-cli-skills",
+              "url": "https://github.com/amirkiarafiei/subagent-cli-skills/tree/main/skills",
+              "description": "Delegate heavy work to 15 other agent CLIs as subagents",
+              "repo": "amirkiarafiei/subagent-cli-skills",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
             {
               "id": "awrshift/claude-memory-kit",
               "name": "claude-memory-kit",
@@ -1759,7 +1804,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 40,
+          "skills_count": 42,
           "skills": [
             {
               "id": "bevibing/tutor-skills",
@@ -1776,6 +1821,15 @@
               "url": "https://github.com/Charlie85270/Dorothy",
               "description": "Orchestrate multiple AI CLI agents with automations and MCP servers",
               "repo": "Charlie85270/Dorothy",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "cyperx84/claude-skills-mental-models",
+              "name": "claude-skills-mental-models",
+              "url": "https://github.com/cyperx84/claude-skills-mental-models",
+              "description": "Drop your own mental models in as files; 21 included",
+              "repo": "cyperx84/claude-skills-mental-models",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -1866,6 +1920,15 @@
               "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
               "description": "Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.",
               "repo": "Linked-API/linkedin-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "manavmishra/zero-slop",
+              "name": "zero-slop",
+              "url": "https://github.com/manavmishra/ZeroSlop/blob/main/SKILL.md",
+              "description": "Edits AI-sounding prose while preserving facts, voice, and formatting",
+              "repo": "manavmishra/ZeroSlop",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2284,6 +2347,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "amirkiarafiei/subagent-cli-skills",
+      "name": "subagent-cli-skills",
+      "url": "https://github.com/amirkiarafiei/subagent-cli-skills/tree/main/skills",
+      "description": "Delegate heavy work to 15 other agent CLIs as subagents",
+      "repo": "amirkiarafiei/subagent-cli-skills",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "antonbabenko/terraform-skill",
       "name": "terraform-skill",
       "url": "https://github.com/antonbabenko/terraform-skill",
@@ -2455,6 +2527,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "Continuum-AI-Corp/orca-replay",
+      "name": "orca-replay",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay",
+      "description": "Answer questions about past agent runs from their recordings",
+      "repo": "Continuum-AI-Corp/OrcaReplay",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "CosmoBlk/email-marketing-bible",
       "name": "email-marketing-bible",
       "url": "https://github.com/CosmoBlk/email-marketing-bible",
@@ -2471,6 +2552,15 @@
       "repo": "csthink/dashmotion",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "cyperx84/claude-skills-mental-models",
+      "name": "claude-skills-mental-models",
+      "url": "https://github.com/cyperx84/claude-skills-mental-models",
+      "description": "Drop your own mental models in as files; 21 included",
+      "repo": "cyperx84/claude-skills-mental-models",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "czlonkowski/n8n-code-javascript",
@@ -2878,6 +2968,24 @@
       "section": "Development and Testing"
     },
     {
+      "id": "ilyautov/humanizer-ru",
+      "name": "humanizer-ru",
+      "url": "https://github.com/ilyautov/humanizer-ru/tree/main/skills/humanizer-ru",
+      "description": "Removes 64 AI-writing markers from Russian text, with scanner",
+      "repo": "ilyautov/humanizer-ru",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "ilyautov/small-business-ru",
+      "name": "small-business-ru",
+      "url": "https://github.com/ilyautov/small-business-ru/tree/main/small-business-ru/skills",
+      "description": "34 skills for Russian small business: taxes, deadlines, counterparty checks",
+      "repo": "ilyautov/small-business-ru",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "indranilbanerjee/digital-marketing-pro",
       "name": "digital-marketing-pro",
       "url": "https://github.com/indranilbanerjee/digital-marketing-pro",
@@ -2935,17 +3043,17 @@
       "id": "Kayforkind/reimagine-it",
       "name": "reimagine-it",
       "url": "https://github.com/Kayforkind/reimagine-it",
-      "description": "Content-Derived Design CLI and agent skill: reads existing HTML and writes a stronger standalone page from nouns, dates, numbers, and colors already in the file",
+      "description": "Redesign HTML pages using only their existing content",
       "repo": "Kayforkind/reimagine-it",
       "publisher": "Community",
       "section": "Development and Testing"
     },
     {
-      "id": "Kayforkind/reimagine-it",
-      "name": "reimagine-it",
-      "url": "https://github.com/Kayforkind/reimagine-it",
-      "description": "Redesigns existing HTML pages from their own content",
-      "repo": "Kayforkind/reimagine-it",
+      "id": "kensaurus/cursor-kenji",
+      "name": "cursor-kenji",
+      "url": "https://github.com/kensaurus/cursor-kenji",
+      "description": "Ready-made playbooks your coding agent auto-triggers",
+      "repo": "kensaurus/cursor-kenji",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -3074,6 +3182,24 @@
       "repo": "Maksim-Burtsev/simple-man",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "manavmishra/zero-slop",
+      "name": "zero-slop",
+      "url": "https://github.com/manavmishra/ZeroSlop/blob/main/SKILL.md",
+      "description": "Edits AI-sounding prose while preserving facts, voice, and formatting",
+      "repo": "manavmishra/ZeroSlop",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "MartinDelophy/edit-timeline-studio",
+      "name": "edit-timeline-studio",
+      "url": "https://github.com/MartinDelophy/ai-video-editor/tree/main/skills/edit-timeline-studio",
+      "description": "Create editable video timelines with captions, voiceovers, and verified exports.",
+      "repo": "MartinDelophy/ai-video-editor",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "massimodeluisa/recursive-decomposition-skill",
@@ -3598,19 +3724,10 @@
       "section": "Specialized Domains"
     },
     {
-      "id": "Orchestra-Research/AI-research-SKILLs",
-      "name": "AI-research-SKILLs",
-      "url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
-      "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
-      "repo": "Orchestra-Research/AI-research-SKILLs",
-      "publisher": "Community",
-      "section": "Specialized Domains"
-    },
-    {
       "id": "Orchestra-Research/AI-Research-SKILLs",
       "name": "AI-Research-SKILLs",
       "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
-      "description": "77 AI research skills for model training, inference, and MLOps",
+      "description": "AI research skills for model training, inference, and MLOps",
       "repo": "Orchestra-Research/AI-Research-SKILLs",
       "publisher": "Community",
       "section": "Specialized Domains"
@@ -3823,6 +3940,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "saleh-alhaddad/itqan-engineering",
+      "name": "itqan-engineering",
+      "url": "https://github.com/saleh-alhaddad/itqan-engineering",
+      "description": "Full software-engineering lifecycle in 12 skills: a resumable orchestrator plus spec, plan, TDD build, verify, five-axis review, security, and release — with approval gates before code and evidence before \"done\"",
+      "repo": "saleh-alhaddad/itqan-engineering",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "sametbrr/llm-wiki-manager",
       "name": "llm-wiki-manager",
       "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -3875,15 +4001,6 @@
       "repo": "santifer/career-ops",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
-    },
-    {
-      "id": "scarletkc/agents",
-      "name": "agents",
-      "url": "https://github.com/scarletkc/agents",
-      "description": "Reusable standards and workflow skills for AI coding agents",
-      "repo": "scarletkc/agents",
-      "publisher": "Community",
-      "section": "Development and Testing"
     },
     {
       "id": "scarletkc/agents",
@@ -4062,6 +4179,15 @@
       "url": "https://github.com/talkstream/ru-text",
       "description": "Russian text quality: ~1,040 rules for typography, info-style, editorial, UX writing, business correspondence. Cross-platform: Claude Code, Codex CLI, Gemini CLI, Cursor.",
       "repo": "talkstream/ru-text",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "Tencent/aig-agent-redteam",
+      "name": "aig-agent-redteam",
+      "url": "https://github.com/Tencent/AI-Infra-Guard/tree/main/skills/aig-agent-redteam",
+      "description": "One-command Agent red-team security assessment skill",
+      "repo": "Tencent/AI-Infra-Guard",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
