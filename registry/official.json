@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-09-21T11:28:33Z",
+    "fetched_at": "2026-09-23T10:28:59Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 858,
+    "total_skills": 859,
     "total_publishers": 61,
     "total_categories": 7,
-    "total_official": 858,
+    "total_official": 859,
     "total_community": 0
   },
   "publishers": [
@@ -992,11 +992,11 @@
     {
       "name": "Cloudflare",
       "type": "official",
-      "skills_count": 8,
+      "skills_count": 9,
       "skills": [
         {
           "section": "Official",
-          "skills_count": 8,
+          "skills_count": 9,
           "skills": [
             {
               "id": "cloudflare/agents-sdk",
@@ -1040,6 +1040,15 @@
               "url": "https://github.com/cloudflare/skills/tree/main/skills/sandbox-sdk",
               "description": "Build sandboxed applications for secure, isolated code execution on Workers",
               "repo": "cloudflare/skills",
+              "publisher": "Cloudflare",
+              "section": "Official"
+            },
+            {
+              "id": "cloudflare/security-audit-skill",
+              "name": "security-audit-skill",
+              "url": "https://github.com/cloudflare/security-audit-skill",
+              "description": "Multi-phase security audits with independently verified, machine-readable findings",
+              "repo": "cloudflare/security-audit-skill",
               "publisher": "Cloudflare",
               "section": "Official"
             },
@@ -9435,6 +9444,15 @@
       "url": "https://github.com/cloudflare/skills/tree/main/skills/sandbox-sdk",
       "description": "Build sandboxed applications for secure, isolated code execution on Workers",
       "repo": "cloudflare/skills",
+      "publisher": "Cloudflare",
+      "section": "Official"
+    },
+    {
+      "id": "cloudflare/security-audit-skill",
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "Multi-phase security audits with independently verified, machine-readable findings",
+      "repo": "cloudflare/security-audit-skill",
       "publisher": "Cloudflare",
       "section": "Official"
     },

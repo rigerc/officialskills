@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T11:28:33Z",
-  "total_skills": 1104,
+  "generated_at": "2026-09-23T10:28:59Z",
+  "total_skills": 1108,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -709,7 +709,7 @@
       ]
     },
     "Cloudflare": {
-      "skills_count": 8,
+      "skills_count": 9,
       "skills": [
         {
           "id": "cloudflare/agents-sdk",
@@ -744,6 +744,13 @@
           "name": "sandbox-sdk",
           "url": "https://github.com/cloudflare/skills/tree/main/skills/sandbox-sdk",
           "repo": "cloudflare/skills",
+          "publisher": "Cloudflare"
+        },
+        {
+          "id": "cloudflare/security-audit-skill",
+          "name": "security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "repo": "cloudflare/security-audit-skill",
           "publisher": "Cloudflare"
         },
         {
@@ -857,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 246,
+      "skills_count": 249,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1326,6 +1333,13 @@
           "name": "skills-library",
           "url": "https://github.com/lindblomstefan/skills-library",
           "repo": "lindblomstefan/skills-library",
+          "publisher": "Community"
+        },
+        {
+          "id": "lukstei/slop-grader",
+          "name": "slop-grader",
+          "url": "https://github.com/lukstei/slop-grader",
+          "repo": "lukstei/slop-grader",
           "publisher": "Community"
         },
         {
@@ -1952,6 +1966,13 @@
           "publisher": "Community"
         },
         {
+          "id": "renezander030/capcut-edit",
+          "name": "capcut-edit",
+          "url": "https://github.com/renezander030/capcut-cli/tree/master/skills/capcut-edit",
+          "repo": "renezander030/capcut-cli",
+          "publisher": "Community"
+        },
+        {
           "id": "sanjay3290/imagen",
           "name": "imagen",
           "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
@@ -2026,6 +2047,13 @@
           "name": "Auto-claude-code-research-in-sleep",
           "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
           "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+          "publisher": "Community"
+        },
+        {
+          "id": "ZeKaiNie/universal-examprep-skill",
+          "name": "universal-examprep-skill",
+          "url": "https://github.com/ZeKaiNie/universal-examprep-skill",
+          "repo": "ZeKaiNie/universal-examprep-skill",
           "publisher": "Community"
         },
         {

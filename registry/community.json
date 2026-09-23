@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-09-21T11:28:33Z",
+    "fetched_at": "2026-09-23T10:28:59Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 246,
+    "total_skills": 249,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 246
+    "total_community": 249
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 246,
+      "skills_count": 249,
       "skills": [
         {
           "section": "Marketing",
@@ -301,7 +301,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 91,
+          "skills_count": 92,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -624,6 +624,15 @@
               "url": "https://github.com/lindblomstefan/skills-library",
               "description": "Guided discovery skill for Claude Code: runs an interview to recommend from a catalog of 100+ AI skills; records session feedback that validates candidates over time",
               "repo": "lindblomstefan/skills-library",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "lukstei/slop-grader",
+              "name": "slop-grader",
+              "url": "https://github.com/lukstei/slop-grader",
+              "description": "Rule-based CLI tool powered by TypeSafe Jev that evaluates documents against custom rulesets, producing document scores and line-by-line violation flags to guide auto-fixing with an AI agent",
+              "repo": "lukstei/slop-grader",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1126,7 +1135,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 47,
+          "skills_count": 49,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -1435,6 +1444,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "renezander030/capcut-edit",
+              "name": "capcut-edit",
+              "url": "https://github.com/renezander030/capcut-cli/tree/master/skills/capcut-edit",
+              "description": "Edit CapCut and JianYing video projects from any agent",
+              "repo": "renezander030/capcut-cli",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "sanjay3290/imagen",
               "name": "imagen",
               "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/imagen",
@@ -1530,6 +1548,15 @@
               "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
               "description": "Autonomous ML research with cross-model review loops and GPU deployment",
               "repo": "wanshuiyin/Auto-claude-code-research-in-sleep",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "ZeKaiNie/universal-examprep-skill",
+              "name": "universal-examprep-skill",
+              "url": "https://github.com/ZeKaiNie/universal-examprep-skill",
+              "description": "Multimodal grounded active-learning tutor for college textbooks (PDF/PPTX/DOCX). Features native PDF vector diagram cropping (`pypdfium2`), real homework quiz banks, hard exit-code anti-hallucination, and persistent cross-session state. Tested on 1,000+ pages of real college courseware on small cheap models.",
+              "repo": "ZeKaiNie/universal-examprep-skill",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -3157,6 +3184,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "lukstei/slop-grader",
+      "name": "slop-grader",
+      "url": "https://github.com/lukstei/slop-grader",
+      "description": "Rule-based CLI tool powered by TypeSafe Jev that evaluates documents against custom rulesets, producing document scores and line-by-line violation flags to guide auto-fixing with an AI agent",
+      "repo": "lukstei/slop-grader",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "Lum1104/understand-anything",
       "name": "understand-anything",
       "url": "https://github.com/Egonex-AI/Understand-Anything",
@@ -3895,6 +3931,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "renezander030/capcut-edit",
+      "name": "capcut-edit",
+      "url": "https://github.com/renezander030/capcut-cli/tree/master/skills/capcut-edit",
+      "description": "Edit CapCut and JianYing video projects from any agent",
+      "repo": "renezander030/capcut-cli",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "ReScienceLab/opc-skills",
       "name": "opc-skills",
       "url": "https://github.com/ReScienceLab/opc-skills",
@@ -4433,6 +4478,15 @@
       "repo": "zarazhangrui/frontend-slides",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "ZeKaiNie/universal-examprep-skill",
+      "name": "universal-examprep-skill",
+      "url": "https://github.com/ZeKaiNie/universal-examprep-skill",
+      "description": "Multimodal grounded active-learning tutor for college textbooks (PDF/PPTX/DOCX). Features native PDF vector diagram cropping (`pypdfium2`), real homework quiz banks, hard exit-code anti-hallucination, and persistent cross-session state. Tested on 1,000+ pages of real college courseware on small cheap models.",
+      "repo": "ZeKaiNie/universal-examprep-skill",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "ZeroPointRepo/youtube-skills",
