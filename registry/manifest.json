@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T11:02:53Z",
-  "total_skills": 1108,
+  "generated_at": "2026-09-29T11:49:14Z",
+  "total_skills": 1119,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 249,
+      "skills_count": 260,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -941,6 +941,13 @@
           "name": "aso-skills",
           "url": "https://github.com/Eronred/aso-skills",
           "repo": "Eronred/aso-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "explorium-ai/vibe-prospecting",
+          "name": "vibe-prospecting",
+          "url": "https://github.com/explorium-ai/vibeprospecting-plugin/tree/main/skills/vibe-prospecting",
+          "repo": "explorium-ai/vibeprospecting-plugin",
           "publisher": "Community"
         },
         {
@@ -1224,10 +1231,31 @@
           "publisher": "Community"
         },
         {
+          "id": "exadel-inc/agentic-readiness-assessment",
+          "name": "agentic-readiness-assessment",
+          "url": "https://github.com/exadel-inc/agentic-readiness-assessment/tree/main/skills/agentic-readiness-assessment",
+          "repo": "exadel-inc/agentic-readiness-assessment",
+          "publisher": "Community"
+        },
+        {
+          "id": "fishzjp/qa-skills",
+          "name": "qa-skills",
+          "url": "https://github.com/fishzjp/qa-skills",
+          "repo": "fishzjp/qa-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "foryourhealth111-pixel/Vibe-Skills",
           "name": "Vibe-Skills",
           "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
           "repo": "foryourhealth111-pixel/Vibe-Skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "fujibee/agmsg",
+          "name": "agmsg",
+          "url": "https://github.com/fujibee/agmsg",
+          "repo": "fujibee/agmsg",
           "publisher": "Community"
         },
         {
@@ -1672,6 +1700,13 @@
           "publisher": "Community"
         },
         {
+          "id": "UiPath/check-skill",
+          "name": "check-skill",
+          "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
+          "repo": "UiPath/coder_eval",
+          "publisher": "Community"
+        },
+        {
           "id": "uucz/moyu",
           "name": "moyu",
           "url": "https://github.com/uucz/moyu",
@@ -1760,6 +1795,13 @@
           "name": "claude-ai-music-skills",
           "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
           "repo": "bitwize-music-studio/claude-ai-music-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "eatmoreduck/boss-zhipin-scraper",
+          "name": "boss-zhipin-scraper",
+          "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
+          "repo": "eatmoreduck/boss-zhipin-scraper",
           "publisher": "Community"
         },
         {
@@ -2204,6 +2246,13 @@
           "publisher": "Community"
         },
         {
+          "id": "Qiuner/birdview",
+          "name": "birdview",
+          "url": "https://github.com/Qiuner/birdview",
+          "repo": "Qiuner/birdview",
+          "publisher": "Community"
+        },
+        {
           "id": "rebelytics/task-observer",
           "name": "task-observer",
           "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
@@ -2295,10 +2344,24 @@
           "publisher": "Community"
         },
         {
+          "id": "dmoshehun-prog/learn-from-materials",
+          "name": "learn-from-materials",
+          "url": "https://github.com/dmoshehun-prog/learn-from-materials",
+          "repo": "dmoshehun-prog/learn-from-materials",
+          "publisher": "Community"
+        },
+        {
           "id": "EveryInc/charlie-cfo-skill",
           "name": "charlie-cfo-skill",
           "url": "https://github.com/EveryInc/charlie-cfo-skill",
           "repo": "EveryInc/charlie-cfo-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "GiaSip/giasip-research",
+          "name": "giasip-research",
+          "url": "https://github.com/GiaSip/giasip-skills/tree/main/skills/giasip-research",
+          "repo": "GiaSip/giasip-skills",
           "publisher": "Community"
         },
         {
@@ -2519,10 +2582,24 @@
           "publisher": "Community"
         },
         {
+          "id": "tronghieu/agent-skills",
+          "name": "agent-skills",
+          "url": "https://github.com/tronghieu/agent-skills",
+          "repo": "tronghieu/agent-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "vaibhavarora14/job-application-agent",
           "name": "job-application-agent",
           "url": "https://github.com/vaibhavarora14/job-application-agent",
           "repo": "vaibhavarora14/job-application-agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "wgwtest/novel-writing",
+          "name": "novel-writing",
+          "url": "https://github.com/wgwtest/novel-writing",
+          "repo": "wgwtest/novel-writing",
           "publisher": "Community"
         },
         {

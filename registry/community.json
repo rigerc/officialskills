@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-09-27T11:02:53Z",
+    "fetched_at": "2026-09-29T11:49:14Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 249,
+    "total_skills": 260,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 249
+    "total_community": 260
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 249,
+      "skills_count": 260,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 31,
+          "skills_count": 32,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -114,6 +114,15 @@
               "url": "https://github.com/Eronred/aso-skills",
               "description": "30+ App Store Optimization skills for keyword research, metadata optimization, competitor analysis, creative optimization, and mobile growth strategies via Appeeky API",
               "repo": "Eronred/aso-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "explorium-ai/vibe-prospecting",
+              "name": "vibe-prospecting",
+              "url": "https://github.com/explorium-ai/vibeprospecting-plugin/tree/main/skills/vibe-prospecting",
+              "description": "B2B prospecting enrichment and GTM data workflows",
+              "repo": "explorium-ai/vibeprospecting-plugin",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -301,7 +310,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 92,
+          "skills_count": 96,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -484,11 +493,38 @@
               "section": "Development and Testing"
             },
             {
+              "id": "exadel-inc/agentic-readiness-assessment",
+              "name": "agentic-readiness-assessment",
+              "url": "https://github.com/exadel-inc/agentic-readiness-assessment/tree/main/skills/agentic-readiness-assessment",
+              "description": "Assess repository readiness for AI coding agents and prioritize fixes.",
+              "repo": "exadel-inc/agentic-readiness-assessment",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "fishzjp/qa-skills",
+              "name": "qa-skills",
+              "url": "https://github.com/fishzjp/qa-skills",
+              "description": "QA engineering for AI coding agents: full lifecycle, measured gains",
+              "repo": "fishzjp/qa-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "foryourhealth111-pixel/Vibe-Skills",
               "name": "Vibe-Skills",
               "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
               "description": "A skills governed plug-and-play harness for staged, test-driven skill orchestration",
               "repo": "foryourhealth111-pixel/Vibe-Skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "fujibee/agmsg",
+              "name": "agmsg",
+              "url": "https://github.com/fujibee/agmsg",
+              "description": "Message passing between Claude Code, Codex and Gemini CLI sessions",
+              "repo": "fujibee/agmsg",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1060,6 +1096,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "UiPath/check-skill",
+              "name": "check-skill",
+              "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
+              "description": "Measures whether a Claude Code skill triggers: precision and recall",
+              "repo": "UiPath/coder_eval",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "uucz/moyu",
               "name": "moyu",
               "url": "https://github.com/uucz/moyu",
@@ -1135,7 +1180,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 49,
+          "skills_count": 50,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -1179,6 +1224,15 @@
               "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
               "description": "Full-lifecycle AI music album production",
               "repo": "bitwize-music-studio/claude-ai-music-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "eatmoreduck/boss-zhipin-scraper",
+              "name": "boss-zhipin-scraper",
+              "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
+              "description": "BOSS Zhipin (zhipin.com) job scraper via Chrome CDP, plaintext salaries",
+              "repo": "eatmoreduck/boss-zhipin-scraper",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1582,7 +1636,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 27,
+          "skills_count": 28,
           "skills": [
             {
               "id": "amirkiarafiei/subagent-cli-skills",
@@ -1756,6 +1810,15 @@
               "section": "Context Engineering"
             },
             {
+              "id": "Qiuner/birdview",
+              "name": "birdview",
+              "url": "https://github.com/Qiuner/birdview",
+              "description": "Put architecture and constraints at the center of AI coding",
+              "repo": "Qiuner/birdview",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
               "id": "rebelytics/task-observer",
               "name": "task-observer",
               "url": "https://github.com/rebelytics/one-skill-to-rule-them-all",
@@ -1831,7 +1894,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 42,
+          "skills_count": 46,
           "skills": [
             {
               "id": "bevibing/tutor-skills",
@@ -1879,11 +1942,29 @@
               "section": "Productivity and Collaboration"
             },
             {
+              "id": "dmoshehun-prog/learn-from-materials",
+              "name": "learn-from-materials",
+              "url": "https://github.com/dmoshehun-prog/learn-from-materials",
+              "description": "Turn documents into source-grounded interactive learning pages for AI agents",
+              "repo": "dmoshehun-prog/learn-from-materials",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "EveryInc/charlie-cfo-skill",
               "name": "charlie-cfo-skill",
               "url": "https://github.com/EveryInc/charlie-cfo-skill",
               "description": "Bootstrapped CFO financial management inspired by Charlie Munger",
               "repo": "EveryInc/charlie-cfo-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "GiaSip/giasip-research",
+              "name": "giasip-research",
+              "url": "https://github.com/GiaSip/giasip-skills/tree/main/skills/giasip-research",
+              "description": "Source-linked research reports with explicit unresolved checks",
+              "repo": "GiaSip/giasip-skills",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2167,11 +2248,29 @@
               "section": "Productivity and Collaboration"
             },
             {
+              "id": "tronghieu/agent-skills",
+              "name": "agent-skills",
+              "url": "https://github.com/tronghieu/agent-skills",
+              "description": "18 method-driven skills for knowledge work: strategy, research, writing",
+              "repo": "tronghieu/agent-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "vaibhavarora14/job-application-agent",
               "name": "job-application-agent",
               "url": "https://github.com/vaibhavarora14/job-application-agent",
               "description": "Privacy-first job discovery and tracking",
               "repo": "vaibhavarora14/job-application-agent",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "wgwtest/novel-writing",
+              "name": "novel-writing",
+              "url": "https://github.com/wgwtest/novel-writing",
+              "description": "Plans and revises fiction with viewpoint, dialogue, and style checks.",
+              "repo": "wgwtest/novel-writing",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2716,6 +2815,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "dmoshehun-prog/learn-from-materials",
+      "name": "learn-from-materials",
+      "url": "https://github.com/dmoshehun-prog/learn-from-materials",
+      "description": "Turn documents into source-grounded interactive learning pages for AI agents",
+      "repo": "dmoshehun-prog/learn-from-materials",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "drogers0/github-image-upload",
       "name": "github-image-upload",
       "url": "https://github.com/drogers0/gh-image/tree/main/skills/github-image-upload",
@@ -2723,6 +2831,15 @@
       "repo": "drogers0/gh-image",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "eatmoreduck/boss-zhipin-scraper",
+      "name": "boss-zhipin-scraper",
+      "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
+      "description": "BOSS Zhipin (zhipin.com) job scraper via Chrome CDP, plaintext salaries",
+      "repo": "eatmoreduck/boss-zhipin-scraper",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "eduardo-sl/go-agent-skills",
@@ -2788,6 +2905,33 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "exadel-inc/agentic-readiness-assessment",
+      "name": "agentic-readiness-assessment",
+      "url": "https://github.com/exadel-inc/agentic-readiness-assessment/tree/main/skills/agentic-readiness-assessment",
+      "description": "Assess repository readiness for AI coding agents and prioritize fixes.",
+      "repo": "exadel-inc/agentic-readiness-assessment",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "explorium-ai/vibe-prospecting",
+      "name": "vibe-prospecting",
+      "url": "https://github.com/explorium-ai/vibeprospecting-plugin/tree/main/skills/vibe-prospecting",
+      "description": "B2B prospecting enrichment and GTM data workflows",
+      "repo": "explorium-ai/vibeprospecting-plugin",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "fishzjp/qa-skills",
+      "name": "qa-skills",
+      "url": "https://github.com/fishzjp/qa-skills",
+      "description": "QA engineering for AI coding agents: full lifecycle, measured gains",
+      "repo": "fishzjp/qa-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "foryourhealth111-pixel/Vibe-Skills",
       "name": "Vibe-Skills",
       "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
@@ -2804,6 +2948,15 @@
       "repo": "frmoretto/clarity-gate",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "fujibee/agmsg",
+      "name": "agmsg",
+      "url": "https://github.com/fujibee/agmsg",
+      "description": "Message passing between Claude Code, Codex and Gemini CLI sessions",
+      "repo": "fujibee/agmsg",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "fvadicamo/dev-agent-skills",
@@ -2867,6 +3020,15 @@
       "repo": "GarethManning/education-agent-skills",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "GiaSip/giasip-research",
+      "name": "giasip-research",
+      "url": "https://github.com/GiaSip/giasip-skills/tree/main/skills/giasip-research",
+      "description": "Source-linked research reports with explicit unresolved checks",
+      "repo": "GiaSip/giasip-skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "gitroomhq/postiz-agent",
@@ -3877,6 +4039,15 @@
       "section": "Vector Databases"
     },
     {
+      "id": "Qiuner/birdview",
+      "name": "birdview",
+      "url": "https://github.com/Qiuner/birdview",
+      "description": "Put architecture and constraints at the center of AI coding",
+      "repo": "Qiuner/birdview",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "rainmanjam/poka-yoke",
       "name": "poka-yoke",
       "url": "https://github.com/rainmanjam/poka-yoke",
@@ -4282,6 +4453,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "tronghieu/agent-skills",
+      "name": "agent-skills",
+      "url": "https://github.com/tronghieu/agent-skills",
+      "description": "18 method-driven skills for knowledge work: strategy, research, writing",
+      "repo": "tronghieu/agent-skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "truongduy2611/app-store-preflight-skills",
       "name": "app-store-preflight-skills",
       "url": "https://github.com/truongduy2611/app-store-preflight-skills",
@@ -4307,6 +4487,15 @@
       "repo": "Tubo2333/obsidian-knowledge-brain",
       "publisher": "Community",
       "section": "Context Engineering"
+    },
+    {
+      "id": "UiPath/check-skill",
+      "name": "check-skill",
+      "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
+      "description": "Measures whether a Claude Code skill triggers: precision and recall",
+      "repo": "UiPath/coder_eval",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "uucz/moyu",
@@ -4388,6 +4577,15 @@
       "repo": "wendylabsinc/claude-skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "wgwtest/novel-writing",
+      "name": "novel-writing",
+      "url": "https://github.com/wgwtest/novel-writing",
+      "description": "Plans and revises fiction with viewpoint, dialogue, and style checks.",
+      "repo": "wgwtest/novel-writing",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "woniu9524/open-web-bridge",
