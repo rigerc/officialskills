@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T11:49:14Z",
-  "total_skills": 1119,
+  "generated_at": "2026-10-01T12:04:56Z",
+  "total_skills": 1122,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 260,
+      "skills_count": 263,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1039,6 +1039,13 @@
           "name": "creative-director-skill",
           "url": "https://github.com/smixs/creative-director-skill",
           "repo": "smixs/creative-director-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "socai-io/jev-social",
+          "name": "jev-social",
+          "url": "https://github.com/socai-io/jev-social/tree/v0.1.10/skills/jev-social",
+          "repo": "socai-io/jev-social",
           "publisher": "Community"
         },
         {
@@ -1277,6 +1284,13 @@
           "name": "eskill",
           "url": "https://github.com/hedralab/eskill",
           "repo": "hedralab/eskill",
+          "publisher": "Community"
+        },
+        {
+          "id": "hermes-labs-ai/lintlang",
+          "name": "lintlang",
+          "url": "https://github.com/hermes-labs-ai/lintlang/blob/main/.agents/skills/lintlang/SKILL.md",
+          "repo": "hermes-labs-ai/lintlang",
           "publisher": "Community"
         },
         {
@@ -1667,8 +1681,8 @@
         {
           "id": "squirrelscan/squirrelscan",
           "name": "squirrelscan",
-          "url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
-          "repo": "squirrelscan/squirrelscan",
+          "url": "https://github.com/squirrelscan/skills",
+          "repo": "squirrelscan/skills",
           "publisher": "Community"
         },
         {
@@ -2495,6 +2509,13 @@
           "name": "founder-skills",
           "url": "https://github.com/ognjengt/founder-skills",
           "repo": "ognjengt/founder-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "OneWave-AI/claude-skills",
+          "name": "claude-skills",
+          "url": "https://github.com/OneWave-AI/claude-skills",
+          "repo": "OneWave-AI/claude-skills",
           "publisher": "Community"
         },
         {

@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-09-29T11:49:14Z",
+    "fetched_at": "2026-10-01T12:04:56Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 260,
+    "total_skills": 263,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 260
+    "total_community": 263
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 260,
+      "skills_count": 263,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 32,
+          "skills_count": 33,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -244,6 +244,15 @@
               "section": "Marketing"
             },
             {
+              "id": "socai-io/jev-social",
+              "name": "jev-social",
+              "url": "https://github.com/socai-io/jev-social/tree/v0.1.10/skills/jev-social",
+              "description": "Route local social research through Jev and socai CLI",
+              "repo": "socai-io/jev-social",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "SupercmoHQ/superCMO-skills",
               "name": "superCMO-skills",
               "url": "https://github.com/SupercmoHQ/superCMO-skills",
@@ -310,7 +319,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 96,
+          "skills_count": 97,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -552,6 +561,15 @@
               "url": "https://github.com/hedralab/eskill",
               "description": "Meta-skill to build top-tier Agent Skills: spec-compliant SKILL.md, eval loop, validator, market research, numbered-file pipeline",
               "repo": "hedralab/eskill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "hermes-labs-ai/lintlang",
+              "name": "lintlang",
+              "url": "https://github.com/hermes-labs-ai/lintlang/blob/main/.agents/skills/lintlang/SKILL.md",
+              "description": "Lint agent instructions for ambiguous tools and missing bounds",
+              "repo": "hermes-labs-ai/lintlang",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1053,9 +1071,9 @@
             {
               "id": "squirrelscan/squirrelscan",
               "name": "squirrelscan",
-              "url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
+              "url": "https://github.com/squirrelscan/skills",
               "description": "Audits websites for SEO, performance, security, accessibility and returns fixes",
-              "repo": "squirrelscan/squirrelscan",
+              "repo": "squirrelscan/skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1894,7 +1912,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 46,
+          "skills_count": 47,
           "skills": [
             {
               "id": "bevibing/tutor-skills",
@@ -2136,6 +2154,15 @@
               "url": "https://github.com/ognjengt/founder-skills",
               "description": "Claude skills for founders with packaged startup workflows",
               "repo": "ognjengt/founder-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "OneWave-AI/claude-skills",
+              "name": "claude-skills",
+              "url": "https://github.com/OneWave-AI/claude-skills",
+              "description": "225 business, everyday-life, and coding skills, many with scripts",
+              "repo": "OneWave-AI/claude-skills",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -3112,6 +3139,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "hermes-labs-ai/lintlang",
+      "name": "lintlang",
+      "url": "https://github.com/hermes-labs-ai/lintlang/blob/main/.agents/skills/lintlang/SKILL.md",
+      "description": "Lint agent instructions for ambiguous tools and missing bounds",
+      "repo": "hermes-labs-ai/lintlang",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
       "name": "honeydew-ai-coding-agents-plugins",
       "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
@@ -3886,6 +3922,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "OneWave-AI/claude-skills",
+      "name": "claude-skills",
+      "url": "https://github.com/OneWave-AI/claude-skills",
+      "description": "225 business, everyday-life, and coding skills, many with scripts",
+      "repo": "OneWave-AI/claude-skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "op7418/NanoBanana-PPT-Skills",
       "name": "NanoBanana-PPT-Skills",
       "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
@@ -4327,11 +4372,20 @@
       "section": "Marketing"
     },
     {
+      "id": "socai-io/jev-social",
+      "name": "jev-social",
+      "url": "https://github.com/socai-io/jev-social/tree/v0.1.10/skills/jev-social",
+      "description": "Route local social research through Jev and socai CLI",
+      "repo": "socai-io/jev-social",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "squirrelscan/squirrelscan",
       "name": "squirrelscan",
-      "url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
+      "url": "https://github.com/squirrelscan/skills",
       "description": "Audits websites for SEO, performance, security, accessibility and returns fixes",
-      "repo": "squirrelscan/squirrelscan",
+      "repo": "squirrelscan/skills",
       "publisher": "Community",
       "section": "Development and Testing"
     },
