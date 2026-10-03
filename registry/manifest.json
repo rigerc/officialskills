@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T12:04:56Z",
-  "total_skills": 1122,
+  "generated_at": "2026-10-03T10:50:11Z",
+  "total_skills": 1123,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -7469,7 +7469,7 @@
       ]
     },
     "TestMu AI": {
-      "skills_count": 48,
+      "skills_count": 49,
       "skills": [
         {
           "id": "testmu-ai/api-skill",
@@ -7594,6 +7594,13 @@
           "id": "testmu-ai/junit-5-skill",
           "name": "junit-5-skill",
           "url": "https://github.com/LambdaTest/agent-skills/tree/main/junit-5-skill",
+          "repo": "LambdaTest/agent-skills",
+          "publisher": "TestMu AI"
+        },
+        {
+          "id": "testmu-ai/kanecli-skill",
+          "name": "kanecli-skill",
+          "url": "https://github.com/LambdaTest/agent-skills/tree/main/kanecli-skill",
           "repo": "LambdaTest/agent-skills",
           "publisher": "TestMu AI"
         },

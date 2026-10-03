@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-10-01T12:04:56Z",
+    "fetched_at": "2026-10-03T10:50:11Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 859,
+    "total_skills": 860,
     "total_publishers": 61,
     "total_categories": 7,
-    "total_official": 859,
+    "total_official": 860,
     "total_community": 0
   },
   "publishers": [
@@ -7616,11 +7616,11 @@
     {
       "name": "TestMu AI",
       "type": "official",
-      "skills_count": 48,
+      "skills_count": 49,
       "skills": [
         {
           "section": "Official",
-          "skills_count": 48,
+          "skills_count": 49,
           "skills": [
             {
               "id": "testmu-ai/api-skill",
@@ -7780,6 +7780,15 @@
               "name": "junit-5-skill",
               "url": "https://github.com/LambdaTest/agent-skills/tree/main/junit-5-skill",
               "description": "Generate JUnit 5 unit and integration tests in Java with Mockito",
+              "repo": "LambdaTest/agent-skills",
+              "publisher": "TestMu AI",
+              "section": "Official"
+            },
+            {
+              "id": "testmu-ai/kanecli-skill",
+              "name": "kanecli-skill",
+              "url": "https://github.com/LambdaTest/agent-skills/tree/main/kanecli-skill",
+              "description": "Generate and run browser tests from natural-language objectives via kane-cli",
               "repo": "LambdaTest/agent-skills",
               "publisher": "TestMu AI",
               "section": "Official"
@@ -15608,6 +15617,15 @@
       "name": "junit-5-skill",
       "url": "https://github.com/LambdaTest/agent-skills/tree/main/junit-5-skill",
       "description": "Generate JUnit 5 unit and integration tests in Java with Mockito",
+      "repo": "LambdaTest/agent-skills",
+      "publisher": "TestMu AI",
+      "section": "Official"
+    },
+    {
+      "id": "testmu-ai/kanecli-skill",
+      "name": "kanecli-skill",
+      "url": "https://github.com/LambdaTest/agent-skills/tree/main/kanecli-skill",
+      "description": "Generate and run browser tests from natural-language objectives via kane-cli",
       "repo": "LambdaTest/agent-skills",
       "publisher": "TestMu AI",
       "section": "Official"
