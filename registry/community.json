@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-10-03T10:50:11Z",
+    "fetched_at": "2026-10-05T13:03:14Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 263,
+    "total_skills": 264,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 263
+    "total_community": 264
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 263,
+      "skills_count": 264,
       "skills": [
         {
           "section": "Marketing",
@@ -1912,7 +1912,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 47,
+          "skills_count": 48,
           "skills": [
             {
               "id": "bevibing/tutor-skills",
@@ -1974,6 +1974,15 @@
               "url": "https://github.com/EveryInc/charlie-cfo-skill",
               "description": "Bootstrapped CFO financial management inspired by Charlie Munger",
               "repo": "EveryInc/charlie-cfo-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "forjd/better-writing",
+              "name": "better-writing",
+              "url": "https://github.com/forjd/better-writing",
+              "description": "Rewrites AI-sounding prose without inventing facts; eval-tested",
+              "repo": "forjd/better-writing",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2957,6 +2966,15 @@
       "repo": "fishzjp/qa-skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "forjd/better-writing",
+      "name": "better-writing",
+      "url": "https://github.com/forjd/better-writing",
+      "description": "Rewrites AI-sounding prose without inventing facts; eval-tested",
+      "repo": "forjd/better-writing",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "foryourhealth111-pixel/Vibe-Skills",

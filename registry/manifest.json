@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T10:50:11Z",
-  "total_skills": 1123,
+  "generated_at": "2026-10-05T13:03:14Z",
+  "total_skills": 1124,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 263,
+      "skills_count": 264,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -2369,6 +2369,13 @@
           "name": "charlie-cfo-skill",
           "url": "https://github.com/EveryInc/charlie-cfo-skill",
           "repo": "EveryInc/charlie-cfo-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "forjd/better-writing",
+          "name": "better-writing",
+          "url": "https://github.com/forjd/better-writing",
+          "repo": "forjd/better-writing",
           "publisher": "Community"
         },
         {
