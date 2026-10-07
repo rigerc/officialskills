@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T13:03:14Z",
-  "total_skills": 1124,
+  "generated_at": "2026-10-07T12:20:00Z",
+  "total_skills": 1130,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 264,
+      "skills_count": 270,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1060,6 +1060,20 @@
           "name": "agent",
           "url": "https://github.com/taisly/agent",
           "repo": "taisly/agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "Upload-Post/upload-post-skill",
+          "name": "upload-post-skill",
+          "url": "https://github.com/Upload-Post/upload-post-skill",
+          "repo": "Upload-Post/upload-post-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "vanshyadav1408/linkedin-outreach",
+          "name": "linkedin-outreach",
+          "url": "https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach",
+          "repo": "vanshyadav1408/Omentir",
           "publisher": "Community"
         },
         {
@@ -1273,6 +1287,13 @@
           "publisher": "Community"
         },
         {
+          "id": "gal-a/qikly",
+          "name": "qikly",
+          "url": "https://github.com/gal-a/qikly/tree/main/.claude/skills/qikly",
+          "repo": "gal-a/qikly",
+          "publisher": "Community"
+        },
+        {
           "id": "GanyuanRan/Aegis",
           "name": "Aegis",
           "url": "https://github.com/GanyuanRan/Aegis",
@@ -1347,6 +1368,13 @@
           "name": "vibe-coding-prompt-template",
           "url": "https://github.com/KhazP/vibe-coding-prompt-template",
           "repo": "KhazP/vibe-coding-prompt-template",
+          "publisher": "Community"
+        },
+        {
+          "id": "kulchankas/paranoid",
+          "name": "paranoid",
+          "url": "https://github.com/kulchankas/paranoid",
+          "repo": "kulchankas/paranoid",
           "publisher": "Community"
         },
         {
@@ -1718,6 +1746,13 @@
           "name": "check-skill",
           "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
           "repo": "UiPath/coder_eval",
+          "publisher": "Community"
+        },
+        {
+          "id": "unbrowse-ai/unbrowse",
+          "name": "unbrowse",
+          "url": "https://github.com/unbrowse-ai/unbrowse/tree/main/skill",
+          "repo": "unbrowse-ai/unbrowse",
           "publisher": "Community"
         },
         {
@@ -2131,6 +2166,13 @@
           "name": "subagent-cli-skills",
           "url": "https://github.com/amirkiarafiei/subagent-cli-skills/tree/main/skills",
           "repo": "amirkiarafiei/subagent-cli-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "archcore-ai/archcore",
+          "name": "archcore",
+          "url": "https://github.com/archcore-ai/archcore",
+          "repo": "archcore-ai/archcore",
           "publisher": "Community"
         },
         {

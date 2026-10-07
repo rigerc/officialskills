@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-10-05T13:03:14Z",
+    "fetched_at": "2026-10-07T12:20:00Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 264,
+    "total_skills": 270,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 264
+    "total_community": 270
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 264,
+      "skills_count": 270,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 33,
+          "skills_count": 35,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -271,6 +271,24 @@
               "section": "Marketing"
             },
             {
+              "id": "Upload-Post/upload-post-skill",
+              "name": "upload-post-skill",
+              "url": "https://github.com/Upload-Post/upload-post-skill",
+              "description": "Publish and schedule social media posts through one API",
+              "repo": "Upload-Post/upload-post-skill",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "vanshyadav1408/linkedin-outreach",
+              "name": "linkedin-outreach",
+              "url": "https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach",
+              "description": "LinkedIn prospecting, scoring, and outreach drafts through Omentir MCP",
+              "repo": "vanshyadav1408/Omentir",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "Vladimir-Human/humanizer-ru",
               "name": "humanizer-ru",
               "url": "https://github.com/Vladimir-Human/humanizer-ru",
@@ -319,7 +337,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 97,
+          "skills_count": 100,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -547,6 +565,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "gal-a/qikly",
+              "name": "qikly",
+              "url": "https://github.com/gal-a/qikly/tree/main/.claude/skills/qikly",
+              "description": "Writes pytest suites from criteria the coding agent never sees",
+              "repo": "gal-a/qikly",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "GanyuanRan/Aegis",
               "name": "Aegis",
               "url": "https://github.com/GanyuanRan/Aegis",
@@ -642,6 +669,15 @@
               "url": "https://github.com/KhazP/vibe-coding-prompt-template",
               "description": "Plan MVPs into PRD, tech design, and AGENTS.md",
               "repo": "KhazP/vibe-coding-prompt-template",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "kulchankas/paranoid",
+              "name": "paranoid",
+              "url": "https://github.com/kulchankas/paranoid",
+              "description": "Pentests your running app: find, prove, patch, re-verify",
+              "repo": "kulchankas/paranoid",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1119,6 +1155,15 @@
               "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
               "description": "Measures whether a Claude Code skill triggers: precision and recall",
               "repo": "UiPath/coder_eval",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "unbrowse-ai/unbrowse",
+              "name": "unbrowse",
+              "url": "https://github.com/unbrowse-ai/unbrowse/tree/main/skill",
+              "description": "Search, call, and read websites via hosted API or MCP",
+              "repo": "unbrowse-ai/unbrowse",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1654,7 +1699,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 28,
+          "skills_count": 29,
           "skills": [
             {
               "id": "amirkiarafiei/subagent-cli-skills",
@@ -1662,6 +1707,15 @@
               "url": "https://github.com/amirkiarafiei/subagent-cli-skills/tree/main/skills",
               "description": "Delegate heavy work to 15 other agent CLIs as subagents",
               "repo": "amirkiarafiei/subagent-cli-skills",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "archcore-ai/archcore",
+              "name": "archcore",
+              "url": "https://github.com/archcore-ai/archcore",
+              "description": "Spec-driven development and context engineering for AI coding agents",
+              "repo": "archcore-ai/archcore",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -2536,6 +2590,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "archcore-ai/archcore",
+      "name": "archcore",
+      "url": "https://github.com/archcore-ai/archcore",
+      "description": "Spec-driven development and context engineering for AI coding agents",
+      "repo": "archcore-ai/archcore",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "AvdLee/swiftui-expert-skill",
       "name": "swiftui-expert-skill",
       "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
@@ -3013,6 +3076,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "gal-a/qikly",
+      "name": "qikly",
+      "url": "https://github.com/gal-a/qikly/tree/main/.claude/skills/qikly",
+      "description": "Writes pytest suites from criteria the coding agent never sees",
+      "repo": "gal-a/qikly",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "GanyuanRan/Aegis",
       "name": "Aegis",
       "url": "https://github.com/GanyuanRan/Aegis",
@@ -3344,6 +3416,15 @@
       "repo": "komal-SkyNET/claude-skill-homeassistant",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "kulchankas/paranoid",
+      "name": "paranoid",
+      "url": "https://github.com/kulchankas/paranoid",
+      "description": "Pentests your running app: find, prove, patch, re-verify",
+      "repo": "kulchankas/paranoid",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "lackeyjb/playwright-skill",
@@ -4570,6 +4651,24 @@
       "section": "Development and Testing"
     },
     {
+      "id": "unbrowse-ai/unbrowse",
+      "name": "unbrowse",
+      "url": "https://github.com/unbrowse-ai/unbrowse/tree/main/skill",
+      "description": "Search, call, and read websites via hosted API or MCP",
+      "repo": "unbrowse-ai/unbrowse",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "Upload-Post/upload-post-skill",
+      "name": "upload-post-skill",
+      "url": "https://github.com/Upload-Post/upload-post-skill",
+      "description": "Publish and schedule social media posts through one API",
+      "repo": "Upload-Post/upload-post-skill",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "uucz/moyu",
       "name": "moyu",
       "url": "https://github.com/uucz/moyu",
@@ -4586,6 +4685,15 @@
       "repo": "vaibhavarora14/job-application-agent",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "vanshyadav1408/linkedin-outreach",
+      "name": "linkedin-outreach",
+      "url": "https://github.com/vanshyadav1408/Omentir/tree/main/plugins/omentir/skills/linkedin-outreach",
+      "description": "LinkedIn prospecting, scoring, and outreach drafts through Omentir MCP",
+      "repo": "vanshyadav1408/Omentir",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "video-db/skills",
