@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-10-07T12:20:00Z",
+    "fetched_at": "2026-10-09T12:17:57Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 270,
+    "total_skills": 272,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 270
+    "total_community": 272
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 270,
+      "skills_count": 272,
       "skills": [
         {
           "section": "Marketing",
@@ -337,7 +337,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 100,
+          "skills_count": 101,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -579,6 +579,15 @@
               "url": "https://github.com/GanyuanRan/Aegis",
               "description": "Evidence-driven method pack for AI coding agents",
               "repo": "GanyuanRan/Aegis",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "half144/cutaway",
+              "name": "cutaway",
+              "url": "https://github.com/half144/cutaway",
+              "description": "Record polished demo videos of web flows with Playwright",
+              "repo": "half144/cutaway",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1966,8 +1975,17 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 48,
+          "skills_count": 49,
           "skills": [
+            {
+              "id": "Atomic-Mail/atomicmail",
+              "name": "atomicmail",
+              "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
+              "description": "Agent registers its own inbox, then sends and reads mail",
+              "repo": "Atomic-Mail/atomic-mail-agentic",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
             {
               "id": "bevibing/tutor-skills",
               "name": "tutor-skills",
@@ -2599,6 +2617,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "Atomic-Mail/atomicmail",
+      "name": "atomicmail",
+      "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
+      "description": "Agent registers its own inbox, then sends and reads mail",
+      "repo": "Atomic-Mail/atomic-mail-agentic",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "AvdLee/swiftui-expert-skill",
       "name": "swiftui-expert-skill",
       "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
@@ -3191,6 +3218,15 @@
       "repo": "gooseworks-ai/goose-skills",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "half144/cutaway",
+      "name": "cutaway",
+      "url": "https://github.com/half144/cutaway",
+      "description": "Record polished demo videos of web flows with Playwright",
+      "repo": "half144/cutaway",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "hanfang/claude-memory-skill",

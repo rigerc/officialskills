@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T12:20:00Z",
-  "total_skills": 1130,
+  "generated_at": "2026-10-09T12:17:57Z",
+  "total_skills": 1132,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 270,
+      "skills_count": 272,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1298,6 +1298,13 @@
           "name": "Aegis",
           "url": "https://github.com/GanyuanRan/Aegis",
           "repo": "GanyuanRan/Aegis",
+          "publisher": "Community"
+        },
+        {
+          "id": "half144/cutaway",
+          "name": "cutaway",
+          "url": "https://github.com/half144/cutaway",
+          "repo": "half144/cutaway",
           "publisher": "Community"
         },
         {
@@ -2362,6 +2369,13 @@
           "name": "mfs",
           "url": "https://github.com/zilliztech/mfs",
           "repo": "zilliztech/mfs",
+          "publisher": "Community"
+        },
+        {
+          "id": "Atomic-Mail/atomicmail",
+          "name": "atomicmail",
+          "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
+          "repo": "Atomic-Mail/atomic-mail-agentic",
           "publisher": "Community"
         },
         {
