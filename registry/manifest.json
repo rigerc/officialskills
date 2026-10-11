@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-09T12:17:57Z",
-  "total_skills": 1132,
+  "generated_at": "2026-10-11T11:49:35Z",
+  "total_skills": 1137,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 272,
+      "skills_count": 277,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1434,6 +1434,13 @@
           "publisher": "Community"
         },
         {
+          "id": "marvkr/better-design",
+          "name": "better-design",
+          "url": "https://github.com/marvkr/better-design/tree/main/skills/better-design",
+          "repo": "marvkr/better-design",
+          "publisher": "Community"
+        },
+        {
           "id": "massimodeluisa/recursive-decomposition-skill",
           "name": "recursive-decomposition-skill",
           "url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
@@ -1756,6 +1763,13 @@
           "publisher": "Community"
         },
         {
+          "id": "UiPath/task",
+          "name": "task",
+          "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/task",
+          "repo": "UiPath/coder_eval",
+          "publisher": "Community"
+        },
+        {
           "id": "unbrowse-ai/unbrowse",
           "name": "unbrowse",
           "url": "https://github.com/unbrowse-ai/unbrowse/tree/main/skill",
@@ -1858,6 +1872,13 @@
           "name": "boss-zhipin-scraper",
           "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
           "repo": "eatmoreduck/boss-zhipin-scraper",
+          "publisher": "Community"
+        },
+        {
+          "id": "elithril/blender-kiln",
+          "name": "blender-kiln",
+          "url": "https://github.com/elithril/blender-kiln/tree/main/plugin",
+          "repo": "elithril/blender-kiln",
           "publisher": "Community"
         },
         {
@@ -2323,6 +2344,13 @@
           "publisher": "Community"
         },
         {
+          "id": "ruslanlap/cavemenko",
+          "name": "cavemenko",
+          "url": "https://github.com/ruslanlap/cavemenko/tree/main/skills/cavemenko",
+          "repo": "ruslanlap/cavemenko",
+          "publisher": "Community"
+        },
+        {
           "id": "sametbrr/llm-wiki-manager",
           "name": "llm-wiki-manager",
           "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -2656,6 +2684,13 @@
           "name": "skills",
           "url": "https://github.com/Sendmux/skills",
           "repo": "Sendmux/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "siril9/presentation-skill",
+          "name": "presentation-skill",
+          "url": "https://github.com/siril9/presentation-skill",
+          "repo": "siril9/presentation-skill",
           "publisher": "Community"
         },
         {

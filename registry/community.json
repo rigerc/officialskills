@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-10-09T12:17:57Z",
+    "fetched_at": "2026-10-11T11:49:35Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 272,
+    "total_skills": 277,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 272
+    "total_community": 277
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 272,
+      "skills_count": 277,
       "skills": [
         {
           "section": "Marketing",
@@ -337,7 +337,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 101,
+          "skills_count": 103,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -750,6 +750,15 @@
               "url": "https://github.com/Maksim-Burtsev/simple-man",
               "description": "Strips praise, recaps and filler from agent answers while keeping every fact you act on: findings carry location and fix, refusals carry the safe procedure, tutorials stay long-form. Benchmarked on 1,793 preregistered live calls with raw records committed. Works with Claude Code, Codex, Gemini CLI, Cursor",
               "repo": "Maksim-Burtsev/simple-man",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "marvkr/better-design",
+              "name": "better-design",
+              "url": "https://github.com/marvkr/better-design/tree/main/skills/better-design",
+              "description": "Build and review interfaces with Better Design design systems",
+              "repo": "marvkr/better-design",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1168,6 +1177,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "UiPath/task",
+              "name": "task",
+              "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/task",
+              "description": "Turns plain English into validated eval tasks for coding agents",
+              "repo": "UiPath/coder_eval",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "unbrowse-ai/unbrowse",
               "name": "unbrowse",
               "url": "https://github.com/unbrowse-ai/unbrowse/tree/main/skill",
@@ -1252,7 +1270,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 50,
+          "skills_count": 51,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -1305,6 +1323,15 @@
               "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
               "description": "BOSS Zhipin (zhipin.com) job scraper via Chrome CDP, plaintext salaries",
               "repo": "eatmoreduck/boss-zhipin-scraper",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "elithril/blender-kiln",
+              "name": "blender-kiln",
+              "url": "https://github.com/elithril/blender-kiln/tree/main/plugin",
+              "description": "Text or photo to game-ready GLB through Blender MCP",
+              "repo": "elithril/blender-kiln",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -1708,7 +1735,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 29,
+          "skills_count": 30,
           "skills": [
             {
               "id": "amirkiarafiei/subagent-cli-skills",
@@ -1909,6 +1936,15 @@
               "section": "Context Engineering"
             },
             {
+              "id": "ruslanlap/cavemenko",
+              "name": "cavemenko",
+              "url": "https://github.com/ruslanlap/cavemenko/tree/main/skills/cavemenko",
+              "description": "Ukrainian pro-drop reply style, measured -49% tokens",
+              "repo": "ruslanlap/cavemenko",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
               "id": "sametbrr/llm-wiki-manager",
               "name": "llm-wiki-manager",
               "url": "https://github.com/sametbrr/llm-wiki-manager",
@@ -1975,7 +2011,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 49,
+          "skills_count": 50,
           "skills": [
             {
               "id": "Atomic-Mail/atomicmail",
@@ -2343,6 +2379,15 @@
               "url": "https://github.com/Sendmux/skills",
               "description": "Sendmux email and mailbox workflows for agents",
               "repo": "Sendmux/skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "siril9/presentation-skill",
+              "name": "presentation-skill",
+              "url": "https://github.com/siril9/presentation-skill",
+              "description": "Generate editable PowerPoint decks from source with visual QA.",
+              "repo": "siril9/presentation-skill",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2995,6 +3040,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "elithril/blender-kiln",
+      "name": "blender-kiln",
+      "url": "https://github.com/elithril/blender-kiln/tree/main/plugin",
+      "description": "Text or photo to game-ready GLB through Blender MCP",
+      "repo": "elithril/blender-kiln",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "Ericyoung-183/alpha-insights",
       "name": "alpha-insights",
       "url": "https://github.com/Ericyoung-183/alpha-insights",
@@ -3569,6 +3623,15 @@
       "repo": "MartinDelophy/ai-video-editor",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "marvkr/better-design",
+      "name": "better-design",
+      "url": "https://github.com/marvkr/better-design/tree/main/skills/better-design",
+      "description": "Build and review interfaces with Better Design design systems",
+      "repo": "marvkr/better-design",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "massimodeluisa/recursive-decomposition-skill",
@@ -4327,6 +4390,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "ruslanlap/cavemenko",
+      "name": "cavemenko",
+      "url": "https://github.com/ruslanlap/cavemenko/tree/main/skills/cavemenko",
+      "description": "Ukrainian pro-drop reply style, measured -49% tokens",
+      "repo": "ruslanlap/cavemenko",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
       "id": "Ryan-yang125/motion-lexicon",
       "name": "motion-lexicon",
       "url": "https://github.com/Ryan-yang125/motion-lexicon/tree/main/skills/motion-lexicon",
@@ -4487,6 +4559,15 @@
       "repo": "Simon-He95/markstream-vue",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "siril9/presentation-skill",
+      "name": "presentation-skill",
+      "url": "https://github.com/siril9/presentation-skill",
+      "description": "Generate editable PowerPoint decks from source with visual QA.",
+      "repo": "siril9/presentation-skill",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "Skill_Seekers",
@@ -4682,6 +4763,15 @@
       "name": "check-skill",
       "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
       "description": "Measures whether a Claude Code skill triggers: precision and recall",
+      "repo": "UiPath/coder_eval",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "UiPath/task",
+      "name": "task",
+      "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/task",
+      "description": "Turns plain English into validated eval tasks for coding agents",
       "repo": "UiPath/coder_eval",
       "publisher": "Community",
       "section": "Development and Testing"
