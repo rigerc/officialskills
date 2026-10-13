@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T11:49:35Z",
-  "total_skills": 1137,
+  "generated_at": "2026-10-13T13:12:05Z",
+  "total_skills": 1141,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 277,
+      "skills_count": 281,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1133,6 +1133,13 @@
           "publisher": "Community"
         },
         {
+          "id": "allxsmith/bestax",
+          "name": "bestax",
+          "url": "https://github.com/allxsmith/bestax/tree/main/skills",
+          "repo": "allxsmith/bestax",
+          "publisher": "Community"
+        },
+        {
           "id": "antonbabenko/terraform-skill",
           "name": "terraform-skill",
           "url": "https://github.com/antonbabenko/terraform-skill",
@@ -1322,6 +1329,13 @@
           "publisher": "Community"
         },
         {
+          "id": "hermes-labs-ai/little-canary",
+          "name": "little-canary",
+          "url": "https://github.com/hermes-labs-ai/little-canary/blob/main/.agents/skills/little-canary/SKILL.md",
+          "repo": "hermes-labs-ai/little-canary",
+          "publisher": "Community"
+        },
+        {
           "id": "hqhq1025/skill-optimizer",
           "name": "skill-optimizer",
           "url": "https://github.com/hqhq1025/skill-optimizer",
@@ -1357,10 +1371,10 @@
           "publisher": "Community"
         },
         {
-          "id": "kensaurus/cursor-kenji",
-          "name": "cursor-kenji",
-          "url": "https://github.com/kensaurus/cursor-kenji",
-          "repo": "kensaurus/cursor-kenji",
+          "id": "kensaurus/skills",
+          "name": "skills",
+          "url": "https://github.com/kensaurus/skills",
+          "repo": "kensaurus/skills",
           "publisher": "Community"
         },
         {
@@ -1613,6 +1627,13 @@
           "name": "fractal",
           "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
           "repo": "plasma-ai/fractal",
+          "publisher": "Community"
+        },
+        {
+          "id": "prisma/skills",
+          "name": "skills",
+          "url": "https://github.com/prisma/skills",
+          "repo": "prisma/skills",
           "publisher": "Community"
         },
         {
@@ -2691,6 +2712,13 @@
           "name": "presentation-skill",
           "url": "https://github.com/siril9/presentation-skill",
           "repo": "siril9/presentation-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "sujunmin/agy-ppt",
+          "name": "agy-ppt",
+          "url": "https://github.com/sujunmin/agy-ppt",
+          "repo": "sujunmin/agy-ppt",
           "publisher": "Community"
         },
         {

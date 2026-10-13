@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-10-11T11:49:35Z",
+    "fetched_at": "2026-10-13T13:12:05Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 277,
+    "total_skills": 281,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 277
+    "total_community": 281
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 277,
+      "skills_count": 281,
       "skills": [
         {
           "section": "Marketing",
@@ -337,7 +337,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 103,
+          "skills_count": 106,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -363,6 +363,15 @@
               "url": "https://github.com/alinaqi/maggy",
               "description": "Opinionated project initialization with security-first guardrails, spec-driven atomic todos, LLM testing patterns, and CLI tool orchestration (gh, vercel, supabase)",
               "repo": "alinaqi/maggy",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "allxsmith/bestax",
+              "name": "bestax",
+              "url": "https://github.com/allxsmith/bestax/tree/main/skills",
+              "description": "Build Bulma React pages, forms, and themes with Bestax",
+              "repo": "allxsmith/bestax",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -610,6 +619,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "hermes-labs-ai/little-canary",
+              "name": "little-canary",
+              "url": "https://github.com/hermes-labs-ai/little-canary/blob/main/.agents/skills/little-canary/SKILL.md",
+              "description": "Screen inbound text with a sacrificial canary",
+              "repo": "hermes-labs-ai/little-canary",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "hqhq1025/skill-optimizer",
               "name": "skill-optimizer",
               "url": "https://github.com/hqhq1025/skill-optimizer",
@@ -655,11 +673,11 @@
               "section": "Development and Testing"
             },
             {
-              "id": "kensaurus/cursor-kenji",
-              "name": "cursor-kenji",
-              "url": "https://github.com/kensaurus/cursor-kenji",
+              "id": "kensaurus/skills",
+              "name": "skills",
+              "url": "https://github.com/kensaurus/skills",
               "description": "Ready-made playbooks your coding agent auto-triggers",
-              "repo": "kensaurus/cursor-kenji",
+              "repo": "kensaurus/skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -984,6 +1002,15 @@
               "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
               "description": "Bounded hierarchical agent loops in isolated git worktrees",
               "repo": "plasma-ai/fractal",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "prisma/skills",
+              "name": "skills",
+              "url": "https://github.com/prisma/skills",
+              "description": "Official Prisma skills: ORM, Postgres, Compute and migrations",
+              "repo": "prisma/skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -2011,7 +2038,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 50,
+          "skills_count": 51,
           "skills": [
             {
               "id": "Atomic-Mail/atomicmail",
@@ -2392,6 +2419,15 @@
               "section": "Productivity and Collaboration"
             },
             {
+              "id": "sujunmin/agy-ppt",
+              "name": "agy-ppt",
+              "url": "https://github.com/sujunmin/agy-ppt",
+              "description": "Generate PowerPoint decks without the AI-slop look, purpose-built for the Antigravity+Kiro+Codex pipeline; GPT image rendering handles dense Traditional Chinese slide text far better than Gemini",
+              "repo": "sujunmin/agy-ppt",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "tjboudreaux/cc-thinking-skills",
               "name": "cc-thinking-skills",
               "url": "https://github.com/tjboudreaux/cc-thinking-skills",
@@ -2624,6 +2660,15 @@
       "repo": "Alisa0808/vibe-creating-skill",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "allxsmith/bestax",
+      "name": "bestax",
+      "url": "https://github.com/allxsmith/bestax/tree/main/skills",
+      "description": "Build Bulma React pages, forms, and themes with Bestax",
+      "repo": "allxsmith/bestax",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "amirkiarafiei/subagent-cli-skills",
@@ -3328,6 +3373,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "hermes-labs-ai/little-canary",
+      "name": "little-canary",
+      "url": "https://github.com/hermes-labs-ai/little-canary/blob/main/.agents/skills/little-canary/SKILL.md",
+      "description": "Screen inbound text with a sacrificial canary",
+      "repo": "hermes-labs-ai/little-canary",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
       "name": "honeydew-ai-coding-agents-plugins",
       "url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
@@ -3454,11 +3508,11 @@
       "section": "Development and Testing"
     },
     {
-      "id": "kensaurus/cursor-kenji",
-      "name": "cursor-kenji",
-      "url": "https://github.com/kensaurus/cursor-kenji",
+      "id": "kensaurus/skills",
+      "name": "skills",
+      "url": "https://github.com/kensaurus/skills",
       "description": "Ready-made playbooks your coding agent auto-triggers",
-      "repo": "kensaurus/cursor-kenji",
+      "repo": "kensaurus/skills",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -4255,6 +4309,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "prisma/skills",
+      "name": "skills",
+      "url": "https://github.com/prisma/skills",
+      "description": "Official Prisma skills: ORM, Postgres, Compute and migrations",
+      "repo": "prisma/skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "prompt-security/clawsec",
       "name": "clawsec",
       "url": "https://github.com/prompt-security/clawsec",
@@ -4613,6 +4676,15 @@
       "repo": "stjbrown/agent-knowledge",
       "publisher": "Community",
       "section": "Context Engineering"
+    },
+    {
+      "id": "sujunmin/agy-ppt",
+      "name": "agy-ppt",
+      "url": "https://github.com/sujunmin/agy-ppt",
+      "description": "Generate PowerPoint decks without the AI-slop look, purpose-built for the Antigravity+Kiro+Codex pipeline; GPT image rendering handles dense Traditional Chinese slide text far better than Gemini",
+      "repo": "sujunmin/agy-ppt",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "SupercmoHQ/superCMO-skills",
