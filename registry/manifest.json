@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T13:12:05Z",
-  "total_skills": 1141,
+  "generated_at": "2026-10-15T10:34:35Z",
+  "total_skills": 1142,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 281,
+      "skills_count": 282,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1305,6 +1305,13 @@
           "name": "Aegis",
           "url": "https://github.com/GanyuanRan/Aegis",
           "repo": "GanyuanRan/Aegis",
+          "publisher": "Community"
+        },
+        {
+          "id": "gongdear/cline-pilot",
+          "name": "cline-pilot",
+          "url": "https://github.com/gongdear/cline-pilot",
+          "repo": "gongdear/cline-pilot",
           "publisher": "Community"
         },
         {

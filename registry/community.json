@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-10-13T13:12:05Z",
+    "fetched_at": "2026-10-15T10:34:35Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 281,
+    "total_skills": 282,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 281
+    "total_community": 282
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 281,
+      "skills_count": 282,
       "skills": [
         {
           "section": "Marketing",
@@ -337,7 +337,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 106,
+          "skills_count": 107,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -588,6 +588,15 @@
               "url": "https://github.com/GanyuanRan/Aegis",
               "description": "Evidence-driven method pack for AI coding agents",
               "repo": "GanyuanRan/Aegis",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "gongdear/cline-pilot",
+              "name": "cline-pilot",
+              "url": "https://github.com/gongdear/cline-pilot",
+              "description": "Delegate coding tasks to Cline CLI with context management",
+              "repo": "gongdear/cline-pilot",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -3308,6 +3317,15 @@
       "repo": "gokapso/agent-skills",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "gongdear/cline-pilot",
+      "name": "cline-pilot",
+      "url": "https://github.com/gongdear/cline-pilot",
+      "description": "Delegate coding tasks to Cline CLI with context management",
+      "repo": "gongdear/cline-pilot",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "gooseworks-ai/goose-skills",
