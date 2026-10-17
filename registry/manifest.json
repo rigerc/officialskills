@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T10:34:35Z",
-  "total_skills": 1142,
+  "generated_at": "2026-10-17T09:54:17Z",
+  "total_skills": 1148,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 282,
+      "skills_count": 288,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -993,6 +993,13 @@
           "publisher": "Community"
         },
         {
+          "id": "nagameTW/formosa-humanizer",
+          "name": "formosa-humanizer",
+          "url": "https://github.com/nagameTW/formosa-humanizer",
+          "repo": "nagameTW/formosa-humanizer",
+          "publisher": "Community"
+        },
+        {
           "id": "Nanako0129/sepia",
           "name": "sepia",
           "url": "https://github.com/Nanako0129/sepia",
@@ -1004,6 +1011,13 @@
           "name": "notfair-plugin",
           "url": "https://github.com/nowork-studio/notfair-plugin",
           "repo": "nowork-studio/notfair-plugin",
+          "publisher": "Community"
+        },
+        {
+          "id": "publora/skills",
+          "name": "skills",
+          "url": "https://github.com/publora/skills",
+          "repo": "publora/skills",
           "publisher": "Community"
         },
         {
@@ -1623,6 +1637,20 @@
           "publisher": "Community"
         },
         {
+          "id": "oil-oil/oil-ui",
+          "name": "oil-ui",
+          "url": "https://github.com/oil-oil/oil-ui",
+          "repo": "oil-oil/oil-ui",
+          "publisher": "Community"
+        },
+        {
+          "id": "ollygarden/opentelemetry-agent-skills",
+          "name": "opentelemetry-agent-skills",
+          "url": "https://github.com/ollygarden/opentelemetry-agent-skills",
+          "repo": "ollygarden/opentelemetry-agent-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "omkamal/pypict-skill",
           "name": "pypict-skill",
           "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
@@ -1760,6 +1788,13 @@
           "name": "superdesign-skill",
           "url": "https://github.com/superdesigndev/superdesign-skill",
           "repo": "superdesigndev/superdesign-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "szarkans/multi",
+          "name": "multi",
+          "url": "https://github.com/szarkans/multi",
+          "repo": "szarkans/multi",
           "publisher": "Community"
         },
         {
@@ -2068,6 +2103,13 @@
           "name": "optim-agent",
           "url": "https://github.com/Optim-Agent/optim-agent",
           "repo": "Optim-Agent/optim-agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "OptimNow/cloud-finops-skills",
+          "name": "cloud-finops-skills",
+          "url": "https://github.com/OptimNow/cloud-finops-skills/tree/main/skills/cloud-finops",
+          "repo": "OptimNow/cloud-finops-skills",
           "publisher": "Community"
         },
         {

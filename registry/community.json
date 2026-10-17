@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-10-15T10:34:35Z",
+    "fetched_at": "2026-10-17T09:54:17Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 282,
+    "total_skills": 288,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 282
+    "total_community": 288
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 282,
+      "skills_count": 288,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 35,
+          "skills_count": 37,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -181,6 +181,15 @@
               "section": "Marketing"
             },
             {
+              "id": "nagameTW/formosa-humanizer",
+              "name": "formosa-humanizer",
+              "url": "https://github.com/nagameTW/formosa-humanizer",
+              "description": "Removes AI-writing markers from Taiwan Traditional Chinese text",
+              "repo": "nagameTW/formosa-humanizer",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "Nanako0129/sepia",
               "name": "sepia",
               "url": "https://github.com/Nanako0129/sepia",
@@ -195,6 +204,15 @@
               "url": "https://github.com/nowork-studio/notfair-plugin",
               "description": "SEO, GEO, Google Ads, and Meta Ads skills with live data",
               "repo": "nowork-studio/notfair-plugin",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "publora/skills",
+              "name": "skills",
+              "url": "https://github.com/publora/skills",
+              "description": "Draft, schedule and publish posts to ten social networks",
+              "repo": "publora/skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -337,7 +355,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 107,
+          "skills_count": 110,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -997,6 +1015,24 @@
               "section": "Development and Testing"
             },
             {
+              "id": "oil-oil/oil-ui",
+              "name": "oil-ui",
+              "url": "https://github.com/oil-oil/oil-ui",
+              "description": "Unlock AI design potential through UI exploration and visual review",
+              "repo": "oil-oil/oil-ui",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "ollygarden/opentelemetry-agent-skills",
+              "name": "opentelemetry-agent-skills",
+              "url": "https://github.com/ollygarden/opentelemetry-agent-skills",
+              "description": "Vendor-neutral OpenTelemetry skills: SDKs, Collector, OTTL, semantic conventions",
+              "repo": "ollygarden/opentelemetry-agent-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "omkamal/pypict-skill",
               "name": "pypict-skill",
               "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
@@ -1177,6 +1213,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "szarkans/multi",
+              "name": "multi",
+              "url": "https://github.com/szarkans/multi",
+              "description": "several models review the same code, one merged report",
+              "repo": "szarkans/multi",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "testdino-hq/playwright-skill",
               "name": "playwright-skill",
               "url": "https://github.com/testdino-hq/playwright-skill",
@@ -1306,7 +1351,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 51,
+          "skills_count": 52,
           "skills": [
             {
               "id": "aklofas/kicad-happy",
@@ -1575,6 +1620,15 @@
               "url": "https://github.com/Optim-Agent/optim-agent",
               "description": "Agent-guided optimization for measurable system tuning.",
               "repo": "Optim-Agent/optim-agent",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "OptimNow/cloud-finops-skills",
+              "name": "cloud-finops-skills",
+              "url": "https://github.com/OptimNow/cloud-finops-skills/tree/main/skills/cloud-finops",
+              "description": "FinOps knowledge: cloud billing mechanics, commitments, allocation, AI spend",
+              "repo": "OptimNow/cloud-finops-skills",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -3886,6 +3940,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "nagameTW/formosa-humanizer",
+      "name": "formosa-humanizer",
+      "url": "https://github.com/nagameTW/formosa-humanizer",
+      "description": "Removes AI-writing markers from Taiwan Traditional Chinese text",
+      "repo": "nagameTW/formosa-humanizer",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "Nanako0129/sepia",
       "name": "sepia",
       "url": "https://github.com/Nanako0129/sepia",
@@ -4174,6 +4237,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "oil-oil/oil-ui",
+      "name": "oil-ui",
+      "url": "https://github.com/oil-oil/oil-ui",
+      "description": "Unlock AI design potential through UI exploration and visual review",
+      "repo": "oil-oil/oil-ui",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "oliver-zehentleitner/keep-the-why",
       "name": "keep-the-why",
       "url": "https://github.com/oliver-zehentleitner/keep-the-why",
@@ -4181,6 +4253,15 @@
       "repo": "oliver-zehentleitner/keep-the-why",
       "publisher": "Community",
       "section": "Context Engineering"
+    },
+    {
+      "id": "ollygarden/opentelemetry-agent-skills",
+      "name": "opentelemetry-agent-skills",
+      "url": "https://github.com/ollygarden/opentelemetry-agent-skills",
+      "description": "Vendor-neutral OpenTelemetry skills: SDKs, Collector, OTTL, semantic conventions",
+      "repo": "ollygarden/opentelemetry-agent-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "omkamal/pypict-skill",
@@ -4233,6 +4314,15 @@
       "url": "https://github.com/Optim-Agent/optim-agent",
       "description": "Agent-guided optimization for measurable system tuning.",
       "repo": "Optim-Agent/optim-agent",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "OptimNow/cloud-finops-skills",
+      "name": "cloud-finops-skills",
+      "url": "https://github.com/OptimNow/cloud-finops-skills/tree/main/skills/cloud-finops",
+      "description": "FinOps knowledge: cloud billing mechanics, commitments, allocation, AI spend",
+      "repo": "OptimNow/cloud-finops-skills",
       "publisher": "Community",
       "section": "Specialized Domains"
     },
@@ -4352,6 +4442,15 @@
       "repo": "PSPDFKit-labs/nutrient-agent-skill",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "publora/skills",
+      "name": "skills",
+      "url": "https://github.com/publora/skills",
+      "description": "Draft, schedule and publish posts to ten social networks",
+      "repo": "publora/skills",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "qdrant/skills",
@@ -4730,6 +4829,15 @@
       "repo": "swaylq/humanize-chinese",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "szarkans/multi",
+      "name": "multi",
+      "url": "https://github.com/szarkans/multi",
+      "description": "several models review the same code, one merged report",
+      "repo": "szarkans/multi",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "taisly/agent",
