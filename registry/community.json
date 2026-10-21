@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-10-19T11:35:56Z",
+    "fetched_at": "2026-10-21T10:50:38Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 294,
+    "total_skills": 295,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 294
+    "total_community": 295
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 294,
+      "skills_count": 295,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 37,
+          "skills_count": 38,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -348,6 +348,15 @@
               "url": "https://github.com/YannisKiefer/dark-psychology-skills",
               "description": "13 sales and negotiation skills for agents distilled from 36 books (CIA psyop manuals, FBI behavioral research, propaganda science, persuasion classics); every tactic passes an honest-influence filter: it must still work when fully disclosed",
               "repo": "YannisKiefer/dark-psychology-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "yuwen-cool/yuwen-publish-precheck",
+              "name": "yuwen-publish-precheck",
+              "url": "https://github.com/yuwen-cool/yuwen-publish-precheck",
+              "description": "Review Chinese social content before publishing, with source-backed corrections",
+              "repo": "yuwen-cool/yuwen-publish-precheck",
               "publisher": "Community",
               "section": "Marketing"
             }
@@ -5268,6 +5277,15 @@
       "url": "https://github.com/YannisKiefer/dark-psychology-skills",
       "description": "13 sales and negotiation skills for agents distilled from 36 books (CIA psyop manuals, FBI behavioral research, propaganda science, persuasion classics); every tactic passes an honest-influence filter: it must still work when fully disclosed",
       "repo": "YannisKiefer/dark-psychology-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "yuwen-cool/yuwen-publish-precheck",
+      "name": "yuwen-publish-precheck",
+      "url": "https://github.com/yuwen-cool/yuwen-publish-precheck",
+      "description": "Review Chinese social content before publishing, with source-backed corrections",
+      "repo": "yuwen-cool/yuwen-publish-precheck",
       "publisher": "Community",
       "section": "Marketing"
     },

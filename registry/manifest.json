@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-19T11:35:56Z",
-  "total_skills": 1154,
+  "generated_at": "2026-10-21T10:50:38Z",
+  "total_skills": 1155,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 294,
+      "skills_count": 295,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1123,6 +1123,13 @@
           "name": "dark-psychology-skills",
           "url": "https://github.com/YannisKiefer/dark-psychology-skills",
           "repo": "YannisKiefer/dark-psychology-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "yuwen-cool/yuwen-publish-precheck",
+          "name": "yuwen-publish-precheck",
+          "url": "https://github.com/yuwen-cool/yuwen-publish-precheck",
+          "repo": "yuwen-cool/yuwen-publish-precheck",
           "publisher": "Community"
         },
         {
