@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-10-21T10:50:38Z",
+    "fetched_at": "2026-10-23T10:43:22Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 295,
+    "total_skills": 298,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 295
+    "total_community": 298
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 295,
+      "skills_count": 298,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 38,
+          "skills_count": 37,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -42,15 +42,6 @@
               "url": "https://github.com/AIDevGTM/gtm-cofounder",
               "description": "18 go-to-market skills for solo technical founders: positioning, first users, launch, pricing, and founder-led sales; grounded in Adam Frankl and Jakub Czakon",
               "repo": "AIDevGTM/gtm-cofounder",
-              "publisher": "Community",
-              "section": "Marketing"
-            },
-            {
-              "id": "axelfreeman/marketing-mindset",
-              "name": "marketing-mindset",
-              "url": "https://github.com/axelfreeman/marketing-mindset",
-              "description": "Marketing OS for AI agents — think like a marketer first, get tactics as the output",
-              "repo": "axelfreeman/marketing-mindset",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -865,7 +856,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 112,
+          "skills_count": 114,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -1062,6 +1053,15 @@
               "url": "https://github.com/exadel-inc/agentic-readiness-assessment/tree/main/skills/agentic-readiness-assessment",
               "description": "Assess repository readiness for AI coding agents and prioritize fixes.",
               "repo": "exadel-inc/agentic-readiness-assessment",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "finom/vovk",
+              "name": "vovk",
+              "url": "https://github.com/finom/vovk/tree/main/skills",
+              "description": "Next.js API routes as MCP tools and typed clients",
+              "repo": "finom/vovk",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1723,6 +1723,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "skymanbp/cc-tree",
+              "name": "cc-tree",
+              "url": "https://github.com/skymanbp/cc-tree",
+              "description": "Auditable radial-tree exploration for brainstorming, critique, design and code audit",
+              "repo": "skymanbp/cc-tree",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "squirrelscan/squirrelscan",
               "name": "squirrelscan",
               "url": "https://github.com/squirrelscan/skills",
@@ -2155,8 +2164,17 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 52,
+          "skills_count": 54,
           "skills": [
+            {
+              "id": "arifszn/slide-wright",
+              "name": "slide-wright",
+              "url": "https://github.com/arifszn/slide-wright",
+              "description": "Generate themed HTML slide decks, export to PowerPoint or PDF",
+              "repo": "arifszn/slide-wright",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
             {
               "id": "Atomic-Mail/atomicmail",
               "name": "atomicmail",
@@ -2181,6 +2199,15 @@
               "url": "https://github.com/bevibing/tutor-skills",
               "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
               "repo": "bevibing/tutor-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "career-ops-hq/career-ops",
+              "name": "career-ops",
+              "url": "https://github.com/career-ops-hq/career-ops",
+              "description": "Scores jobs against your CV, tailors resumes, tracks applications",
+              "repo": "career-ops-hq/career-ops",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2509,15 +2536,6 @@
               "section": "Productivity and Collaboration"
             },
             {
-              "id": "santifer/career-ops",
-              "name": "career-ops",
-              "url": "https://github.com/santifer/career-ops",
-              "description": "14-skill collection for AI-powered job search: JD evaluation with A-F scoring, ATS-optimized PDF generation, portal scanners (Greenhouse/Ashby/Lever), interview prep with STAR+R, batch processing, and a Go dashboard TUI",
-              "repo": "santifer/career-ops",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
               "id": "SeanZoR/claude-speed-reader",
               "name": "claude-speed-reader",
               "url": "https://github.com/SeanZoR/claude-speed-reader",
@@ -2577,6 +2595,15 @@
               "url": "https://github.com/vaibhavarora14/job-application-agent",
               "description": "Privacy-first job discovery and tracking",
               "repo": "vaibhavarora14/job-application-agent",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "voygr-tech/placecall",
+              "name": "placecall",
+              "url": "https://github.com/voygr-tech/placecall/tree/main/skills/placecall",
+              "description": "Calls US businesses by phone and returns outcome and transcript",
+              "repo": "voygr-tech/placecall",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2842,6 +2869,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "arifszn/slide-wright",
+      "name": "slide-wright",
+      "url": "https://github.com/arifszn/slide-wright",
+      "description": "Generate themed HTML slide decks, export to PowerPoint or PDF",
+      "repo": "arifszn/slide-wright",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "assafkip/claudemy",
       "name": "claudemy",
       "url": "https://github.com/assafkip/claudemy",
@@ -2876,15 +2912,6 @@
       "repo": "awrshift/claude-memory-kit",
       "publisher": "Community",
       "section": "Context Engineering"
-    },
-    {
-      "id": "axelfreeman/marketing-mindset",
-      "name": "marketing-mindset",
-      "url": "https://github.com/axelfreeman/marketing-mindset",
-      "description": "Marketing OS for AI agents — think like a marketer first, get tactics as the output",
-      "repo": "axelfreeman/marketing-mindset",
-      "publisher": "Community",
-      "section": "Marketing"
     },
     {
       "id": "bablobanov/hermes-telegram-checklist",
@@ -2966,6 +2993,15 @@
       "repo": "browser-act/skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "career-ops-hq/career-ops",
+      "name": "career-ops",
+      "url": "https://github.com/career-ops-hq/career-ops",
+      "description": "Scores jobs against your CV, tailors resumes, tracks applications",
+      "repo": "career-ops-hq/career-ops",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "Charlie85270/Dorothy",
@@ -3299,6 +3335,15 @@
       "repo": "explorium-ai/vibeprospecting-plugin",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "finom/vovk",
+      "name": "vovk",
+      "url": "https://github.com/finom/vovk/tree/main/skills",
+      "description": "Next.js API routes as MCP tools and typed clients",
+      "repo": "finom/vovk",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "fishzjp/qa-skills",
@@ -4750,15 +4795,6 @@
       "section": "Development and Testing"
     },
     {
-      "id": "santifer/career-ops",
-      "name": "career-ops",
-      "url": "https://github.com/santifer/career-ops",
-      "description": "14-skill collection for AI-powered job search: JD evaluation with A-F scoring, ATS-optimized PDF generation, portal scanners (Greenhouse/Ashby/Lever), interview prep with STAR+R, batch processing, and a Go dashboard TUI",
-      "repo": "santifer/career-ops",
-      "publisher": "Community",
-      "section": "Productivity and Collaboration"
-    },
-    {
       "id": "scarletkc/agents",
       "name": "agents",
       "url": "https://github.com/scarletkc/agents",
@@ -4863,6 +4899,15 @@
       "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
       "description": "Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes",
       "repo": "yusufkaraaslan/Skill_Seekers",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "skymanbp/cc-tree",
+      "name": "cc-tree",
+      "url": "https://github.com/skymanbp/cc-tree",
+      "description": "Auditable radial-tree exploration for brainstorming, critique, design and code audit",
+      "repo": "skymanbp/cc-tree",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -5162,6 +5207,15 @@
       "repo": "VoDaiLocz/kilo-kit-mcp",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "voygr-tech/placecall",
+      "name": "placecall",
+      "url": "https://github.com/voygr-tech/placecall/tree/main/skills/placecall",
+      "description": "Calls US businesses by phone and returns outcome and transcript",
+      "repo": "voygr-tech/placecall",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "vshulcz/deja-history",

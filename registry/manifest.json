@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T10:50:38Z",
-  "total_skills": 1155,
+  "generated_at": "2026-10-23T10:43:22Z",
+  "total_skills": 1158,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 295,
+      "skills_count": 298,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -885,13 +885,6 @@
           "name": "gtm-cofounder",
           "url": "https://github.com/AIDevGTM/gtm-cofounder",
           "repo": "AIDevGTM/gtm-cofounder",
-          "publisher": "Community"
-        },
-        {
-          "id": "axelfreeman/marketing-mindset",
-          "name": "marketing-mindset",
-          "url": "https://github.com/axelfreeman/marketing-mindset",
-          "repo": "axelfreeman/marketing-mindset",
           "publisher": "Community"
         },
         {
@@ -1672,6 +1665,13 @@
           "publisher": "Community"
         },
         {
+          "id": "finom/vovk",
+          "name": "vovk",
+          "url": "https://github.com/finom/vovk/tree/main/skills",
+          "repo": "finom/vovk",
+          "publisher": "Community"
+        },
+        {
           "id": "fishzjp/qa-skills",
           "name": "qa-skills",
           "url": "https://github.com/fishzjp/qa-skills",
@@ -2183,6 +2183,13 @@
           "publisher": "Community"
         },
         {
+          "id": "skymanbp/cc-tree",
+          "name": "cc-tree",
+          "url": "https://github.com/skymanbp/cc-tree",
+          "repo": "skymanbp/cc-tree",
+          "publisher": "Community"
+        },
+        {
           "id": "squirrelscan/squirrelscan",
           "name": "squirrelscan",
           "url": "https://github.com/squirrelscan/skills",
@@ -2512,6 +2519,13 @@
           "publisher": "Community"
         },
         {
+          "id": "arifszn/slide-wright",
+          "name": "slide-wright",
+          "url": "https://github.com/arifszn/slide-wright",
+          "repo": "arifszn/slide-wright",
+          "publisher": "Community"
+        },
+        {
           "id": "Atomic-Mail/atomicmail",
           "name": "atomicmail",
           "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
@@ -2530,6 +2544,13 @@
           "name": "tutor-skills",
           "url": "https://github.com/bevibing/tutor-skills",
           "repo": "bevibing/tutor-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "career-ops-hq/career-ops",
+          "name": "career-ops",
+          "url": "https://github.com/career-ops-hq/career-ops",
+          "repo": "career-ops-hq/career-ops",
           "publisher": "Community"
         },
         {
@@ -2785,13 +2806,6 @@
           "publisher": "Community"
         },
         {
-          "id": "santifer/career-ops",
-          "name": "career-ops",
-          "url": "https://github.com/santifer/career-ops",
-          "repo": "santifer/career-ops",
-          "publisher": "Community"
-        },
-        {
           "id": "SeanZoR/claude-speed-reader",
           "name": "claude-speed-reader",
           "url": "https://github.com/SeanZoR/claude-speed-reader",
@@ -2838,6 +2852,13 @@
           "name": "job-application-agent",
           "url": "https://github.com/vaibhavarora14/job-application-agent",
           "repo": "vaibhavarora14/job-application-agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "voygr-tech/placecall",
+          "name": "placecall",
+          "url": "https://github.com/voygr-tech/placecall/tree/main/skills/placecall",
+          "repo": "voygr-tech/placecall",
           "publisher": "Community"
         },
         {
