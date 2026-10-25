@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-10-23T10:43:22Z",
+    "fetched_at": "2026-10-25T10:24:43Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 298,
+    "total_skills": 299,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 298
+    "total_community": 299
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 298,
+      "skills_count": 299,
       "skills": [
         {
           "section": "Marketing",
@@ -355,7 +355,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 55,
+          "skills_count": 56,
           "skills": [
             {
               "id": "AceDataCloud/fish-audio",
@@ -606,6 +606,15 @@
               "url": "https://github.com/meodai/skill.color-expert",
               "description": "Color science expert skill with 286K words of reference material covering OKLCH/OKLAB, palette generation, accessibility/contrast, color naming, pigment mixing, and historical color theory",
               "repo": "meodai/skill.color-expert",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "MetaMask/metamask-agent-wallet",
+              "name": "metamask-agent-wallet",
+              "url": "https://github.com/MetaMask/agent-skills/tree/main/skills/metamask-agent-wallet",
+              "description": "Official MetaMask self-custodial wallet: swaps, bridges, perps, x402 payments",
+              "repo": "MetaMask/agent-skills",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -3956,6 +3965,15 @@
       "repo": "metalbear-co/skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "MetaMask/metamask-agent-wallet",
+      "name": "metamask-agent-wallet",
+      "url": "https://github.com/MetaMask/agent-skills/tree/main/skills/metamask-agent-wallet",
+      "description": "Official MetaMask self-custodial wallet: swaps, bridges, perps, x402 payments",
+      "repo": "MetaMask/agent-skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "MohamedAbdallah-14/unslop",

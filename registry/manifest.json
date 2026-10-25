@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T10:43:22Z",
-  "total_skills": 1158,
+  "generated_at": "2026-10-25T10:24:43Z",
+  "total_skills": 1159,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 298,
+      "skills_count": 299,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1319,6 +1319,13 @@
           "name": "skill.color-expert",
           "url": "https://github.com/meodai/skill.color-expert",
           "repo": "meodai/skill.color-expert",
+          "publisher": "Community"
+        },
+        {
+          "id": "MetaMask/metamask-agent-wallet",
+          "name": "metamask-agent-wallet",
+          "url": "https://github.com/MetaMask/agent-skills/tree/main/skills/metamask-agent-wallet",
+          "repo": "MetaMask/agent-skills",
           "publisher": "Community"
         },
         {
