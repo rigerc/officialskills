@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T10:24:43Z",
-  "total_skills": 1159,
+  "generated_at": "2026-10-27T11:17:03Z",
+  "total_skills": 1163,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 299,
+      "skills_count": 303,
       "skills": [
         {
           "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -955,6 +955,13 @@
           "name": "goose-skills",
           "url": "https://github.com/gooseworks-ai/goose-skills",
           "repo": "gooseworks-ai/goose-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "harshmaur/apify-reddit-scraper",
+          "name": "apify-reddit-scraper",
+          "url": "https://github.com/apify/awesome-skills/tree/main/skills/apify-reddit-scraper",
+          "repo": "apify/awesome-skills",
           "publisher": "Community"
         },
         {
@@ -1338,8 +1345,15 @@
         {
           "id": "morluto/rea",
           "name": "rea",
-          "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+          "url": "https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything",
           "repo": "morluto/rea",
+          "publisher": "Community"
+        },
+        {
+          "id": "nexscope-ai/eCommerce-Skills",
+          "name": "eCommerce-Skills",
+          "url": "https://github.com/nexscope-ai/eCommerce-Skills",
+          "repo": "nexscope-ai/eCommerce-Skills",
           "publisher": "Community"
         },
         {
@@ -1550,6 +1564,13 @@
           "name": "terraform-skill",
           "url": "https://github.com/antonbabenko/terraform-skill",
           "repo": "antonbabenko/terraform-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "aurite-ai/agent-verifier",
+          "name": "agent-verifier",
+          "url": "https://github.com/Aurite-ai/agent-verifier",
+          "repo": "Aurite-ai/agent-verifier",
           "publisher": "Community"
         },
         {
@@ -2565,6 +2586,13 @@
           "name": "Dorothy",
           "url": "https://github.com/Charlie85270/Dorothy",
           "repo": "Charlie85270/Dorothy",
+          "publisher": "Community"
+        },
+        {
+          "id": "chrisryugj/kordoc",
+          "name": "kordoc",
+          "url": "https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc",
+          "repo": "chrisryugj/kordoc",
           "publisher": "Community"
         },
         {

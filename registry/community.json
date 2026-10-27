@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-10-25T10:24:43Z",
+    "fetched_at": "2026-10-27T11:17:03Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 299,
+    "total_skills": 303,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 299
+    "total_community": 303
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 299,
+      "skills_count": 303,
       "skills": [
         {
           "section": "Marketing",
-          "skills_count": 37,
+          "skills_count": 38,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -132,6 +132,15 @@
               "url": "https://github.com/gooseworks-ai/goose-skills",
               "description": "125 growth and GTM skills: ads, content, lead gen, SEO",
               "repo": "gooseworks-ai/goose-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "harshmaur/apify-reddit-scraper",
+              "name": "apify-reddit-scraper",
+              "url": "https://github.com/apify/awesome-skills/tree/main/skills/apify-reddit-scraper",
+              "description": "Scrape Reddit posts, comments and subreddits without an API key",
+              "repo": "apify/awesome-skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -355,7 +364,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 56,
+          "skills_count": 57,
           "skills": [
             {
               "id": "AceDataCloud/fish-audio",
@@ -630,9 +639,18 @@
             {
               "id": "morluto/rea",
               "name": "rea",
-              "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+              "url": "https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything",
               "description": "Reverse-engineer binaries, applications, and runtimes with REA",
               "repo": "morluto/rea",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "nexscope-ai/eCommerce-Skills",
+              "name": "eCommerce-Skills",
+              "url": "https://github.com/nexscope-ai/eCommerce-Skills",
+              "description": "150+ ecommerce skills for Amazon, Shopify, Etsy, TikTok sellers",
+              "repo": "nexscope-ai/eCommerce-Skills",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -865,7 +883,7 @@
         },
         {
           "section": "Development and Testing",
-          "skills_count": 114,
+          "skills_count": 115,
           "skills": [
             {
               "id": "aeonfun/aeon",
@@ -909,6 +927,15 @@
               "url": "https://github.com/antonbabenko/terraform-skill",
               "description": "Terraform and OpenTofu patterns: testing, modules, state, CI/CD.",
               "repo": "antonbabenko/terraform-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "aurite-ai/agent-verifier",
+              "name": "agent-verifier",
+              "url": "https://github.com/Aurite-ai/agent-verifier",
+              "description": "Reviews AI agent code for secrets, unbounded loops, hallucinated tools",
+              "repo": "Aurite-ai/agent-verifier",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -2173,7 +2200,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 54,
+          "skills_count": 55,
           "skills": [
             {
               "id": "arifszn/slide-wright",
@@ -2226,6 +2253,15 @@
               "url": "https://github.com/Charlie85270/Dorothy",
               "description": "Orchestrate multiple AI CLI agents with automations and MCP servers",
               "repo": "Charlie85270/Dorothy",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "chrisryugj/kordoc",
+              "name": "kordoc",
+              "url": "https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc",
+              "description": "Convert Korean HWP/HWPX documents to Markdown, fill forms, generate HWPX",
+              "repo": "chrisryugj/kordoc",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -2905,6 +2941,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "aurite-ai/agent-verifier",
+      "name": "agent-verifier",
+      "url": "https://github.com/Aurite-ai/agent-verifier",
+      "description": "Reviews AI agent code for secrets, unbounded loops, hallucinated tools",
+      "repo": "Aurite-ai/agent-verifier",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "AvdLee/swiftui-expert-skill",
       "name": "swiftui-expert-skill",
       "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
@@ -3018,6 +3063,15 @@
       "url": "https://github.com/Charlie85270/Dorothy",
       "description": "Orchestrate multiple AI CLI agents with automations and MCP servers",
       "repo": "Charlie85270/Dorothy",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "chrisryugj/kordoc",
+      "name": "kordoc",
+      "url": "https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc",
+      "description": "Convert Korean HWP/HWPX documents to Markdown, fill forms, generate HWPX",
+      "repo": "chrisryugj/kordoc",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
     },
@@ -3562,6 +3616,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "harshmaur/apify-reddit-scraper",
+      "name": "apify-reddit-scraper",
+      "url": "https://github.com/apify/awesome-skills/tree/main/skills/apify-reddit-scraper",
+      "description": "Scrape Reddit posts, comments and subreddits without an API key",
+      "repo": "apify/awesome-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "hasuwini77/3d-logo",
       "name": "3d-logo",
       "url": "https://github.com/hasuwini77/3d-logo-skill",
@@ -3996,7 +4059,7 @@
     {
       "id": "morluto/rea",
       "name": "rea",
-      "url": "https://github.com/morluto/rea/tree/main/skills/reverse-engineer-anything",
+      "url": "https://github.com/morluto/rea/tree/main/.agents/skills/reverse-engineer-anything",
       "description": "Reverse-engineer binaries, applications, and runtimes with REA",
       "repo": "morluto/rea",
       "publisher": "Community",
@@ -4208,6 +4271,15 @@
       "repo": "NeoLabHQ/context-engineering-kit",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "nexscope-ai/eCommerce-Skills",
+      "name": "eCommerce-Skills",
+      "url": "https://github.com/nexscope-ai/eCommerce-Skills",
+      "description": "150+ ecommerce skills for Amazon, Shopify, Etsy, TikTok sellers",
+      "repo": "nexscope-ai/eCommerce-Skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "nextlevelbuilder/ui-ux-pro-max-skill",
