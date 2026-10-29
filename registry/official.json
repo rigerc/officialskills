@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-10-27T11:17:03Z",
+    "fetched_at": "2026-10-29T11:58:36Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 860,
+    "total_skills": 869,
     "total_publishers": 61,
     "total_categories": 7,
-    "total_official": 860,
+    "total_official": 869,
     "total_community": 0
   },
   "publishers": [
@@ -8325,12 +8325,30 @@
     {
       "name": "Vercel",
       "type": "official",
-      "skills_count": 3,
+      "skills_count": 12,
       "skills": [
         {
           "section": "Official",
-          "skills_count": 3,
+          "skills_count": 12,
           "skills": [
+            {
+              "id": "vercel-labs/composition-patterns",
+              "name": "composition-patterns",
+              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/composition-patterns",
+              "description": "Scalable React composition patterns for reusable component APIs",
+              "repo": "vercel-labs/next-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/deploy-to-vercel",
+              "name": "deploy-to-vercel",
+              "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel",
+              "description": "Deploy applications and websites to Vercel",
+              "repo": "vercel-labs/agent-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
             {
               "id": "vercel-labs/next-best-practices",
               "name": "next-best-practices",
@@ -8355,6 +8373,69 @@
               "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-upgrade",
               "description": "Upgrade Next.js projects to newer versions",
               "repo": "vercel-labs/next-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/react-best-practices",
+              "name": "react-best-practices",
+              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-best-practices",
+              "description": "React and Next.js performance optimization guidelines",
+              "repo": "vercel-labs/next-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/react-native-skills",
+              "name": "react-native-skills",
+              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-native-skills",
+              "description": "React Native and Expo best practices for performant apps",
+              "repo": "vercel-labs/next-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/react-view-transitions",
+              "name": "react-view-transitions",
+              "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions",
+              "description": "Native-feeling animations with React View Transitions",
+              "repo": "vercel-labs/agent-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/vercel-cli-with-tokens",
+              "name": "vercel-cli-with-tokens",
+              "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens",
+              "description": "Deploy and manage Vercel projects with token authentication",
+              "repo": "vercel-labs/agent-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/vercel-optimize",
+              "name": "vercel-optimize",
+              "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-optimize",
+              "description": "Metric-backed Vercel cost and performance optimization audits",
+              "repo": "vercel-labs/agent-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/web-design-guidelines",
+              "name": "web-design-guidelines",
+              "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/web-design-guidelines",
+              "description": "Review UI code against Web Interface Guidelines",
+              "repo": "vercel-labs/next-skills",
+              "publisher": "Vercel",
+              "section": "Official"
+            },
+            {
+              "id": "vercel-labs/writing-guidelines",
+              "name": "writing-guidelines",
+              "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/writing-guidelines",
+              "description": "Review documentation against Writing Guidelines",
+              "repo": "vercel-labs/agent-skills",
               "publisher": "Vercel",
               "section": "Official"
             }
@@ -16117,6 +16198,24 @@
       "section": "Official"
     },
     {
+      "id": "vercel-labs/composition-patterns",
+      "name": "composition-patterns",
+      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/composition-patterns",
+      "description": "Scalable React composition patterns for reusable component APIs",
+      "repo": "vercel-labs/next-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/deploy-to-vercel",
+      "name": "deploy-to-vercel",
+      "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel",
+      "description": "Deploy applications and websites to Vercel",
+      "repo": "vercel-labs/agent-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
       "id": "vercel-labs/next-best-practices",
       "name": "next-best-practices",
       "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-best-practices",
@@ -16140,6 +16239,69 @@
       "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-upgrade",
       "description": "Upgrade Next.js projects to newer versions",
       "repo": "vercel-labs/next-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/react-best-practices",
+      "name": "react-best-practices",
+      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-best-practices",
+      "description": "React and Next.js performance optimization guidelines",
+      "repo": "vercel-labs/next-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/react-native-skills",
+      "name": "react-native-skills",
+      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/react-native-skills",
+      "description": "React Native and Expo best practices for performant apps",
+      "repo": "vercel-labs/next-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/react-view-transitions",
+      "name": "react-view-transitions",
+      "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions",
+      "description": "Native-feeling animations with React View Transitions",
+      "repo": "vercel-labs/agent-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/vercel-cli-with-tokens",
+      "name": "vercel-cli-with-tokens",
+      "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens",
+      "description": "Deploy and manage Vercel projects with token authentication",
+      "repo": "vercel-labs/agent-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/vercel-optimize",
+      "name": "vercel-optimize",
+      "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-optimize",
+      "description": "Metric-backed Vercel cost and performance optimization audits",
+      "repo": "vercel-labs/agent-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/web-design-guidelines",
+      "name": "web-design-guidelines",
+      "url": "https://github.com/vercel-labs/next-skills/tree/main/skills/web-design-guidelines",
+      "description": "Review UI code against Web Interface Guidelines",
+      "repo": "vercel-labs/next-skills",
+      "publisher": "Vercel",
+      "section": "Official"
+    },
+    {
+      "id": "vercel-labs/writing-guidelines",
+      "name": "writing-guidelines",
+      "url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/writing-guidelines",
+      "description": "Review documentation against Writing Guidelines",
+      "repo": "vercel-labs/agent-skills",
       "publisher": "Vercel",
       "section": "Official"
     },
