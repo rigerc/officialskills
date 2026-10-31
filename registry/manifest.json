@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T11:58:36Z",
-  "total_skills": 1228,
+  "generated_at": "2026-10-31T11:26:12Z",
+  "total_skills": 1230,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 359,
+      "skills_count": 361,
       "skills": [
         {
           "id": "777genius/agent-notifications",
@@ -1571,6 +1571,13 @@
           "name": "apify-reddit-scraper",
           "url": "https://github.com/apify/awesome-skills/tree/main/skills/apify-reddit-scraper",
           "repo": "apify/awesome-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "heygen-com/hyperframes",
+          "name": "hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "repo": "heygen-com/hyperframes",
           "publisher": "Community"
         },
         {
@@ -3377,6 +3384,13 @@
           "name": "skills",
           "url": "https://github.com/qdrant/skills",
           "repo": "qdrant/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "zilliztech/milvus-skill",
+          "name": "milvus-skill",
+          "url": "https://github.com/zilliztech/milvus-skill",
+          "repo": "zilliztech/milvus-skill",
           "publisher": "Community"
         }
       ]

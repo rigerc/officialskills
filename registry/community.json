@@ -1,18 +1,18 @@
 {
   "meta": {
-    "fetched_at": "2026-10-29T11:58:36Z",
+    "fetched_at": "2026-10-31T11:26:12Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 359,
+    "total_skills": 361,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 359
+    "total_community": 361
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 359,
+      "skills_count": 361,
       "skills": [
         {
           "section": "Productivity and Collaboration",
@@ -607,7 +607,7 @@
         },
         {
           "section": "Marketing",
-          "skills_count": 65,
+          "skills_count": 66,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -930,6 +930,15 @@
               "url": "https://github.com/apify/awesome-skills/tree/main/skills/apify-reddit-scraper",
               "description": "Scrape Reddit posts, comments and subreddits without an API key",
               "repo": "apify/awesome-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "heygen-com/hyperframes",
+              "name": "hyperframes",
+              "url": "https://github.com/heygen-com/hyperframes",
+              "description": "Write videos as HTML and render them to MP4: launch films, explainers, captions, charts and 450+ ready-made blocks, by HeyGen",
+              "repo": "heygen-com/hyperframes",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -3274,7 +3283,7 @@
         },
         {
           "section": "Vector Databases",
-          "skills_count": 1,
+          "skills_count": 2,
           "skills": [
             {
               "id": "qdrant/skills",
@@ -3282,6 +3291,15 @@
               "url": "https://github.com/qdrant/skills",
               "description": "Agent skills for Qdrant vector search, covering scaling, performance optimization, search quality, monitoring, deployment, model migration, version upgrades, and SDK usage across Python, TypeScript, Rust, Go, .NET, and Java",
               "repo": "qdrant/skills",
+              "publisher": "Community",
+              "section": "Vector Databases"
+            },
+            {
+              "id": "zilliztech/milvus-skill",
+              "name": "milvus-skill",
+              "url": "https://github.com/zilliztech/milvus-skill",
+              "description": "Manage Milvus collections, indexes, vector searches, and RAG workflows",
+              "repo": "zilliztech/milvus-skill",
               "publisher": "Community",
               "section": "Vector Databases"
             }
@@ -4460,6 +4478,15 @@
       "repo": "hermes-labs-ai/little-canary",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "heygen-com/hyperframes",
+      "name": "hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write videos as HTML and render them to MP4: launch films, explainers, captions, charts and 450+ ready-made blocks, by HeyGen",
+      "repo": "heygen-com/hyperframes",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
@@ -6494,6 +6521,15 @@
       "repo": "zilliztech/mfs",
       "publisher": "Community",
       "section": "Context Engineering"
+    },
+    {
+      "id": "zilliztech/milvus-skill",
+      "name": "milvus-skill",
+      "url": "https://github.com/zilliztech/milvus-skill",
+      "description": "Manage Milvus collections, indexes, vector searches, and RAG workflows",
+      "repo": "zilliztech/milvus-skill",
+      "publisher": "Community",
+      "section": "Vector Databases"
     },
     {
       "id": "zincio/universal-checkout",
