@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T12:20:22Z",
-  "total_skills": 1230,
+  "generated_at": "2026-11-03T13:16:47Z",
+  "total_skills": 1238,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,7 +864,7 @@
       ]
     },
     "Community": {
-      "skills_count": 361,
+      "skills_count": 368,
       "skills": [
         {
           "id": "777genius/agent-notifications",
@@ -895,10 +895,10 @@
           "publisher": "Community"
         },
         {
-          "id": "bablobanov/hermes-telegram-checklist",
-          "name": "hermes-telegram-checklist",
-          "url": "https://github.com/bablobanov/hermes-telegram-checklist",
-          "repo": "bablobanov/hermes-telegram-checklist",
+          "id": "bablobanov/hermes-agent-telegram-checklist",
+          "name": "hermes-agent-telegram-checklist",
+          "url": "https://github.com/bablobanov/hermes-agent-telegram-checklist",
+          "repo": "bablobanov/hermes-agent-telegram-checklist",
           "publisher": "Community"
         },
         {
@@ -1014,10 +1014,10 @@
           "publisher": "Community"
         },
         {
-          "id": "JimmySadek/youtube-fetcher",
-          "name": "youtube-fetcher",
-          "url": "https://github.com/JimmySadek/youtube-fetcher-to-markdown",
-          "repo": "JimmySadek/youtube-fetcher-to-markdown",
+          "id": "JimmySadek/video-fetcher-to-markdown",
+          "name": "video-fetcher-to-markdown",
+          "url": "https://github.com/JimmySadek/video-fetcher-to-markdown",
+          "repo": "JimmySadek/video-fetcher-to-markdown",
           "publisher": "Community"
         },
         {
@@ -1060,6 +1060,13 @@
           "name": "zero-slop",
           "url": "https://github.com/manavmishra/ZeroSlop/blob/main/SKILL.md",
           "repo": "manavmishra/ZeroSlop",
+          "publisher": "Community"
+        },
+        {
+          "id": "MetcalfSolutions/Satori",
+          "name": "Satori",
+          "url": "https://github.com/MetcalfSolutions/Satori",
+          "repo": "MetcalfSolutions/Satori",
           "publisher": "Community"
         },
         {
@@ -1322,6 +1329,916 @@
           "publisher": "Community"
         },
         {
+          "id": "9929y/mesh-gradient-generation",
+          "name": "mesh-gradient-generation",
+          "url": "https://github.com/9929y/mesh-gradient-generation",
+          "repo": "9929y/mesh-gradient-generation",
+          "publisher": "Community"
+        },
+        {
+          "id": "aeonfun/aeon",
+          "name": "aeon",
+          "url": "https://github.com/aeonfun/aeon",
+          "repo": "aeonfun/aeon",
+          "publisher": "Community"
+        },
+        {
+          "id": "agiwhitelist/auteur",
+          "name": "auteur",
+          "url": "https://github.com/agiwhitelist/auteur",
+          "repo": "agiwhitelist/auteur",
+          "publisher": "Community"
+        },
+        {
+          "id": "alinaqi/maggy",
+          "name": "maggy",
+          "url": "https://github.com/alinaqi/maggy",
+          "repo": "alinaqi/maggy",
+          "publisher": "Community"
+        },
+        {
+          "id": "allxsmith/bestax",
+          "name": "bestax",
+          "url": "https://github.com/allxsmith/bestax/tree/main/skills",
+          "repo": "allxsmith/bestax",
+          "publisher": "Community"
+        },
+        {
+          "id": "antonbabenko/terraform-skill",
+          "name": "terraform-skill",
+          "url": "https://github.com/antonbabenko/terraform-skill",
+          "repo": "antonbabenko/terraform-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "aurite-ai/agent-verifier",
+          "name": "agent-verifier",
+          "url": "https://github.com/Aurite-ai/agent-verifier",
+          "repo": "Aurite-ai/agent-verifier",
+          "publisher": "Community"
+        },
+        {
+          "id": "AvdLee/swiftui-expert-skill",
+          "name": "swiftui-expert-skill",
+          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
+          "repo": "AvdLee/SwiftUI-Agent-Skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "baskduf/codex-fable5",
+          "name": "codex-fable5",
+          "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
+          "repo": "baskduf/FableCodex",
+          "publisher": "Community"
+        },
+        {
+          "id": "beastlabai/multi-llm",
+          "name": "multi-llm",
+          "url": "https://github.com/beastlabai/multi-llm-plugin/tree/master/skills/multi-llm",
+          "repo": "beastlabai/multi-llm-plugin",
+          "publisher": "Community"
+        },
+        {
+          "id": "browser-act/browser-act",
+          "name": "browser-act",
+          "url": "https://github.com/browser-act/skills/tree/main/browser-act",
+          "repo": "browser-act/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "Cap-go/capgo-skills",
+          "name": "capgo-skills",
+          "url": "https://github.com/Cap-go/capgo-skills",
+          "repo": "Cap-go/capgo-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "CloudAI-X/threejs-skills",
+          "name": "threejs-skills",
+          "url": "https://github.com/CloudAI-X/threejs-skills",
+          "repo": "CloudAI-X/threejs-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "coderabbitai/skills",
+          "name": "skills",
+          "url": "https://github.com/coderabbitai/skills",
+          "repo": "coderabbitai/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "conorluddy/ios-simulator-skill",
+          "name": "ios-simulator-skill",
+          "url": "https://github.com/conorluddy/ios-simulator-skill",
+          "repo": "conorluddy/ios-simulator-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "Continuum-AI-Corp/orca-replay",
+          "name": "orca-replay",
+          "url": "https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay",
+          "repo": "Continuum-AI-Corp/OrcaReplay",
+          "publisher": "Community"
+        },
+        {
+          "id": "csthink/dashmotion",
+          "name": "dashmotion",
+          "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
+          "repo": "csthink/dashmotion",
+          "publisher": "Community"
+        },
+        {
+          "id": "d1vai/d1v",
+          "name": "d1v",
+          "url": "https://github.com/d1vai/d1v-cli/blob/main/skills/d1v/SKILL.md",
+          "repo": "d1vai/d1v-cli",
+          "publisher": "Community"
+        },
+        {
+          "id": "dannwaneri/spec-writer",
+          "name": "spec-writer",
+          "url": "https://github.com/dannwaneri/spec-writer",
+          "repo": "dannwaneri/spec-writer",
+          "publisher": "Community"
+        },
+        {
+          "id": "dembrandt/dembrandt-skills",
+          "name": "dembrandt-skills",
+          "url": "https://github.com/dembrandt/dembrandt-skills",
+          "repo": "dembrandt/dembrandt-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "drogers0/github-image-upload",
+          "name": "github-image-upload",
+          "url": "https://github.com/drogers0/gh-image/tree/main/skills/github-image-upload",
+          "repo": "drogers0/gh-image",
+          "publisher": "Community"
+        },
+        {
+          "id": "edonadei/evaluate-skill",
+          "name": "evaluate-skill",
+          "url": "https://github.com/edonadei/caliper/tree/main/skills/evaluate-skill",
+          "repo": "edonadei/caliper",
+          "publisher": "Community"
+        },
+        {
+          "id": "eduardo-sl/go-agent-skills",
+          "name": "go-agent-skills",
+          "url": "https://github.com/eduardo-sl/go-agent-skills",
+          "repo": "eduardo-sl/go-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "efremidze/swift-patterns-skill",
+          "name": "swift-patterns-skill",
+          "url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
+          "repo": "efremidze/swift-patterns-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "ehmo/platform-design-skills",
+          "name": "platform-design-skills",
+          "url": "https://github.com/ehmo/platform-design-skills",
+          "repo": "ehmo/platform-design-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "EricJujianZou/rederive",
+          "name": "rederive",
+          "url": "https://github.com/EricJujianZou/rederive",
+          "repo": "EricJujianZou/rederive",
+          "publisher": "Community"
+        },
+        {
+          "id": "ethos-link/rails-conventions",
+          "name": "rails-conventions",
+          "url": "https://github.com/ethos-link/rails-conventions",
+          "repo": "ethos-link/rails-conventions",
+          "publisher": "Community"
+        },
+        {
+          "id": "exadel-inc/agentic-readiness-assessment",
+          "name": "agentic-readiness-assessment",
+          "url": "https://github.com/exadel-inc/agentic-readiness-assessment/tree/main/skills/agentic-readiness-assessment",
+          "repo": "exadel-inc/agentic-readiness-assessment",
+          "publisher": "Community"
+        },
+        {
+          "id": "finom/vovk",
+          "name": "vovk",
+          "url": "https://github.com/finom/vovk/tree/main/skills",
+          "repo": "finom/vovk",
+          "publisher": "Community"
+        },
+        {
+          "id": "first-fluke/oh-my-agent",
+          "name": "oh-my-agent",
+          "url": "https://github.com/first-fluke/oh-my-agent",
+          "repo": "first-fluke/oh-my-agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "fishzjp/qa-skills",
+          "name": "qa-skills",
+          "url": "https://github.com/fishzjp/qa-skills",
+          "repo": "fishzjp/qa-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "foryourhealth111-pixel/Vibe-Skills",
+          "name": "Vibe-Skills",
+          "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
+          "repo": "foryourhealth111-pixel/Vibe-Skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "fujibee/agmsg",
+          "name": "agmsg",
+          "url": "https://github.com/fujibee/agmsg",
+          "repo": "fujibee/agmsg",
+          "publisher": "Community"
+        },
+        {
+          "id": "fullselfbrowsing/fsb",
+          "name": "fsb",
+          "url": "https://github.com/fullselfbrowsing/FSB/tree/main/skills/fsb",
+          "repo": "fullselfbrowsing/FSB",
+          "publisher": "Community"
+        },
+        {
+          "id": "fvadicamo/dev-agent-skills",
+          "name": "dev-agent-skills",
+          "url": "https://github.com/fvadicamo/dev-agent-skills",
+          "repo": "fvadicamo/dev-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "gal-a/qikly",
+          "name": "qikly",
+          "url": "https://github.com/gal-a/qikly/tree/main/.claude/skills/qikly",
+          "repo": "gal-a/qikly",
+          "publisher": "Community"
+        },
+        {
+          "id": "GanyuanRan/Aegis",
+          "name": "Aegis",
+          "url": "https://github.com/GanyuanRan/Aegis",
+          "repo": "GanyuanRan/Aegis",
+          "publisher": "Community"
+        },
+        {
+          "id": "GAURAV-1313/codecall",
+          "name": "codecall",
+          "url": "https://github.com/GAURAV-1313/codecall/tree/main/plugins/codecall/skills/codecall",
+          "repo": "GAURAV-1313/codecall",
+          "publisher": "Community"
+        },
+        {
+          "id": "gongdear/cline-pilot",
+          "name": "cline-pilot",
+          "url": "https://github.com/gongdear/cline-pilot",
+          "repo": "gongdear/cline-pilot",
+          "publisher": "Community"
+        },
+        {
+          "id": "hasuwini77/3d-logo",
+          "name": "3d-logo",
+          "url": "https://github.com/hasuwini77/3d-logo-skill",
+          "repo": "hasuwini77/3d-logo-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "hedralab/eskill",
+          "name": "eskill",
+          "url": "https://github.com/hedralab/eskill",
+          "repo": "hedralab/eskill",
+          "publisher": "Community"
+        },
+        {
+          "id": "hermes-labs-ai/lintlang",
+          "name": "lintlang",
+          "url": "https://github.com/hermes-labs-ai/lintlang/blob/main/.agents/skills/lintlang/SKILL.md",
+          "repo": "hermes-labs-ai/lintlang",
+          "publisher": "Community"
+        },
+        {
+          "id": "hermes-labs-ai/little-canary",
+          "name": "little-canary",
+          "url": "https://github.com/hermes-labs-ai/little-canary/blob/main/.agents/skills/little-canary/SKILL.md",
+          "repo": "hermes-labs-ai/little-canary",
+          "publisher": "Community"
+        },
+        {
+          "id": "hqhq1025/skill-optimizer",
+          "name": "skill-optimizer",
+          "url": "https://github.com/hqhq1025/skill-optimizer",
+          "repo": "hqhq1025/skill-optimizer",
+          "publisher": "Community"
+        },
+        {
+          "id": "ibelick/ui-skills",
+          "name": "ui-skills",
+          "url": "https://github.com/ibelick/ui-skills",
+          "repo": "ibelick/ui-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "JasonColapietro/suede-creator-skills",
+          "name": "suede-creator-skills",
+          "url": "https://github.com/JasonColapietro/suede-creator-skills",
+          "repo": "JasonColapietro/suede-creator-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "jthack/ffuf-claude-skill",
+          "name": "ffuf-claude-skill",
+          "url": "https://github.com/jthack/ffuf_claude_skill",
+          "repo": "jthack/ffuf_claude_skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "Kayforkind/reimagine-it",
+          "name": "reimagine-it",
+          "url": "https://github.com/Kayforkind/reimagine-it",
+          "repo": "Kayforkind/reimagine-it",
+          "publisher": "Community"
+        },
+        {
+          "id": "kensaurus/skills",
+          "name": "skills",
+          "url": "https://github.com/kensaurus/skills",
+          "repo": "kensaurus/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "Kevin7Qi/codex-collab",
+          "name": "codex-collab",
+          "url": "https://github.com/Kevin7Qi/codex-collab",
+          "repo": "Kevin7Qi/codex-collab",
+          "publisher": "Community"
+        },
+        {
+          "id": "KhazP/vibe-coding-prompt-template",
+          "name": "vibe-coding-prompt-template",
+          "url": "https://github.com/KhazP/vibe-coding-prompt-template",
+          "repo": "KhazP/vibe-coding-prompt-template",
+          "publisher": "Community"
+        },
+        {
+          "id": "krisyangdev/motionboard",
+          "name": "motionboard",
+          "url": "https://github.com/krisyangdev/motionboard/tree/main/skills/motionboard",
+          "repo": "krisyangdev/motionboard",
+          "publisher": "Community"
+        },
+        {
+          "id": "kulchankas/paranoid",
+          "name": "paranoid",
+          "url": "https://github.com/kulchankas/paranoid",
+          "repo": "kulchankas/paranoid",
+          "publisher": "Community"
+        },
+        {
+          "id": "lackeyjb/playwright-skill",
+          "name": "playwright-skill",
+          "url": "https://github.com/lackeyjb/playwright-skill",
+          "repo": "lackeyjb/playwright-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "LambdaTest/agent-skills",
+          "name": "agent-skills",
+          "url": "https://github.com/LambdaTest/agent-skills",
+          "repo": "LambdaTest/agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "laolaoshiren/zh-code-reviewer",
+          "name": "zh-code-reviewer",
+          "url": "https://github.com/laolaoshiren/claude-code-skills-zh/tree/main/skills/zh-code-reviewer",
+          "repo": "laolaoshiren/claude-code-skills-zh",
+          "publisher": "Community"
+        },
+        {
+          "id": "Leonxlnx/taste-skill",
+          "name": "taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "repo": "Leonxlnx/taste-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "lindblomstefan/skills-library",
+          "name": "skills-library",
+          "url": "https://github.com/lindblomstefan/skills-library",
+          "repo": "lindblomstefan/skills-library",
+          "publisher": "Community"
+        },
+        {
+          "id": "lukstei/slop-grader",
+          "name": "slop-grader",
+          "url": "https://github.com/lukstei/slop-grader",
+          "repo": "lukstei/slop-grader",
+          "publisher": "Community"
+        },
+        {
+          "id": "Lum1104/understand-anything",
+          "name": "understand-anything",
+          "url": "https://github.com/Egonex-AI/Understand-Anything",
+          "repo": "Egonex-AI/Understand-Anything",
+          "publisher": "Community"
+        },
+        {
+          "id": "Maksim-Burtsev/simple-man",
+          "name": "simple-man",
+          "url": "https://github.com/Maksim-Burtsev/simple-man",
+          "repo": "Maksim-Burtsev/simple-man",
+          "publisher": "Community"
+        },
+        {
+          "id": "marvkr/better-design",
+          "name": "better-design",
+          "url": "https://github.com/marvkr/better-design/tree/main/skills/better-design",
+          "repo": "marvkr/better-design",
+          "publisher": "Community"
+        },
+        {
+          "id": "massimodeluisa/recursive-decomposition-skill",
+          "name": "recursive-decomposition-skill",
+          "url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
+          "repo": "massimodeluisa/recursive-decomposition-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "mattpocock/skills",
+          "name": "skills",
+          "url": "https://github.com/mattpocock/skills",
+          "repo": "mattpocock/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "mcollina/skills",
+          "name": "skills",
+          "url": "https://github.com/mcollina/skills/tree/main/skills",
+          "repo": "mcollina/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "metalbear-co/skills",
+          "name": "skills",
+          "url": "https://github.com/metalbear-co/skills",
+          "repo": "metalbear-co/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "mobbin/redesign-screen",
+          "name": "redesign-screen",
+          "url": "https://github.com/mobbin/skills/tree/main/skills/redesign-screen",
+          "repo": "mobbin/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "mobbin/search",
+          "name": "search",
+          "url": "https://github.com/mobbin/skills/tree/main/skills/search",
+          "repo": "mobbin/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "moxno/privacyscrubber-guard",
+          "name": "privacyscrubber-guard",
+          "url": "https://github.com/moxno/privacyscrubber-mcp/tree/main/skills/privacyscrubber-guard",
+          "repo": "moxno/privacyscrubber-mcp",
+          "publisher": "Community"
+        },
+        {
+          "id": "mukul975/Anthropic-Cybersecurity-Skills",
+          "name": "Anthropic-Cybersecurity-Skills",
+          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "repo": "mukul975/Anthropic-Cybersecurity-Skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "muthuishere/hand-drawn-diagrams",
+          "name": "hand-drawn-diagrams",
+          "url": "https://github.com/muthuishere/hand-drawn-diagrams",
+          "repo": "muthuishere/hand-drawn-diagrams",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/ddd",
+          "name": "ddd",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/kaizen",
+          "name": "kaizen",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/reflexion",
+          "name": "reflexion",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/reflexion",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/review",
+          "name": "review",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/review",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/sadd",
+          "name": "sadd",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/sdd",
+          "name": "sdd",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sdd",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "name": "ui-ux-pro-max-skill",
+          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+          "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "NoizAI/skills",
+          "name": "skills",
+          "url": "https://github.com/NoizAI/skills",
+          "repo": "NoizAI/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/finishing-a-development-branch",
+          "name": "finishing-a-development-branch",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/receiving-code-review",
+          "name": "receiving-code-review",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/requesting-code-review",
+          "name": "requesting-code-review",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/subagent-driven-development",
+          "name": "subagent-driven-development",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/systematic-debugging",
+          "name": "systematic-debugging",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/test-driven-development",
+          "name": "test-driven-development",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/using-git-worktrees",
+          "name": "using-git-worktrees",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/verification-before-completion",
+          "name": "verification-before-completion",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/writing-skills",
+          "name": "writing-skills",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "oil-oil/oil-ui",
+          "name": "oil-ui",
+          "url": "https://github.com/oil-oil/oil-ui",
+          "repo": "oil-oil/oil-ui",
+          "publisher": "Community"
+        },
+        {
+          "id": "ollygarden/opentelemetry-agent-skills",
+          "name": "opentelemetry-agent-skills",
+          "url": "https://github.com/ollygarden/opentelemetry-agent-skills",
+          "repo": "ollygarden/opentelemetry-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "omkamal/pypict-skill",
+          "name": "pypict-skill",
+          "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
+          "repo": "omkamal/pypict-claude-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "plasma-ai/fractal",
+          "name": "fractal",
+          "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
+          "repo": "plasma-ai/fractal",
+          "publisher": "Community"
+        },
+        {
+          "id": "prisma/skills",
+          "name": "skills",
+          "url": "https://github.com/prisma/skills",
+          "repo": "prisma/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "rainmanjam/poka-yoke",
+          "name": "poka-yoke",
+          "url": "https://github.com/rainmanjam/poka-yoke",
+          "repo": "rainmanjam/poka-yoke",
+          "publisher": "Community"
+        },
+        {
+          "id": "rameerez/claude-code-startup-skills",
+          "name": "claude-code-startup-skills",
+          "url": "https://github.com/rameerez/claude-code-startup-skills",
+          "repo": "rameerez/claude-code-startup-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "ramzesenok/iOS-Accessibility-Audit-Skill",
+          "name": "iOS-Accessibility-Audit-Skill",
+          "url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
+          "repo": "ramzesenok/iOS-Accessibility-Audit-Skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "reliefeai/browser-relay",
+          "name": "browser-relay",
+          "url": "https://github.com/reliefeai/browser-relay/tree/v1.4.1/skills/browser-relay",
+          "repo": "reliefeai/browser-relay",
+          "publisher": "Community"
+        },
+        {
+          "id": "rlaope/oh-my-hermes",
+          "name": "oh-my-hermes",
+          "url": "https://github.com/rlaope/oh-my-hermes",
+          "repo": "rlaope/oh-my-hermes",
+          "publisher": "Community"
+        },
+        {
+          "id": "robzolkos/skill-rails-upgrade",
+          "name": "skill-rails-upgrade",
+          "url": "https://github.com/robzolkos/skill-rails-upgrade",
+          "repo": "robzolkos/skill-rails-upgrade",
+          "publisher": "Community"
+        },
+        {
+          "id": "Rootly-AI-Labs/rootly-incident-responder",
+          "name": "rootly-incident-responder",
+          "url": "https://github.com/rootlyhq/rootly-mcp-server/blob/main/examples/skills/rootly-incident-responder.md",
+          "repo": "rootlyhq/rootly-mcp-server",
+          "publisher": "Community"
+        },
+        {
+          "id": "rorkai/app-store-connect-cli-skills",
+          "name": "app-store-connect-cli-skills",
+          "url": "https://github.com/rorkai/app-store-connect-cli-skills",
+          "repo": "rorkai/app-store-connect-cli-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "saleh-alhaddad/itqan-engineering",
+          "name": "itqan-engineering",
+          "url": "https://github.com/saleh-alhaddad/itqan-engineering",
+          "repo": "saleh-alhaddad/itqan-engineering",
+          "publisher": "Community"
+        },
+        {
+          "id": "salemalem/npmscan-mcp-plugin",
+          "name": "npmscan-mcp-plugin",
+          "url": "https://github.com/salemalem/npmscan-mcp-plugin",
+          "repo": "salemalem/npmscan-mcp-plugin",
+          "publisher": "Community"
+        },
+        {
+          "id": "sanjay3290/deep-research",
+          "name": "deep-research",
+          "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
+          "repo": "sanjay3290/ai-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "sanjay3290/postgres",
+          "name": "postgres",
+          "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
+          "repo": "sanjay3290/ai-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "scarletkc/agents",
+          "name": "agents",
+          "url": "https://github.com/scarletkc/agents",
+          "repo": "scarletkc/agents",
+          "publisher": "Community"
+        },
+        {
+          "id": "scarletkc/vexor",
+          "name": "vexor",
+          "url": "https://github.com/scarletkc/vexor",
+          "repo": "scarletkc/vexor",
+          "publisher": "Community"
+        },
+        {
+          "id": "Simon-He95/markstream-install",
+          "name": "markstream-install",
+          "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
+          "repo": "Simon-He95/markstream-vue",
+          "publisher": "Community"
+        },
+        {
+          "id": "Skill_Seekers",
+          "name": "Skill_Seekers",
+          "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
+          "repo": "yusufkaraaslan/Skill_Seekers",
+          "publisher": "Community"
+        },
+        {
+          "id": "skymanbp/cc-tree",
+          "name": "cc-tree",
+          "url": "https://github.com/skymanbp/cc-tree",
+          "repo": "skymanbp/cc-tree",
+          "publisher": "Community"
+        },
+        {
+          "id": "sno-ai/sno-station-skills",
+          "name": "sno-station-skills",
+          "url": "https://github.com/sno-ai/sno-station-skills",
+          "repo": "sno-ai/sno-station-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "squirrelscan/squirrelscan",
+          "name": "squirrelscan",
+          "url": "https://github.com/squirrelscan/skills",
+          "repo": "squirrelscan/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "supercorp-ai/supercov",
+          "name": "supercov",
+          "url": "https://github.com/supercorp-ai/supercov/tree/main/plugins/supercov/skills/supercov",
+          "repo": "supercorp-ai/supercov",
+          "publisher": "Community"
+        },
+        {
+          "id": "superdesigndev/superdesign-skill",
+          "name": "superdesign-skill",
+          "url": "https://github.com/superdesigndev/superdesign-skill",
+          "repo": "superdesigndev/superdesign-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "szarkans/multi",
+          "name": "multi",
+          "url": "https://github.com/szarkans/multi",
+          "repo": "szarkans/multi",
+          "publisher": "Community"
+        },
+        {
+          "id": "testdino-hq/playwright-skill",
+          "name": "playwright-skill",
+          "url": "https://github.com/testdino-hq/playwright-skill",
+          "repo": "testdino-hq/playwright-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "truongduy2611/app-store-preflight-skills",
+          "name": "app-store-preflight-skills",
+          "url": "https://github.com/truongduy2611/app-store-preflight-skills",
+          "repo": "truongduy2611/app-store-preflight-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "tt-a1i/archify",
+          "name": "archify",
+          "url": "https://github.com/tt-a1i/archify/tree/main/archify",
+          "repo": "tt-a1i/archify",
+          "publisher": "Community"
+        },
+        {
+          "id": "tushaarmehtaa/tushar-skills",
+          "name": "tushar-skills",
+          "url": "https://github.com/tushaarmehtaa/tushar-skills",
+          "repo": "tushaarmehtaa/tushar-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "UiPath/check-skill",
+          "name": "check-skill",
+          "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
+          "repo": "UiPath/coder_eval",
+          "publisher": "Community"
+        },
+        {
+          "id": "UiPath/task",
+          "name": "task",
+          "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/task",
+          "repo": "UiPath/coder_eval",
+          "publisher": "Community"
+        },
+        {
+          "id": "unbrowse-ai/unbrowse",
+          "name": "unbrowse",
+          "url": "https://github.com/unbrowse-ai/unbrowse/tree/main/skill",
+          "repo": "unbrowse-ai/unbrowse",
+          "publisher": "Community"
+        },
+        {
+          "id": "uucz/moyu",
+          "name": "moyu",
+          "url": "https://github.com/uucz/moyu",
+          "repo": "uucz/moyu",
+          "publisher": "Community"
+        },
+        {
+          "id": "VoDaiLocz/kilo-kit-mcp",
+          "name": "kilo-kit-mcp",
+          "url": "https://github.com/VoDaiLocz/kilo-kit-mcp",
+          "repo": "VoDaiLocz/kilo-kit-mcp",
+          "publisher": "Community"
+        },
+        {
+          "id": "wendylabsinc/claude-skills",
+          "name": "claude-skills",
+          "url": "https://github.com/wendylabsinc/claude-skills",
+          "repo": "wendylabsinc/claude-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "woniu9524/open-web-bridge",
+          "name": "open-web-bridge",
+          "url": "https://github.com/woniu9524/open-web-bridge",
+          "repo": "woniu9524/open-web-bridge",
+          "publisher": "Community"
+        },
+        {
+          "id": "wrsmith108/varlock-claude-skill",
+          "name": "varlock-claude-skill",
+          "url": "https://github.com/wrsmith108/varlock-claude-skill",
+          "repo": "wrsmith108/varlock-claude-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "ZhangHanDong/makepad-skills",
+          "name": "makepad-skills",
+          "url": "https://github.com/ZhangHanDong/makepad-skills",
+          "repo": "ZhangHanDong/makepad-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "zscole/model-hierarchy-skill",
+          "name": "model-hierarchy-skill",
+          "url": "https://github.com/zscole/model-hierarchy-skill",
+          "repo": "zscole/model-hierarchy-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "zxkane/aws-skills",
+          "name": "aws-skills",
+          "url": "https://github.com/zxkane/aws-skills",
+          "repo": "zxkane/aws-skills",
+          "publisher": "Community"
+        },
+        {
           "id": "aaron-he-zhu/aaron-marketing-skills",
           "name": "aaron-marketing-skills",
           "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
@@ -1347,6 +2264,20 @@
           "name": "gtm-cofounder",
           "url": "https://github.com/AIDevGTM/gtm-cofounder",
           "repo": "AIDevGTM/gtm-cofounder",
+          "publisher": "Community"
+        },
+        {
+          "id": "appeeky/aso-skills",
+          "name": "aso-skills",
+          "url": "https://github.com/appeeky/aso-skills",
+          "repo": "appeeky/aso-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "arcmira/find-quotes",
+          "name": "find-quotes",
+          "url": "https://github.com/arcmira/mcp/tree/master/plugins/arcmira/skills/find-quotes",
+          "repo": "arcmira/mcp",
           "publisher": "Community"
         },
         {
@@ -1536,13 +2467,6 @@
           "name": "claude-skills-founder",
           "url": "https://github.com/emotixco/claude-skills-founder",
           "repo": "emotixco/claude-skills-founder",
-          "publisher": "Community"
-        },
-        {
-          "id": "Eronred/aso-skills",
-          "name": "aso-skills",
-          "url": "https://github.com/Eronred/aso-skills",
-          "repo": "Eronred/aso-skills",
           "publisher": "Community"
         },
         {
@@ -2218,888 +3142,6 @@
           "publisher": "Community"
         },
         {
-          "id": "aeonfun/aeon",
-          "name": "aeon",
-          "url": "https://github.com/aeonfun/aeon",
-          "repo": "aeonfun/aeon",
-          "publisher": "Community"
-        },
-        {
-          "id": "agiwhitelist/auteur",
-          "name": "auteur",
-          "url": "https://github.com/agiwhitelist/auteur",
-          "repo": "agiwhitelist/auteur",
-          "publisher": "Community"
-        },
-        {
-          "id": "alinaqi/maggy",
-          "name": "maggy",
-          "url": "https://github.com/alinaqi/maggy",
-          "repo": "alinaqi/maggy",
-          "publisher": "Community"
-        },
-        {
-          "id": "allxsmith/bestax",
-          "name": "bestax",
-          "url": "https://github.com/allxsmith/bestax/tree/main/skills",
-          "repo": "allxsmith/bestax",
-          "publisher": "Community"
-        },
-        {
-          "id": "antonbabenko/terraform-skill",
-          "name": "terraform-skill",
-          "url": "https://github.com/antonbabenko/terraform-skill",
-          "repo": "antonbabenko/terraform-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "aurite-ai/agent-verifier",
-          "name": "agent-verifier",
-          "url": "https://github.com/Aurite-ai/agent-verifier",
-          "repo": "Aurite-ai/agent-verifier",
-          "publisher": "Community"
-        },
-        {
-          "id": "AvdLee/swiftui-expert-skill",
-          "name": "swiftui-expert-skill",
-          "url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main/swiftui-expert-skill",
-          "repo": "AvdLee/SwiftUI-Agent-Skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "baskduf/codex-fable5",
-          "name": "codex-fable5",
-          "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
-          "repo": "baskduf/FableCodex",
-          "publisher": "Community"
-        },
-        {
-          "id": "beastlabai/multi-llm",
-          "name": "multi-llm",
-          "url": "https://github.com/beastlabai/multi-llm-plugin/tree/master/skills/multi-llm",
-          "repo": "beastlabai/multi-llm-plugin",
-          "publisher": "Community"
-        },
-        {
-          "id": "browser-act/browser-act",
-          "name": "browser-act",
-          "url": "https://github.com/browser-act/skills/tree/main/browser-act",
-          "repo": "browser-act/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "Cap-go/capgo-skills",
-          "name": "capgo-skills",
-          "url": "https://github.com/Cap-go/capgo-skills",
-          "repo": "Cap-go/capgo-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "CloudAI-X/threejs-skills",
-          "name": "threejs-skills",
-          "url": "https://github.com/CloudAI-X/threejs-skills",
-          "repo": "CloudAI-X/threejs-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "coderabbitai/skills",
-          "name": "skills",
-          "url": "https://github.com/coderabbitai/skills",
-          "repo": "coderabbitai/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "conorluddy/ios-simulator-skill",
-          "name": "ios-simulator-skill",
-          "url": "https://github.com/conorluddy/ios-simulator-skill",
-          "repo": "conorluddy/ios-simulator-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "Continuum-AI-Corp/orca-replay",
-          "name": "orca-replay",
-          "url": "https://github.com/Continuum-AI-Corp/OrcaReplay/tree/main/skills/orca-replay",
-          "repo": "Continuum-AI-Corp/OrcaReplay",
-          "publisher": "Community"
-        },
-        {
-          "id": "csthink/dashmotion",
-          "name": "dashmotion",
-          "url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
-          "repo": "csthink/dashmotion",
-          "publisher": "Community"
-        },
-        {
-          "id": "d1vai/d1v",
-          "name": "d1v",
-          "url": "https://github.com/d1vai/d1v-cli/blob/main/skills/d1v/SKILL.md",
-          "repo": "d1vai/d1v-cli",
-          "publisher": "Community"
-        },
-        {
-          "id": "dannwaneri/spec-writer",
-          "name": "spec-writer",
-          "url": "https://github.com/dannwaneri/spec-writer",
-          "repo": "dannwaneri/spec-writer",
-          "publisher": "Community"
-        },
-        {
-          "id": "dembrandt/dembrandt-skills",
-          "name": "dembrandt-skills",
-          "url": "https://github.com/dembrandt/dembrandt-skills",
-          "repo": "dembrandt/dembrandt-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "drogers0/github-image-upload",
-          "name": "github-image-upload",
-          "url": "https://github.com/drogers0/gh-image/tree/main/skills/github-image-upload",
-          "repo": "drogers0/gh-image",
-          "publisher": "Community"
-        },
-        {
-          "id": "edonadei/evaluate-skill",
-          "name": "evaluate-skill",
-          "url": "https://github.com/edonadei/caliper/tree/main/skills/evaluate-skill",
-          "repo": "edonadei/caliper",
-          "publisher": "Community"
-        },
-        {
-          "id": "eduardo-sl/go-agent-skills",
-          "name": "go-agent-skills",
-          "url": "https://github.com/eduardo-sl/go-agent-skills",
-          "repo": "eduardo-sl/go-agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "efremidze/swift-patterns-skill",
-          "name": "swift-patterns-skill",
-          "url": "https://github.com/efremidze/swift-patterns-skill/tree/main/swift-patterns",
-          "repo": "efremidze/swift-patterns-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "ehmo/platform-design-skills",
-          "name": "platform-design-skills",
-          "url": "https://github.com/ehmo/platform-design-skills",
-          "repo": "ehmo/platform-design-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "EricJujianZou/rederive",
-          "name": "rederive",
-          "url": "https://github.com/EricJujianZou/rederive",
-          "repo": "EricJujianZou/rederive",
-          "publisher": "Community"
-        },
-        {
-          "id": "ethos-link/rails-conventions",
-          "name": "rails-conventions",
-          "url": "https://github.com/ethos-link/rails-conventions",
-          "repo": "ethos-link/rails-conventions",
-          "publisher": "Community"
-        },
-        {
-          "id": "exadel-inc/agentic-readiness-assessment",
-          "name": "agentic-readiness-assessment",
-          "url": "https://github.com/exadel-inc/agentic-readiness-assessment/tree/main/skills/agentic-readiness-assessment",
-          "repo": "exadel-inc/agentic-readiness-assessment",
-          "publisher": "Community"
-        },
-        {
-          "id": "finom/vovk",
-          "name": "vovk",
-          "url": "https://github.com/finom/vovk/tree/main/skills",
-          "repo": "finom/vovk",
-          "publisher": "Community"
-        },
-        {
-          "id": "first-fluke/oh-my-agent",
-          "name": "oh-my-agent",
-          "url": "https://github.com/first-fluke/oh-my-agent",
-          "repo": "first-fluke/oh-my-agent",
-          "publisher": "Community"
-        },
-        {
-          "id": "fishzjp/qa-skills",
-          "name": "qa-skills",
-          "url": "https://github.com/fishzjp/qa-skills",
-          "repo": "fishzjp/qa-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "foryourhealth111-pixel/Vibe-Skills",
-          "name": "Vibe-Skills",
-          "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills",
-          "repo": "foryourhealth111-pixel/Vibe-Skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "fujibee/agmsg",
-          "name": "agmsg",
-          "url": "https://github.com/fujibee/agmsg",
-          "repo": "fujibee/agmsg",
-          "publisher": "Community"
-        },
-        {
-          "id": "fullselfbrowsing/fsb",
-          "name": "fsb",
-          "url": "https://github.com/fullselfbrowsing/FSB/tree/main/skills/fsb",
-          "repo": "fullselfbrowsing/FSB",
-          "publisher": "Community"
-        },
-        {
-          "id": "fvadicamo/dev-agent-skills",
-          "name": "dev-agent-skills",
-          "url": "https://github.com/fvadicamo/dev-agent-skills",
-          "repo": "fvadicamo/dev-agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "gal-a/qikly",
-          "name": "qikly",
-          "url": "https://github.com/gal-a/qikly/tree/main/.claude/skills/qikly",
-          "repo": "gal-a/qikly",
-          "publisher": "Community"
-        },
-        {
-          "id": "GanyuanRan/Aegis",
-          "name": "Aegis",
-          "url": "https://github.com/GanyuanRan/Aegis",
-          "repo": "GanyuanRan/Aegis",
-          "publisher": "Community"
-        },
-        {
-          "id": "gongdear/cline-pilot",
-          "name": "cline-pilot",
-          "url": "https://github.com/gongdear/cline-pilot",
-          "repo": "gongdear/cline-pilot",
-          "publisher": "Community"
-        },
-        {
-          "id": "half144/cutaway",
-          "name": "cutaway",
-          "url": "https://github.com/half144/cutaway",
-          "repo": "half144/cutaway",
-          "publisher": "Community"
-        },
-        {
-          "id": "hasuwini77/3d-logo",
-          "name": "3d-logo",
-          "url": "https://github.com/hasuwini77/3d-logo-skill",
-          "repo": "hasuwini77/3d-logo-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "hedralab/eskill",
-          "name": "eskill",
-          "url": "https://github.com/hedralab/eskill",
-          "repo": "hedralab/eskill",
-          "publisher": "Community"
-        },
-        {
-          "id": "hermes-labs-ai/lintlang",
-          "name": "lintlang",
-          "url": "https://github.com/hermes-labs-ai/lintlang/blob/main/.agents/skills/lintlang/SKILL.md",
-          "repo": "hermes-labs-ai/lintlang",
-          "publisher": "Community"
-        },
-        {
-          "id": "hermes-labs-ai/little-canary",
-          "name": "little-canary",
-          "url": "https://github.com/hermes-labs-ai/little-canary/blob/main/.agents/skills/little-canary/SKILL.md",
-          "repo": "hermes-labs-ai/little-canary",
-          "publisher": "Community"
-        },
-        {
-          "id": "hqhq1025/skill-optimizer",
-          "name": "skill-optimizer",
-          "url": "https://github.com/hqhq1025/skill-optimizer",
-          "repo": "hqhq1025/skill-optimizer",
-          "publisher": "Community"
-        },
-        {
-          "id": "ibelick/ui-skills",
-          "name": "ui-skills",
-          "url": "https://github.com/ibelick/ui-skills",
-          "repo": "ibelick/ui-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "JasonColapietro/suede-creator-skills",
-          "name": "suede-creator-skills",
-          "url": "https://github.com/JasonColapietro/suede-creator-skills",
-          "repo": "JasonColapietro/suede-creator-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "jthack/ffuf-claude-skill",
-          "name": "ffuf-claude-skill",
-          "url": "https://github.com/jthack/ffuf_claude_skill",
-          "repo": "jthack/ffuf_claude_skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "Kayforkind/reimagine-it",
-          "name": "reimagine-it",
-          "url": "https://github.com/Kayforkind/reimagine-it",
-          "repo": "Kayforkind/reimagine-it",
-          "publisher": "Community"
-        },
-        {
-          "id": "kensaurus/skills",
-          "name": "skills",
-          "url": "https://github.com/kensaurus/skills",
-          "repo": "kensaurus/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "Kevin7Qi/codex-collab",
-          "name": "codex-collab",
-          "url": "https://github.com/Kevin7Qi/codex-collab",
-          "repo": "Kevin7Qi/codex-collab",
-          "publisher": "Community"
-        },
-        {
-          "id": "KhazP/vibe-coding-prompt-template",
-          "name": "vibe-coding-prompt-template",
-          "url": "https://github.com/KhazP/vibe-coding-prompt-template",
-          "repo": "KhazP/vibe-coding-prompt-template",
-          "publisher": "Community"
-        },
-        {
-          "id": "kulchankas/paranoid",
-          "name": "paranoid",
-          "url": "https://github.com/kulchankas/paranoid",
-          "repo": "kulchankas/paranoid",
-          "publisher": "Community"
-        },
-        {
-          "id": "lackeyjb/playwright-skill",
-          "name": "playwright-skill",
-          "url": "https://github.com/lackeyjb/playwright-skill",
-          "repo": "lackeyjb/playwright-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "LambdaTest/agent-skills",
-          "name": "agent-skills",
-          "url": "https://github.com/LambdaTest/agent-skills",
-          "repo": "LambdaTest/agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "laolaoshiren/zh-code-reviewer",
-          "name": "zh-code-reviewer",
-          "url": "https://github.com/laolaoshiren/claude-code-skills-zh/tree/main/skills/zh-code-reviewer",
-          "repo": "laolaoshiren/claude-code-skills-zh",
-          "publisher": "Community"
-        },
-        {
-          "id": "Leonxlnx/taste-skill",
-          "name": "taste-skill",
-          "url": "https://github.com/Leonxlnx/taste-skill",
-          "repo": "Leonxlnx/taste-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "lindblomstefan/skills-library",
-          "name": "skills-library",
-          "url": "https://github.com/lindblomstefan/skills-library",
-          "repo": "lindblomstefan/skills-library",
-          "publisher": "Community"
-        },
-        {
-          "id": "lukstei/slop-grader",
-          "name": "slop-grader",
-          "url": "https://github.com/lukstei/slop-grader",
-          "repo": "lukstei/slop-grader",
-          "publisher": "Community"
-        },
-        {
-          "id": "Lum1104/understand-anything",
-          "name": "understand-anything",
-          "url": "https://github.com/Egonex-AI/Understand-Anything",
-          "repo": "Egonex-AI/Understand-Anything",
-          "publisher": "Community"
-        },
-        {
-          "id": "Maksim-Burtsev/simple-man",
-          "name": "simple-man",
-          "url": "https://github.com/Maksim-Burtsev/simple-man",
-          "repo": "Maksim-Burtsev/simple-man",
-          "publisher": "Community"
-        },
-        {
-          "id": "marvkr/better-design",
-          "name": "better-design",
-          "url": "https://github.com/marvkr/better-design/tree/main/skills/better-design",
-          "repo": "marvkr/better-design",
-          "publisher": "Community"
-        },
-        {
-          "id": "massimodeluisa/recursive-decomposition-skill",
-          "name": "recursive-decomposition-skill",
-          "url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
-          "repo": "massimodeluisa/recursive-decomposition-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "mattpocock/skills",
-          "name": "skills",
-          "url": "https://github.com/mattpocock/skills",
-          "repo": "mattpocock/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "mcollina/skills",
-          "name": "skills",
-          "url": "https://github.com/mcollina/skills/tree/main/skills",
-          "repo": "mcollina/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "metalbear-co/skills",
-          "name": "skills",
-          "url": "https://github.com/metalbear-co/skills",
-          "repo": "metalbear-co/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "moxno/privacyscrubber-guard",
-          "name": "privacyscrubber-guard",
-          "url": "https://github.com/moxno/privacyscrubber-mcp/tree/main/skills/privacyscrubber-guard",
-          "repo": "moxno/privacyscrubber-mcp",
-          "publisher": "Community"
-        },
-        {
-          "id": "mukul975/Anthropic-Cybersecurity-Skills",
-          "name": "Anthropic-Cybersecurity-Skills",
-          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-          "repo": "mukul975/Anthropic-Cybersecurity-Skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "muthuishere/hand-drawn-diagrams",
-          "name": "hand-drawn-diagrams",
-          "url": "https://github.com/muthuishere/hand-drawn-diagrams",
-          "repo": "muthuishere/hand-drawn-diagrams",
-          "publisher": "Community"
-        },
-        {
-          "id": "NeoLabHQ/ddd",
-          "name": "ddd",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/ddd",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
-          "id": "NeoLabHQ/kaizen",
-          "name": "kaizen",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/kaizen",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
-          "id": "NeoLabHQ/reflexion",
-          "name": "reflexion",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/reflexion",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
-          "id": "NeoLabHQ/review",
-          "name": "review",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/review",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
-          "id": "NeoLabHQ/sadd",
-          "name": "sadd",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sadd",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
-          "id": "NeoLabHQ/sdd",
-          "name": "sdd",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/sdd",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
-          "id": "nextlevelbuilder/ui-ux-pro-max-skill",
-          "name": "ui-ux-pro-max-skill",
-          "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
-          "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "NoizAI/skills",
-          "name": "skills",
-          "url": "https://github.com/NoizAI/skills",
-          "repo": "NoizAI/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/finishing-a-development-branch",
-          "name": "finishing-a-development-branch",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/finishing-a-development-branch/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/receiving-code-review",
-          "name": "receiving-code-review",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/receiving-code-review/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/requesting-code-review",
-          "name": "requesting-code-review",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/requesting-code-review/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/subagent-driven-development",
-          "name": "subagent-driven-development",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/subagent-driven-development/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/systematic-debugging",
-          "name": "systematic-debugging",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/test-driven-development",
-          "name": "test-driven-development",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/test-driven-development/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/using-git-worktrees",
-          "name": "using-git-worktrees",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/using-git-worktrees/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/verification-before-completion",
-          "name": "verification-before-completion",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/writing-skills",
-          "name": "writing-skills",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/writing-skills/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "oil-oil/oil-ui",
-          "name": "oil-ui",
-          "url": "https://github.com/oil-oil/oil-ui",
-          "repo": "oil-oil/oil-ui",
-          "publisher": "Community"
-        },
-        {
-          "id": "ollygarden/opentelemetry-agent-skills",
-          "name": "opentelemetry-agent-skills",
-          "url": "https://github.com/ollygarden/opentelemetry-agent-skills",
-          "repo": "ollygarden/opentelemetry-agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "omkamal/pypict-skill",
-          "name": "pypict-skill",
-          "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
-          "repo": "omkamal/pypict-claude-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "plasma-ai/fractal",
-          "name": "fractal",
-          "url": "https://github.com/plasma-ai/fractal/tree/main/fractal/skills/fractal",
-          "repo": "plasma-ai/fractal",
-          "publisher": "Community"
-        },
-        {
-          "id": "prisma/skills",
-          "name": "skills",
-          "url": "https://github.com/prisma/skills",
-          "repo": "prisma/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "rainmanjam/poka-yoke",
-          "name": "poka-yoke",
-          "url": "https://github.com/rainmanjam/poka-yoke",
-          "repo": "rainmanjam/poka-yoke",
-          "publisher": "Community"
-        },
-        {
-          "id": "rameerez/claude-code-startup-skills",
-          "name": "claude-code-startup-skills",
-          "url": "https://github.com/rameerez/claude-code-startup-skills",
-          "repo": "rameerez/claude-code-startup-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "ramzesenok/iOS-Accessibility-Audit-Skill",
-          "name": "iOS-Accessibility-Audit-Skill",
-          "url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
-          "repo": "ramzesenok/iOS-Accessibility-Audit-Skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "reliefeai/browser-relay",
-          "name": "browser-relay",
-          "url": "https://github.com/reliefeai/browser-relay/tree/v1.4.1/skills/browser-relay",
-          "repo": "reliefeai/browser-relay",
-          "publisher": "Community"
-        },
-        {
-          "id": "rlaope/oh-my-hermes",
-          "name": "oh-my-hermes",
-          "url": "https://github.com/rlaope/oh-my-hermes",
-          "repo": "rlaope/oh-my-hermes",
-          "publisher": "Community"
-        },
-        {
-          "id": "robzolkos/skill-rails-upgrade",
-          "name": "skill-rails-upgrade",
-          "url": "https://github.com/robzolkos/skill-rails-upgrade",
-          "repo": "robzolkos/skill-rails-upgrade",
-          "publisher": "Community"
-        },
-        {
-          "id": "Rootly-AI-Labs/rootly-incident-responder",
-          "name": "rootly-incident-responder",
-          "url": "https://github.com/rootlyhq/rootly-mcp-server/blob/main/examples/skills/rootly-incident-responder.md",
-          "repo": "rootlyhq/rootly-mcp-server",
-          "publisher": "Community"
-        },
-        {
-          "id": "rorkai/app-store-connect-cli-skills",
-          "name": "app-store-connect-cli-skills",
-          "url": "https://github.com/rorkai/app-store-connect-cli-skills",
-          "repo": "rorkai/app-store-connect-cli-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "Ryan-yang125/motion-lexicon",
-          "name": "motion-lexicon",
-          "url": "https://github.com/Ryan-yang125/motion-lexicon/tree/main/skills/motion-lexicon",
-          "repo": "Ryan-yang125/motion-lexicon",
-          "publisher": "Community"
-        },
-        {
-          "id": "saleh-alhaddad/itqan-engineering",
-          "name": "itqan-engineering",
-          "url": "https://github.com/saleh-alhaddad/itqan-engineering",
-          "repo": "saleh-alhaddad/itqan-engineering",
-          "publisher": "Community"
-        },
-        {
-          "id": "sanjay3290/deep-research",
-          "name": "deep-research",
-          "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/deep-research",
-          "repo": "sanjay3290/ai-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "sanjay3290/postgres",
-          "name": "postgres",
-          "url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
-          "repo": "sanjay3290/ai-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "scarletkc/agents",
-          "name": "agents",
-          "url": "https://github.com/scarletkc/agents",
-          "repo": "scarletkc/agents",
-          "publisher": "Community"
-        },
-        {
-          "id": "scarletkc/vexor",
-          "name": "vexor",
-          "url": "https://github.com/scarletkc/vexor",
-          "repo": "scarletkc/vexor",
-          "publisher": "Community"
-        },
-        {
-          "id": "Simon-He95/markstream-install",
-          "name": "markstream-install",
-          "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
-          "repo": "Simon-He95/markstream-vue",
-          "publisher": "Community"
-        },
-        {
-          "id": "Skill_Seekers",
-          "name": "Skill_Seekers",
-          "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
-          "repo": "yusufkaraaslan/Skill_Seekers",
-          "publisher": "Community"
-        },
-        {
-          "id": "skymanbp/cc-tree",
-          "name": "cc-tree",
-          "url": "https://github.com/skymanbp/cc-tree",
-          "repo": "skymanbp/cc-tree",
-          "publisher": "Community"
-        },
-        {
-          "id": "sno-ai/sno-station-skills",
-          "name": "sno-station-skills",
-          "url": "https://github.com/sno-ai/sno-station-skills",
-          "repo": "sno-ai/sno-station-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "squirrelscan/squirrelscan",
-          "name": "squirrelscan",
-          "url": "https://github.com/squirrelscan/skills",
-          "repo": "squirrelscan/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "supercorp-ai/supercov",
-          "name": "supercov",
-          "url": "https://github.com/supercorp-ai/supercov/tree/main/plugins/supercov/skills/supercov",
-          "repo": "supercorp-ai/supercov",
-          "publisher": "Community"
-        },
-        {
-          "id": "superdesigndev/superdesign-skill",
-          "name": "superdesign-skill",
-          "url": "https://github.com/superdesigndev/superdesign-skill",
-          "repo": "superdesigndev/superdesign-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "szarkans/multi",
-          "name": "multi",
-          "url": "https://github.com/szarkans/multi",
-          "repo": "szarkans/multi",
-          "publisher": "Community"
-        },
-        {
-          "id": "testdino-hq/playwright-skill",
-          "name": "playwright-skill",
-          "url": "https://github.com/testdino-hq/playwright-skill",
-          "repo": "testdino-hq/playwright-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "truongduy2611/app-store-preflight-skills",
-          "name": "app-store-preflight-skills",
-          "url": "https://github.com/truongduy2611/app-store-preflight-skills",
-          "repo": "truongduy2611/app-store-preflight-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "tt-a1i/archify",
-          "name": "archify",
-          "url": "https://github.com/tt-a1i/archify/tree/main/archify",
-          "repo": "tt-a1i/archify",
-          "publisher": "Community"
-        },
-        {
-          "id": "tushaarmehtaa/tushar-skills",
-          "name": "tushar-skills",
-          "url": "https://github.com/tushaarmehtaa/tushar-skills",
-          "repo": "tushaarmehtaa/tushar-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "UiPath/check-skill",
-          "name": "check-skill",
-          "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/check-skill",
-          "repo": "UiPath/coder_eval",
-          "publisher": "Community"
-        },
-        {
-          "id": "UiPath/task",
-          "name": "task",
-          "url": "https://github.com/UiPath/coder_eval/tree/main/plugins/coder-eval/skills/task",
-          "repo": "UiPath/coder_eval",
-          "publisher": "Community"
-        },
-        {
-          "id": "unbrowse-ai/unbrowse",
-          "name": "unbrowse",
-          "url": "https://github.com/unbrowse-ai/unbrowse/tree/main/skill",
-          "repo": "unbrowse-ai/unbrowse",
-          "publisher": "Community"
-        },
-        {
-          "id": "uucz/moyu",
-          "name": "moyu",
-          "url": "https://github.com/uucz/moyu",
-          "repo": "uucz/moyu",
-          "publisher": "Community"
-        },
-        {
-          "id": "VoDaiLocz/kilo-kit-mcp",
-          "name": "kilo-kit-mcp",
-          "url": "https://github.com/VoDaiLocz/kilo-kit-mcp",
-          "repo": "VoDaiLocz/kilo-kit-mcp",
-          "publisher": "Community"
-        },
-        {
-          "id": "wendylabsinc/claude-skills",
-          "name": "claude-skills",
-          "url": "https://github.com/wendylabsinc/claude-skills",
-          "repo": "wendylabsinc/claude-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "woniu9524/open-web-bridge",
-          "name": "open-web-bridge",
-          "url": "https://github.com/woniu9524/open-web-bridge",
-          "repo": "woniu9524/open-web-bridge",
-          "publisher": "Community"
-        },
-        {
-          "id": "wrsmith108/varlock-claude-skill",
-          "name": "varlock-claude-skill",
-          "url": "https://github.com/wrsmith108/varlock-claude-skill",
-          "repo": "wrsmith108/varlock-claude-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "ZhangHanDong/makepad-skills",
-          "name": "makepad-skills",
-          "url": "https://github.com/ZhangHanDong/makepad-skills",
-          "repo": "ZhangHanDong/makepad-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "zscole/model-hierarchy-skill",
-          "name": "model-hierarchy-skill",
-          "url": "https://github.com/zscole/model-hierarchy-skill",
-          "repo": "zscole/model-hierarchy-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "zxkane/aws-skills",
-          "name": "aws-skills",
-          "url": "https://github.com/zxkane/aws-skills",
-          "repo": "zxkane/aws-skills",
-          "publisher": "Community"
-        },
-        {
           "id": "amirkiarafiei/subagent-cli-skills",
           "name": "subagent-cli-skills",
           "url": "https://github.com/amirkiarafiei/subagent-cli-skills/tree/main/skills",
@@ -3114,10 +3156,10 @@
           "publisher": "Community"
         },
         {
-          "id": "awrshift/claude-memory-kit",
-          "name": "claude-memory-kit",
-          "url": "https://github.com/awrshift/claude-memory-kit",
-          "repo": "awrshift/claude-memory-kit",
+          "id": "awrshift/agent-memory-kit",
+          "name": "agent-memory-kit",
+          "url": "https://github.com/awrshift/agent-memory-kit",
+          "repo": "awrshift/agent-memory-kit",
           "publisher": "Community"
         },
         {
@@ -3300,6 +3342,13 @@
           "name": "skillreaper",
           "url": "https://github.com/thousandflowers/skillreaper",
           "repo": "thousandflowers/skillreaper",
+          "publisher": "Community"
+        },
+        {
+          "id": "tinqiao-oss/engramory",
+          "name": "engramory",
+          "url": "https://github.com/tinqiao-oss/engramory",
+          "repo": "tinqiao-oss/engramory",
           "publisher": "Community"
         },
         {
@@ -4279,8 +4328,15 @@
       ]
     },
     "Firecrawl": {
-      "skills_count": 5,
+      "skills_count": 6,
       "skills": [
+        {
+          "id": "firecrawl/firecrawl-alexandria",
+          "name": "firecrawl-alexandria",
+          "url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-alexandria",
+          "repo": "firecrawl/cli",
+          "publisher": "Firecrawl"
+        },
         {
           "id": "firecrawl/firecrawl-build",
           "name": "firecrawl-build",

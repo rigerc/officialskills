@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-11-01T12:20:22Z",
+    "fetched_at": "2026-11-03T13:16:47Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 869,
+    "total_skills": 870,
     "total_publishers": 61,
     "total_categories": 7,
-    "total_official": 869,
+    "total_official": 870,
     "total_community": 0
   },
   "publishers": [
@@ -2412,12 +2412,21 @@
     {
       "name": "Firecrawl",
       "type": "official",
-      "skills_count": 5,
+      "skills_count": 6,
       "skills": [
         {
           "section": "Official",
-          "skills_count": 5,
+          "skills_count": 6,
           "skills": [
+            {
+              "id": "firecrawl/firecrawl-alexandria",
+              "name": "firecrawl-alexandria",
+              "url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-alexandria",
+              "description": "Find and run Firecrawl Alexandria tools for structured data",
+              "repo": "firecrawl/cli",
+              "publisher": "Firecrawl",
+              "section": "Official"
+            },
             {
               "id": "firecrawl/firecrawl-build",
               "name": "firecrawl-build",
@@ -10741,6 +10750,15 @@
       "description": "Audit Firestore security rules and flag risky patterns",
       "repo": "firebase/agent-skills",
       "publisher": "Firebase",
+      "section": "Official"
+    },
+    {
+      "id": "firecrawl/firecrawl-alexandria",
+      "name": "firecrawl-alexandria",
+      "url": "https://github.com/firecrawl/cli/tree/main/skills/firecrawl-alexandria",
+      "description": "Find and run Firecrawl Alexandria tools for structured data",
+      "repo": "firecrawl/cli",
+      "publisher": "Firecrawl",
       "section": "Official"
     },
     {
