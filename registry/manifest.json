@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T13:16:47Z",
-  "total_skills": 1238,
+  "generated_at": "2026-11-05T13:43:56Z",
+  "total_skills": 1253,
   "publishers": {
     "Addy Osmani": {
       "skills_count": 6,
@@ -864,468 +864,13 @@
       ]
     },
     "Community": {
-      "skills_count": 368,
+      "skills_count": 383,
       "skills": [
         {
-          "id": "777genius/agent-notifications",
-          "name": "agent-notifications",
-          "url": "https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications",
-          "repo": "777genius/agent-notifications",
-          "publisher": "Community"
-        },
-        {
-          "id": "arifszn/slide-wright",
-          "name": "slide-wright",
-          "url": "https://github.com/arifszn/slide-wright",
-          "repo": "arifszn/slide-wright",
-          "publisher": "Community"
-        },
-        {
-          "id": "Atomic-Mail/atomicmail",
-          "name": "atomicmail",
-          "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
-          "repo": "Atomic-Mail/atomic-mail-agentic",
-          "publisher": "Community"
-        },
-        {
-          "id": "AugustusW/audio-tldr",
-          "name": "audio-tldr",
-          "url": "https://github.com/AugustusW/audio-tldr-skill/tree/main/skills/audio-tldr",
-          "repo": "AugustusW/audio-tldr-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "bablobanov/hermes-agent-telegram-checklist",
-          "name": "hermes-agent-telegram-checklist",
-          "url": "https://github.com/bablobanov/hermes-agent-telegram-checklist",
-          "repo": "bablobanov/hermes-agent-telegram-checklist",
-          "publisher": "Community"
-        },
-        {
-          "id": "bevibing/tutor-skills",
-          "name": "tutor-skills",
-          "url": "https://github.com/bevibing/tutor-skills",
-          "repo": "bevibing/tutor-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "career-ops-hq/career-ops",
-          "name": "career-ops",
-          "url": "https://github.com/career-ops-hq/career-ops",
-          "repo": "career-ops-hq/career-ops",
-          "publisher": "Community"
-        },
-        {
-          "id": "cbrock84/headcount",
-          "name": "headcount",
-          "url": "https://github.com/cbrock84/headcount",
-          "repo": "cbrock84/headcount",
-          "publisher": "Community"
-        },
-        {
-          "id": "Charlie85270/Dorothy",
-          "name": "Dorothy",
-          "url": "https://github.com/Charlie85270/Dorothy",
-          "repo": "Charlie85270/Dorothy",
-          "publisher": "Community"
-        },
-        {
-          "id": "chrisryugj/kordoc",
-          "name": "kordoc",
-          "url": "https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc",
-          "repo": "chrisryugj/kordoc",
-          "publisher": "Community"
-        },
-        {
-          "id": "cyperx84/claude-skills-mental-models",
-          "name": "claude-skills-mental-models",
-          "url": "https://github.com/cyperx84/claude-skills-mental-models",
-          "repo": "cyperx84/claude-skills-mental-models",
-          "publisher": "Community"
-        },
-        {
-          "id": "deusyu/translate-book",
-          "name": "translate-book",
-          "url": "https://github.com/deusyu/translate-book",
-          "repo": "deusyu/translate-book",
-          "publisher": "Community"
-        },
-        {
-          "id": "Digidai/product-manager-skills",
-          "name": "product-manager-skills",
-          "url": "https://github.com/Digidai/product-manager-skills",
-          "repo": "Digidai/product-manager-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "dmoshehun-prog/learn-from-materials",
-          "name": "learn-from-materials",
-          "url": "https://github.com/dmoshehun-prog/learn-from-materials",
-          "repo": "dmoshehun-prog/learn-from-materials",
-          "publisher": "Community"
-        },
-        {
-          "id": "EveryInc/charlie-cfo-skill",
-          "name": "charlie-cfo-skill",
-          "url": "https://github.com/EveryInc/charlie-cfo-skill",
-          "repo": "EveryInc/charlie-cfo-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "forjd/better-writing",
-          "name": "better-writing",
-          "url": "https://github.com/forjd/better-writing",
-          "repo": "forjd/better-writing",
-          "publisher": "Community"
-        },
-        {
-          "id": "GiaSip/giasip-research",
-          "name": "giasip-research",
-          "url": "https://github.com/GiaSip/giasip-skills/tree/main/skills/giasip-research",
-          "repo": "GiaSip/giasip-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "gokapso/automate-whatsapp",
-          "name": "automate-whatsapp",
-          "url": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp",
-          "repo": "gokapso/agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "gokapso/integrate-whatsapp",
-          "name": "integrate-whatsapp",
-          "url": "https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp",
-          "repo": "gokapso/agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "gokapso/observe-whatsapp",
-          "name": "observe-whatsapp",
-          "url": "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp",
-          "repo": "gokapso/agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "hanfang/claude-memory-skill",
-          "name": "claude-memory-skill",
-          "url": "https://github.com/hanfang/claude-memory-skill",
-          "repo": "hanfang/claude-memory-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "JimmySadek/video-fetcher-to-markdown",
-          "name": "video-fetcher-to-markdown",
-          "url": "https://github.com/JimmySadek/video-fetcher-to-markdown",
-          "repo": "JimmySadek/video-fetcher-to-markdown",
-          "publisher": "Community"
-        },
-        {
-          "id": "kgraph57/strategy-consulting-visualization",
-          "name": "strategy-consulting-visualization",
-          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
-          "repo": "kgraph57/mckinsey-style-visualization-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "kklimuk/docx-cli",
-          "name": "docx-cli",
-          "url": "https://github.com/kklimuk/docx-cli",
-          "repo": "kklimuk/docx-cli",
-          "publisher": "Community"
-        },
-        {
-          "id": "kochetkov-ma/brewpage-publish",
-          "name": "brewpage-publish",
-          "url": "https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/brewpage-publish",
-          "repo": "kochetkov-ma/claude-brewcode",
-          "publisher": "Community"
-        },
-        {
-          "id": "Linked-API/linkedin",
-          "name": "linkedin",
-          "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
-          "repo": "Linked-API/linkedin-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "luchasarie/bro",
-          "name": "bro",
-          "url": "https://github.com/luchasarie/bro-skill",
-          "repo": "luchasarie/bro-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "manavmishra/zero-slop",
-          "name": "zero-slop",
-          "url": "https://github.com/manavmishra/ZeroSlop/blob/main/SKILL.md",
-          "repo": "manavmishra/ZeroSlop",
-          "publisher": "Community"
-        },
-        {
-          "id": "MetcalfSolutions/Satori",
-          "name": "Satori",
-          "url": "https://github.com/MetcalfSolutions/Satori",
-          "repo": "MetcalfSolutions/Satori",
-          "publisher": "Community"
-        },
-        {
-          "id": "MSG91/m91-skill",
-          "name": "m91-skill",
-          "url": "https://github.com/MSG91/m91-skill",
-          "repo": "MSG91/m91-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "mvanhorn/last30days-skill",
-          "name": "last30days-skill",
-          "url": "https://github.com/mvanhorn/last30days-skill",
-          "repo": "mvanhorn/last30days-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "Neeeophytee/finding-unknowns-skills",
-          "name": "finding-unknowns-skills",
-          "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
-          "repo": "Neeeophytee/finding-unknowns-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "NeoLabHQ/write-concisely",
-          "name": "write-concisely",
-          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
-          "repo": "NeoLabHQ/context-engineering-kit",
-          "publisher": "Community"
-        },
-        {
-          "id": "notiondevs/Notion Skills for Claude",
-          "name": "Notion Skills for Claude",
-          "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
-          "repo": null,
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/brainstorming",
-          "name": "brainstorming",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/dispatching-parallel-agents",
-          "name": "dispatching-parallel-agents",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/executing-plans",
-          "name": "executing-plans",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/superpowers-lab",
-          "name": "superpowers-lab",
-          "url": "https://github.com/obra/superpowers-lab",
-          "repo": "obra/superpowers-lab",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/using-superpowers",
-          "name": "using-superpowers",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "obra/writing-plans",
-          "name": "writing-plans",
-          "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
-          "repo": "obra/superpowers",
-          "publisher": "Community"
-        },
-        {
-          "id": "ognjengt/founder-skills",
-          "name": "founder-skills",
-          "url": "https://github.com/ognjengt/founder-skills",
-          "repo": "ognjengt/founder-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "OneWave-AI/claude-skills",
-          "name": "claude-skills",
-          "url": "https://github.com/OneWave-AI/claude-skills",
-          "repo": "OneWave-AI/claude-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "op7418/NanoBanana-PPT-Skills",
-          "name": "NanoBanana-PPT-Skills",
-          "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
-          "repo": "op7418/NanoBanana-PPT-Skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "op7418/Youtube-clipper-skill",
-          "name": "Youtube-clipper-skill",
-          "url": "https://github.com/op7418/Youtube-clipper-skill",
-          "repo": "op7418/Youtube-clipper-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "openaccountants/openaccountants",
-          "name": "openaccountants",
-          "url": "https://github.com/openaccountants/openaccountants",
-          "repo": "openaccountants/openaccountants",
-          "publisher": "Community"
-        },
-        {
-          "id": "Paramchoudhary/ResumeSkills",
-          "name": "ResumeSkills",
-          "url": "https://github.com/Paramchoudhary/ResumeSkills",
-          "repo": "Paramchoudhary/ResumeSkills",
-          "publisher": "Community"
-        },
-        {
-          "id": "pattern-ai-labs/agentcall",
-          "name": "agentcall",
-          "url": "https://github.com/pattern-ai-labs/agentcall",
-          "repo": "pattern-ai-labs/agentcall",
-          "publisher": "Community"
-        },
-        {
-          "id": "PleasePrompto/notebooklm-skill",
-          "name": "notebooklm-skill",
-          "url": "https://github.com/PleasePrompto/notebooklm-skill",
-          "repo": "PleasePrompto/notebooklm-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "PSPDFKit-labs/nutrient-agent-skill",
-          "name": "nutrient-agent-skill",
-          "url": "https://github.com/PSPDFKit-labs/nutrient-agent-skill",
-          "repo": "PSPDFKit-labs/nutrient-agent-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "radres/call-me",
-          "name": "call-me",
-          "url": "https://github.com/radres/call-me/tree/main/skill",
-          "repo": "radres/call-me",
-          "publisher": "Community"
-        },
-        {
-          "id": "ReScienceLab/opc-skills",
-          "name": "opc-skills",
-          "url": "https://github.com/ReScienceLab/opc-skills",
-          "repo": "ReScienceLab/opc-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "SeanZoR/claude-speed-reader",
-          "name": "claude-speed-reader",
-          "url": "https://github.com/SeanZoR/claude-speed-reader",
-          "repo": "SeanZoR/claude-speed-reader",
-          "publisher": "Community"
-        },
-        {
-          "id": "Sendmux/skills",
-          "name": "skills",
-          "url": "https://github.com/Sendmux/skills",
-          "repo": "Sendmux/skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "siril9/presentation-skill",
-          "name": "presentation-skill",
-          "url": "https://github.com/siril9/presentation-skill",
-          "repo": "siril9/presentation-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "sujunmin/agy-ppt",
-          "name": "agy-ppt",
-          "url": "https://github.com/sujunmin/agy-ppt",
-          "repo": "sujunmin/agy-ppt",
-          "publisher": "Community"
-        },
-        {
-          "id": "teableio/teable-assistant-ops",
-          "name": "teable-assistant-ops",
-          "url": "https://github.com/teableio/agent-skills/tree/main/skills/teable-assistant-ops",
-          "repo": "teableio/agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "tjboudreaux/cc-thinking-skills",
-          "name": "cc-thinking-skills",
-          "url": "https://github.com/tjboudreaux/cc-thinking-skills",
-          "repo": "tjboudreaux/cc-thinking-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "tronghieu/agent-skills",
-          "name": "agent-skills",
-          "url": "https://github.com/tronghieu/agent-skills",
-          "repo": "tronghieu/agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "vaibhavarora14/job-application-agent",
-          "name": "job-application-agent",
-          "url": "https://github.com/vaibhavarora14/job-application-agent",
-          "repo": "vaibhavarora14/job-application-agent",
-          "publisher": "Community"
-        },
-        {
-          "id": "voygr-tech/placecall",
-          "name": "placecall",
-          "url": "https://github.com/voygr-tech/placecall/tree/main/skills/placecall",
-          "repo": "voygr-tech/placecall",
-          "publisher": "Community"
-        },
-        {
-          "id": "wgwtest/novel-writing",
-          "name": "novel-writing",
-          "url": "https://github.com/wgwtest/novel-writing",
-          "repo": "wgwtest/novel-writing",
-          "publisher": "Community"
-        },
-        {
-          "id": "wrsmith108/linear-claude-skill",
-          "name": "linear-claude-skill",
-          "url": "https://github.com/wrsmith108/linear-claude-skill",
-          "repo": "wrsmith108/linear-claude-skill",
-          "publisher": "Community"
-        },
-        {
-          "id": "xberg-io/xberg",
-          "name": "xberg",
-          "url": "https://github.com/xberg-io/xberg/tree/main/plugin/skills/xberg",
-          "repo": "xberg-io/xberg",
-          "publisher": "Community"
-        },
-        {
-          "id": "ysskrishna/ai-agent-skills",
-          "name": "ai-agent-skills",
-          "url": "https://github.com/ysskrishna/ai-agent-skills",
-          "repo": "ysskrishna/ai-agent-skills",
-          "publisher": "Community"
-        },
-        {
-          "id": "zapier/zapier-mcp",
-          "name": "zapier-mcp",
-          "url": "https://github.com/zapier/zapier-mcp",
-          "repo": "zapier/zapier-mcp",
-          "publisher": "Community"
-        },
-        {
-          "id": "zarazhangrui/frontend-slides",
-          "name": "frontend-slides",
-          "url": "https://github.com/zarazhangrui/frontend-slides",
-          "repo": "zarazhangrui/frontend-slides",
+          "id": "0design/unslop-skill",
+          "name": "unslop-skill",
+          "url": "https://github.com/0design/unslop-skill",
+          "repo": "0design/unslop-skill",
           "publisher": "Community"
         },
         {
@@ -1410,6 +955,13 @@
           "name": "capgo-skills",
           "url": "https://github.com/Cap-go/capgo-skills",
           "repo": "Cap-go/capgo-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "celo-org/celopedia",
+          "name": "celopedia",
+          "url": "https://github.com/celo-org/celopedia-skills/tree/main/skills/celopedia-skill",
+          "repo": "celo-org/celopedia-skills",
           "publisher": "Community"
         },
         {
@@ -2078,6 +1630,13 @@
           "publisher": "Community"
         },
         {
+          "id": "ScrapingBee/scrapingbee-cli",
+          "name": "scrapingbee-cli",
+          "url": "https://github.com/ScrapingBee/scrapingbee-cli/tree/main/.agents/skills/scrapingbee-cli",
+          "repo": "ScrapingBee/scrapingbee-cli",
+          "publisher": "Community"
+        },
+        {
           "id": "Simon-He95/markstream-install",
           "name": "markstream-install",
           "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
@@ -2124,6 +1683,13 @@
           "name": "superdesign-skill",
           "url": "https://github.com/superdesigndev/superdesign-skill",
           "repo": "superdesigndev/superdesign-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "swiftlysingh/excalidraw-cli",
+          "name": "excalidraw-cli",
+          "url": "https://github.com/swiftlysingh/excalidraw-cli/tree/main/skills/excalidraw-cli",
+          "repo": "swiftlysingh/excalidraw-cli",
           "publisher": "Community"
         },
         {
@@ -2239,10 +1805,507 @@
           "publisher": "Community"
         },
         {
+          "id": "777genius/agent-notifications",
+          "name": "agent-notifications",
+          "url": "https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications",
+          "repo": "777genius/agent-notifications",
+          "publisher": "Community"
+        },
+        {
+          "id": "arifszn/slide-wright",
+          "name": "slide-wright",
+          "url": "https://github.com/arifszn/slide-wright",
+          "repo": "arifszn/slide-wright",
+          "publisher": "Community"
+        },
+        {
+          "id": "Atomic-Mail/atomicmail",
+          "name": "atomicmail",
+          "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
+          "repo": "Atomic-Mail/atomic-mail-agentic",
+          "publisher": "Community"
+        },
+        {
+          "id": "AugustusW/audio-tldr",
+          "name": "audio-tldr",
+          "url": "https://github.com/AugustusW/audio-tldr-skill/tree/main/skills/audio-tldr",
+          "repo": "AugustusW/audio-tldr-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "bablobanov/hermes-agent-telegram-checklist",
+          "name": "hermes-agent-telegram-checklist",
+          "url": "https://github.com/bablobanov/hermes-agent-telegram-checklist",
+          "repo": "bablobanov/hermes-agent-telegram-checklist",
+          "publisher": "Community"
+        },
+        {
+          "id": "bevibing/tutor-skills",
+          "name": "tutor-skills",
+          "url": "https://github.com/bevibing/tutor-skills",
+          "repo": "bevibing/tutor-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "career-ops-hq/career-ops",
+          "name": "career-ops",
+          "url": "https://github.com/career-ops-hq/career-ops",
+          "repo": "career-ops-hq/career-ops",
+          "publisher": "Community"
+        },
+        {
+          "id": "cbrock84/headcount",
+          "name": "headcount",
+          "url": "https://github.com/cbrock84/headcount",
+          "repo": "cbrock84/headcount",
+          "publisher": "Community"
+        },
+        {
+          "id": "Charlie85270/Dorothy",
+          "name": "Dorothy",
+          "url": "https://github.com/Charlie85270/Dorothy",
+          "repo": "Charlie85270/Dorothy",
+          "publisher": "Community"
+        },
+        {
+          "id": "chrisryugj/kordoc",
+          "name": "kordoc",
+          "url": "https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc",
+          "repo": "chrisryugj/kordoc",
+          "publisher": "Community"
+        },
+        {
+          "id": "cyperx84/claude-skills-mental-models",
+          "name": "claude-skills-mental-models",
+          "url": "https://github.com/cyperx84/claude-skills-mental-models",
+          "repo": "cyperx84/claude-skills-mental-models",
+          "publisher": "Community"
+        },
+        {
+          "id": "deusyu/translate-book",
+          "name": "translate-book",
+          "url": "https://github.com/deusyu/translate-book",
+          "repo": "deusyu/translate-book",
+          "publisher": "Community"
+        },
+        {
+          "id": "Digidai/product-manager-skills",
+          "name": "product-manager-skills",
+          "url": "https://github.com/Digidai/product-manager-skills",
+          "repo": "Digidai/product-manager-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "dmoshehun-prog/learn-from-materials",
+          "name": "learn-from-materials",
+          "url": "https://github.com/dmoshehun-prog/learn-from-materials",
+          "repo": "dmoshehun-prog/learn-from-materials",
+          "publisher": "Community"
+        },
+        {
+          "id": "duyunzhoudyz/dyz-gongwen-skills",
+          "name": "dyz-gongwen-skills",
+          "url": "https://github.com/duyunzhoudyz/dyz-gongwen-skills",
+          "repo": "duyunzhoudyz/dyz-gongwen-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "EveryInc/charlie-cfo-skill",
+          "name": "charlie-cfo-skill",
+          "url": "https://github.com/EveryInc/charlie-cfo-skill",
+          "repo": "EveryInc/charlie-cfo-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "forjd/better-writing",
+          "name": "better-writing",
+          "url": "https://github.com/forjd/better-writing",
+          "repo": "forjd/better-writing",
+          "publisher": "Community"
+        },
+        {
+          "id": "GiaSip/giasip-research",
+          "name": "giasip-research",
+          "url": "https://github.com/GiaSip/giasip-skills/tree/main/skills/giasip-research",
+          "repo": "GiaSip/giasip-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "gokapso/automate-whatsapp",
+          "name": "automate-whatsapp",
+          "url": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp",
+          "repo": "gokapso/agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "gokapso/integrate-whatsapp",
+          "name": "integrate-whatsapp",
+          "url": "https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp",
+          "repo": "gokapso/agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "gokapso/observe-whatsapp",
+          "name": "observe-whatsapp",
+          "url": "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp",
+          "repo": "gokapso/agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "hanfang/claude-memory-skill",
+          "name": "claude-memory-skill",
+          "url": "https://github.com/hanfang/claude-memory-skill",
+          "repo": "hanfang/claude-memory-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "JimmySadek/video-fetcher-to-markdown",
+          "name": "video-fetcher-to-markdown",
+          "url": "https://github.com/JimmySadek/video-fetcher-to-markdown",
+          "repo": "JimmySadek/video-fetcher-to-markdown",
+          "publisher": "Community"
+        },
+        {
+          "id": "kgraph57/strategy-consulting-visualization",
+          "name": "strategy-consulting-visualization",
+          "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+          "repo": "kgraph57/mckinsey-style-visualization-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "kklimuk/docx-cli",
+          "name": "docx-cli",
+          "url": "https://github.com/kklimuk/docx-cli",
+          "repo": "kklimuk/docx-cli",
+          "publisher": "Community"
+        },
+        {
+          "id": "kochetkov-ma/brewpage-publish",
+          "name": "brewpage-publish",
+          "url": "https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/brewpage-publish",
+          "repo": "kochetkov-ma/claude-brewcode",
+          "publisher": "Community"
+        },
+        {
+          "id": "Koloyaaa/foreign-academic-translator",
+          "name": "foreign-academic-translator",
+          "url": "https://github.com/Koloyaaa/foreign-academic-translator-skill/tree/main/skills/foreign-academic-translator",
+          "repo": "Koloyaaa/foreign-academic-translator-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "Linked-API/linkedin",
+          "name": "linkedin",
+          "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
+          "repo": "Linked-API/linkedin-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "luchasarie/bro",
+          "name": "bro",
+          "url": "https://github.com/luchasarie/bro-skill",
+          "repo": "luchasarie/bro-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "manavmishra/zero-slop",
+          "name": "zero-slop",
+          "url": "https://github.com/manavmishra/ZeroSlop/blob/main/SKILL.md",
+          "repo": "manavmishra/ZeroSlop",
+          "publisher": "Community"
+        },
+        {
+          "id": "MetcalfSolutions/Satori",
+          "name": "Satori",
+          "url": "https://github.com/MetcalfSolutions/Satori",
+          "repo": "MetcalfSolutions/Satori",
+          "publisher": "Community"
+        },
+        {
+          "id": "MSG91/m91-skill",
+          "name": "m91-skill",
+          "url": "https://github.com/MSG91/m91-skill",
+          "repo": "MSG91/m91-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "mvanhorn/last30days-skill",
+          "name": "last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "repo": "mvanhorn/last30days-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "Neeeophytee/finding-unknowns-skills",
+          "name": "finding-unknowns-skills",
+          "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
+          "repo": "Neeeophytee/finding-unknowns-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "NeoLabHQ/write-concisely",
+          "name": "write-concisely",
+          "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
+          "repo": "NeoLabHQ/context-engineering-kit",
+          "publisher": "Community"
+        },
+        {
+          "id": "notiondevs/Notion Skills for Claude",
+          "name": "Notion Skills for Claude",
+          "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
+          "repo": null,
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/brainstorming",
+          "name": "brainstorming",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/dispatching-parallel-agents",
+          "name": "dispatching-parallel-agents",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/executing-plans",
+          "name": "executing-plans",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/superpowers-lab",
+          "name": "superpowers-lab",
+          "url": "https://github.com/obra/superpowers-lab",
+          "repo": "obra/superpowers-lab",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/using-superpowers",
+          "name": "using-superpowers",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "obra/writing-plans",
+          "name": "writing-plans",
+          "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
+          "repo": "obra/superpowers",
+          "publisher": "Community"
+        },
+        {
+          "id": "ognjengt/founder-skills",
+          "name": "founder-skills",
+          "url": "https://github.com/ognjengt/founder-skills",
+          "repo": "ognjengt/founder-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "OneWave-AI/claude-skills",
+          "name": "claude-skills",
+          "url": "https://github.com/OneWave-AI/claude-skills",
+          "repo": "OneWave-AI/claude-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "op7418/NanoBanana-PPT-Skills",
+          "name": "NanoBanana-PPT-Skills",
+          "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
+          "repo": "op7418/NanoBanana-PPT-Skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "op7418/Youtube-clipper-skill",
+          "name": "Youtube-clipper-skill",
+          "url": "https://github.com/op7418/Youtube-clipper-skill",
+          "repo": "op7418/Youtube-clipper-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "openaccountants/openaccountants",
+          "name": "openaccountants",
+          "url": "https://github.com/openaccountants/openaccountants",
+          "repo": "openaccountants/openaccountants",
+          "publisher": "Community"
+        },
+        {
+          "id": "pachca/pachca",
+          "name": "pachca",
+          "url": "https://github.com/pachca/openapi/tree/main/plugins/pachca/skills/pachca",
+          "repo": "pachca/openapi",
+          "publisher": "Community"
+        },
+        {
+          "id": "Paramchoudhary/ResumeSkills",
+          "name": "ResumeSkills",
+          "url": "https://github.com/Paramchoudhary/ResumeSkills",
+          "repo": "Paramchoudhary/ResumeSkills",
+          "publisher": "Community"
+        },
+        {
+          "id": "pattern-ai-labs/agentcall",
+          "name": "agentcall",
+          "url": "https://github.com/pattern-ai-labs/agentcall",
+          "repo": "pattern-ai-labs/agentcall",
+          "publisher": "Community"
+        },
+        {
+          "id": "PleasePrompto/notebooklm-skill",
+          "name": "notebooklm-skill",
+          "url": "https://github.com/PleasePrompto/notebooklm-skill",
+          "repo": "PleasePrompto/notebooklm-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "PSPDFKit-labs/nutrient-agent-skill",
+          "name": "nutrient-agent-skill",
+          "url": "https://github.com/PSPDFKit-labs/nutrient-agent-skill",
+          "repo": "PSPDFKit-labs/nutrient-agent-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "QingYunA/answer-me-with-html",
+          "name": "answer-me-with-html",
+          "url": "https://github.com/QingYunA/answer-me-with-html/tree/main/skills/answer-me-with-html",
+          "repo": "QingYunA/answer-me-with-html",
+          "publisher": "Community"
+        },
+        {
+          "id": "radres/call-me",
+          "name": "call-me",
+          "url": "https://github.com/radres/call-me/tree/main/skill",
+          "repo": "radres/call-me",
+          "publisher": "Community"
+        },
+        {
+          "id": "ReScienceLab/opc-skills",
+          "name": "opc-skills",
+          "url": "https://github.com/ReScienceLab/opc-skills",
+          "repo": "ReScienceLab/opc-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "SeanZoR/claude-speed-reader",
+          "name": "claude-speed-reader",
+          "url": "https://github.com/SeanZoR/claude-speed-reader",
+          "repo": "SeanZoR/claude-speed-reader",
+          "publisher": "Community"
+        },
+        {
+          "id": "Sendmux/skills",
+          "name": "skills",
+          "url": "https://github.com/Sendmux/skills",
+          "repo": "Sendmux/skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "siril9/presentation-skill",
+          "name": "presentation-skill",
+          "url": "https://github.com/siril9/presentation-skill",
+          "repo": "siril9/presentation-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "sujunmin/agy-ppt",
+          "name": "agy-ppt",
+          "url": "https://github.com/sujunmin/agy-ppt",
+          "repo": "sujunmin/agy-ppt",
+          "publisher": "Community"
+        },
+        {
+          "id": "teableio/teable-assistant-ops",
+          "name": "teable-assistant-ops",
+          "url": "https://github.com/teableio/agent-skills/tree/main/skills/teable-assistant-ops",
+          "repo": "teableio/agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "tjboudreaux/cc-thinking-skills",
+          "name": "cc-thinking-skills",
+          "url": "https://github.com/tjboudreaux/cc-thinking-skills",
+          "repo": "tjboudreaux/cc-thinking-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "tronghieu/agent-skills",
+          "name": "agent-skills",
+          "url": "https://github.com/tronghieu/agent-skills",
+          "repo": "tronghieu/agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "vaibhavarora14/job-application-agent",
+          "name": "job-application-agent",
+          "url": "https://github.com/vaibhavarora14/job-application-agent",
+          "repo": "vaibhavarora14/job-application-agent",
+          "publisher": "Community"
+        },
+        {
+          "id": "voygr-tech/placecall",
+          "name": "placecall",
+          "url": "https://github.com/voygr-tech/placecall/tree/main/skills/placecall",
+          "repo": "voygr-tech/placecall",
+          "publisher": "Community"
+        },
+        {
+          "id": "wgwtest/novel-writing",
+          "name": "novel-writing",
+          "url": "https://github.com/wgwtest/novel-writing",
+          "repo": "wgwtest/novel-writing",
+          "publisher": "Community"
+        },
+        {
+          "id": "wrsmith108/linear-claude-skill",
+          "name": "linear-claude-skill",
+          "url": "https://github.com/wrsmith108/linear-claude-skill",
+          "repo": "wrsmith108/linear-claude-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "xberg-io/xberg",
+          "name": "xberg",
+          "url": "https://github.com/xberg-io/xberg/tree/main/plugin/skills/xberg",
+          "repo": "xberg-io/xberg",
+          "publisher": "Community"
+        },
+        {
+          "id": "ysskrishna/ai-agent-skills",
+          "name": "ai-agent-skills",
+          "url": "https://github.com/ysskrishna/ai-agent-skills",
+          "repo": "ysskrishna/ai-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "zapier/zapier-mcp",
+          "name": "zapier-mcp",
+          "url": "https://github.com/zapier/zapier-mcp",
+          "repo": "zapier/zapier-mcp",
+          "publisher": "Community"
+        },
+        {
+          "id": "zarazhangrui/frontend-slides",
+          "name": "frontend-slides",
+          "url": "https://github.com/zarazhangrui/frontend-slides",
+          "repo": "zarazhangrui/frontend-slides",
+          "publisher": "Community"
+        },
+        {
           "id": "aaron-he-zhu/aaron-marketing-skills",
           "name": "aaron-marketing-skills",
           "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
           "repo": "aaron-he-zhu/aaron-marketing-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "Aboudjem/humanizer-skill",
+          "name": "humanizer-skill",
+          "url": "https://github.com/Aboudjem/humanizer-skill",
+          "repo": "Aboudjem/humanizer-skill",
           "publisher": "Community"
         },
         {
@@ -2708,6 +2771,13 @@
           "publisher": "Community"
         },
         {
+          "id": "zhuyansen/new-term-radar",
+          "name": "new-term-radar",
+          "url": "https://github.com/zhuyansen/new-term-radar",
+          "repo": "zhuyansen/new-term-radar",
+          "publisher": "Community"
+        },
+        {
           "id": "AceDataCloud/fish-audio",
           "name": "fish-audio",
           "url": "https://github.com/AceDataCloud/Skills/tree/main/skills/fish-audio",
@@ -2726,6 +2796,13 @@
           "name": "vibe-creating-skill",
           "url": "https://github.com/Alisa0808/vibe-creating-skill",
           "repo": "Alisa0808/vibe-creating-skill",
+          "publisher": "Community"
+        },
+        {
+          "id": "antvis/ava",
+          "name": "ava",
+          "url": "https://github.com/antvis/AVA/tree/ai/skills/ava",
+          "repo": "antvis/AVA",
           "publisher": "Community"
         },
         {
@@ -2757,6 +2834,20 @@
           "publisher": "Community"
         },
         {
+          "id": "ChatCut-Inc/create-motion-graphics",
+          "name": "create-motion-graphics",
+          "url": "https://github.com/ChatCut-Inc/agent-plugin/tree/main/codex/skills/create-motion-graphics",
+          "repo": "ChatCut-Inc/agent-plugin",
+          "publisher": "Community"
+        },
+        {
+          "id": "ChatCut-Inc/talking-head-guide",
+          "name": "talking-head-guide",
+          "url": "https://github.com/ChatCut-Inc/agent-plugin/tree/main/codex/skills/talking-head-guide",
+          "repo": "ChatCut-Inc/agent-plugin",
+          "publisher": "Community"
+        },
+        {
           "id": "eatmoreduck/boss-zhipin-scraper",
           "name": "boss-zhipin-scraper",
           "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
@@ -2775,6 +2866,13 @@
           "name": "alpha-insights",
           "url": "https://github.com/Ericyoung-183/alpha-insights",
           "repo": "Ericyoung-183/alpha-insights",
+          "publisher": "Community"
+        },
+        {
+          "id": "federicodeponte/autonomous-research",
+          "name": "autonomous-research",
+          "url": "https://github.com/federicodeponte/opendraft/tree/master/skills/autonomous-research",
+          "repo": "federicodeponte/opendraft",
           "publisher": "Community"
         },
         {
@@ -2887,6 +2985,13 @@
           "name": "research-agent-skills",
           "url": "https://github.com/KalarisLabs/research-agent-skills",
           "repo": "KalarisLabs/research-agent-skills",
+          "publisher": "Community"
+        },
+        {
+          "id": "kinprove/genealogy-research-recipes",
+          "name": "genealogy-research-recipes",
+          "url": "https://github.com/Kinprove/genealogy-research-recipes",
+          "repo": "Kinprove/genealogy-research-recipes",
           "publisher": "Community"
         },
         {

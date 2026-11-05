@@ -1,623 +1,32 @@
 {
   "meta": {
-    "fetched_at": "2026-11-03T13:16:47Z",
+    "fetched_at": "2026-11-05T13:43:56Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 368,
+    "total_skills": 383,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 368
+    "total_community": 383
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 368,
+      "skills_count": 383,
       "skills": [
         {
-          "section": "Productivity and Collaboration",
-          "skills_count": 66,
-          "skills": [
-            {
-              "id": "777genius/agent-notifications",
-              "name": "agent-notifications",
-              "url": "https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications",
-              "description": "Send desktop attention and progress alerts during agent tasks",
-              "repo": "777genius/agent-notifications",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "arifszn/slide-wright",
-              "name": "slide-wright",
-              "url": "https://github.com/arifszn/slide-wright",
-              "description": "Generate themed HTML slide decks, export to PowerPoint or PDF",
-              "repo": "arifszn/slide-wright",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "Atomic-Mail/atomicmail",
-              "name": "atomicmail",
-              "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
-              "description": "Agent registers its own inbox, then sends and reads mail",
-              "repo": "Atomic-Mail/atomic-mail-agentic",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "AugustusW/audio-tldr",
-              "name": "audio-tldr",
-              "url": "https://github.com/AugustusW/audio-tldr-skill/tree/main/skills/audio-tldr",
-              "description": "Summarize videos and podcasts with local, cached transcription",
-              "repo": "AugustusW/audio-tldr-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "bablobanov/hermes-agent-telegram-checklist",
-              "name": "hermes-agent-telegram-checklist",
-              "url": "https://github.com/bablobanov/hermes-agent-telegram-checklist",
-              "description": "Create and manage native Telegram checklists with verified writes",
-              "repo": "bablobanov/hermes-agent-telegram-checklist",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "bevibing/tutor-skills",
-              "name": "tutor-skills",
-              "url": "https://github.com/bevibing/tutor-skills",
-              "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
-              "repo": "bevibing/tutor-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "career-ops-hq/career-ops",
-              "name": "career-ops",
-              "url": "https://github.com/career-ops-hq/career-ops",
-              "description": "Scores jobs against your CV, tailors resumes, tracks applications",
-              "repo": "career-ops-hq/career-ops",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "cbrock84/headcount",
-              "name": "headcount",
-              "url": "https://github.com/cbrock84/headcount",
-              "description": "Company departments as installable skills, each citing its sources",
-              "repo": "cbrock84/headcount",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "Charlie85270/Dorothy",
-              "name": "Dorothy",
-              "url": "https://github.com/Charlie85270/Dorothy",
-              "description": "Orchestrate multiple AI CLI agents with automations and MCP servers",
-              "repo": "Charlie85270/Dorothy",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "chrisryugj/kordoc",
-              "name": "kordoc",
-              "url": "https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc",
-              "description": "Convert Korean HWP/HWPX documents to Markdown, fill forms, generate HWPX",
-              "repo": "chrisryugj/kordoc",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "cyperx84/claude-skills-mental-models",
-              "name": "claude-skills-mental-models",
-              "url": "https://github.com/cyperx84/claude-skills-mental-models",
-              "description": "Drop your own mental models in as files; 21 included",
-              "repo": "cyperx84/claude-skills-mental-models",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "deusyu/translate-book",
-              "name": "translate-book",
-              "url": "https://github.com/deusyu/translate-book",
-              "description": "Translate books (PDF/DOCX/EPUB) via parallel sub-agents with resume",
-              "repo": "deusyu/translate-book",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "Digidai/product-manager-skills",
-              "name": "product-manager-skills",
-              "url": "https://github.com/Digidai/product-manager-skills",
-              "description": "Senior PM agent with 30+ frameworks and SaaS metrics",
-              "repo": "Digidai/product-manager-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "dmoshehun-prog/learn-from-materials",
-              "name": "learn-from-materials",
-              "url": "https://github.com/dmoshehun-prog/learn-from-materials",
-              "description": "Turn documents into source-grounded interactive learning pages for AI agents",
-              "repo": "dmoshehun-prog/learn-from-materials",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "EveryInc/charlie-cfo-skill",
-              "name": "charlie-cfo-skill",
-              "url": "https://github.com/EveryInc/charlie-cfo-skill",
-              "description": "Bootstrapped CFO financial management inspired by Charlie Munger",
-              "repo": "EveryInc/charlie-cfo-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "forjd/better-writing",
-              "name": "better-writing",
-              "url": "https://github.com/forjd/better-writing",
-              "description": "Rewrites AI-sounding prose without inventing facts; eval-tested",
-              "repo": "forjd/better-writing",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "GiaSip/giasip-research",
-              "name": "giasip-research",
-              "url": "https://github.com/GiaSip/giasip-skills/tree/main/skills/giasip-research",
-              "description": "Source-linked research reports with explicit unresolved checks",
-              "repo": "GiaSip/giasip-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "gokapso/automate-whatsapp",
-              "name": "automate-whatsapp",
-              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp",
-              "description": "Build WhatsApp automations with workflows and agents",
-              "repo": "gokapso/agent-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "gokapso/integrate-whatsapp",
-              "name": "integrate-whatsapp",
-              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp",
-              "description": "Connect WhatsApp, set up webhooks, and send messages",
-              "repo": "gokapso/agent-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "gokapso/observe-whatsapp",
-              "name": "observe-whatsapp",
-              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp",
-              "description": "Debug WhatsApp delivery issues and run health checks",
-              "repo": "gokapso/agent-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "hanfang/claude-memory-skill",
-              "name": "claude-memory-skill",
-              "url": "https://github.com/hanfang/claude-memory-skill",
-              "description": "Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence",
-              "repo": "hanfang/claude-memory-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "JimmySadek/video-fetcher-to-markdown",
-              "name": "video-fetcher-to-markdown",
-              "url": "https://github.com/JimmySadek/video-fetcher-to-markdown",
-              "description": "Create Obsidian-ready Markdown notes from YouTube videos",
-              "repo": "JimmySadek/video-fetcher-to-markdown",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "kgraph57/strategy-consulting-visualization",
-              "name": "strategy-consulting-visualization",
-              "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
-              "description": "McKinsey-style charts and consulting slide decks",
-              "repo": "kgraph57/mckinsey-style-visualization-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "kklimuk/docx-cli",
-              "name": "docx-cli",
-              "url": "https://github.com/kklimuk/docx-cli",
-              "description": "Work on .docx files at ~1/2 cost of other skills.",
-              "repo": "kklimuk/docx-cli",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "kochetkov-ma/brewpage-publish",
-              "name": "brewpage-publish",
-              "url": "https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/brewpage-publish",
-              "description": "Publish pages, files or folder sites to shareable brewpage.app links",
-              "repo": "kochetkov-ma/claude-brewcode",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "Linked-API/linkedin",
-              "name": "linkedin",
-              "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
-              "description": "Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.",
-              "repo": "Linked-API/linkedin-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "luchasarie/bro",
-              "name": "bro",
-              "url": "https://github.com/luchasarie/bro-skill",
-              "description": "Re-explains the last reply in plain language",
-              "repo": "luchasarie/bro-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "manavmishra/zero-slop",
-              "name": "zero-slop",
-              "url": "https://github.com/manavmishra/ZeroSlop/blob/main/SKILL.md",
-              "description": "Edits AI-sounding prose while preserving facts, voice, and formatting",
-              "repo": "manavmishra/ZeroSlop",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "MetcalfSolutions/Satori",
-              "name": "Satori",
-              "url": "https://github.com/MetcalfSolutions/Satori",
-              "description": "Open-source wisdom companion skill (Apache 2.0) for coding agents and web chat, built to be outgrown: one lens per turn, a local SQLite memory vault, and trigger discipline that stays silent during pure coding work.",
-              "repo": "MetcalfSolutions/Satori",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "MSG91/m91-skill",
-              "name": "m91-skill",
-              "url": "https://github.com/MSG91/m91-skill",
-              "description": "Ask a human for approval on their phone",
-              "repo": "MSG91/m91-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "mvanhorn/last30days-skill",
-              "name": "last30days-skill",
-              "url": "https://github.com/mvanhorn/last30days-skill",
-              "description": "Research any topic across Reddit, X, YouTube, HN, Polymarket, and the web, ranked by upvotes, likes, and real money instead of editors",
-              "repo": "mvanhorn/last30days-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "Neeeophytee/finding-unknowns-skills",
-              "name": "finding-unknowns-skills",
-              "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
-              "description": "8 meta-skills that make a coding agent surface your unknowns before they get expensive: blindspot pass, interview, reference hunt, implementation plan/notes, pitch packager, and a pre-merge change quiz. Works in Claude Code, Codex, and Cursor via the agentskills.io SKILL.md format",
-              "repo": "Neeeophytee/finding-unknowns-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "NeoLabHQ/write-concisely",
-              "name": "write-concisely",
-              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
-              "description": "Applies the famous *The Elements of Style* book principles to make documentation and writing clearer and more professional by eliminating wordiness and improving structure.",
-              "repo": "NeoLabHQ/context-engineering-kit",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "notiondevs/Notion Skills for Claude",
-              "name": "Notion Skills for Claude",
-              "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
-              "description": "Skills for working with Notion",
-              "repo": null,
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "obra/brainstorming",
-              "name": "brainstorming",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
-              "description": "Generate and explore ideas",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "obra/dispatching-parallel-agents",
-              "name": "dispatching-parallel-agents",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
-              "description": "Coordinate multiple simultaneous agents",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "obra/executing-plans",
-              "name": "executing-plans",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
-              "description": "Implement and run strategic plans",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "obra/superpowers-lab",
-              "name": "superpowers-lab",
-              "url": "https://github.com/obra/superpowers-lab",
-              "description": "Lab environment for Claude superpowers",
-              "repo": "obra/superpowers-lab",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "obra/using-superpowers",
-              "name": "using-superpowers",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
-              "description": "Leverage core platform capabilities",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "obra/writing-plans",
-              "name": "writing-plans",
-              "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
-              "description": "Create strategic documentation",
-              "repo": "obra/superpowers",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "ognjengt/founder-skills",
-              "name": "founder-skills",
-              "url": "https://github.com/ognjengt/founder-skills",
-              "description": "Claude skills for founders with packaged startup workflows",
-              "repo": "ognjengt/founder-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "OneWave-AI/claude-skills",
-              "name": "claude-skills",
-              "url": "https://github.com/OneWave-AI/claude-skills",
-              "description": "225 business, everyday-life, and coding skills, many with scripts",
-              "repo": "OneWave-AI/claude-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "op7418/NanoBanana-PPT-Skills",
-              "name": "NanoBanana-PPT-Skills",
-              "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
-              "description": "AI-powered PPT generation with document analysis and styled images",
-              "repo": "op7418/NanoBanana-PPT-Skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "op7418/Youtube-clipper-skill",
-              "name": "Youtube-clipper-skill",
-              "url": "https://github.com/op7418/Youtube-clipper-skill",
-              "description": "YouTube clip generation and editing with automated workflows",
-              "repo": "op7418/Youtube-clipper-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "openaccountants/openaccountants",
-              "name": "openaccountants",
-              "url": "https://github.com/openaccountants/openaccountants",
-              "description": "371 tax classification skills across 134 countries",
-              "repo": "openaccountants/openaccountants",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "Paramchoudhary/ResumeSkills",
-              "name": "ResumeSkills",
-              "url": "https://github.com/Paramchoudhary/ResumeSkills",
-              "description": "20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions",
-              "repo": "Paramchoudhary/ResumeSkills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "pattern-ai-labs/agentcall",
-              "name": "agentcall",
-              "url": "https://github.com/pattern-ai-labs/agentcall",
-              "description": "Let your AI agents join Google Meet, Zoom, Teams calls and collaborate like a real team-mate.",
-              "repo": "pattern-ai-labs/agentcall",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "PleasePrompto/notebooklm-skill",
-              "name": "notebooklm-skill",
-              "url": "https://github.com/PleasePrompto/notebooklm-skill",
-              "description": "Interact with NotebookLM for document-based conversations",
-              "repo": "PleasePrompto/notebooklm-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "PSPDFKit-labs/nutrient-agent-skill",
-              "name": "nutrient-agent-skill",
-              "url": "https://github.com/PSPDFKit-labs/nutrient-agent-skill",
-              "description": "Document processing with Nutrient DWS API: convert (PDF/DOCX/XLSX/PPTX/HTML/images), extract text/tables, OCR (20+ languages), redact PII (pattern + AI), watermark, digital signatures, form filling. [MCP server](https://www.npmjs.com/package/@nutrient-sdk/dws-mcp-server) also available.",
-              "repo": "PSPDFKit-labs/nutrient-agent-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "radres/call-me",
-              "name": "call-me",
-              "url": "https://github.com/radres/call-me/tree/main/skill",
-              "description": "Agent phones your iPhone and returns your spoken answer",
-              "repo": "radres/call-me",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "ReScienceLab/opc-skills",
-              "name": "opc-skills",
-              "url": "https://github.com/ReScienceLab/opc-skills",
-              "description": "Agent skills for solopreneurs with SEO, geo, and LLM tools",
-              "repo": "ReScienceLab/opc-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "SeanZoR/claude-speed-reader",
-              "name": "claude-speed-reader",
-              "url": "https://github.com/SeanZoR/claude-speed-reader",
-              "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
-              "repo": "SeanZoR/claude-speed-reader",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "Sendmux/skills",
-              "name": "skills",
-              "url": "https://github.com/Sendmux/skills",
-              "description": "Sendmux email and mailbox workflows for agents",
-              "repo": "Sendmux/skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "siril9/presentation-skill",
-              "name": "presentation-skill",
-              "url": "https://github.com/siril9/presentation-skill",
-              "description": "Generate editable PowerPoint decks from source with visual QA.",
-              "repo": "siril9/presentation-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "sujunmin/agy-ppt",
-              "name": "agy-ppt",
-              "url": "https://github.com/sujunmin/agy-ppt",
-              "description": "Generate PowerPoint decks without the AI-slop look, purpose-built for the Antigravity+Kiro+Codex pipeline; GPT image rendering handles dense Traditional Chinese slide text far better than Gemini",
-              "repo": "sujunmin/agy-ppt",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "teableio/teable-assistant-ops",
-              "name": "teable-assistant-ops",
-              "url": "https://github.com/teableio/agent-skills/tree/main/skills/teable-assistant-ops",
-              "description": "Manage [Teable](https://teable.ai) data, SQL queries, automations, and apps.",
-              "repo": "teableio/agent-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "tjboudreaux/cc-thinking-skills",
-              "name": "cc-thinking-skills",
-              "url": "https://github.com/tjboudreaux/cc-thinking-skills",
-              "description": "28 eval-informed mental models for decisions, debugging, systems, and strategy",
-              "repo": "tjboudreaux/cc-thinking-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "tronghieu/agent-skills",
-              "name": "agent-skills",
-              "url": "https://github.com/tronghieu/agent-skills",
-              "description": "18 method-driven skills for knowledge work: strategy, research, writing",
-              "repo": "tronghieu/agent-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "vaibhavarora14/job-application-agent",
-              "name": "job-application-agent",
-              "url": "https://github.com/vaibhavarora14/job-application-agent",
-              "description": "JobAppAgent: free MIT open-source job application agent, one verified résumé",
-              "repo": "vaibhavarora14/job-application-agent",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "voygr-tech/placecall",
-              "name": "placecall",
-              "url": "https://github.com/voygr-tech/placecall/tree/main/skills/placecall",
-              "description": "Calls US businesses by phone and returns outcome and transcript",
-              "repo": "voygr-tech/placecall",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "wgwtest/novel-writing",
-              "name": "novel-writing",
-              "url": "https://github.com/wgwtest/novel-writing",
-              "description": "Plans and revises fiction with viewpoint, dialogue, and style checks.",
-              "repo": "wgwtest/novel-writing",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "wrsmith108/linear-claude-skill",
-              "name": "linear-claude-skill",
-              "url": "https://github.com/wrsmith108/linear-claude-skill",
-              "description": "Manage Linear issues, projects, and teams",
-              "repo": "wrsmith108/linear-claude-skill",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "xberg-io/xberg",
-              "name": "xberg",
-              "url": "https://github.com/xberg-io/xberg/tree/main/plugin/skills/xberg",
-              "description": "Extract text, tables, and metadata from 101+ document formats",
-              "repo": "xberg-io/xberg",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "ysskrishna/ai-agent-skills",
-              "name": "ai-agent-skills",
-              "url": "https://github.com/ysskrishna/ai-agent-skills",
-              "description": "Structured thinking skills: five whys, pre-mortem, trade-offs",
-              "repo": "ysskrishna/ai-agent-skills",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "zapier/zapier-mcp",
-              "name": "zapier-mcp",
-              "url": "https://github.com/zapier/zapier-mcp",
-              "description": "Official plugin distribution for the hosted Zapier MCP server. Connects Claude to thousands of apps — send messages, pull data, trigger workflows.",
-              "repo": "zapier/zapier-mcp",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            },
-            {
-              "id": "zarazhangrui/frontend-slides",
-              "name": "frontend-slides",
-              "url": "https://github.com/zarazhangrui/frontend-slides",
-              "description": "Generate animation-rich HTML presentations with visual style previews",
-              "repo": "zarazhangrui/frontend-slides",
-              "publisher": "Community",
-              "section": "Productivity and Collaboration"
-            }
-          ]
-        },
-        {
           "section": "Development and Testing",
-          "skills_count": 130,
+          "skills_count": 134,
           "skills": [
+            {
+              "id": "0design/unslop-skill",
+              "name": "unslop-skill",
+              "url": "https://github.com/0design/unslop-skill",
+              "description": "Audit plugin for Claude Code and Codex",
+              "repo": "0design/unslop-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
             {
               "id": "9929y/mesh-gradient-generation",
               "name": "mesh-gradient-generation",
@@ -723,6 +132,15 @@
               "url": "https://github.com/Cap-go/capgo-skills",
               "description": "Capacitor app upgrades, live updates, native builds and migrations",
               "repo": "Cap-go/capgo-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "celo-org/celopedia",
+              "name": "celopedia",
+              "url": "https://github.com/celo-org/celopedia-skills/tree/main/skills/celopedia-skill",
+              "description": "Verified Celo contracts, protocols, MiniPay, grants, and agent tooling",
+              "repo": "celo-org/celopedia-skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1582,6 +1000,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "ScrapingBee/scrapingbee-cli",
+              "name": "scrapingbee-cli",
+              "url": "https://github.com/ScrapingBee/scrapingbee-cli/tree/main/.agents/skills/scrapingbee-cli",
+              "description": "Scrape any page, search the web, crawl sites, extract data",
+              "repo": "ScrapingBee/scrapingbee-cli",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "Simon-He95/markstream-install",
               "name": "markstream-install",
               "url": "https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install",
@@ -1641,6 +1068,15 @@
               "url": "https://github.com/superdesigndev/superdesign-skill",
               "description": "Creates design systems from existing codebases and iterates UI drafts",
               "repo": "superdesigndev/superdesign-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "swiftlysingh/excalidraw-cli",
+              "name": "excalidraw-cli",
+              "url": "https://github.com/swiftlysingh/excalidraw-cli/tree/main/skills/excalidraw-cli",
+              "description": "Turn text, JSON, or Graphviz DOT into editable Excalidraw diagrams",
+              "repo": "swiftlysingh/excalidraw-cli",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1791,8 +1227,644 @@
           ]
         },
         {
+          "section": "Productivity and Collaboration",
+          "skills_count": 70,
+          "skills": [
+            {
+              "id": "777genius/agent-notifications",
+              "name": "agent-notifications",
+              "url": "https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications",
+              "description": "Send desktop attention and progress alerts during agent tasks",
+              "repo": "777genius/agent-notifications",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "arifszn/slide-wright",
+              "name": "slide-wright",
+              "url": "https://github.com/arifszn/slide-wright",
+              "description": "Generate themed HTML slide decks, export to PowerPoint or PDF",
+              "repo": "arifszn/slide-wright",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Atomic-Mail/atomicmail",
+              "name": "atomicmail",
+              "url": "https://github.com/Atomic-Mail/atomic-mail-agentic/tree/main/integrations/skill/atomicmail",
+              "description": "Agent registers its own inbox, then sends and reads mail",
+              "repo": "Atomic-Mail/atomic-mail-agentic",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "AugustusW/audio-tldr",
+              "name": "audio-tldr",
+              "url": "https://github.com/AugustusW/audio-tldr-skill/tree/main/skills/audio-tldr",
+              "description": "Summarize videos and podcasts with local, cached transcription",
+              "repo": "AugustusW/audio-tldr-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "bablobanov/hermes-agent-telegram-checklist",
+              "name": "hermes-agent-telegram-checklist",
+              "url": "https://github.com/bablobanov/hermes-agent-telegram-checklist",
+              "description": "Create and manage native Telegram checklists with verified writes",
+              "repo": "bablobanov/hermes-agent-telegram-checklist",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "bevibing/tutor-skills",
+              "name": "tutor-skills",
+              "url": "https://github.com/bevibing/tutor-skills",
+              "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
+              "repo": "bevibing/tutor-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "career-ops-hq/career-ops",
+              "name": "career-ops",
+              "url": "https://github.com/career-ops-hq/career-ops",
+              "description": "Scores jobs against your CV, tailors resumes, tracks applications",
+              "repo": "career-ops-hq/career-ops",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "cbrock84/headcount",
+              "name": "headcount",
+              "url": "https://github.com/cbrock84/headcount",
+              "description": "Company departments as installable skills, each citing its sources",
+              "repo": "cbrock84/headcount",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Charlie85270/Dorothy",
+              "name": "Dorothy",
+              "url": "https://github.com/Charlie85270/Dorothy",
+              "description": "Orchestrate multiple AI CLI agents with automations and MCP servers",
+              "repo": "Charlie85270/Dorothy",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "chrisryugj/kordoc",
+              "name": "kordoc",
+              "url": "https://github.com/chrisryugj/kordoc/tree/main/plugins/kordoc/skills/kordoc",
+              "description": "Convert Korean HWP/HWPX documents to Markdown, fill forms, generate HWPX",
+              "repo": "chrisryugj/kordoc",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "cyperx84/claude-skills-mental-models",
+              "name": "claude-skills-mental-models",
+              "url": "https://github.com/cyperx84/claude-skills-mental-models",
+              "description": "Drop your own mental models in as files; 21 included",
+              "repo": "cyperx84/claude-skills-mental-models",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "deusyu/translate-book",
+              "name": "translate-book",
+              "url": "https://github.com/deusyu/translate-book",
+              "description": "Translate books (PDF/DOCX/EPUB) via parallel sub-agents with resume",
+              "repo": "deusyu/translate-book",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Digidai/product-manager-skills",
+              "name": "product-manager-skills",
+              "url": "https://github.com/Digidai/product-manager-skills",
+              "description": "Senior PM agent with 30+ frameworks and SaaS metrics",
+              "repo": "Digidai/product-manager-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "dmoshehun-prog/learn-from-materials",
+              "name": "learn-from-materials",
+              "url": "https://github.com/dmoshehun-prog/learn-from-materials",
+              "description": "Turn documents into source-grounded interactive learning pages for AI agents",
+              "repo": "dmoshehun-prog/learn-from-materials",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "duyunzhoudyz/dyz-gongwen-skills",
+              "name": "dyz-gongwen-skills",
+              "url": "https://github.com/duyunzhoudyz/dyz-gongwen-skills",
+              "description": "Chinese official document drafting, review and GB/T 9704 formatting",
+              "repo": "duyunzhoudyz/dyz-gongwen-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "EveryInc/charlie-cfo-skill",
+              "name": "charlie-cfo-skill",
+              "url": "https://github.com/EveryInc/charlie-cfo-skill",
+              "description": "Bootstrapped CFO financial management inspired by Charlie Munger",
+              "repo": "EveryInc/charlie-cfo-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "forjd/better-writing",
+              "name": "better-writing",
+              "url": "https://github.com/forjd/better-writing",
+              "description": "Rewrites AI-sounding prose without inventing facts; eval-tested",
+              "repo": "forjd/better-writing",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "GiaSip/giasip-research",
+              "name": "giasip-research",
+              "url": "https://github.com/GiaSip/giasip-skills/tree/main/skills/giasip-research",
+              "description": "Source-linked research reports with explicit unresolved checks",
+              "repo": "GiaSip/giasip-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "gokapso/automate-whatsapp",
+              "name": "automate-whatsapp",
+              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/automate-whatsapp",
+              "description": "Build WhatsApp automations with workflows and agents",
+              "repo": "gokapso/agent-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "gokapso/integrate-whatsapp",
+              "name": "integrate-whatsapp",
+              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/integrate-whatsapp",
+              "description": "Connect WhatsApp, set up webhooks, and send messages",
+              "repo": "gokapso/agent-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "gokapso/observe-whatsapp",
+              "name": "observe-whatsapp",
+              "url": "https://github.com/gokapso/agent-skills/tree/master/skills/observe-whatsapp",
+              "description": "Debug WhatsApp delivery issues and run health checks",
+              "repo": "gokapso/agent-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "hanfang/claude-memory-skill",
+              "name": "claude-memory-skill",
+              "url": "https://github.com/hanfang/claude-memory-skill",
+              "description": "Minimal, low-friction hierarchical memory system with background agents and filesystem-based persistence",
+              "repo": "hanfang/claude-memory-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "JimmySadek/video-fetcher-to-markdown",
+              "name": "video-fetcher-to-markdown",
+              "url": "https://github.com/JimmySadek/video-fetcher-to-markdown",
+              "description": "Create Obsidian-ready Markdown notes from YouTube videos",
+              "repo": "JimmySadek/video-fetcher-to-markdown",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "kgraph57/strategy-consulting-visualization",
+              "name": "strategy-consulting-visualization",
+              "url": "https://github.com/kgraph57/mckinsey-style-visualization-skill",
+              "description": "McKinsey-style charts and consulting slide decks",
+              "repo": "kgraph57/mckinsey-style-visualization-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "kklimuk/docx-cli",
+              "name": "docx-cli",
+              "url": "https://github.com/kklimuk/docx-cli",
+              "description": "Work on .docx files at ~1/2 cost of other skills.",
+              "repo": "kklimuk/docx-cli",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "kochetkov-ma/brewpage-publish",
+              "name": "brewpage-publish",
+              "url": "https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/brewpage-publish",
+              "description": "Publish pages, files or folder sites to shareable brewpage.app links",
+              "repo": "kochetkov-ma/claude-brewcode",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Koloyaaa/foreign-academic-translator",
+              "name": "foreign-academic-translator",
+              "url": "https://github.com/Koloyaaa/foreign-academic-translator-skill/tree/main/skills/foreign-academic-translator",
+              "description": "Translate foreign academic handouts into Chinese with subject glossaries",
+              "repo": "Koloyaaa/foreign-academic-translator-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Linked-API/linkedin",
+              "name": "linkedin",
+              "url": "https://github.com/Linked-API/linkedin-skills/tree/main/linkedin",
+              "description": "Fetch LinkedIn profiles, search people and companies, send messages, manage connections, create posts, react, comment, and run custom LinkedIn workflows from Claude Code, Codex, Cursor, and Windsurf.",
+              "repo": "Linked-API/linkedin-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "luchasarie/bro",
+              "name": "bro",
+              "url": "https://github.com/luchasarie/bro-skill",
+              "description": "Re-explains the last reply in plain language",
+              "repo": "luchasarie/bro-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "manavmishra/zero-slop",
+              "name": "zero-slop",
+              "url": "https://github.com/manavmishra/ZeroSlop/blob/main/SKILL.md",
+              "description": "Edits AI-sounding prose while preserving facts, voice, and formatting",
+              "repo": "manavmishra/ZeroSlop",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "MetcalfSolutions/Satori",
+              "name": "Satori",
+              "url": "https://github.com/MetcalfSolutions/Satori",
+              "description": "Open-source wisdom companion skill (Apache 2.0) for coding agents and web chat, built to be outgrown: one lens per turn, a local SQLite memory vault, and trigger discipline that stays silent during pure coding work.",
+              "repo": "MetcalfSolutions/Satori",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "MSG91/m91-skill",
+              "name": "m91-skill",
+              "url": "https://github.com/MSG91/m91-skill",
+              "description": "Ask a human for approval on their phone",
+              "repo": "MSG91/m91-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "mvanhorn/last30days-skill",
+              "name": "last30days-skill",
+              "url": "https://github.com/mvanhorn/last30days-skill",
+              "description": "Research any topic across Reddit, X, YouTube, HN, Polymarket, and the web, ranked by upvotes, likes, and real money instead of editors",
+              "repo": "mvanhorn/last30days-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Neeeophytee/finding-unknowns-skills",
+              "name": "finding-unknowns-skills",
+              "url": "https://github.com/Neeeophytee/finding-unknowns-skills",
+              "description": "8 meta-skills that make a coding agent surface your unknowns before they get expensive: blindspot pass, interview, reference hunt, implementation plan/notes, pitch packager, and a pre-merge change quiz. Works in Claude Code, Codex, and Cursor via the agentskills.io SKILL.md format",
+              "repo": "Neeeophytee/finding-unknowns-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "NeoLabHQ/write-concisely",
+              "name": "write-concisely",
+              "url": "https://github.com/NeoLabHQ/context-engineering-kit/tree/master/plugins/docs/skills/write-concisely",
+              "description": "Applies the famous *The Elements of Style* book principles to make documentation and writing clearer and more professional by eliminating wordiness and improving structure.",
+              "repo": "NeoLabHQ/context-engineering-kit",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "notiondevs/Notion Skills for Claude",
+              "name": "Notion Skills for Claude",
+              "url": "https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0",
+              "description": "Skills for working with Notion",
+              "repo": null,
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/brainstorming",
+              "name": "brainstorming",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md",
+              "description": "Generate and explore ideas",
+              "repo": "obra/superpowers",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/dispatching-parallel-agents",
+              "name": "dispatching-parallel-agents",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/dispatching-parallel-agents/SKILL.md",
+              "description": "Coordinate multiple simultaneous agents",
+              "repo": "obra/superpowers",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/executing-plans",
+              "name": "executing-plans",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/executing-plans/SKILL.md",
+              "description": "Implement and run strategic plans",
+              "repo": "obra/superpowers",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/superpowers-lab",
+              "name": "superpowers-lab",
+              "url": "https://github.com/obra/superpowers-lab",
+              "description": "Lab environment for Claude superpowers",
+              "repo": "obra/superpowers-lab",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/using-superpowers",
+              "name": "using-superpowers",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
+              "description": "Leverage core platform capabilities",
+              "repo": "obra/superpowers",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "obra/writing-plans",
+              "name": "writing-plans",
+              "url": "https://github.com/obra/superpowers/blob/main/skills/writing-plans/SKILL.md",
+              "description": "Create strategic documentation",
+              "repo": "obra/superpowers",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "ognjengt/founder-skills",
+              "name": "founder-skills",
+              "url": "https://github.com/ognjengt/founder-skills",
+              "description": "Claude skills for founders with packaged startup workflows",
+              "repo": "ognjengt/founder-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "OneWave-AI/claude-skills",
+              "name": "claude-skills",
+              "url": "https://github.com/OneWave-AI/claude-skills",
+              "description": "225 business, everyday-life, and coding skills, many with scripts",
+              "repo": "OneWave-AI/claude-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "op7418/NanoBanana-PPT-Skills",
+              "name": "NanoBanana-PPT-Skills",
+              "url": "https://github.com/op7418/NanoBanana-PPT-Skills",
+              "description": "AI-powered PPT generation with document analysis and styled images",
+              "repo": "op7418/NanoBanana-PPT-Skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "op7418/Youtube-clipper-skill",
+              "name": "Youtube-clipper-skill",
+              "url": "https://github.com/op7418/Youtube-clipper-skill",
+              "description": "YouTube clip generation and editing with automated workflows",
+              "repo": "op7418/Youtube-clipper-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "openaccountants/openaccountants",
+              "name": "openaccountants",
+              "url": "https://github.com/openaccountants/openaccountants",
+              "description": "371 tax classification skills across 134 countries",
+              "repo": "openaccountants/openaccountants",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "pachca/pachca",
+              "name": "pachca",
+              "url": "https://github.com/pachca/openapi/tree/main/plugins/pachca/skills/pachca",
+              "description": "Connect agents to Pachca and troubleshoot MCP authentication and permissions",
+              "repo": "pachca/openapi",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Paramchoudhary/ResumeSkills",
+              "name": "ResumeSkills",
+              "url": "https://github.com/Paramchoudhary/ResumeSkills",
+              "description": "20 specialized skills for resume optimization, ATS analysis, interview prep, and career transitions",
+              "repo": "Paramchoudhary/ResumeSkills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "pattern-ai-labs/agentcall",
+              "name": "agentcall",
+              "url": "https://github.com/pattern-ai-labs/agentcall",
+              "description": "Let your AI agents join Google Meet, Zoom, Teams calls and collaborate like a real team-mate.",
+              "repo": "pattern-ai-labs/agentcall",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "PleasePrompto/notebooklm-skill",
+              "name": "notebooklm-skill",
+              "url": "https://github.com/PleasePrompto/notebooklm-skill",
+              "description": "Interact with NotebookLM for document-based conversations",
+              "repo": "PleasePrompto/notebooklm-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "PSPDFKit-labs/nutrient-agent-skill",
+              "name": "nutrient-agent-skill",
+              "url": "https://github.com/PSPDFKit-labs/nutrient-agent-skill",
+              "description": "Document processing with Nutrient DWS API: convert (PDF/DOCX/XLSX/PPTX/HTML/images), extract text/tables, OCR (20+ languages), redact PII (pattern + AI), watermark, digital signatures, form filling. [MCP server](https://www.npmjs.com/package/@nutrient-sdk/dws-mcp-server) also available.",
+              "repo": "PSPDFKit-labs/nutrient-agent-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "QingYunA/answer-me-with-html",
+              "name": "answer-me-with-html",
+              "url": "https://github.com/QingYunA/answer-me-with-html/tree/main/skills/answer-me-with-html",
+              "description": "Answers hard questions as readable, self-contained HTML pages",
+              "repo": "QingYunA/answer-me-with-html",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "radres/call-me",
+              "name": "call-me",
+              "url": "https://github.com/radres/call-me/tree/main/skill",
+              "description": "Agent phones your iPhone and returns your spoken answer",
+              "repo": "radres/call-me",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "ReScienceLab/opc-skills",
+              "name": "opc-skills",
+              "url": "https://github.com/ReScienceLab/opc-skills",
+              "description": "Agent skills for solopreneurs with SEO, geo, and LLM tools",
+              "repo": "ReScienceLab/opc-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "SeanZoR/claude-speed-reader",
+              "name": "claude-speed-reader",
+              "url": "https://github.com/SeanZoR/claude-speed-reader",
+              "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
+              "repo": "SeanZoR/claude-speed-reader",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Sendmux/skills",
+              "name": "skills",
+              "url": "https://github.com/Sendmux/skills",
+              "description": "Sendmux email and mailbox workflows for agents",
+              "repo": "Sendmux/skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "siril9/presentation-skill",
+              "name": "presentation-skill",
+              "url": "https://github.com/siril9/presentation-skill",
+              "description": "Generate editable PowerPoint decks from source with visual QA.",
+              "repo": "siril9/presentation-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "sujunmin/agy-ppt",
+              "name": "agy-ppt",
+              "url": "https://github.com/sujunmin/agy-ppt",
+              "description": "Generate PowerPoint decks without the AI-slop look, purpose-built for the Antigravity+Kiro+Codex pipeline; GPT image rendering handles dense Traditional Chinese slide text far better than Gemini",
+              "repo": "sujunmin/agy-ppt",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "teableio/teable-assistant-ops",
+              "name": "teable-assistant-ops",
+              "url": "https://github.com/teableio/agent-skills/tree/main/skills/teable-assistant-ops",
+              "description": "Manage [Teable](https://teable.ai) data, SQL queries, automations, and apps.",
+              "repo": "teableio/agent-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "tjboudreaux/cc-thinking-skills",
+              "name": "cc-thinking-skills",
+              "url": "https://github.com/tjboudreaux/cc-thinking-skills",
+              "description": "28 eval-informed mental models for decisions, debugging, systems, and strategy",
+              "repo": "tjboudreaux/cc-thinking-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "tronghieu/agent-skills",
+              "name": "agent-skills",
+              "url": "https://github.com/tronghieu/agent-skills",
+              "description": "18 method-driven skills for knowledge work: strategy, research, writing",
+              "repo": "tronghieu/agent-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "vaibhavarora14/job-application-agent",
+              "name": "job-application-agent",
+              "url": "https://github.com/vaibhavarora14/job-application-agent",
+              "description": "JobAppAgent: free MIT open-source job application agent, one verified résumé",
+              "repo": "vaibhavarora14/job-application-agent",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "voygr-tech/placecall",
+              "name": "placecall",
+              "url": "https://github.com/voygr-tech/placecall/tree/main/skills/placecall",
+              "description": "Calls US businesses by phone and returns outcome and transcript",
+              "repo": "voygr-tech/placecall",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "wgwtest/novel-writing",
+              "name": "novel-writing",
+              "url": "https://github.com/wgwtest/novel-writing",
+              "description": "Plans and revises fiction with viewpoint, dialogue, and style checks.",
+              "repo": "wgwtest/novel-writing",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "wrsmith108/linear-claude-skill",
+              "name": "linear-claude-skill",
+              "url": "https://github.com/wrsmith108/linear-claude-skill",
+              "description": "Manage Linear issues, projects, and teams",
+              "repo": "wrsmith108/linear-claude-skill",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "xberg-io/xberg",
+              "name": "xberg",
+              "url": "https://github.com/xberg-io/xberg/tree/main/plugin/skills/xberg",
+              "description": "Extract text, tables, and metadata from 101+ document formats",
+              "repo": "xberg-io/xberg",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "ysskrishna/ai-agent-skills",
+              "name": "ai-agent-skills",
+              "url": "https://github.com/ysskrishna/ai-agent-skills",
+              "description": "Structured thinking skills: five whys, pre-mortem, trade-offs",
+              "repo": "ysskrishna/ai-agent-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "zapier/zapier-mcp",
+              "name": "zapier-mcp",
+              "url": "https://github.com/zapier/zapier-mcp",
+              "description": "Official plugin distribution for the hosted Zapier MCP server. Connects Claude to thousands of apps — send messages, pull data, trigger workflows.",
+              "repo": "zapier/zapier-mcp",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "zarazhangrui/frontend-slides",
+              "name": "frontend-slides",
+              "url": "https://github.com/zarazhangrui/frontend-slides",
+              "description": "Generate animation-rich HTML presentations with visual style previews",
+              "repo": "zarazhangrui/frontend-slides",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            }
+          ]
+        },
+        {
           "section": "Marketing",
-          "skills_count": 67,
+          "skills_count": 69,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1800,6 +1872,15 @@
               "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
               "description": "69 marketing skills across SEO/GEO, influencer, paid ads, and email on one shared contract, with 5 benchmark-driven auditor gates (CORE-EEAT, CITE, C³, ROAS, SEND) and keyless data connectors",
               "repo": "aaron-he-zhu/aaron-marketing-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "Aboudjem/humanizer-skill",
+              "name": "humanizer-skill",
+              "url": "https://github.com/Aboudjem/humanizer-skill",
+              "description": "Rewrites AI-sounding text, flagging 55 writing patterns",
+              "repo": "Aboudjem/humanizer-skill",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -2396,12 +2477,21 @@
               "repo": "yuwen-cool/yuwen-publish-precheck",
               "publisher": "Community",
               "section": "Marketing"
+            },
+            {
+              "id": "zhuyansen/new-term-radar",
+              "name": "new-term-radar",
+              "url": "https://github.com/zhuyansen/new-term-radar",
+              "description": "Daily radar of new AI names and their search demand",
+              "repo": "zhuyansen/new-term-radar",
+              "publisher": "Community",
+              "section": "Marketing"
             }
           ]
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 62,
+          "skills_count": 67,
           "skills": [
             {
               "id": "AceDataCloud/fish-audio",
@@ -2427,6 +2517,15 @@
               "url": "https://github.com/Alisa0808/vibe-creating-skill",
               "description": "Rewrites a rough idea or shot script into text-to-video prompts",
               "repo": "Alisa0808/vibe-creating-skill",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "antvis/ava",
+              "name": "ava",
+              "url": "https://github.com/antvis/AVA/tree/ai/skills/ava",
+              "description": "Analyze files and databases, reuse definitions, render interactive charts",
+              "repo": "antvis/AVA",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -2467,6 +2566,24 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "ChatCut-Inc/create-motion-graphics",
+              "name": "create-motion-graphics",
+              "url": "https://github.com/ChatCut-Inc/agent-plugin/tree/main/codex/skills/create-motion-graphics",
+              "description": "Create editable motion graphics for video: titles, lower thirds, overlays",
+              "repo": "ChatCut-Inc/agent-plugin",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "ChatCut-Inc/talking-head-guide",
+              "name": "talking-head-guide",
+              "url": "https://github.com/ChatCut-Inc/agent-plugin/tree/main/codex/skills/talking-head-guide",
+              "description": "Edit talking-head videos: remove fillers, pauses, retakes; add captions, B-roll",
+              "repo": "ChatCut-Inc/agent-plugin",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "eatmoreduck/boss-zhipin-scraper",
               "name": "boss-zhipin-scraper",
               "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
@@ -2490,6 +2607,15 @@
               "url": "https://github.com/Ericyoung-183/alpha-insights",
               "description": "Harness-enforced business research for Claude Code and Codex",
               "repo": "Ericyoung-183/alpha-insights",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "federicodeponte/autonomous-research",
+              "name": "autonomous-research",
+              "url": "https://github.com/federicodeponte/opendraft/tree/master/skills/autonomous-research",
+              "description": "One topic line to a cited paper, every DOI checked",
+              "repo": "federicodeponte/opendraft",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -2634,6 +2760,15 @@
               "url": "https://github.com/KalarisLabs/research-agent-skills",
               "description": "280+ skills for literature review, analysis, and paper writing",
               "repo": "KalarisLabs/research-agent-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "kinprove/genealogy-research-recipes",
+              "name": "genealogy-research-recipes",
+              "url": "https://github.com/Kinprove/genealogy-research-recipes",
+              "description": "Fact-checked recipes for DNA evidence and genealogy record searches",
+              "repo": "Kinprove/genealogy-research-recipes",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -3373,6 +3508,15 @@
   ],
   "skills": [
     {
+      "id": "0design/unslop-skill",
+      "name": "unslop-skill",
+      "url": "https://github.com/0design/unslop-skill",
+      "description": "Audit plugin for Claude Code and Codex",
+      "repo": "0design/unslop-skill",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "777genius/agent-notifications",
       "name": "agent-notifications",
       "url": "https://github.com/777genius/agent-notifications/tree/main/skills/agent-notifications",
@@ -3396,6 +3540,15 @@
       "url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
       "description": "69 marketing skills across SEO/GEO, influencer, paid ads, and email on one shared contract, with 5 benchmark-driven auditor gates (CORE-EEAT, CITE, C³, ROAS, SEND) and keyless data connectors",
       "repo": "aaron-he-zhu/aaron-marketing-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "Aboudjem/humanizer-skill",
+      "name": "humanizer-skill",
+      "url": "https://github.com/Aboudjem/humanizer-skill",
+      "description": "Rewrites AI-sounding text, flagging 55 writing patterns",
+      "repo": "Aboudjem/humanizer-skill",
       "publisher": "Community",
       "section": "Marketing"
     },
@@ -3506,6 +3659,15 @@
       "repo": "antonbabenko/terraform-skill",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "antvis/ava",
+      "name": "ava",
+      "url": "https://github.com/antvis/AVA/tree/ai/skills/ava",
+      "description": "Analyze files and databases, reuse definitions, render interactive charts",
+      "repo": "antvis/AVA",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "apitube/news-api-skills",
@@ -3724,6 +3886,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "celo-org/celopedia",
+      "name": "celopedia",
+      "url": "https://github.com/celo-org/celopedia-skills/tree/main/skills/celopedia-skill",
+      "description": "Verified Celo contracts, protocols, MiniPay, grants, and agent tooling",
+      "repo": "celo-org/celopedia-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "Charlie85270/Dorothy",
       "name": "Dorothy",
       "url": "https://github.com/Charlie85270/Dorothy",
@@ -3731,6 +3902,24 @@
       "repo": "Charlie85270/Dorothy",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "ChatCut-Inc/create-motion-graphics",
+      "name": "create-motion-graphics",
+      "url": "https://github.com/ChatCut-Inc/agent-plugin/tree/main/codex/skills/create-motion-graphics",
+      "description": "Create editable motion graphics for video: titles, lower thirds, overlays",
+      "repo": "ChatCut-Inc/agent-plugin",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "ChatCut-Inc/talking-head-guide",
+      "name": "talking-head-guide",
+      "url": "https://github.com/ChatCut-Inc/agent-plugin/tree/main/codex/skills/talking-head-guide",
+      "description": "Edit talking-head videos: remove fillers, pauses, retakes; add captions, B-roll",
+      "repo": "ChatCut-Inc/agent-plugin",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "checkout-page/ecommerce-skills",
@@ -4156,6 +4345,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "duyunzhoudyz/dyz-gongwen-skills",
+      "name": "dyz-gongwen-skills",
+      "url": "https://github.com/duyunzhoudyz/dyz-gongwen-skills",
+      "description": "Chinese official document drafting, review and GB/T 9704 formatting",
+      "repo": "duyunzhoudyz/dyz-gongwen-skills",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "eatmoreduck/boss-zhipin-scraper",
       "name": "boss-zhipin-scraper",
       "url": "https://github.com/eatmoreduck/boss-zhipin-scraper",
@@ -4271,6 +4469,15 @@
       "repo": "explorium-ai/vibeprospecting-plugin",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "federicodeponte/autonomous-research",
+      "name": "autonomous-research",
+      "url": "https://github.com/federicodeponte/opendraft/tree/master/skills/autonomous-research",
+      "description": "One topic line to a cited paper, every DOI checked",
+      "repo": "federicodeponte/opendraft",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "finom/vovk",
@@ -4795,6 +5002,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "kinprove/genealogy-research-recipes",
+      "name": "genealogy-research-recipes",
+      "url": "https://github.com/Kinprove/genealogy-research-recipes",
+      "description": "Fact-checked recipes for DNA evidence and genealogy record searches",
+      "repo": "Kinprove/genealogy-research-recipes",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "kklimuk/docx-cli",
       "name": "docx-cli",
       "url": "https://github.com/kklimuk/docx-cli",
@@ -4809,6 +5025,15 @@
       "url": "https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/brewpage-publish",
       "description": "Publish pages, files or folder sites to shareable brewpage.app links",
       "repo": "kochetkov-ma/claude-brewcode",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "Koloyaaa/foreign-academic-translator",
+      "name": "foreign-academic-translator",
+      "url": "https://github.com/Koloyaaa/foreign-academic-translator-skill/tree/main/skills/foreign-academic-translator",
+      "description": "Translate foreign academic handouts into Chinese with subject glossaries",
+      "repo": "Koloyaaa/foreign-academic-translator-skill",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
     },
@@ -5641,6 +5866,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "pachca/pachca",
+      "name": "pachca",
+      "url": "https://github.com/pachca/openapi/tree/main/plugins/pachca/skills/pachca",
+      "description": "Connect agents to Pachca and troubleshoot MCP authentication and permissions",
+      "repo": "pachca/openapi",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
+    },
+    {
       "id": "Panniantong/Agent-Reach",
       "name": "Agent-Reach",
       "url": "https://github.com/Panniantong/Agent-Reach",
@@ -5756,6 +5990,15 @@
       "repo": "qdrant/skills",
       "publisher": "Community",
       "section": "Vector Databases"
+    },
+    {
+      "id": "QingYunA/answer-me-with-html",
+      "name": "answer-me-with-html",
+      "url": "https://github.com/QingYunA/answer-me-with-html/tree/main/skills/answer-me-with-html",
+      "description": "Answers hard questions as readable, self-contained HTML pages",
+      "repo": "QingYunA/answer-me-with-html",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "Qiuner/birdview",
@@ -5992,6 +6235,15 @@
       "section": "Marketing"
     },
     {
+      "id": "ScrapingBee/scrapingbee-cli",
+      "name": "scrapingbee-cli",
+      "url": "https://github.com/ScrapingBee/scrapingbee-cli/tree/main/.agents/skills/scrapingbee-cli",
+      "description": "Scrape any page, search the web, crawl sites, extract data",
+      "repo": "ScrapingBee/scrapingbee-cli",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "SeanZoR/claude-speed-reader",
       "name": "claude-speed-reader",
       "url": "https://github.com/SeanZoR/claude-speed-reader",
@@ -6179,6 +6431,15 @@
       "repo": "swaylq/humanize-chinese",
       "publisher": "Community",
       "section": "Specialized Domains"
+    },
+    {
+      "id": "swiftlysingh/excalidraw-cli",
+      "name": "excalidraw-cli",
+      "url": "https://github.com/swiftlysingh/excalidraw-cli/tree/main/skills/excalidraw-cli",
+      "description": "Turn text, JSON, or Graphviz DOT into editable Excalidraw diagrams",
+      "repo": "swiftlysingh/excalidraw-cli",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "szarkans/multi",
@@ -6638,6 +6899,15 @@
       "repo": "ZhangHanDong/makepad-skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "zhuyansen/new-term-radar",
+      "name": "new-term-radar",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "description": "Daily radar of new AI names and their search demand",
+      "repo": "zhuyansen/new-term-radar",
+      "publisher": "Community",
+      "section": "Marketing"
     },
     {
       "id": "zilliztech/mfs",
