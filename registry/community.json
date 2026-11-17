@@ -1,22 +1,22 @@
 {
   "meta": {
-    "fetched_at": "2026-11-15T13:10:51Z",
+    "fetched_at": "2026-11-17T15:11:24Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 383,
+    "total_skills": 411,
     "total_publishers": 1,
     "total_categories": 7,
     "total_official": 0,
-    "total_community": 383
+    "total_community": 411
   },
   "publishers": [
     {
       "name": "Community",
       "type": "community",
-      "skills_count": 383,
+      "skills_count": 411,
       "skills": [
         {
           "section": "Development and Testing",
-          "skills_count": 134,
+          "skills_count": 146,
           "skills": [
             {
               "id": "0design/unslop-skill",
@@ -100,6 +100,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "awss1i/checking-a-page",
+              "name": "checking-a-page",
+              "url": "https://github.com/awss1i/assay/tree/main/plugins/assay/skills/checking-a-page",
+              "description": "Check a web page by driving every control in Chromium",
+              "repo": "awss1i/assay",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "baskduf/codex-fable5",
               "name": "codex-fable5",
               "url": "https://github.com/baskduf/FableCodex/tree/main/plugins/codex-fable5/skills/codex-fable5",
@@ -123,6 +132,15 @@
               "url": "https://github.com/browser-act/skills/tree/main/browser-act",
               "description": "Automate authenticated browsers with extraction and human handoff",
               "repo": "browser-act/skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "buddy/buddy",
+              "name": "buddy",
+              "url": "https://github.com/buddy/buddy-plugin/tree/main/skills/buddy",
+              "description": "Deploy apps, run pipelines and expose ports with Buddy",
+              "repo": "buddy/buddy-plugin",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -442,6 +460,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "izzzzzi/assh",
+              "name": "assh",
+              "url": "https://github.com/izzzzzi/agent-assh/tree/main/skills/assh",
+              "description": "SSH over persistent tmux sessions with paginated remote output",
+              "repo": "izzzzzi/agent-assh",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "JasonColapietro/suede-creator-skills",
               "name": "suede-creator-skills",
               "url": "https://github.com/JasonColapietro/suede-creator-skills",
@@ -514,6 +541,24 @@
               "section": "Development and Testing"
             },
             {
+              "id": "KyungHwanKim-devs/kubegap",
+              "name": "kubegap",
+              "url": "https://github.com/KyungHwanKim-devs/kubegap",
+              "description": "Read-only Kubernetes operations gap audit with Markdown report",
+              "repo": "KyungHwanKim-devs/kubegap",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "kyy-logs/code-review-gate-skill",
+              "name": "code-review-gate-skill",
+              "url": "https://github.com/kyy-logs/code-review-gate-skill",
+              "description": "Evidence-backed static code review with a JSON-derived merge gate",
+              "repo": "kyy-logs/code-review-gate-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "lackeyjb/playwright-skill",
               "name": "playwright-skill",
               "url": "https://github.com/lackeyjb/playwright-skill",
@@ -537,6 +582,15 @@
               "url": "https://github.com/laolaoshiren/claude-code-skills-zh/tree/main/skills/zh-code-reviewer",
               "description": "Chinese-output code review skill with structured findings and fix suggestions",
               "repo": "laolaoshiren/claude-code-skills-zh",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "laulauraluo/ai-code-review-triage",
+              "name": "ai-code-review-triage",
+              "url": "https://github.com/laulauraluo/ai-code-review-triage",
+              "description": "Three-pass review workflow for AI-generated pull requests",
+              "repo": "laulauraluo/ai-code-review-triage",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -649,6 +703,15 @@
               "section": "Development and Testing"
             },
             {
+              "id": "momentic-ai/skills",
+              "name": "skills",
+              "url": "https://github.com/momentic-ai/skills",
+              "description": "Write, run, and repair Momentic browser and mobile E2E tests",
+              "repo": "momentic-ai/skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "moxno/privacyscrubber-guard",
               "name": "privacyscrubber-guard",
               "url": "https://github.com/moxno/privacyscrubber-mcp/tree/main/skills/privacyscrubber-guard",
@@ -735,6 +798,15 @@
               "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
               "description": "UI/UX design patterns and best practices",
               "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "nodemaven/skills",
+              "name": "skills",
+              "url": "https://github.com/nodemaven/skills",
+              "description": "Residential proxies, Google search scraping, proxy benchmarking and troubleshooting",
+              "repo": "nodemaven/skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -852,6 +924,15 @@
               "url": "https://github.com/omkamal/pypict-claude-skill/blob/main/SKILL.md",
               "description": "Pairwise test generation",
               "repo": "omkamal/pypict-claude-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "orwa-mahmoud/nightshift",
+              "name": "nightshift",
+              "url": "https://github.com/orwa-mahmoud/nightshift",
+              "description": "Punch list, clock-out gate and receipts for long agent runs",
+              "repo": "orwa-mahmoud/nightshift",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1045,6 +1126,24 @@
               "section": "Development and Testing"
             },
             {
+              "id": "soba-labs/langchain-agent-skills",
+              "name": "langchain-agent-skills",
+              "url": "https://github.com/soba-labs/langchain-agent-skills",
+              "description": "LangChain, LangGraph, LangSmith and Deep Agents development skills",
+              "repo": "soba-labs/langchain-agent-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "speakeasy-api/sdk-generation-skills",
+              "name": "sdk-generation-skills",
+              "url": "https://github.com/speakeasy-api/sdk-generation-skills",
+              "description": "Generate SDKs, MCP servers, and Terraform providers from OpenAPI specs",
+              "repo": "speakeasy-api/sdk-generation-skills",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
               "id": "squirrelscan/squirrelscan",
               "name": "squirrelscan",
               "url": "https://github.com/squirrelscan/skills",
@@ -1095,6 +1194,15 @@
               "url": "https://github.com/testdino-hq/playwright-skill",
               "description": "70+ production-tested Playwright automation testing patterns: E2E, POM, CI/CD, migrations, CLI",
               "repo": "testdino-hq/playwright-skill",
+              "publisher": "Community",
+              "section": "Development and Testing"
+            },
+            {
+              "id": "thedesignproject/agentic-design-systems",
+              "name": "agentic-design-systems",
+              "url": "https://github.com/thedesignproject/agent-skills/tree/main/skills/agentic-design-systems",
+              "description": "Scaffolds AI-readable design systems for agents",
+              "repo": "thedesignproject/agent-skills",
               "publisher": "Community",
               "section": "Development and Testing"
             },
@@ -1228,7 +1336,7 @@
         },
         {
           "section": "Productivity and Collaboration",
-          "skills_count": 70,
+          "skills_count": 73,
           "skills": [
             {
               "id": "777genius/agent-notifications",
@@ -1281,6 +1389,15 @@
               "url": "https://github.com/bevibing/tutor-skills",
               "description": "Transform docs or codebases into Obsidian StudyVaults with interactive quizzes",
               "repo": "bevibing/tutor-skills",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "busabase/busabase",
+              "name": "busabase",
+              "url": "https://github.com/busabase/busabase",
+              "description": "Approval-first database workspace for AI agents",
+              "repo": "busabase/busabase",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -1380,6 +1497,15 @@
               "url": "https://github.com/forjd/better-writing",
               "description": "Rewrites AI-sounding prose without inventing facts; eval-tested",
               "repo": "forjd/better-writing",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
+              "id": "Frihet-io/frihet-mcp",
+              "name": "frihet-mcp",
+              "url": "https://github.com/Frihet-io/frihet-mcp/tree/main/skills/frihet-mcp",
+              "description": "AI-native ERP skills for invoicing, CRM, expenses, and tax compliance",
+              "repo": "Frihet-io/frihet-mcp",
               "publisher": "Community",
               "section": "Productivity and Collaboration"
             },
@@ -1789,6 +1915,15 @@
               "section": "Productivity and Collaboration"
             },
             {
+              "id": "tw93/mole",
+              "name": "mole",
+              "url": "https://github.com/tw93/Mole/tree/main/skills/mole",
+              "description": "Drive the Mole CLI to clean macOS and Windows",
+              "repo": "tw93/Mole",
+              "publisher": "Community",
+              "section": "Productivity and Collaboration"
+            },
+            {
               "id": "vaibhavarora14/job-application-agent",
               "name": "job-application-agent",
               "url": "https://github.com/vaibhavarora14/job-application-agent",
@@ -1864,7 +1999,7 @@
         },
         {
           "section": "Marketing",
-          "skills_count": 69,
+          "skills_count": 73,
           "skills": [
             {
               "id": "aaron-he-zhu/aaron-marketing-skills",
@@ -1894,6 +2029,15 @@
               "section": "Marketing"
             },
             {
+              "id": "adkit/ads-skills",
+              "name": "ads-skills",
+              "url": "https://github.com/adkit/ads-skills",
+              "description": "Create, edit and report on campaigns across eight ad platforms",
+              "repo": "adkit/ads-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "AgriciDaniel/claude-seo",
               "name": "claude-seo",
               "url": "https://github.com/AgriciDaniel/claude-seo",
@@ -1908,6 +2052,15 @@
               "url": "https://github.com/AIDevGTM/gtm-cofounder",
               "description": "18 go-to-market skills for solo technical founders: positioning, first users, launch, pricing, and founder-led sales; grounded in Adam Frankl and Jakub Czakon",
               "repo": "AIDevGTM/gtm-cofounder",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "akii-technologies-ltd/schema-markup",
+              "name": "schema-markup",
+              "url": "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer/tree/main/skills/schema-markup",
+              "description": "Write and check JSON-LD markup for a web page",
+              "repo": "akii-technologies-ltd/akii-seo-ai-search-optimizer",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -2173,6 +2326,15 @@
               "section": "Marketing"
             },
             {
+              "id": "everyinfra/seo-skills",
+              "name": "seo-skills",
+              "url": "https://github.com/everyinfra/seo-skills",
+              "description": "Open-source SEO and GEO audits, keyword and SERP research",
+              "repo": "everyinfra/seo-skills",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
               "id": "explorium-ai/vibe-prospecting",
               "name": "vibe-prospecting",
               "url": "https://github.com/explorium-ai/vibeprospecting-plugin/tree/main/skills/vibe-prospecting",
@@ -2223,6 +2385,15 @@
               "url": "https://github.com/Hyacehila/humanizer-zh-next",
               "description": "Chinese writing editor with academic and grant proposal modes",
               "repo": "Hyacehila/humanizer-zh-next",
+              "publisher": "Community",
+              "section": "Marketing"
+            },
+            {
+              "id": "Illyism/seo-skills",
+              "name": "seo-skills",
+              "url": "https://github.com/Illyism/seo-skills",
+              "description": "17 SEO skills for audits, titles, content, and GEO",
+              "repo": "Illyism/seo-skills",
               "publisher": "Community",
               "section": "Marketing"
             },
@@ -2491,7 +2662,7 @@
         },
         {
           "section": "Specialized Domains",
-          "skills_count": 67,
+          "skills_count": 73,
           "skills": [
             {
               "id": "AceDataCloud/fish-audio",
@@ -2607,6 +2778,15 @@
               "url": "https://github.com/Ericyoung-183/alpha-insights",
               "description": "Harness-enforced business research for Claude Code and Codex",
               "repo": "Ericyoung-183/alpha-insights",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "everyinfra/everyinfra-agent-plugins",
+              "name": "everyinfra-agent-plugins",
+              "url": "https://github.com/everyinfra/everyinfra-agent-plugins",
+              "description": "Public data from 100+ platforms, web search, CAPTCHA solving",
+              "repo": "everyinfra/everyinfra-agent-plugins",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -2791,6 +2971,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "makevoid/motion-graphics-music-video-skill-noimage",
+              "name": "motion-graphics-music-video-skill-noimage",
+              "url": "https://github.com/makevoid/motion-graphics-music-video-skill-noimage",
+              "description": "Create music videos with native Swift graphics on macOS",
+              "repo": "makevoid/motion-graphics-music-video-skill-noimage",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "MartinDelophy/edit-timeline-studio",
               "name": "edit-timeline-studio",
               "url": "https://github.com/MartinDelophy/ai-video-editor/tree/main/skills/edit-timeline-studio",
@@ -2823,6 +3012,15 @@
               "url": "https://github.com/MetaMask/agent-skills/tree/main/skills/metamask-agent-wallet",
               "description": "Official MetaMask self-custodial wallet: swaps, bridges, perps, x402 payments",
               "repo": "MetaMask/agent-skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "mhfed/vn-law-check",
+              "name": "vn-law-check",
+              "url": "https://github.com/mhfed/vn-law-check",
+              "description": "Audit websites and apps against Vietnamese law",
+              "repo": "mhfed/vn-law-check",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -2899,6 +3097,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "pashov/skills",
+              "name": "skills",
+              "url": "https://github.com/pashov/skills",
+              "description": "Solidity AI audit, threat model, fuzz suites.",
+              "repo": "pashov/skills",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "peas/genealogy-research",
               "name": "genealogy-research",
               "url": "https://paulo.com.br/skills/genealogy-research/SKILL.md",
@@ -2940,6 +3147,15 @@
               "url": "https://github.com/renezander030/capcut-cli/tree/master/skills/capcut-edit",
               "description": "Edit CapCut and JianYing video projects from any agent",
               "repo": "renezander030/capcut-cli",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
+              "id": "rhiever/evident-charts",
+              "name": "evident-charts",
+              "url": "https://github.com/rhiever/evident-charts/tree/main/skills/evident-charts",
+              "description": "Makes and critiques charts and checks the rendered image",
+              "repo": "rhiever/evident-charts",
               "publisher": "Community",
               "section": "Specialized Domains"
             },
@@ -3034,6 +3250,15 @@
               "section": "Specialized Domains"
             },
             {
+              "id": "Vladimir-Human/ru-marketplace-mcp",
+              "name": "ru-marketplace-mcp",
+              "url": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
+              "description": "15 skills for read-only search, product cards, seller details, reviews, and cross-marketplace price comparison across 12 Russian and Chinese marketplaces without API keys",
+              "repo": "Vladimir-Human/ru-marketplace-mcp",
+              "publisher": "Community",
+              "section": "Specialized Domains"
+            },
+            {
               "id": "vmware-skills/VMware-AIops",
               "name": "VMware-AIops",
               "url": "https://github.com/vmware-skills/VMware-AIops",
@@ -3100,7 +3325,7 @@
         },
         {
           "section": "Context Engineering",
-          "skills_count": 33,
+          "skills_count": 36,
           "skills": [
             {
               "id": "amirkiarafiei/subagent-cli-skills",
@@ -3385,8 +3610,35 @@
               "id": "vshulcz/deja-history",
               "name": "deja-history",
               "url": "https://github.com/vshulcz/deja-vu/tree/main/claude-plugin/skills/deja-history",
-              "description": "Searches your own past sessions across 20 coding agents",
+              "description": "Searches your own past sessions across 43 coding agents",
               "repo": "vshulcz/deja-vu",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "vshulcz/deja-reflect",
+              "name": "deja-reflect",
+              "url": "https://github.com/vshulcz/deja-vu/tree/main/skills/deja-reflect",
+              "description": "Distill recurring agent fixes into project rules files",
+              "repo": "vshulcz/deja-vu",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "vshulcz/deja-search",
+              "name": "deja-search",
+              "url": "https://github.com/vshulcz/deja-vu/tree/main/skills/deja-search",
+              "description": "CLI session recall and blame across 43 coding agents",
+              "repo": "vshulcz/deja-vu",
+              "publisher": "Community",
+              "section": "Context Engineering"
+            },
+            {
+              "id": "wrg32786/aigent-os",
+              "name": "aigent-os",
+              "url": "https://github.com/wrg32786/aigent-os",
+              "description": "Claude Code auto-clear harness with capsule memory",
+              "repo": "wrg32786/aigent-os",
               "publisher": "Community",
               "section": "Context Engineering"
             },
@@ -3571,6 +3823,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "adkit/ads-skills",
+      "name": "ads-skills",
+      "url": "https://github.com/adkit/ads-skills",
+      "description": "Create, edit and report on campaigns across eight ad platforms",
+      "repo": "adkit/ads-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "aeonfun/aeon",
       "name": "aeon",
       "url": "https://github.com/aeonfun/aeon",
@@ -3603,6 +3864,15 @@
       "url": "https://github.com/AIDevGTM/gtm-cofounder",
       "description": "18 go-to-market skills for solo technical founders: positioning, first users, launch, pricing, and founder-led sales; grounded in Adam Frankl and Jakub Czakon",
       "repo": "AIDevGTM/gtm-cofounder",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
+      "id": "akii-technologies-ltd/schema-markup",
+      "name": "schema-markup",
+      "url": "https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer/tree/main/skills/schema-markup",
+      "description": "Write and check JSON-LD markup for a web page",
+      "repo": "akii-technologies-ltd/akii-seo-ai-search-optimizer",
       "publisher": "Community",
       "section": "Marketing"
     },
@@ -3769,6 +4039,15 @@
       "section": "Context Engineering"
     },
     {
+      "id": "awss1i/checking-a-page",
+      "name": "checking-a-page",
+      "url": "https://github.com/awss1i/assay/tree/main/plugins/assay/skills/checking-a-page",
+      "description": "Check a web page by driving every control in Chromium",
+      "repo": "awss1i/assay",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "bablobanov/hermes-agent-telegram-checklist",
       "name": "hermes-agent-telegram-checklist",
       "url": "https://github.com/bablobanov/hermes-agent-telegram-checklist",
@@ -3857,6 +4136,24 @@
       "repo": "browser-act/skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "buddy/buddy",
+      "name": "buddy",
+      "url": "https://github.com/buddy/buddy-plugin/tree/main/skills/buddy",
+      "description": "Deploy apps, run pipelines and expose ports with Buddy",
+      "repo": "buddy/buddy-plugin",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "busabase/busabase",
+      "name": "busabase",
+      "url": "https://github.com/busabase/busabase",
+      "description": "Approval-first database workspace for AI agents",
+      "repo": "busabase/busabase",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "Cap-go/capgo-skills",
@@ -4453,6 +4750,24 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "everyinfra/everyinfra-agent-plugins",
+      "name": "everyinfra-agent-plugins",
+      "url": "https://github.com/everyinfra/everyinfra-agent-plugins",
+      "description": "Public data from 100+ platforms, web search, CAPTCHA solving",
+      "repo": "everyinfra/everyinfra-agent-plugins",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
+      "id": "everyinfra/seo-skills",
+      "name": "seo-skills",
+      "url": "https://github.com/everyinfra/seo-skills",
+      "description": "Open-source SEO and GEO audits, keyword and SERP research",
+      "repo": "everyinfra/seo-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "exadel-inc/agentic-readiness-assessment",
       "name": "agentic-readiness-assessment",
       "url": "https://github.com/exadel-inc/agentic-readiness-assessment/tree/main/skills/agentic-readiness-assessment",
@@ -4523,6 +4838,15 @@
       "repo": "foryourhealth111-pixel/Vibe-Skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "Frihet-io/frihet-mcp",
+      "name": "frihet-mcp",
+      "url": "https://github.com/Frihet-io/frihet-mcp/tree/main/skills/frihet-mcp",
+      "description": "AI-native ERP skills for invoicing, CRM, expenses, and tax compliance",
+      "repo": "Frihet-io/frihet-mcp",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "frmoretto/clarity-gate",
@@ -4840,6 +5164,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "Illyism/seo-skills",
+      "name": "seo-skills",
+      "url": "https://github.com/Illyism/seo-skills",
+      "description": "17 SEO skills for audits, titles, content, and GEO",
+      "repo": "Illyism/seo-skills",
+      "publisher": "Community",
+      "section": "Marketing"
+    },
+    {
       "id": "ilyautov/humanizer-ru",
       "name": "humanizer-ru",
       "url": "https://github.com/ilyautov/humanizer-ru/tree/main/skills/humanizer-ru",
@@ -4865,6 +5198,15 @@
       "repo": "indranilbanerjee/digital-marketing-pro",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "izzzzzi/assh",
+      "name": "assh",
+      "url": "https://github.com/izzzzzi/agent-assh/tree/main/skills/assh",
+      "description": "SSH over persistent tmux sessions with paginated remote output",
+      "repo": "izzzzzi/agent-assh",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "JasonColapietro/suede-creator-skills",
@@ -5065,6 +5407,24 @@
       "section": "Development and Testing"
     },
     {
+      "id": "KyungHwanKim-devs/kubegap",
+      "name": "kubegap",
+      "url": "https://github.com/KyungHwanKim-devs/kubegap",
+      "description": "Read-only Kubernetes operations gap audit with Markdown report",
+      "repo": "KyungHwanKim-devs/kubegap",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "kyy-logs/code-review-gate-skill",
+      "name": "code-review-gate-skill",
+      "url": "https://github.com/kyy-logs/code-review-gate-skill",
+      "description": "Evidence-backed static code review with a JSON-derived merge gate",
+      "repo": "kyy-logs/code-review-gate-skill",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "lackeyjb/playwright-skill",
       "name": "playwright-skill",
       "url": "https://github.com/lackeyjb/playwright-skill",
@@ -5088,6 +5448,15 @@
       "url": "https://github.com/laolaoshiren/claude-code-skills-zh/tree/main/skills/zh-code-reviewer",
       "description": "Chinese-output code review skill with structured findings and fix suggestions",
       "repo": "laolaoshiren/claude-code-skills-zh",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "laulauraluo/ai-code-review-triage",
+      "name": "ai-code-review-triage",
+      "url": "https://github.com/laulauraluo/ai-code-review-triage",
+      "description": "Three-pass review workflow for AI-generated pull requests",
+      "repo": "laulauraluo/ai-code-review-triage",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -5162,6 +5531,15 @@
       "repo": "mailtrap/mailtrap-skills",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "makevoid/motion-graphics-music-video-skill-noimage",
+      "name": "motion-graphics-music-video-skill-noimage",
+      "url": "https://github.com/makevoid/motion-graphics-music-video-skill-noimage",
+      "description": "Create music videos with native Swift graphics on macOS",
+      "repo": "makevoid/motion-graphics-music-video-skill-noimage",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "Maksim-Burtsev/simple-man",
@@ -5272,6 +5650,15 @@
       "section": "Productivity and Collaboration"
     },
     {
+      "id": "mhfed/vn-law-check",
+      "name": "vn-law-check",
+      "url": "https://github.com/mhfed/vn-law-check",
+      "description": "Audit websites and apps against Vietnamese law",
+      "repo": "mhfed/vn-law-check",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "mobbin/redesign-screen",
       "name": "redesign-screen",
       "url": "https://github.com/mobbin/skills/tree/main/skills/redesign-screen",
@@ -5297,6 +5684,15 @@
       "repo": "MohamedAbdallah-14/unslop",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "momentic-ai/skills",
+      "name": "skills",
+      "url": "https://github.com/momentic-ai/skills",
+      "description": "Write, run, and repair Momentic browser and mobile E2E tests",
+      "repo": "momentic-ai/skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "more-io/apple-bridges",
@@ -5547,6 +5943,15 @@
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "UI/UX design patterns and best practices",
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
+      "id": "nodemaven/skills",
+      "name": "skills",
+      "url": "https://github.com/nodemaven/skills",
+      "description": "Residential proxies, Google search scraping, proxy benchmarking and troubleshooting",
+      "repo": "nodemaven/skills",
       "publisher": "Community",
       "section": "Development and Testing"
     },
@@ -5857,6 +6262,15 @@
       "section": "Specialized Domains"
     },
     {
+      "id": "orwa-mahmoud/nightshift",
+      "name": "nightshift",
+      "url": "https://github.com/orwa-mahmoud/nightshift",
+      "description": "Punch list, clock-out gate and receipts for long agent runs",
+      "repo": "orwa-mahmoud/nightshift",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "orziz/odai",
       "name": "odai",
       "url": "https://github.com/orziz/odai/tree/main/skills/odai",
@@ -5891,6 +6305,15 @@
       "repo": "Paramchoudhary/ResumeSkills",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "pashov/skills",
+      "name": "skills",
+      "url": "https://github.com/pashov/skills",
+      "description": "Solidity AI audit, threat model, fuzz suites.",
+      "repo": "pashov/skills",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "pattern-ai-labs/agentcall",
@@ -6098,6 +6521,15 @@
       "repo": "ReScienceLab/opc-skills",
       "publisher": "Community",
       "section": "Productivity and Collaboration"
+    },
+    {
+      "id": "rhiever/evident-charts",
+      "name": "evident-charts",
+      "url": "https://github.com/rhiever/evident-charts/tree/main/skills/evident-charts",
+      "description": "Makes and critiques charts and checks the rendered image",
+      "repo": "rhiever/evident-charts",
+      "publisher": "Community",
+      "section": "Specialized Domains"
     },
     {
       "id": "rlaope/oh-my-hermes",
@@ -6361,6 +6793,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "soba-labs/langchain-agent-skills",
+      "name": "langchain-agent-skills",
+      "url": "https://github.com/soba-labs/langchain-agent-skills",
+      "description": "LangChain, LangGraph, LangSmith and Deep Agents development skills",
+      "repo": "soba-labs/langchain-agent-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "socai-io/jev-social",
       "name": "jev-social",
       "url": "https://github.com/socai-io/jev-social/tree/v0.1.10/skills/jev-social",
@@ -6368,6 +6809,15 @@
       "repo": "socai-io/jev-social",
       "publisher": "Community",
       "section": "Marketing"
+    },
+    {
+      "id": "speakeasy-api/sdk-generation-skills",
+      "name": "sdk-generation-skills",
+      "url": "https://github.com/speakeasy-api/sdk-generation-skills",
+      "description": "Generate SDKs, MCP servers, and Terraform providers from OpenAPI specs",
+      "repo": "speakeasy-api/sdk-generation-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
     },
     {
       "id": "squirrelscan/squirrelscan",
@@ -6505,6 +6955,15 @@
       "section": "Development and Testing"
     },
     {
+      "id": "thedesignproject/agentic-design-systems",
+      "name": "agentic-design-systems",
+      "url": "https://github.com/thedesignproject/agent-skills/tree/main/skills/agentic-design-systems",
+      "description": "Scaffolds AI-readable design systems for agents",
+      "repo": "thedesignproject/agent-skills",
+      "publisher": "Community",
+      "section": "Development and Testing"
+    },
+    {
       "id": "thedotmack/claude-mem",
       "name": "claude-mem",
       "url": "https://github.com/thedotmack/claude-mem",
@@ -6593,6 +7052,15 @@
       "repo": "tushaarmehtaa/tushar-skills",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "tw93/mole",
+      "name": "mole",
+      "url": "https://github.com/tw93/Mole/tree/main/skills/mole",
+      "description": "Drive the Mole CLI to clean macOS and Windows",
+      "repo": "tw93/Mole",
+      "publisher": "Community",
+      "section": "Productivity and Collaboration"
     },
     {
       "id": "UiPath/check-skill",
@@ -6685,6 +7153,15 @@
       "section": "Marketing"
     },
     {
+      "id": "Vladimir-Human/ru-marketplace-mcp",
+      "name": "ru-marketplace-mcp",
+      "url": "https://github.com/Vladimir-Human/ru-marketplace-mcp",
+      "description": "15 skills for read-only search, product cards, seller details, reviews, and cross-marketplace price comparison across 12 Russian and Chinese marketplaces without API keys",
+      "repo": "Vladimir-Human/ru-marketplace-mcp",
+      "publisher": "Community",
+      "section": "Specialized Domains"
+    },
+    {
       "id": "vmware-skills/VMware-AIops",
       "name": "VMware-AIops",
       "url": "https://github.com/vmware-skills/VMware-AIops",
@@ -6715,7 +7192,25 @@
       "id": "vshulcz/deja-history",
       "name": "deja-history",
       "url": "https://github.com/vshulcz/deja-vu/tree/main/claude-plugin/skills/deja-history",
-      "description": "Searches your own past sessions across 20 coding agents",
+      "description": "Searches your own past sessions across 43 coding agents",
+      "repo": "vshulcz/deja-vu",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "vshulcz/deja-reflect",
+      "name": "deja-reflect",
+      "url": "https://github.com/vshulcz/deja-vu/tree/main/skills/deja-reflect",
+      "description": "Distill recurring agent fixes into project rules files",
+      "repo": "vshulcz/deja-vu",
+      "publisher": "Community",
+      "section": "Context Engineering"
+    },
+    {
+      "id": "vshulcz/deja-search",
+      "name": "deja-search",
+      "url": "https://github.com/vshulcz/deja-vu/tree/main/skills/deja-search",
+      "description": "CLI session recall and blame across 43 coding agents",
       "repo": "vshulcz/deja-vu",
       "publisher": "Community",
       "section": "Context Engineering"
@@ -6764,6 +7259,15 @@
       "repo": "woniu9524/open-web-bridge",
       "publisher": "Community",
       "section": "Development and Testing"
+    },
+    {
+      "id": "wrg32786/aigent-os",
+      "name": "aigent-os",
+      "url": "https://github.com/wrg32786/aigent-os",
+      "description": "Claude Code auto-clear harness with capsule memory",
+      "repo": "wrg32786/aigent-os",
+      "publisher": "Community",
+      "section": "Context Engineering"
     },
     {
       "id": "wrsmith108/linear-claude-skill",

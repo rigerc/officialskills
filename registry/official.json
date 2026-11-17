@@ -1,11 +1,11 @@
 {
   "meta": {
-    "fetched_at": "2026-11-15T13:10:51Z",
+    "fetched_at": "2026-11-17T15:11:24Z",
     "source": "https://raw.githubusercontent.com/VoltAgent/awesome-agent-skills/main/README.md",
-    "total_skills": 870,
+    "total_skills": 868,
     "total_publishers": 61,
     "total_categories": 7,
-    "total_official": 870,
+    "total_official": 868,
     "total_community": 0
   },
   "publishers": [
@@ -6645,11 +6645,11 @@
     {
       "name": "OpenAI",
       "type": "official",
-      "skills_count": 42,
+      "skills_count": 40,
       "skills": [
         {
           "section": "Official",
-          "skills_count": 42,
+          "skills_count": 40,
           "skills": [
             {
               "id": "openai/aspnet-core",
@@ -6674,15 +6674,6 @@
               "name": "cloudflare-deploy",
               "url": "https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy",
               "description": "Deploy apps to Cloudflare using Workers, Pages, and platform services",
-              "repo": "openai/skills",
-              "publisher": "OpenAI",
-              "section": "Official"
-            },
-            {
-              "id": "openai/develop-web-game",
-              "name": "develop-web-game",
-              "url": "https://github.com/openai/skills/tree/main/skills/.curated/develop-web-game",
-              "description": "Build and test web games iteratively using Playwright with time-stepping",
               "repo": "openai/skills",
               "publisher": "OpenAI",
               "section": "Official"
@@ -6764,15 +6755,6 @@
               "name": "figma-use",
               "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-use",
               "description": "Prerequisite skill for every use_figma tool call — write/read actions in Figma context",
-              "repo": "openai/skills",
-              "publisher": "OpenAI",
-              "section": "Official"
-            },
-            {
-              "id": "openai/frontend-skill",
-              "name": "frontend-skill",
-              "url": "https://github.com/openai/skills/tree/main/skills/.curated/frontend-skill",
-              "description": "Create visually strong landing pages, websites, and app UIs with restrained composition",
               "repo": "openai/skills",
               "publisher": "OpenAI",
               "section": "Official"
@@ -14749,15 +14731,6 @@
       "section": "Official"
     },
     {
-      "id": "openai/develop-web-game",
-      "name": "develop-web-game",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/develop-web-game",
-      "description": "Build and test web games iteratively using Playwright with time-stepping",
-      "repo": "openai/skills",
-      "publisher": "OpenAI",
-      "section": "Official"
-    },
-    {
       "id": "openai/doc",
       "name": "doc",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/doc",
@@ -14834,15 +14807,6 @@
       "name": "figma-use",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-use",
       "description": "Prerequisite skill for every use_figma tool call — write/read actions in Figma context",
-      "repo": "openai/skills",
-      "publisher": "OpenAI",
-      "section": "Official"
-    },
-    {
-      "id": "openai/frontend-skill",
-      "name": "frontend-skill",
-      "url": "https://github.com/openai/skills/tree/main/skills/.curated/frontend-skill",
-      "description": "Create visually strong landing pages, websites, and app UIs with restrained composition",
       "repo": "openai/skills",
       "publisher": "OpenAI",
       "section": "Official"
